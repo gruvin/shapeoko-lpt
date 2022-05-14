@@ -1,6 +1,12 @@
 # Shapeoko UCCNC Upgrade
 
-## AKA: Replacing [Shapeoko Pro XL](https://shop.carbide3d.com/collections/machines/products/shapeoko-pro-cnc-router?variant=33007028797501) Crappy Stepper Drivers and ditching GRBL in favour of advanced [UCCNC](https://cncdrive.com/UCCNC.html) Controller, using [UC100](https://cncdrive.com/UC100.html) USB interface to plug into this board.
+### Replacing [Shapeoko Pro XL](https://shop.carbide3d.com/collections/machines/products/shapeoko-pro-cnc-router?variant=33007028797501) basic stepper drivers and ditching GRBL in favour of advanced [UCCNC](https://cncdrive.com/UCCNC.html) Controller, using [UC100](https://cncdrive.com/UC100.html) USB interface to plug into this board.
+
+## Why?
+
+Mostly because I really like being able to pause, rewind, start, stop and see toolpaths in realtime. Call me old fashion. 
+
+As a bonus, we get waaaaaay smoother, faster and generally more reliable stepper motors, using "proper" drivers.
 
 ## Features
 
