@@ -795,13 +795,10 @@
       (reference "LF1") (unit 1) (value "SRF0905A-472Y") (footprint "Filter:Filter_Bourns_SRF0905_6.0x9.2mm")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/68728767-5317-40b0-ac83-805ad71b8b66"
-      (reference "NT1") (unit 1) (value "DNI") (footprint "NetTie:NetTie-2_SMD_Pad2.0mm")
+      (reference "NT1") (unit 1) (value "DNI") (footprint "_footprints:NetTie-2_SMD_Pad0.5mm")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/3fb25c34-2569-4875-a420-1c2bb6834662"
       (reference "NT2") (unit 1) (value "DNI") (footprint "_footprints:NetTie-2_SMD_Pad0.3mm")
-    )
-    (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/36cda91c-4e82-4582-898d-f75156596059"
-      (reference "NT3") (unit 1) (value "DNI") (footprint "NetTie:NetTie-2_SMD_Pad2.0mm")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/08da9cc7-a655-43ec-9b46-52c53bc6acb4"
       (reference "NT4") (unit 1) (value "DNI") (footprint "_footprints:NetTie-2_SMD_Pad0.5mm")
