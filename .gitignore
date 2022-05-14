@@ -1,0 +1,13 @@
+# Apple, bless'em!
+.DS_Store
+
+# KiCAD
+*-backups/
+*-bak
+*-bkk
+*.bak
+
+# vim
+*.swp
+*~
+
