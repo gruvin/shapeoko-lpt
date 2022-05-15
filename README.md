@@ -25,13 +25,13 @@ Firstly, I didn't want to cut any wires ...
 - **!! Input for EMMERGENCY STOP !!** (normally closed switch.) Currently, the signal just goes to UCCNC on P1 which can then shut down the stepper enable output, charge pump and thus also 24V output, in traditional fashion.
 
 ## Status
-### 2022-05-14 
+### 2022-05-15 
 
 First batch of prototype PCBs are on the way ... and already obsolete. LOL
 
 
 ### KiCAD sneak peek / work in progress ...
 
-<img width="1300" alt="Top_V1.0_WIP.png" src="https://github.com/gruvin/shapeoko-lpt/blob/f4d1bb0d9e4d6a38d3e50d161ff7bc1c4dda4a78/images/Top_V1.0_WIP.png">
+<img width="1023" height="512" alt="Top_V1.0_WIP.png" src="https://github.com/gruvin/shapeoko-lpt/raw/master/images/Top_V1.0_WIP.png">
 
-<img width="1180" alt="Bottom_V1.0_WIP.png" src="https://github.com/gruvin/shapeoko-lpt/blob/fc502eca182b39629d2aa1e1c2071e6dfad1976e/images/Bottom_V1.0_WIP.png">
+<img width="1023" height="512" alt="Top_V1.0_WIP.png" src="https://github.com/gruvin/shapeoko-lpt/raw/master/images/Bottom_V1.0_WIP.png">
