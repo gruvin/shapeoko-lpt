@@ -3409,6 +3409,11 @@
     (uuid feec1165-fd0e-4fe2-a1ef-486e1be8d04b)
   )
 
+  (text "_IN means \"into this sheet\"\n_OUT means \"out of this sheet\""
+    (at 16.51 19.05 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7b06fbea-ff41-457d-88f4-8f491a1e79a3)
+  )
   (text "EMERG_STOP" (at 266.065 101.6 0)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
     (uuid 8aafa6a5-67ca-43b9-b734-030f2ccdff21)

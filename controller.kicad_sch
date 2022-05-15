@@ -669,12 +669,6 @@
     (path "/96816895-f098-4539-b755-2c649e465f79/57cbc8de-3ade-4cb1-b5db-ccb49c1caff3"
       (reference "#PWR029") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/0520b53d-601d-47a4-9032-5de185ab231c"
-      (reference "#PWR030") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/96816895-f098-4539-b755-2c649e465f79/24900d71-af50-4c9c-ac89-528d23e2017d"
-      (reference "#PWR031") (unit 1) (value "GND") (footprint "")
-    )
     (path "/96816895-f098-4539-b755-2c649e465f79/ff30f94a-36c7-475b-8ccc-c702f546c637"
       (reference "#PWR032") (unit 1) (value "+5V") (footprint "")
     )
@@ -749,6 +743,12 @@
     )
     (path "/571fd4fe-1da5-473e-a77d-7a43cd0d0e86/2ed0ba38-1b04-4e2b-9f70-264096adff95"
       (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/fc7bb258-97bd-4dfd-a3c0-a2b31a760677"
+      (reference "#PWR0110") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/f3f623e6-2dd8-4d5b-8bb9-29e4e0ddccda"
+      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/57d5bdad-a222-479a-be3d-bfc6b4b8862d"
       (reference "C1") (unit 1) (value "220u") (footprint "Capacitor_SMD:CP_Elec_8x10.5")
@@ -891,17 +891,11 @@
     (path "/96816895-f098-4539-b755-2c649e465f79/922855b5-65bc-4384-be5e-ea8d206200d5"
       (reference "LF1") (unit 1) (value "SRF0905A-472Y") (footprint "Filter:Filter_Bourns_SRF0905_6.0x9.2mm")
     )
-    (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/68728767-5317-40b0-ac83-805ad71b8b66"
-      (reference "NT1") (unit 1) (value "DNI") (footprint "_footprints:NetTie-2_SMD_Pad0.5mm")
-    )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/3fb25c34-2569-4875-a420-1c2bb6834662"
       (reference "NT2") (unit 1) (value "DNI") (footprint "_footprints:NetTie-2_SMD_Pad0.3mm")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/0b69a3b8-6a40-4620-acea-e0316c2a03cf"
       (reference "NT3") (unit 1) (value "DNI") (footprint "_footprints:NetTie-2_SMD_Pad0.3mm")
-    )
-    (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/08da9cc7-a655-43ec-9b46-52c53bc6acb4"
-      (reference "NT4") (unit 1) (value "DNI") (footprint "_footprints:NetTie-2_SMD_Pad0.5mm")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/168b1d97-ace8-4db4-8825-e56c5f8de07a"
       (reference "NT5") (unit 1) (value "DNI") (footprint "_footprints:NetTie-2_SMD_Pad0.3mm")
@@ -956,9 +950,6 @@
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/1e6aad8b-b649-4bee-a016-c6fdce095a18"
       (reference "NT23") (unit 1) (value "DNI") (footprint "_footprints:NetTie-2_SMD_Pad0.3mm")
-    )
-    (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/d577623e-6c06-414b-8276-c2874200bb70"
-      (reference "NT25") (unit 1) (value "DNI") (footprint "_footprints:NetTie-2_SMD_Pad0.5mm")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/15750004-bcab-43a1-9ecd-136ace20306c"
       (reference "Q1") (unit 1) (value "BC857") (footprint "Package_TO_SOT_SMD:SOT-23")
