@@ -573,9 +573,6 @@
   )
 
   (symbol_instances
-    (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/0bef7216-de17-4903-ae40-563eae2fa2ad"
-      (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/88a32747-1f7e-4dd8-aa80-42ba9c68fbbb"
       (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
     )
@@ -599,9 +596,6 @@
     )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/9ccf35bc-3734-4063-aeb7-14fe6db4a818"
       (reference "#PWR06") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/d4e86fe9-0ae7-44f6-89f2-1bbfbc092fda"
-      (reference "#PWR07") (unit 1) (value "+24V") (footprint "")
     )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/af6ba8c4-9de1-42d5-a23c-57e4904c2bef"
       (reference "#PWR08") (unit 1) (value "GND") (footprint "")
@@ -746,6 +740,9 @@
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/6f2ab851-d3ff-435d-ad27-c760375ae404"
       (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/9625d2cc-68a9-4f1e-bbd5-e5d725d1c9c4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/57d5bdad-a222-479a-be3d-bfc6b4b8862d"
       (reference "C1") (unit 1) (value "220u") (footprint "Capacitor_SMD:CP_Elec_8x10.5")
@@ -1006,16 +1003,13 @@
       (reference "NT23") (unit 1) (value "DNI") (footprint "_footprints:NetTie-2_SMD_Pad0.3mm")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/15750004-bcab-43a1-9ecd-136ace20306c"
-      (reference "Q1") (unit 1) (value "BC857") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q1") (unit 1) (value "BC857") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/bf66b195-4253-4935-bca2-b98e0bce2963"
       (reference "Q2") (unit 1) (value "IRF9540SPBF") (footprint "Package_TO_SOT_SMD:TO-263-2")
     )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/0e271a48-35da-4145-ab95-5c36e9ce6bfd"
       (reference "Q3") (unit 1) (value "BC857") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
-    (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/f97daaf7-f269-40d4-b73d-9f4296c1117d"
-      (reference "R1") (unit 1) (value "22K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/a366dc5c-2aaa-42db-a641-e3f94be8c3c6"
       (reference "R2") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0603_1608Metric")
