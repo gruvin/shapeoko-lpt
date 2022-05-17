@@ -1,7 +1,6 @@
 (footprint "KYCON_KPJX-4S-S" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 62752204)
-  (property "Element14" "2839851")
   (property "Sheetfile" "power.kicad_sch")
   (property "Sheetname" "Power")
   (attr through_hole)
