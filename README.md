@@ -32,6 +32,6 @@ First batch of prototype PCBs are on the way ... and already obsolete. LOL
 
 ### KiCAD sneak peek / work in progress ...
 
-<img width="1023" height="512" alt="Top_V1.0_WIP.png" src="https://github.com/gruvin/shapeoko-lpt/raw/master/images/Top_V1.0_WIP.png">
+<img width="1023" alt="Top_V1.0_WIP.png" src="https://github.com/gruvin/shapeoko-lpt/raw/master/images/Top_V1.0_WIP.png">
 
-<img width="1023" height="512" alt="Top_V1.0_WIP.png" src="https://github.com/gruvin/shapeoko-lpt/raw/master/images/Bottom_V1.0_WIP.png">
+<img width="1023" alt="Top_V1.0_WIP.png" src="https://github.com/gruvin/shapeoko-lpt/raw/master/images/Bottom_V1.0_WIP.png">
