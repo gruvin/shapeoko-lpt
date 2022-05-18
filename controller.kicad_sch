@@ -70,7 +70,7 @@
           (name "A" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -3.81 90) (length 2.54)
+        (pin input line (at 0 -3.81 90) (length 2.54)
           (name "C" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
@@ -585,6 +585,9 @@
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/246b6006-16a2-4063-96ac-3d1f07d6eff1"
       (reference "#FLG04") (unit 1) (value "PWR_FLAG") (footprint "")
     )
+    (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/e975812c-4be7-4ec4-948e-d8c402939ba9"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/9625d2cc-68a9-4f1e-bbd5-e5d725d1c9c4"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
     )
@@ -1022,6 +1025,12 @@
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/c380b8fa-d57d-4593-923b-6b0bfa5706c1"
       (reference "NT25") (unit 1) (value "DNI") (footprint "-Project:NetTie-2_SMD_Pad0.3mm")
+    )
+    (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/c473be03-7144-49a4-bd1b-f0bf801e9107"
+      (reference "NT26") (unit 1) (value "NetTie_2") (footprint "-Project:NetTie-2_SMD_Pad1.0mm")
+    )
+    (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/43c0f7dc-5d7b-4be2-b599-a67763a9fcec"
+      (reference "NT27") (unit 1) (value "NetTie_2") (footprint "-Project:NetTie-2_SMD_Pad0.5mm")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/15750004-bcab-43a1-9ecd-136ace20306c"
       (reference "Q1") (unit 1) (value "BC847") (footprint "Package_TO_SOT_SMD:SOT-23")
