@@ -987,7 +987,7 @@
       (reference "NT1") (unit 1) (value "DNI") (footprint "-Project:NetTie-2_SMD_Pad0.3mm")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/43c0f7dc-5d7b-4be2-b599-a67763a9fcec"
-      (reference "NT2") (unit 1) (value "NetTie_2") (footprint "-Project:NetTie-2_SMD_Pad0.5mm")
+      (reference "NT2") (unit 1) (value "NetTie_2") (footprint "-Project:NetTie-2_SMD_Pad1.0mm")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/c473be03-7144-49a4-bd1b-f0bf801e9107"
       (reference "NT3") (unit 1) (value "NetTie_2") (footprint "-Project:NetTie-2_SMD_Pad1.0mm")
