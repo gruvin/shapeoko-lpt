@@ -55,7 +55,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|107720001|63220001|4a3c5a6d-4823-441b-8587-8bc5e2e45d9b|dc394b0f-8490-491b-b931-ce081b78c2bb"
+      ],
       "meta": {
         "version": 2
       },
@@ -482,22 +484,22 @@
         {
           "name": "JLCPART",
           "url": false,
-          "visible": true
+          "visible": false
         },
         {
           "name": "JLCMFR#",
           "url": false,
-          "visible": true
+          "visible": false
         },
         {
           "name": "E14PART",
           "url": false,
-          "visible": true
+          "visible": false
         },
         {
           "name": "E14MFR#",
           "url": false,
-          "visible": true
+          "visible": false
         }
       ],
       "intersheets_ref_own_page": false,
