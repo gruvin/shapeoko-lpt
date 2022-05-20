@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.3,
-          "width": 0.3
+          "height": 1.6,
+          "width": 3.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -482,12 +482,12 @@
       "default_text_size": 50.0,
       "field_names": [
         {
-          "name": "JLCPART",
+          "name": "LCSC",
           "url": false,
           "visible": false
         },
         {
-          "name": "JLCMFR#",
+          "name": "LCSCMFR#",
           "url": false,
           "visible": false
         },

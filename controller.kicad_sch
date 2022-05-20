@@ -284,10 +284,10 @@
     (property "Reference" "JP1" (id 0) (at 168.91 58.42 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1x02_2.54" (id 1) (at 165.735 54.61 0)
+    (property "Value" "" (id 1) (at 165.735 54.61 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 162.56 58.42 0)
+    (property "Footprint" "" (id 2) (at 162.56 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 162.56 58.42 0)
@@ -310,10 +310,10 @@
     (property "Reference" "JP2" (id 0) (at 165.481 128.27 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1x02_2.54" (id 1) (at 167.64 128.905 0)
+    (property "Value" "" (id 1) (at 167.64 128.905 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 163.83 132.08 0)
+    (property "Footprint" "" (id 2) (at 163.83 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 163.83 132.08 0)
@@ -336,10 +336,10 @@
     (property "Reference" "JP3" (id 0) (at 162.179 151.13 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1x02_2.54" (id 1) (at 160.02 150.495 0)
+    (property "Value" "" (id 1) (at 160.02 150.495 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 163.83 147.32 0)
+    (property "Footprint" "" (id 2) (at 163.83 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 163.83 147.32 0)
@@ -634,9 +634,6 @@
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/052add68-7087-402d-b98b-2941970f9b0d"
       (reference "#PWR09") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/351ab4c7-0f1f-439e-95a1-6d3c498a7e3f"
-      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/87009279-acdb-4b36-a68d-cc578876c759"
       (reference "#PWR011") (unit 1) (value "GND") (footprint "")
@@ -1086,7 +1083,7 @@
       (reference "R3") (unit 1) (value "6K8") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/344b03d4-3c6c-464c-bdec-ef5b420f9cd5"
-      (reference "R4") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R4") (unit 1) (value "220K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/90c4c72f-583b-4f3f-9010-af0e05aa12cf"
       (reference "R5") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -1098,16 +1095,13 @@
       (reference "R7") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/ba382702-479e-476c-9107-5221aaf45013"
-      (reference "R8") (unit 1) (value "270K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R8") (unit 1) (value "680K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/3c6161c2-fed7-42c6-b1a9-6d6d6c234632"
-      (reference "R9") (unit 1) (value "270K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R9") (unit 1) (value "330K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/40735455-6a46-469f-906f-764809b4c488"
-      (reference "R10") (unit 1) (value "130K") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/811f37f3-39a2-406c-be10-1b20381569fd"
-      (reference "R11") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R10") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/41a526e6-7b9c-4fee-8d0e-27327ed96432"
       (reference "R12") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0603_1608Metric")
