@@ -1,0 +1,19 @@
+(footprint "JLC_ToolingHole" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 62871D34)
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 90cbe4db-35f0-449d-91b3-6269b0759742)
+  )
+  (fp_text value "JLC_ToolingHole" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 9395f968-0284-4160-a63f-81a841492eba)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b9451353-e7bc-437a-bab4-b926c2329139)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 1.152 1.152) (drill 1.152) (layers F&B.Cu *.Mask)
+    (solder_mask_margin 0.148) (clearance 0.25) (zone_connect 0) (tstamp 40d58b0e-552e-4a54-b994-307438ca7db1))
+)

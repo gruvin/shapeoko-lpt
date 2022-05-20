@@ -482,12 +482,17 @@
       "default_text_size": 50.0,
       "field_names": [
         {
-          "name": "LCSC",
+          "name": "JLCPART",
           "url": false,
           "visible": false
         },
         {
-          "name": "LCSCMFR#",
+          "name": "JLCMFR#",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "JLCMOQ",
           "url": false,
           "visible": false
         },
@@ -498,6 +503,11 @@
         },
         {
           "name": "E14MFR#",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "E14MOQ",
           "url": false,
           "visible": false
         }
