@@ -284,10 +284,10 @@
     (property "Reference" "JP1" (id 0) (at 168.91 58.42 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1x02_2.54" (id 1) (at 165.735 54.61 0)
+    (property "Value" "" (id 1) (at 165.735 54.61 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 162.56 58.42 0)
+    (property "Footprint" "" (id 2) (at 162.56 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 162.56 58.42 0)
@@ -313,10 +313,10 @@
     (property "Reference" "JP2" (id 0) (at 165.481 128.27 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1x02_2.54" (id 1) (at 167.64 128.905 0)
+    (property "Value" "" (id 1) (at 167.64 128.905 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 163.83 132.08 0)
+    (property "Footprint" "" (id 2) (at 163.83 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 163.83 132.08 0)
@@ -342,10 +342,10 @@
     (property "Reference" "JP3" (id 0) (at 162.179 151.13 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1x02_2.54" (id 1) (at 160.02 150.495 0)
+    (property "Value" "" (id 1) (at 160.02 150.495 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 163.83 147.32 0)
+    (property "Footprint" "" (id 2) (at 163.83 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 163.83 147.32 0)
@@ -933,34 +933,34 @@
       (reference "J4") (unit 1) (value "DB25 FEMALE") (footprint "Connector_Dsub:DSUB-25_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/90af7ce1-461c-4bca-a8d4-d0cf8ba46de0"
-      (reference "J5") (unit 1) (value "JST_B6B-XH") (footprint "Connector_JST:JST_EH_S6B-EH_1x06_P2.50mm_Horizontal")
+      (reference "J5") (unit 1) (value "JST_S6B-XH") (footprint "Connector_JST:JST_EH_S6B-EH_1x06_P2.50mm_Horizontal")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/7fdcc566-2de3-4184-aa03-426dc6a88796"
-      (reference "J6") (unit 1) (value "JST_1x04") (footprint "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal")
+      (reference "J6") (unit 1) (value "JST_S4B-XH") (footprint "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/fb128caf-d108-4c02-9b32-7ea342816180"
       (reference "J7") (unit 1) (value "MicroFit_2x04") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/65c0d18d-d829-4325-92eb-05b27fac23d2"
-      (reference "J8") (unit 1) (value "JST_1x04") (footprint "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal")
+      (reference "J8") (unit 1) (value "JST_S4B-XH") (footprint "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/4f281608-903b-4ec0-a893-90c9692af024"
-      (reference "J9") (unit 1) (value "JST_1x04") (footprint "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal")
+      (reference "J9") (unit 1) (value "JST_S4B-XH") (footprint "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/b47f89bb-44a4-4a9f-8b7c-3acd2d90a48a"
       (reference "J10") (unit 1) (value "MicroFit_2x04") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/cdba690a-ad69-489c-88ef-cd1a8ac7b729"
-      (reference "J11") (unit 1) (value "JST_1x04") (footprint "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal")
+      (reference "J11") (unit 1) (value "JST_S4B-XH") (footprint "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/3287a909-8c1d-4161-8291-13ce93b716a3"
       (reference "J12") (unit 1) (value "MicroFit_2x04") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/9859c259-3292-45a3-af2d-b6599b20ac97"
-      (reference "J13") (unit 1) (value "JST_01x02") (footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical")
+      (reference "J13") (unit 1) (value "JST_B2B-XH") (footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/bb956b12-f9f1-4980-8383-5ee521965984"
-      (reference "J14") (unit 1) (value "JST_1x02") (footprint "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal")
+      (reference "J14") (unit 1) (value "JST_S2B-XH") (footprint "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/6117399c-16dc-46e8-bf1a-9bba26e70efc"
       (reference "J15") (unit 1) (value "DNI") (footprint "")
@@ -1122,7 +1122,7 @@
       (reference "R12") (unit 1) (value "130K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/94412c46-f9be-4bc2-ba14-0943a11adc09"
-      (reference "R13") (unit 1) (value "22") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R13") (unit 1) (value "22R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/9efea078-f3ea-47ef-8d6c-02bb6adceb71"
       (reference "R14") (unit 1) (value "5K6") (footprint "Resistor_SMD:R_0603_1608Metric")
