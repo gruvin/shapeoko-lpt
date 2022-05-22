@@ -6230,7 +6230,7 @@
     (property "Reference" "#FLG04" (id 0) (at 198.247 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (id 1) (at 198.247 86.868 0)
+    (property "Value" "PWR_FLAG" (id 1) (at 198.247 86.868 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "" (id 2) (at 198.247 91.44 0)
