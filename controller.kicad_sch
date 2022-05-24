@@ -6,8 +6,8 @@
 
   (title_block
     (title "CNC Power Module")
-    (date "2022-05-12")
-    (rev "1.0")
+    (date "2022-05-24")
+    (rev "2.0")
   )
 
   (lib_symbols
@@ -698,9 +698,6 @@
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/72960e9a-1b0d-47e5-83c9-1edbdbaf6250"
       (reference "#PWR036") (unit 1) (value "GND") (footprint "")
     )
-    (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/9dd8e5b0-036c-45c6-befc-7a2a908ada2f"
-      (reference "#PWR037") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/b7f2c3ac-f587-4dbd-aa58-d67ad52faf18"
       (reference "#PWR038") (unit 1) (value "GND") (footprint "")
     )
@@ -760,6 +757,18 @@
     )
     (path "/571fd4fe-1da5-473e-a77d-7a43cd0d0e86/cd2d259b-8dc0-46ba-a90d-033ee193706e"
       (reference "#PWR057") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/52ca5ef5-2162-4de9-b6d3-65470e769508"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/88cd1bcd-ec91-400b-ba78-9726319fb811"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/4a2ab8c9-fb34-40db-894d-2fc4ba468ec3"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/f49c2cfb-2390-40d4-9c64-5942ace4e607"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/5b13e73e-7e03-4542-9e4a-7da5edcb46ef"
       (reference "C1") (unit 1) (value "10n/50V") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -956,8 +965,17 @@
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/490b02c5-0e78-4f5d-b25e-13628ef2b9fe"
       (reference "JP4") (unit 1) (value "Jumper_2_Bridged") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical")
     )
+    (path "/96816895-f098-4539-b755-2c649e465f79/0239c39c-ca0b-4966-9f1e-979fb5f75cb5"
+      (reference "JP5") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/e23d8e0a-a26b-4ee3-81e1-0fa6bc91e4d8"
+      (reference "JP6") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/cc07867d-7023-4520-a20d-4a6c00c17c4d"
+      (reference "JP7") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/ea4a5f37-191f-4888-8e17-d10f0a57be97"
-      (reference "K1") (unit 1) (value "TE_OJS_5V_10A") (footprint "-Project:Relay_SPST_OJS_5V_10A")
+      (reference "K1") (unit 1) (value "TE_OJS_24V_10A") (footprint "-Project:Relay_SPST_OJS_24V_10A")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/f4c64c2f-1ee6-46cc-9a0d-68462b850e76"
       (reference "L1") (unit 1) (value "100uH 1.5A") (footprint "Inductor_SMD:L_12x12mm_H6mm")
@@ -1058,6 +1076,9 @@
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/0e271a48-35da-4145-ab95-5c36e9ce6bfd"
       (reference "Q4") (unit 1) (value "BC857") (footprint "-Project:SOT-23_DOT")
     )
+    (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/df9d8059-705b-4e23-8881-85c09f095ce1"
+      (reference "Q5") (unit 1) (value "BC847") (footprint "-Project:SOT-23_DOT")
+    )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/b8ab3a7e-a607-48ee-b175-0876e6873e5d"
       (reference "R1") (unit 1) (value "DNI") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -1103,11 +1124,14 @@
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/465ba5dd-cc45-4731-ada3-a290156118ca"
       (reference "R15") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/a8be86b5-6369-4843-af40-2d65a0eeaac4"
+    (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/7cdd62dd-67cb-4b1f-9ec0-d75ebff7bac4"
       (reference "R16") (unit 1) (value "5K6") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/a8be86b5-6369-4843-af40-2d65a0eeaac4"
+      (reference "R17") (unit 1) (value "5K6") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/a842e4b4-44b1-4d28-97e3-d08a6de988f2"
-      (reference "R17") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R18") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/83a35b75-1c41-4ac5-bc9b-cd72bf7adbf6"
       (reference "RN1") (unit 1) (value "1Kx4") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
