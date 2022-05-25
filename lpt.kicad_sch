@@ -4595,7 +4595,7 @@
     (property "Reference" "K1" (id 0) (at 259.08 147.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 259.08 149.86 0)
+    (property "Value" "TE_OJS_24V_10A" (id 1) (at 259.08 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "-Project:Relay_SPST_OJS_24V_10A" (id 2) (at 281.305 149.86 0)
