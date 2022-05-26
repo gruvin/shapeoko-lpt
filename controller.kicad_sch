@@ -698,6 +698,9 @@
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/72960e9a-1b0d-47e5-83c9-1edbdbaf6250"
       (reference "#PWR036") (unit 1) (value "GND") (footprint "")
     )
+    (path "/96816895-f098-4539-b755-2c649e465f79/23e35538-faf8-4388-ba9d-d8568934c92d"
+      (reference "#PWR037") (unit 1) (value "GND") (footprint "")
+    )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/b7f2c3ac-f587-4dbd-aa58-d67ad52faf18"
       (reference "#PWR038") (unit 1) (value "GND") (footprint "")
     )
@@ -743,11 +746,8 @@
     (path "/96816895-f098-4539-b755-2c649e465f79/ae725e8e-5f24-4624-bbbe-306831dc4269"
       (reference "#PWR052") (unit 1) (value "GND") (footprint "")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/42a094fd-31f2-494e-9929-d2983ad6275a"
+    (path "/96816895-f098-4539-b755-2c649e465f79/d76b65b6-ba86-426d-bd58-fd20f8aaf296"
       (reference "#PWR053") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/96816895-f098-4539-b755-2c649e465f79/6f2ab851-d3ff-435d-ad27-c760375ae404"
-      (reference "#PWR054") (unit 1) (value "GND") (footprint "")
     )
     (path "/571fd4fe-1da5-473e-a77d-7a43cd0d0e86/47fba2c6-040e-47bc-9e8a-3f29e353b0ba"
       (reference "#PWR055") (unit 1) (value "GND") (footprint "")
@@ -851,41 +851,77 @@
     (path "/96816895-f098-4539-b755-2c649e465f79/f91e3912-1ac1-43b2-8097-d2db64fbadcc"
       (reference "D11") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/46387170-7637-4e74-839e-e069001a1c1f"
-      (reference "D12") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
+    (path "/96816895-f098-4539-b755-2c649e465f79/e77deada-72c7-465c-88b1-a21ea6aec8a5"
+      (reference "D12") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/2ad394ce-9afa-4c58-bc07-9369cffe1257"
-      (reference "D13") (unit 1) (value "ORG") (footprint "-Project:LED_0402_DOT")
+    (path "/96816895-f098-4539-b755-2c649e465f79/082ffc21-4973-454f-a626-37b4e5ab5f67"
+      (reference "D13") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/82323adc-8ac7-4b49-9ddf-69513450c4ba"
-      (reference "D14") (unit 1) (value "BLU") (footprint "-Project:LED_0402_DOT")
+    (path "/96816895-f098-4539-b755-2c649e465f79/98d27e7f-7dce-442e-a014-666447afdada"
+      (reference "D14") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/8a3c0c69-bfe6-42e0-9679-d547296aeb5a"
-      (reference "D15") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
+    (path "/96816895-f098-4539-b755-2c649e465f79/510183e8-0157-4513-912a-642faf94b104"
+      (reference "D15") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/a0c9a64e-2a1d-402c-899d-f84f9f44baf4"
+    (path "/96816895-f098-4539-b755-2c649e465f79/699afc08-78eb-4636-b4a4-63abba40d0e7"
       (reference "D16") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/f6f406fa-5f32-4923-81bc-de1eba4d6a84"
-      (reference "D17") (unit 1) (value "ORG") (footprint "-Project:LED_0402_DOT")
+    (path "/96816895-f098-4539-b755-2c649e465f79/b1f12942-4e3d-4e67-b1fa-c3982272dc2f"
+      (reference "D17") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/b902f158-be95-4075-9da1-3db273c5ec4e"
-      (reference "D18") (unit 1) (value "BLU") (footprint "-Project:LED_0402_DOT")
+    (path "/96816895-f098-4539-b755-2c649e465f79/d67dabce-6325-4e6f-a71c-07ec50a498fd"
+      (reference "D18") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/841c8b0b-b292-42ba-9236-006068e4cb10"
+    (path "/96816895-f098-4539-b755-2c649e465f79/81d0bade-302e-4211-bde3-6d6255606354"
       (reference "D19") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/2f1cc3b4-550c-423e-8fb8-2f5132acaa34"
-      (reference "D20") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
+    (path "/96816895-f098-4539-b755-2c649e465f79/47e5ac26-ae6c-4ee3-8eec-cf39a3a0667e"
+      (reference "D20") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/5c5abbb8-5364-4e5b-b899-49e440350f98"
-      (reference "D21") (unit 1) (value "ORG") (footprint "-Project:LED_0402_DOT")
+    (path "/96816895-f098-4539-b755-2c649e465f79/46387170-7637-4e74-839e-e069001a1c1f"
+      (reference "D21") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/b011815e-bd0d-46e2-bc81-d70efe5205c2"
-      (reference "D22") (unit 1) (value "BLU") (footprint "-Project:LED_0402_DOT")
+    (path "/96816895-f098-4539-b755-2c649e465f79/2ad394ce-9afa-4c58-bc07-9369cffe1257"
+      (reference "D22") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/bef7740a-433a-4da5-993d-abe3cff55b28"
+    (path "/96816895-f098-4539-b755-2c649e465f79/8955307b-573b-4096-8c7e-366450887804"
       (reference "D23") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/37ce39ce-05ed-4dde-8f10-a4a57540f3c9"
+      (reference "D24") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/82323adc-8ac7-4b49-9ddf-69513450c4ba"
+      (reference "D25") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/d7e1b125-f427-41f2-b70e-77db50805cd1"
+      (reference "D26") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/8a3c0c69-bfe6-42e0-9679-d547296aeb5a"
+      (reference "D27") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/737ccf2d-ccc4-4293-9ede-3621c841ee57"
+      (reference "D28") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/9e2133cb-d7df-4203-8a4f-8a4f22082c20"
+      (reference "D29") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/a67a3884-d113-44c6-b24b-c20cafd2004c"
+      (reference "D30") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/0042fafc-263f-4f74-85ce-1ceacc70944a"
+      (reference "D31") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/80b3f5bb-97b3-4d42-86e1-338b9075bd3f"
+      (reference "D32") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/5982ff51-6ca5-4deb-94fb-65c280d8c120"
+      (reference "D33") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/53800878-fbbf-4969-af80-0130f9b74554"
+      (reference "D34") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/6b05f7a6-8750-4049-a1ec-29d74d6250ef"
+      (reference "D35") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
     )
     (path "/571fd4fe-1da5-473e-a77d-7a43cd0d0e86/9f5e640e-dbfa-4ff4-bd38-c7fc1c32e02a"
       (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
@@ -1151,10 +1187,10 @@
     (path "/96816895-f098-4539-b755-2c649e465f79/d31fbee0-5201-4b59-88c8-40f80087195a"
       (reference "RN6") (unit 1) (value "1Kx4") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/6ed6b461-7310-43bf-9f4e-962ca3747bc5"
+    (path "/96816895-f098-4539-b755-2c649e465f79/8708a9ef-de3c-477e-aa04-81dffeba8169"
       (reference "RN7") (unit 1) (value "1Kx4") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/4adfe1ea-760b-468f-b45b-7d8fad401bea"
+    (path "/96816895-f098-4539-b755-2c649e465f79/380766a2-6617-4f78-bd0a-17cf33e8286e"
       (reference "RN8") (unit 1) (value "1Kx4") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
     )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/7430176d-f480-43a3-b725-dbd831a73da6"
