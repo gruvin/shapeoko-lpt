@@ -743,9 +743,6 @@
     (path "/96816895-f098-4539-b755-2c649e465f79/738ae0f2-9a3f-436b-96a2-958cd646b84e"
       (reference "#PWR051") (unit 1) (value "GND") (footprint "")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/ae725e8e-5f24-4624-bbbe-306831dc4269"
-      (reference "#PWR052") (unit 1) (value "GND") (footprint "")
-    )
     (path "/96816895-f098-4539-b755-2c649e465f79/d76b65b6-ba86-426d-bd58-fd20f8aaf296"
       (reference "#PWR053") (unit 1) (value "GND") (footprint "")
     )
@@ -769,6 +766,9 @@
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/f49c2cfb-2390-40d4-9c64-5942ace4e607"
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/bac81b73-b084-4fac-adfa-19c36cf54ba8"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/5b13e73e-7e03-4542-9e4a-7da5edcb46ef"
       (reference "C1") (unit 1) (value "10n/50V") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -863,17 +863,17 @@
     (path "/96816895-f098-4539-b755-2c649e465f79/510183e8-0157-4513-912a-642faf94b104"
       (reference "D15") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/699afc08-78eb-4636-b4a4-63abba40d0e7"
-      (reference "D16") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
-    )
     (path "/96816895-f098-4539-b755-2c649e465f79/b1f12942-4e3d-4e67-b1fa-c3982272dc2f"
-      (reference "D17") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
+      (reference "D16") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/d67dabce-6325-4e6f-a71c-07ec50a498fd"
-      (reference "D18") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
+    (path "/96816895-f098-4539-b755-2c649e465f79/699afc08-78eb-4636-b4a4-63abba40d0e7"
+      (reference "D17") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/81d0bade-302e-4211-bde3-6d6255606354"
-      (reference "D19") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
+      (reference "D18") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/d67dabce-6325-4e6f-a71c-07ec50a498fd"
+      (reference "D19") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/47e5ac26-ae6c-4ee3-8eec-cf39a3a0667e"
       (reference "D20") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
@@ -893,7 +893,7 @@
     (path "/96816895-f098-4539-b755-2c649e465f79/82323adc-8ac7-4b49-9ddf-69513450c4ba"
       (reference "D25") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/d7e1b125-f427-41f2-b70e-77db50805cd1"
+    (path "/96816895-f098-4539-b755-2c649e465f79/a57d22ba-61ed-48b4-9a41-d9213076dcd0"
       (reference "D26") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/8a3c0c69-bfe6-42e0-9679-d547296aeb5a"
@@ -911,17 +911,17 @@
     (path "/96816895-f098-4539-b755-2c649e465f79/0042fafc-263f-4f74-85ce-1ceacc70944a"
       (reference "D31") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/80b3f5bb-97b3-4d42-86e1-338b9075bd3f"
-      (reference "D32") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
-    )
     (path "/96816895-f098-4539-b755-2c649e465f79/5982ff51-6ca5-4deb-94fb-65c280d8c120"
-      (reference "D33") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
+      (reference "D32") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/53800878-fbbf-4969-af80-0130f9b74554"
-      (reference "D34") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
+    (path "/96816895-f098-4539-b755-2c649e465f79/80b3f5bb-97b3-4d42-86e1-338b9075bd3f"
+      (reference "D33") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/6b05f7a6-8750-4049-a1ec-29d74d6250ef"
-      (reference "D35") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
+      (reference "D34") (unit 1) (value "RED") (footprint "-Project:LED_0402_DOT")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/53800878-fbbf-4969-af80-0130f9b74554"
+      (reference "D35") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
     )
     (path "/571fd4fe-1da5-473e-a77d-7a43cd0d0e86/9f5e640e-dbfa-4ff4-bd38-c7fc1c32e02a"
       (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
