@@ -1395,9 +1395,6 @@
   (junction (at 44.45 38.1) (diameter 0) (color 0 0 0 0)
     (uuid e87969e7-982b-40ce-b9e4-c2a54b598e8b)
   )
-  (junction (at 260.35 101.6) (diameter 0) (color 0 0 0 0)
-    (uuid e941c22d-6168-4513-9961-e1af8e53f3ed)
-  )
   (junction (at 73.66 82.55) (diameter 0) (color 0 0 0 0)
     (uuid ef71f835-3038-44eb-9505-3515345c5ac6)
   )
@@ -1800,10 +1797,6 @@
     (uuid 77be0375-266e-4351-a369-d45e286f1bc1)
   )
 
-  (wire (pts (xy 261.62 101.6) (xy 260.35 101.6))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 78bf3f69-001e-434b-b816-2bf4ff707c19)
-  )
   (wire (pts (xy 27.94 186.69) (xy 25.4 186.69))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 78f9202a-5ffd-4ab4-aa45-2956c0ba2786)
@@ -5139,7 +5132,7 @@
     )
   )
 
-  (text "Under Voltage Lockout\n(1 + R11/R12) x 1.85 = 10V\nWill still function reliably @ Vin = 12V\n"
+  (text "Under Voltage Lockout\n(1 + R11/R12) x 1.85 = 10.26V\nU2 will still function reliably @ Vin = 12V\n"
     (at 149.352 107.061 0)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 0c78a496-6577-4ecb-8491-720b3ee9c832)
