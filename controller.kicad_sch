@@ -825,10 +825,10 @@
       (reference "C17") (unit 1) (value "100n/50V") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/a85d3f15-73d4-49e4-879f-faa1e92b4546"
-      (reference "D1") (unit 1) (value "1N5819WS") (footprint "-Project:D_SOD-323_DOT")
+      (reference "D1") (unit 1) (value "SDM20U40") (footprint "Diode_SMD:D_SOD-523")
     )
-    (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/e6c9b5f4-4a0e-4147-a014-f11477f5d9de"
-      (reference "D2") (unit 1) (value "1N5819WS") (footprint "-Project:D_SOD-323_DOT")
+    (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/8a4930ba-f5b6-4fdc-87f0-511c887257ea"
+      (reference "D2") (unit 1) (value "SDM20U40") (footprint "Diode_SMD:D_SOD-523")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/30afc6f6-0182-475c-b0b7-54f75915c13a"
       (reference "D3") (unit 1) (value "1N5819WS") (footprint "-Project:D_SOD-323_DOT")
