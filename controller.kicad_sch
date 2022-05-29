@@ -830,14 +830,14 @@
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/8a4930ba-f5b6-4fdc-87f0-511c887257ea"
       (reference "D2") (unit 1) (value "SDM20U40") (footprint "Diode_SMD:D_SOD-523")
     )
-    (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/30afc6f6-0182-475c-b0b7-54f75915c13a"
-      (reference "D3") (unit 1) (value "1N5819WS") (footprint "-Project:D_SOD-323_DOT")
+    (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/b5ff3f55-cea3-4748-879d-af06b37815e3"
+      (reference "D3") (unit 1) (value "SDM20U40") (footprint "Diode_SMD:D_SOD-523")
     )
-    (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/ef7ff756-d2a6-4ae0-8373-5dceb07e0d02"
-      (reference "D4") (unit 1) (value "1N5819WS") (footprint "-Project:D_SOD-323_DOT")
+    (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/6bf52bcb-f246-4ca6-85eb-b9bfc1aa3a16"
+      (reference "D4") (unit 1) (value "SDM20U40") (footprint "Diode_SMD:D_SOD-523")
     )
-    (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/f57cc5e7-f016-4427-9991-d0169d544dbe"
-      (reference "D5") (unit 1) (value "1N5819WS") (footprint "-Project:D_SOD-323_DOT")
+    (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/1ba23b8e-8c34-4209-92e2-70eabba6ee14"
+      (reference "D5") (unit 1) (value "SDM20U40") (footprint "Diode_SMD:D_SOD-523")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/0848df86-074b-45fa-a858-3aad29c2e5f9"
       (reference "D6") (unit 1) (value "SS24A+") (footprint "-Project:D_SMA_DOT")
