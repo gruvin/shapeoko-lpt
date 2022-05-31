@@ -719,8 +719,8 @@
     (path "/96816895-f098-4539-b755-2c649e465f79/4a2ab8c9-fb34-40db-894d-2fc4ba468ec3"
       (reference "#PWR043") (unit 1) (value "GND") (footprint "")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/1f9319a7-c4d2-417c-a8d7-5c77030694cb"
-      (reference "#PWR044") (unit 1) (value "GND") (footprint "")
+    (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/7ab4c330-95e6-4464-b3d5-4348c0059b67"
+      (reference "#PWR044") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/88cd1bcd-ec91-400b-ba78-9726319fb811"
       (reference "#PWR045") (unit 1) (value "GND") (footprint "")
@@ -728,14 +728,14 @@
     (path "/96816895-f098-4539-b755-2c649e465f79/a99983a1-1e72-41f1-8940-dc3d42d547e8"
       (reference "#PWR046") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/6a8cfd3f-2ec0-4157-8511-8a3353f55567"
-      (reference "#PWR047") (unit 1) (value "GND") (footprint "")
+    (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/337c309b-de87-4272-ac1f-a1b9e763a7b0"
+      (reference "#PWR047") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/f49c2cfb-2390-40d4-9c64-5942ace4e607"
       (reference "#PWR048") (unit 1) (value "GND") (footprint "")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/0297dd1b-db2b-42f3-aba6-42141f376658"
-      (reference "#PWR049") (unit 1) (value "GND") (footprint "")
+    (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/fc761343-856b-41ae-afe1-6ba798ea4035"
+      (reference "#PWR049") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/ac32151e-0605-4181-a38f-b785ed81c23c"
       (reference "#PWR050") (unit 1) (value "GND") (footprint "")
@@ -749,11 +749,11 @@
     (path "/96816895-f098-4539-b755-2c649e465f79/ff30f94a-36c7-475b-8ccc-c702f546c637"
       (reference "#PWR053") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/f3f623e6-2dd8-4d5b-8bb9-29e4e0ddccda"
+    (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/04621594-2588-4a3e-a322-e27f95542ae7"
       (reference "#PWR054") (unit 1) (value "GND") (footprint "")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/738ae0f2-9a3f-436b-96a2-958cd646b84e"
-      (reference "#PWR055") (unit 1) (value "GND") (footprint "")
+    (path "/96816895-f098-4539-b755-2c649e465f79/328e5b66-345d-426e-b7d8-eea1abecf4cd"
+      (reference "#PWR055") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/bac81b73-b084-4fac-adfa-19c36cf54ba8"
       (reference "#PWR056") (unit 1) (value "GND") (footprint "")
@@ -772,6 +772,18 @@
     )
     (path "/571fd4fe-1da5-473e-a77d-7a43cd0d0e86/cd2d259b-8dc0-46ba-a90d-033ee193706e"
       (reference "#PWR061") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/905e2eb8-ed08-48ff-a286-311fff343d65"
+      (reference "#PWR062") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/16de7c31-9166-4dae-8b30-8857c26eaac6"
+      (reference "#PWR063") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/33479bc0-7768-4c39-bd0f-65489159ca41"
+      (reference "#PWR064") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/96816895-f098-4539-b755-2c649e465f79/494e0b0d-1e44-4ba6-b993-76b0b9c98744"
+      (reference "#PWR065") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/5b13e73e-7e03-4542-9e4a-7da5edcb46ef"
       (reference "C1") (unit 1) (value "10n/50V") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -1015,6 +1027,9 @@
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/cc07867d-7023-4520-a20d-4a6c00c17c4d"
       (reference "JP7") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/ce0004f9-96ef-41a6-92da-2648b61d4d6d"
+      (reference "JP8") (unit 1) (value "GND_ISO") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/ea4a5f37-191f-4888-8e17-d10f0a57be97"
       (reference "K1") (unit 1) (value "TE_OJS_24V_10A") (footprint "-Project:Relay_SPST_OJS_24V_10A")
