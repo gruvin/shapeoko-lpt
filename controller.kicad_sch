@@ -1245,10 +1245,10 @@
       (reference "U5") (unit 1) (value "74HC245") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")
     )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/9de7c22a-ee1b-4f44-bad4-927dd4a0b2ab"
-      (reference "U6") (unit 1) (value "ACSL-6400") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
+      (reference "U6") (unit 1) (value "ACSL-6310") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
     )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/b12883ea-6100-4ae4-ae84-b2b50d46f24d"
-      (reference "U7") (unit 1) (value "ACSL-6400") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
+      (reference "U7") (unit 1) (value "ACSL-6310") (footprint "Package_SO:SO-16_3.9x9.9mm_P1.27mm")
     )
   )
 )

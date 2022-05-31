@@ -3198,7 +3198,7 @@
     (property "Reference" "#PWR055" (id 0) (at 87.63 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (id 1) (at 87.63 63.5 0))
+    (property "Value" "GNDA" (id 1) (at 87.63 63.5 0))
     (property "Footprint" "" (id 2) (at 87.63 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
