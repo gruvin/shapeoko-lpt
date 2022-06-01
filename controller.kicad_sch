@@ -936,16 +936,16 @@
       (reference "D35") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
     )
     (path "/571fd4fe-1da5-473e-a77d-7a43cd0d0e86/9f5e640e-dbfa-4ff4-bd38-c7fc1c32e02a"
-      (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
+      (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "")
     )
     (path "/571fd4fe-1da5-473e-a77d-7a43cd0d0e86/5113feeb-1cc9-453c-8cec-bc31bd7fb100"
-      (reference "H2") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
+      (reference "H2") (unit 1) (value "MountingHole_Pad") (footprint "")
     )
     (path "/571fd4fe-1da5-473e-a77d-7a43cd0d0e86/3f4d8836-bd97-471d-8b1d-9479301e4cb5"
-      (reference "H3") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
+      (reference "H3") (unit 1) (value "MountingHole_Pad") (footprint "")
     )
     (path "/571fd4fe-1da5-473e-a77d-7a43cd0d0e86/6904ac44-e02c-4117-a135-e42e98b3aab8"
-      (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
+      (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/807ef5e0-af1a-44f0-890e-88e8650af0b0"
       (reference "J1") (unit 1) (value "KYCON_KPJX-4S-S") (footprint "-Project:KYCON_KPJX-4S-S")
