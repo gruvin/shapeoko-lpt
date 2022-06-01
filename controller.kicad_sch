@@ -285,10 +285,10 @@
     (property "Reference" "JP1" (id 0) (at 165.1 58.4199 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1x03_2.54" (id 1) (at 165.1 59.6899 90)
+    (property "Value" "" (id 1) (at 165.1 59.6899 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 162.56 58.42 0)
+    (property "Footprint" "" (id 2) (at 162.56 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 162.56 58.42 0)
@@ -303,10 +303,10 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6b063d77-942b-49dd-8948-b92dc588149d)
     (property "Reference" "JP2" (id 0) (at 163.83 128.27 0))
-    (property "Value" "1x03_2.54" (id 1) (at 162.5601 129.54 90)
+    (property "Value" "" (id 1) (at 162.5601 129.54 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 163.83 132.08 0)
+    (property "Footprint" "" (id 2) (at 163.83 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 163.83 132.08 0)
@@ -321,10 +321,10 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b1f18de7-3994-4902-837a-833197abb796)
     (property "Reference" "JP3" (id 0) (at 163.83 151.13 0))
-    (property "Value" "1x03_2.54" (id 1) (at 165.0999 149.86 90)
+    (property "Value" "" (id 1) (at 165.0999 149.86 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 163.83 147.32 0)
+    (property "Footprint" "" (id 2) (at 163.83 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 163.83 147.32 0)
@@ -936,16 +936,16 @@
       (reference "D35") (unit 1) (value "GRN") (footprint "-Project:LED_0402_DOT")
     )
     (path "/571fd4fe-1da5-473e-a77d-7a43cd0d0e86/9f5e640e-dbfa-4ff4-bd38-c7fc1c32e02a"
-      (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
+      (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "")
     )
     (path "/571fd4fe-1da5-473e-a77d-7a43cd0d0e86/5113feeb-1cc9-453c-8cec-bc31bd7fb100"
-      (reference "H2") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
+      (reference "H2") (unit 1) (value "MountingHole_Pad") (footprint "")
     )
     (path "/571fd4fe-1da5-473e-a77d-7a43cd0d0e86/3f4d8836-bd97-471d-8b1d-9479301e4cb5"
-      (reference "H3") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
+      (reference "H3") (unit 1) (value "MountingHole_Pad") (footprint "")
     )
     (path "/571fd4fe-1da5-473e-a77d-7a43cd0d0e86/6904ac44-e02c-4117-a135-e42e98b3aab8"
-      (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
+      (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/807ef5e0-af1a-44f0-890e-88e8650af0b0"
       (reference "J1") (unit 1) (value "KYCON_KPJX-4S-S") (footprint "-Project:KYCON_KPJX-4S-S")
@@ -1023,7 +1023,7 @@
       (reference "JP7") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/ce0004f9-96ef-41a6-92da-2648b61d4d6d"
-      (reference "JP8") (unit 1) (value "GND/AGND ISOLATOR") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "JP8") (unit 1) (value "GND_ISO") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/ea4a5f37-191f-4888-8e17-d10f0a57be97"
       (reference "K1") (unit 1) (value "OJS-SH-124HMF") (footprint "-Project:Relay_SPST_OJS_24V_10A")
@@ -1095,7 +1095,7 @@
       (reference "NT20") (unit 1) (value "DNI") (footprint "-Project:NetTie-2_SMD_Pad0.3mm")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/cbd086a8-cae9-4d68-80f4-26a54e880ece"
-      (reference "NT21") (unit 1) (value "DNI") (footprint "-Project:NetTie-2_SMD_Pad1.0mm")
+      (reference "NT21") (unit 1) (value "DNI") (footprint "-Project:NetTie-2_SMD_Pad1.5mm")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/db517ee2-ff4f-4e64-8166-027773f4b07b"
       (reference "NT22") (unit 1) (value "DNI") (footprint "-Project:NetTie-2_SMD_Pad1.0mm")
