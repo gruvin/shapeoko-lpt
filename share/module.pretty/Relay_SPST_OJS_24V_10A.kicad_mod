@@ -11,7 +11,7 @@
     (effects (font (size 0.7 0.7) (thickness 0.125)))
     (tstamp 3403c028-ba86-4d4f-989c-03c4cd6a68e3)
   )
-  (fp_text value "TE_OJS_24V_10A" (at 6.181 -3.7 270) (layer "F.Fab")
+  (fp_text value "RELAY_TE_OJS_HM_10A" (at 6.181 -3.7 270) (layer "F.Fab")
     (effects (font (size 0.65 0.6) (thickness 0.08)))
     (tstamp c3ff2070-1927-4277-9b63-eed10c532f60)
   )
@@ -56,7 +56,7 @@
   (pad "3" thru_hole circle (at 15.24 -7.6 180) (size 2.3 2.3) (drill 1.3) (layers *.Cu *.Mask) (tstamp 661cae79-1b08-445e-bb1a-9697ad0336a3))
   (pad "5" thru_hole circle (at 12.7 0 180) (size 2.3 2.3) (drill 1.3) (layers *.Cu *.Mask) (tstamp ae698e5a-4fc1-4ba8-9d76-3f1d1b43bf27))
   (pad "6" thru_hole rect (at 0 0 180) (size 2.3 2.3) (drill 1.3) (layers *.Cu *.Mask) (tstamp 0f33c720-ee39-41b8-9d23-543226581f1f))
-  (model "${KICAD6_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_Omron-G5Q-1.wrl"
+  (model "${KIPRJMOD}/share/packages3d/RELAY_TE_OJS_HM.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
