@@ -462,7 +462,12 @@
     "meta": {
       "version": 2
     },
-    "net_colors": null
+    "net_colors": {
+      "/Connectors/P16_IN": "rgb(255, 0, 255)",
+      "/Connectors/P16_OUT": "rgb(255, 0, 255)",
+      "/Connectors/P17_IN": "rgb(255, 255, 0)",
+      "/Connectors/P17_OUT": "rgb(255, 255, 0)"
+    }
   },
   "pcbnew": {
     "last_paths": {

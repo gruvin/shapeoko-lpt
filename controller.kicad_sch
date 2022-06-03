@@ -990,16 +990,16 @@
       (reference "D35") (unit 1) (value "GRN_528") (footprint "-Project:LED_0402_DOT")
     )
     (path "/571fd4fe-1da5-473e-a77d-7a43cd0d0e86/9f5e640e-dbfa-4ff4-bd38-c7fc1c32e02a"
-      (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "")
+      (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
     )
     (path "/571fd4fe-1da5-473e-a77d-7a43cd0d0e86/5113feeb-1cc9-453c-8cec-bc31bd7fb100"
-      (reference "H2") (unit 1) (value "MountingHole_Pad") (footprint "")
+      (reference "H2") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
     )
     (path "/571fd4fe-1da5-473e-a77d-7a43cd0d0e86/3f4d8836-bd97-471d-8b1d-9479301e4cb5"
-      (reference "H3") (unit 1) (value "MountingHole_Pad") (footprint "")
+      (reference "H3") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
     )
     (path "/571fd4fe-1da5-473e-a77d-7a43cd0d0e86/6904ac44-e02c-4117-a135-e42e98b3aab8"
-      (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "")
+      (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/807ef5e0-af1a-44f0-890e-88e8650af0b0"
       (reference "J1") (unit 1) (value "KYCON_KPJX-4S-S") (footprint "-Project:KYCON_KPJX-4S-S")
@@ -1041,7 +1041,7 @@
       (reference "J12") (unit 1) (value "MicroFit_2x04") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/9859c259-3292-45a3-af2d-b6599b20ac97"
-      (reference "J13") (unit 1) (value "JST_B2B-XH") (footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical")
+      (reference "J13") (unit 1) (value "JST_B2B-XH") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/bb956b12-f9f1-4980-8383-5ee521965984"
       (reference "J14") (unit 1) (value "Phoenix MPT") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal")
@@ -1152,7 +1152,7 @@
       (reference "NT21") (unit 1) (value "DNI") (footprint "-Project:NetTie-2_SMD_Pad1.5mm")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/db517ee2-ff4f-4e64-8166-027773f4b07b"
-      (reference "NT22") (unit 1) (value "DNI") (footprint "-Project:NetTie-2_SMD_Pad1.0mm")
+      (reference "NT22") (unit 1) (value "DNI") (footprint "-Project:NetTie-2_SMD_Pad1.5mm")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/cf3ebad6-acd1-48d0-8df7-ef1fa2bf3972"
       (reference "NT23") (unit 1) (value "DNI") (footprint "-Project:NetTie-2_SMD_Pad0.5mm")
