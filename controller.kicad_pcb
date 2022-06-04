@@ -3494,7 +3494,7 @@
     (property "Sheetname" "Connectors")
     (path "/96816895-f098-4539-b755-2c649e465f79/922855b5-65bc-4384-be5e-ea8d206200d5")
     (attr smd)
-    (fp_text reference "LF1" (at -5.572 0 90) (layer "F.SilkS")
+    (fp_text reference "LF1" (at -0.05 -3.75 180) (layer "F.SilkS")
       (effects (font (size 0.6 0.7) (thickness 0.1)))
       (tstamp 234f8031-9722-4fe1-976f-d09dab585160)
     )
