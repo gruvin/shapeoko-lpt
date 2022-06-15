@@ -6454,7 +6454,7 @@
     (in_bom yes) (on_board yes)
     (uuid a85d3f15-73d4-49e4-879f-faa1e92b4546)
     (property "Reference" "D1" (id 0) (at 45.72 88.9 90))
-    (property "Value" "SDM20U40-7" (id 1) (at 43.18 91.44 90))
+    (property "Value" "SDM20U40-7" (id 1) (at 41.91 91.44 90))
     (property "Footprint" "Diode_SMD:D_SOD-523" (id 2) (at 48.895 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
