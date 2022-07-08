@@ -1167,7 +1167,7 @@
       (reference "NT27") (unit 1) (value "DNI") (footprint "-Project:NetTie-2_SMD_Pad1.0mm")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/15750004-bcab-43a1-9ecd-136ace20306c"
-      (reference "Q1") (unit 1) (value "BC847") (footprint "-Project:SOT-23_DOT")
+      (reference "Q1") (unit 1) (value "BC847") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/bf66b195-4253-4935-bca2-b98e0bce2963"
       (reference "Q2") (unit 1) (value "IRF9540SPBF") (footprint "Package_TO_SOT_SMD:TO-263-2")
@@ -1176,7 +1176,7 @@
       (reference "Q3") (unit 1) (value "BC857") (footprint "-Project:SOT-23_DOT")
     )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/df9d8059-705b-4e23-8881-85c09f095ce1"
-      (reference "Q4") (unit 1) (value "BC847") (footprint "-Project:SOT-23_DOT")
+      (reference "Q4") (unit 1) (value "BC847") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/0e271a48-35da-4145-ab95-5c36e9ce6bfd"
       (reference "Q5") (unit 1) (value "BC857") (footprint "-Project:SOT-23_DOT")
