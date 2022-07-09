@@ -8,7 +8,7 @@
   (title_block
     (title "Shapeoko LPT Interface")
     (date "2022-07-09")
-    (rev "3.0")
+    (rev "3.1")
     (company "Gruvin & Co")
   )
 
@@ -62,7 +62,7 @@
     (aux_axis_origin 52.75 172.4)
     (grid_origin 57.75 167.4)
     (pcbplotparams
-      (layerselection 0x00011fc_ffffffff)
+      (layerselection 0x00311fc_ffffffff)
       (disableapertmacros false)
       (usegerberextensions false)
       (usegerberattributes true)
@@ -92,7 +92,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "JLCPCB_V3.0_FROZEN/")
+      (outputdirectory "JLCPCB_V3.1_FROZEN/")
     )
   )
 
@@ -1653,7 +1653,7 @@
     (tedit 62871D34) (tstamp 240fe040-f707-44d2-ace8-f46f7d50fabe)
     (at 72.56 50.33)
     (attr smd board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "TH1" (at 0.3 2 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "TH1" (at 0.3 2 90 unlocked) (layer "F.SilkS") hide
       (effects (font (size 0.6 0.7) (thickness 0.1)))
       (tstamp 2a6b41d0-b2b4-448f-b144-f3f20353eb05)
     )
@@ -5252,7 +5252,7 @@
     (tedit 62871D34) (tstamp 9d64d986-5464-4a8c-99c0-33609c2bcbc0)
     (at 97.75 164.4)
     (attr smd board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "TH3" (at -2.2 0.05 unlocked) (layer "F.SilkS")
+    (fp_text reference "TH3" (at -2.2 0.05 unlocked) (layer "F.SilkS") hide
       (effects (font (size 0.6 0.7) (thickness 0.1)))
       (tstamp af64368c-6abf-4e98-af3a-1d63c9c91d35)
     )
@@ -7215,7 +7215,7 @@
     (tedit 62871D34) (tstamp eeb5bff0-5681-4c93-9b8e-26fa355ace59)
     (at 60.25 108.4)
     (attr smd board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "TH2" (at 2.75 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "TH2" (at 2.75 0 unlocked) (layer "F.SilkS") hide
       (effects (font (size 0.6 0.7) (thickness 0.1)))
       (tstamp 7b5f62e2-70ca-4758-b159-c85e71374ff8)
     )
@@ -8484,7 +8484,7 @@
   (gr_line (start 97.85 165.85) (end 98.1 168.85) (layer "F.Fab") (width 0.5) (tstamp 685cb5a7-c6f9-4c5c-abd7-c52f079f4c13))
   (gr_line (start 81.3 60) (end 81.7 60) (layer "F.Fab") (width 0.1) (tstamp 824dfcb9-949e-4dfe-bbd3-61d0a9ad87a9))
   (gr_line (start 56.45 102.375) (end 59.45 107.05) (layer "F.Fab") (width 0.5) (tstamp d2fb76de-c162-4445-8dbb-7df6d4cd6a13))
-  (gr_line (start 76.55 43.7) (end 77.175 46.865) (layer "F.Fab") (width 0.5) (tstamp ea0353f9-9a4f-4fed-a3b3-bfa622e5ded6))
+  (gr_line (start 73.04 44.21) (end 72.66 48.64) (layer "F.Fab") (width 0.5) (tstamp ea0353f9-9a4f-4fed-a3b3-bfa622e5ded6))
   (gr_line (start 64.042 104.286) (end 63.9 103.862) (layer "F.Fab") (width 0.1) (tstamp ecbc54f4-1bc2-49f7-94b0-82695c8c6920))
   (gr_text "RLY4/CP" (at 73.5 115.3) (layer "B.SilkS") (tstamp 01af2f02-b227-4bb4-82ad-c8e8a24c5290)
     (effects (font (size 1 1) (thickness 0.15)) (justify right mirror))
@@ -23506,7 +23506,6 @@
         (xy 71.019545 159.929652)
         (xy 71.019654 160.240233)
         (xy 71.020591 162.927902)
-        (xy 71.020982 164.047499)
         (xy 71.021364 165.143439)
         (xy 71.021764 166.291012)
         (xy 71.022036 167.073616)
