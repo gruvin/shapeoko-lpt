@@ -6,8 +6,8 @@
 
   (title_block
     (title "Shapeoko LPT Interface — LPT Interface")
-    (date "2022-06-02")
-    (rev "2.0")
+    (date "2022-07-09")
+    (rev "3.0")
   )
 
   (lib_symbols
@@ -3840,7 +3840,7 @@
     (in_bom yes) (on_board yes)
     (uuid 465ba5dd-cc45-4731-ada3-a290156118ca)
     (property "Reference" "R15" (id 0) (at 88.9 170.18 90))
-    (property "Value" "" (id 1) (at 88.9 167.64 90))
+    (property "Value" "5K1" (id 1) (at 88.9 167.64 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 88.9 169.418 90)
       (effects (font (size 1.27 1.27)) hide)
     )

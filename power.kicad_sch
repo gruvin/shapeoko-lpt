@@ -6,8 +6,8 @@
 
   (title_block
     (title "Shapeoko LPT Interface — Power")
-    (date "2022-06-02")
-    (rev "2.0")
+    (date "2022-07-09")
+    (rev "3.0")
   )
 
   (lib_symbols
