@@ -462,12 +462,7 @@
     "meta": {
       "version": 2
     },
-    "net_colors": {
-      "/Connectors/P16_IN": "rgb(255, 0, 255)",
-      "/Connectors/P16_OUT": "rgb(255, 0, 255)",
-      "/Connectors/P17_IN": "rgb(255, 255, 0)",
-      "/Connectors/P17_OUT": "rgb(255, 255, 0)"
-    }
+    "net_colors": null
   },
   "pcbnew": {
     "last_paths": {
@@ -517,12 +512,12 @@
           "visible": false
         }
       ],
-      "intersheets_ref_own_page": false,
-      "intersheets_ref_prefix": "",
+      "intersheets_ref_own_page": true,
+      "intersheets_ref_prefix": "PWR",
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
-      "junction_size_choice": 3,
+      "junction_size_choice": 2,
       "label_size_ratio": 0.375,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.15
