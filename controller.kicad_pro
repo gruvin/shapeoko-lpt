@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.95,
-          "width": 0.9
+          "drill": 3.2,
+          "height": 4.0,
+          "width": 4.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -559,11 +559,7 @@
     ],
     [
       "96816895-f098-4539-b755-2c649e465f79",
-      "Connectors"
-    ],
-    [
-      "571fd4fe-1da5-473e-a77d-7a43cd0d0e86",
-      "Mechanical"
+      "Connectors & Jumpers"
     ]
   ],
   "text_variables": {}
