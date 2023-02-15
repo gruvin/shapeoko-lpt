@@ -3113,7 +3113,7 @@
       (reference "J14") (unit 1) (value "Phoenix MPT") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/60242946-2e58-4d6d-8d07-cfe3907b4fc7"
-      (reference "J15") (unit 1) (value "JST_B2B-XH") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x05_P2.54mm_Horizontal")
+      (reference "J15") (unit 1) (value "JST_B2B-XH") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x05_P2.54mm_Horizontal")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/3287a909-8c1d-4161-8291-13ce93b716a3"
       (reference "J16") (unit 1) (value "MicroFit_2x04") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical")

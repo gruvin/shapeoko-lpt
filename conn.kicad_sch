@@ -2137,7 +2137,7 @@
   )
 
   (symbol (lib_id "3rd-party:NT_2_TT") (at 50.8 172.72 0) (unit 1)
-    (in_bom no) (on_board no)
+    (in_bom no) (on_board yes)
     (uuid 11788932-0c11-421a-99b3-99eee39194ef)
     (property "Reference" "NT35" (id 0) (at 50.8 172.12 0)
       (effects (font (size 0.6 0.6)))
@@ -2225,7 +2225,7 @@
   )
 
   (symbol (lib_id "3rd-party:NT_2_TT") (at 50.8 170.18 0) (unit 1)
-    (in_bom no) (on_board no)
+    (in_bom no) (on_board yes)
     (uuid 1e6aad8b-b649-4bee-a016-c6fdce095a18)
     (property "Reference" "NT34" (id 0) (at 50.8 169.58 0)
       (effects (font (size 0.6 0.6)))
@@ -2331,7 +2331,7 @@
   )
 
   (symbol (lib_id "3rd-party:NT_2_TT") (at 50.8 167.64 0) (unit 1)
-    (in_bom no) (on_board no)
+    (in_bom no) (on_board yes)
     (uuid 2f3b80fb-dcdd-4165-810f-9b6ab09f74a9)
     (property "Reference" "NT33" (id 0) (at 50.8 167.04 0)
       (effects (font (size 0.6 0.6)))
@@ -2606,7 +2606,7 @@
     (property "Value" "JST_B2B-XH" (id 1) (at 143.51 118.1099 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x05_P2.54mm_Horizontal" (id 2) (at 140.97 115.57 0)
+    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x05_P2.54mm_Horizontal" (id 2) (at 140.97 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 140.97 115.57 0)
