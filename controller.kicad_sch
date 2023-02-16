@@ -3113,7 +3113,7 @@
       (reference "J14") (unit 1) (value "Phoenix MPT") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/60242946-2e58-4d6d-8d07-cfe3907b4fc7"
-      (reference "J15") (unit 1) (value "JST_B2B-XH") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-5-2.54_1x05_P2.54mm_Horizontal")
+      (reference "J15") (unit 1) (value "JST_B2B-XH") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/3287a909-8c1d-4161-8291-13ce93b716a3"
       (reference "J16") (unit 1) (value "MicroFit_2x04") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical")
@@ -3142,10 +3142,10 @@
     (path "/96816895-f098-4539-b755-2c649e465f79/e23d8e0a-a26b-4ee3-81e1-0fa6bc91e4d8"
       (reference "JP5") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/ad3bc849-9935-46c6-852b-0d9d70bac797"
+    (path "/96816895-f098-4539-b755-2c649e465f79/8b6a1d73-d26a-408b-b7dc-b660e1d2d33e"
       (reference "JP6") (unit 1) (value "1x03_2.54") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
-    (path "/96816895-f098-4539-b755-2c649e465f79/8b6a1d73-d26a-408b-b7dc-b660e1d2d33e"
+    (path "/96816895-f098-4539-b755-2c649e465f79/ad3bc849-9935-46c6-852b-0d9d70bac797"
       (reference "JP7") (unit 1) (value "1x03_2.54") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/cc07867d-7023-4520-a20d-4a6c00c17c4d"
