@@ -560,6 +560,10 @@
     [
       "96816895-f098-4539-b755-2c649e465f79",
       "Connectors & Jumpers"
+    ],
+    [
+      "340c9bca-180f-46bf-a77d-96391d6e5e5b",
+      "GRBL Interface"
     ]
   ],
   "text_variables": {}
