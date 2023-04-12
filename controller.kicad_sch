@@ -833,7 +833,7 @@
       (reference "C12") (unit 1) (value "100n/50V") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/ba4fe6e6-028c-40d4-b506-4fa24d28d877"
-      (reference "C13") (unit 1) (value "10uF/25V") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C13") (unit 1) (value "22u 6v3 Tant") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/2c2063ce-3d18-4456-86b5-0a24b0c3af61"
       (reference "C14") (unit 1) (value "100n/50V") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -1226,7 +1226,7 @@
       (reference "RN8") (unit 1) (value "1Kx4") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
     )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/7430176d-f480-43a3-b725-dbd831a73da6"
-      (reference "RV1") (unit 1) (value "10K 5T-TOP") (footprint "Potentiometer_SMD:Potentiometer_Bourns_3314J_Vertical")
+      (reference "RV1") (unit 1) (value "100K(B) TOP") (footprint "Potentiometer_SMD:Potentiometer_Bourns_3314J_Vertical")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/09e164fb-fc7d-4938-ba16-c1471725d557"
       (reference "SW1") (unit 1) (value "DNI") (footprint "")
