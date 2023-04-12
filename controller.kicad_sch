@@ -3521,6 +3521,24 @@
     (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/bd5f558d-8949-4516-b833-60069430fde4"
       (reference "#PWR0152") (unit 1) (value "GND1") (footprint "")
     )
+    (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/3ebe95a6-c06d-428b-8dd0-f0c66ed61320"
+      (reference "#PWR?") (unit 1) (value "GND1") (footprint "")
+    )
+    (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/6b954496-6113-42ce-b165-5cd52352255c"
+      (reference "#PWR?") (unit 1) (value "GND1") (footprint "")
+    )
+    (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/909271e6-2f94-4ba0-9071-725157a5ca7d"
+      (reference "#PWR?") (unit 1) (value "GND1") (footprint "")
+    )
+    (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/a111a9ad-2dad-428a-8262-a940ebbc0d2a"
+      (reference "#PWR?") (unit 1) (value "+5VA") (footprint "")
+    )
+    (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/bc6d4cca-7ac1-486a-a488-32c484e3168e"
+      (reference "#PWR?") (unit 1) (value "+5VD") (footprint "")
+    )
+    (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/fc119f97-bc9b-48ba-9502-e2288785046d"
+      (reference "#PWR?") (unit 1) (value "GND3") (footprint "")
+    )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/2d955d22-1363-4ab9-9369-a7c6726640c9"
       (reference "C1") (unit 1) (value "10n/50V") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -3557,6 +3575,15 @@
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/3210b0db-9f12-4a6d-9d7b-151483b9d455"
       (reference "C12") (unit 1) (value "100n/50V") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/388f4238-b6f8-4c1f-8624-04c0c07749a8"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/617b2b4c-8cd2-42ca-9520-55f90badd134"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/aa8656af-f661-45de-beee-3f5d48cd1eaf"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/02ebf217-103f-4967-9e06-3d3af61aba81"
       (reference "D1") (unit 1) (value "SDM20U40-7") (footprint "Diode_SMD:D_SOD-523")
     )
@@ -3577,6 +3604,15 @@
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/b157ec0c-768a-4614-9467-2d7b96870d14"
       (reference "D11") (unit 1) (value "BAT54JFILM") (footprint "-Project:D_SOD-323_DOT")
+    )
+    (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/18d4b79a-db44-44d4-865a-8ce275743184"
+      (reference "D?") (unit 1) (value "D_Zener") (footprint "")
+    )
+    (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/8ff4d4c4-5be8-4759-9c1d-c3325137bc8c"
+      (reference "D?") (unit 1) (value "Znr") (footprint "")
+    )
+    (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/f47a2dda-18f5-41ee-9739-ee84a4c13276"
+      (reference "D?") (unit 1) (value "Znr") (footprint "")
     )
     (path "/321c846f-6ac7-4096-8200-4251358670fa"
       (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
@@ -3845,6 +3881,9 @@
     (path "/96816895-f098-4539-b755-2c649e465f79/f3c4bd77-f3e2-4d54-a338-b0aee92c6a0c"
       (reference "R16") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/c934ea99-8bbc-4d6f-a561-91d2e7506fb0"
+      (reference "R?") (unit 1) (value "1M") (footprint "")
+    )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/a3cef211-2d17-4e55-b650-46b57ccf0d69"
       (reference "RN1") (unit 1) (value "1Kx4") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
     )
@@ -3880,6 +3919,18 @@
     )
     (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/2fc5a636-6074-4a5e-b585-07fe4e5a1a3d"
       (reference "U6") (unit 1) (value "ATmega328P-A") (footprint "Package_QFP:TQFP-32_7x7mm_P0.8mm")
+    )
+    (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/14b6a7dd-05b2-46e2-b8d9-5cb032136a87"
+      (reference "U?") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
+    )
+    (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/9b948917-78e3-4e5f-b450-460dfc1c6011"
+      (reference "U?") (unit 1) (value "ATmega16U2-A") (footprint "Package_QFP:TQFP-32_7x7mm_P0.8mm")
+    )
+    (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/e85afa1d-63cd-4d81-8495-2af179c282ce"
+      (reference "U?") (unit 1) (value "ADUM4160") (footprint "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm")
+    )
+    (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/8c3b30f3-4798-4cdf-a02f-5f1d78b1e193"
+      (reference "Y?") (unit 1) (value "Crystal_GND24") (footprint "")
     )
   )
 )
