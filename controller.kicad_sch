@@ -3822,10 +3822,10 @@
       (reference "Q1") (unit 1) (value "BC847") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/a55c60a1-2418-40ef-9ea3-2f019a8c5d04"
-      (reference "Q2") (unit 1) (value "IRFR5305TRPBF") (footprint "Package_TO_SOT_SMD:TO-252-2")
+      (reference "Q2") (unit 1) (value "FDD5614P") (footprint "Package_TO_SOT_SMD:TO-252-2")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/381dda46-2de4-4bc2-9ebf-5410ed1abbb6"
-      (reference "Q3") (unit 1) (value "BC857") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q3") (unit 1) (value "BC857") (footprint "-Project:SOT-23_DOT")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/78e0b5a4-8f5b-4e8e-8fea-12a9d599af47"
       (reference "Q4") (unit 1) (value "BC847") (footprint "Package_TO_SOT_SMD:SOT-23")

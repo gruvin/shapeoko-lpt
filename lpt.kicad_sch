@@ -2849,6 +2849,7 @@
     (property "E14MFR#" "CRCW06035K60FKEA" (id 10) (at 72.39 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Marking" "01E" (id 11) (at 74.93 109.22 90))
     (pin "1" (uuid 2ff0bf99-1426-46ec-8efc-5ab99a8a42d8))
     (pin "2" (uuid ef0bd067-a5fb-4ed1-9455-9ea307478a9f))
   )
