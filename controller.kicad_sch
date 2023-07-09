@@ -3051,6 +3051,12 @@
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/f7fcef40-5948-4aca-86a9-698083069bba"
       (reference "#PWR0103") (unit 1) (value "GND1") (footprint "")
     )
+    (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/b7d1eac9-0b8b-4452-98eb-dbe4b73ac800"
+      (reference "#PWR0104") (unit 1) (value "GND1") (footprint "")
+    )
+    (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/e0724a83-93c9-4168-b459-8c23d0b3c798"
+      (reference "#PWR0105") (unit 1) (value "GND1") (footprint "")
+    )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/2d955d22-1363-4ab9-9369-a7c6726640c9"
       (reference "C1") (unit 1) (value "100n/50V") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
