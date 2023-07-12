@@ -3220,7 +3220,7 @@
       (reference "J20") (unit 1) (value "Phoenix MPT") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/3a7ddd2c-2457-49d8-a950-59308e841cc7"
-      (reference "JP1") (unit 1) (value "Jumper_2_Bridged") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical")
+      (reference "JP1") (unit 1) (value "Jumper_2") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical")
     )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/ce0004f9-96ef-41a6-92da-2648b61d4d6d"
       (reference "JP2") (unit 1) (value "GND_ISO") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
@@ -3229,10 +3229,10 @@
       (reference "JP3") (unit 1) (value "1x03_2.54") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/0239c39c-ca0b-4966-9f1e-979fb5f75cb5"
-      (reference "JP4") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "JP4") (unit 1) (value "Jumper_3") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/e23d8e0a-a26b-4ee3-81e1-0fa6bc91e4d8"
-      (reference "JP5") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "JP5") (unit 1) (value "Jumper_3") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/ad3bc849-9935-46c6-852b-0d9d70bac797"
       (reference "JP6") (unit 1) (value "1x03_2.54") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
@@ -3241,7 +3241,7 @@
       (reference "JP7") (unit 1) (value "1x03_2.54") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/cc07867d-7023-4520-a20d-4a6c00c17c4d"
-      (reference "JP8") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "JP8") (unit 1) (value "Jumper_3") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/96816895-f098-4539-b755-2c649e465f79/d8aaf275-3628-4813-a2d5-01ce546dc7e8"
       (reference "JX1") (unit 1) (value "MicroFit_2x04") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical")
@@ -3363,14 +3363,14 @@
     (path "/340c9bca-180f-46bf-a77d-96391d6e5e5b/c934ea99-8bbc-4d6f-a561-91d2e7506fb0"
       (reference "R21") (unit 1) (value "1M") (footprint "")
     )
+    (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/f09f10fc-f89a-44bd-89c3-3da027ee664b"
+      (reference "R22") (unit 1) (value "330") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/a3cef211-2d17-4e55-b650-46b57ccf0d69"
       (reference "RN1") (unit 1) (value "1Kx4") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
     )
     (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/83a35b75-1c41-4ac5-bc9b-cd72bf7adbf6"
       (reference "RN2") (unit 1) (value "1Kx4") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
-    )
-    (path "/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4/1822e260-1a9f-4cc3-a338-a7c8ed328e59"
-      (reference "RN3") (unit 1) (value "1Kx4") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
     )
     (path "/91071e44-e7cf-47b2-b33b-9fbb68533ee5/47480d64-91da-4c51-afc0-47b79d1c7f68"
       (reference "SW1") (unit 1) (value "DNI") (footprint "")

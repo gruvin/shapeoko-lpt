@@ -5672,7 +5672,7 @@
     (in_bom yes) (on_board yes)
     (uuid 3a7ddd2c-2457-49d8-a950-59308e841cc7)
     (property "Reference" "JP1" (id 0) (at 99.06 78.74 90))
-    (property "Value" "Jumper_2_Bridged" (id 1) (at 95.25 83.8199 90)
+    (property "Value" "Jumper_2" (id 1) (at 95.25 83.8199 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" (id 2) (at 93.98 82.55 0)
