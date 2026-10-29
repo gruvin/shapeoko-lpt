@@ -5504,6 +5504,16 @@
 		)
 		(uuid "fd20a50c-51bd-4694-80d4-117a7dcb87ab")
 	)
+	(label "Net-(Q4-Pad1)"
+		(at 131.445 139.065 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0177b216-25d5-445c-92d5-e50205799b21")
+	)
 	(label "RELAY4"
 		(at 60.96 165.1 180)
 		(effects
@@ -5513,6 +5523,16 @@
 			(justify right bottom)
 		)
 		(uuid "08348278-0d0b-473b-8f42-87a3eed1f3c4")
+	)
+	(label "Net-(Q4-Pad3)"
+		(at 141.605 133.985 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08dd5e79-3e05-4ba4-9727-9f114b700b23")
 	)
 	(label "X_P17_OUT"
 		(at 133.985 115.57 180)
@@ -5544,6 +5564,16 @@
 		)
 		(uuid "21b19d14-12c1-4d87-bdb9-fdeecfb16385")
 	)
+	(label "Net-(Q5-Pad1)"
+		(at 158.115 121.285 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "36cec216-edc1-482b-95d0-994eb109fafd")
+	)
 	(label "X_P16_OUT"
 		(at 133.985 118.11 180)
 		(effects
@@ -5553,6 +5583,16 @@
 			(justify right bottom)
 		)
 		(uuid "3bdf35ac-b329-4771-a34a-7fd776180089")
+	)
+	(label "Net-(Q4-Pad1)"
+		(at 131.445 139.065 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e43a65d-118a-4bb2-b9d4-36e7c22ec511")
 	)
 	(label "X_COM"
 		(at 79.248 69.85 0)
@@ -5634,6 +5674,16 @@
 		)
 		(uuid "7abff47a-6225-409b-adf1-ca6684b06f2e")
 	)
+	(label "Net-(Q5-Pad1)"
+		(at 158.115 121.285 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f40de56-588b-48dc-9a80-8b50c4daf8af")
+	)
 	(label "STP_5V"
 		(at 85.598 64.77 0)
 		(effects
@@ -5653,6 +5703,16 @@
 			(justify left bottom)
 		)
 		(uuid "92f41365-6a65-4345-94c3-c9e36e212679")
+	)
+	(label "Net-(JP7-Pad3)"
+		(at 123.825 139.065 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "974462fd-651a-413f-be05-d130953edb66")
 	)
 	(label "VFD_FWD"
 		(at 186.055 139.065 0)
@@ -5674,6 +5734,26 @@
 		)
 		(uuid "c32365f1-9306-440c-bd3c-a22553aae4b3")
 	)
+	(label "Net-(D7-Pad1)"
+		(at 156.845 144.145 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf88eca1-440e-43e3-858d-9a02be165d19")
+	)
+	(label "Net-(Q5-Pad1)"
+		(at 158.115 121.285 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9ad2047-52e0-40e7-a672-a4bb3ef4ef66")
+	)
 	(label "RELAY2"
 		(at 60.96 170.18 180)
 		(effects
@@ -5683,6 +5763,46 @@
 			(justify right bottom)
 		)
 		(uuid "e1fca3e2-fb0d-4585-b6b8-0c7d332cee76")
+	)
+	(label "Net-(JP7-Pad3)"
+		(at 123.825 139.065 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4c3ee32-bcd5-4ed9-a1fc-4cdba649fa16")
+	)
+	(label "Net-(D7-Pad1)"
+		(at 156.845 144.145 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7dda0e2-1572-483c-b608-f2bfb89879ac")
+	)
+	(label "Net-(D7-Pad1)"
+		(at 156.845 144.145 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e960039a-9006-4772-9a37-f512772b6ed1")
+	)
+	(label "Net-(Q4-Pad3)"
+		(at 141.605 133.985 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec88105c-4f84-457a-be42-84a36cea2665")
 	)
 	(label "VFD_PWM"
 		(at 120.65 97.155 0)
@@ -5981,7 +6101,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_3"
+		(property "Value" "Jumper_3_Open"
 			(at 79.248 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6116,7 +6236,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "11788932-0c11-421a-99b3-99eee39194ef")
 		(property "Reference" "NT27"
@@ -6228,6 +6348,17 @@
 			)
 		)
 		(property "JLCMOQ" "0"
+			(at 50.8 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "exclude_from_bom" ""
 			(at 50.8 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -6484,7 +6615,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "1e6aad8b-b649-4bee-a016-c6fdce095a18")
 		(property "Reference" "NT26"
@@ -6606,6 +6737,17 @@
 				)
 			)
 		)
+		(property "exclude_from_bom" ""
+			(at 50.8 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a8db39e7-8a0a-4fe9-a1e5-70633dfe0473")
 		)
@@ -6629,7 +6771,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "1e6d5458-4b42-415f-9423-2bbc44b8eb89")
 		(property "Reference" "NT28"
@@ -6926,7 +7068,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "2f3b80fb-dcdd-4165-810f-9b6ab09f74a9")
 		(property "Reference" "NT25"
@@ -7038,6 +7180,17 @@
 			)
 		)
 		(property "JLCMOQ" "0"
+			(at 50.8 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "exclude_from_bom" ""
 			(at 50.8 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -8277,7 +8430,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+		(property "Datasheet" ""
 			(at 139.065 139.065 0)
 			(hide yes)
 			(show_name no)
@@ -8734,7 +8887,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/3212368.pdf"
+		(property "Datasheet" ""
 			(at 172.085 147.955 0)
 			(hide yes)
 			(show_name no)
@@ -9349,7 +9502,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
+		(property "Datasheet" ""
 			(at 164.465 130.175 0)
 			(hide yes)
 			(show_name no)
@@ -10114,7 +10267,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/2124315.pdf"
+		(property "Datasheet" ""
 			(at 156.845 147.955 0)
 			(hide yes)
 			(show_name no)
@@ -10630,7 +10783,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_3"
+		(property "Value" "Jumper_3_Open"
 			(at 138.938 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -11244,7 +11397,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_3"
+		(property "Value" "Jumper_3_Open"
 			(at 108.458 60.96 0)
 			(hide yes)
 			(show_name no)

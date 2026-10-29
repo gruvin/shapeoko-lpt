@@ -8543,6 +8543,26 @@
 			"AAAASUVORK5CYII="
 		)
 	)
+	(label "Net-(Q3-Pad3)"
+		(at 146.685 125.095 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "030c6485-c4b7-44ee-80d7-02ea686c2246")
+	)
+	(label "Net-(C1-Pad2)"
+		(at 49.53 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "058ff89b-aa7a-45d7-af50-c33be06db868")
+	)
 	(label "U2_BST"
 		(at 194.945 127.635 0)
 		(effects
@@ -8573,6 +8593,36 @@
 		)
 		(uuid "1286fc9b-42e1-47d5-9c45-34ad1ecbfa0f")
 	)
+	(label "Net-(C2-Pad1)"
+		(at 57.15 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d8278c0-130a-43be-a38c-242b0380daa8")
+	)
+	(label "Net-(Q2-Pad1)"
+		(at 85.09 36.83 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1fcd8574-e195-4093-a61e-84d654bfb857")
+	)
+	(label "Net-(Q3-Pad1)"
+		(at 139.065 120.015 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "202b9db3-ac4f-4d79-b888-ddff6adb72ac")
+	)
 	(label "Q1_B"
 		(at 77.47 82.55 180)
 		(effects
@@ -8593,6 +8643,26 @@
 		)
 		(uuid "2a0aa55e-dd4a-42d5-9404-2d03f2e970e7")
 	)
+	(label "Net-(D4-Pad1)"
+		(at 85.09 121.92 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32441a7f-0c82-4e5d-b589-3251b1d8e5db")
+	)
+	(label "Net-(C2-Pad1)"
+		(at 57.15 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40f932e3-027d-4255-9417-e35542159473")
+	)
 	(label "LED_K"
 		(at 58.42 160.02 0)
 		(effects
@@ -8602,6 +8672,26 @@
 			(justify left bottom)
 		)
 		(uuid "50cdf3d0-6638-43bf-aa4f-c91fae6a36ec")
+	)
+	(label "Net-(C1-Pad2)"
+		(at 49.53 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56a485d9-b383-4c7c-9988-461d89022c3e")
+	)
+	(label "Net-(Q3-Pad3)"
+		(at 146.685 125.095 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5eae3d91-9bf5-45ec-9a7c-864d3a56908c")
 	)
 	(label "U2_VIN"
 		(at 174.625 122.555 180)
@@ -8623,6 +8713,16 @@
 		)
 		(uuid "6f85a448-05ae-4b1a-bf4c-264329e0337b")
 	)
+	(label "Net-(Q3-Pad1)"
+		(at 139.065 120.015 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6fc0038f-6c4d-4f2f-b1fb-18cbfb2b039f")
+	)
 	(label "U2_VD"
 		(at 174.625 132.715 180)
 		(effects
@@ -8642,6 +8742,36 @@
 			(justify left bottom)
 		)
 		(uuid "8777592e-e45d-41b6-be41-57b0619c072b")
+	)
+	(label "Net-(Q2-Pad1)"
+		(at 85.09 36.83 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99c4c332-6393-44a8-9cb8-9a63c9594b0d")
+	)
+	(label "Net-(Q2-Pad1)"
+		(at 85.09 36.83 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9c4475cc-7d59-49f7-9e89-29229dd91248")
+	)
+	(label "Net-(D4-Pad1)"
+		(at 85.09 121.92 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a16c1125-aead-4d58-b27f-5264142e25ae")
 	)
 	(label "Q1_E"
 		(at 85.725 90.17 0)
@@ -8682,6 +8812,36 @@
 			(justify left bottom)
 		)
 		(uuid "dca3c274-e75b-4f9b-8264-b49f4cf2e333")
+	)
+	(label "Net-(C1-Pad2)"
+		(at 49.53 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dcc772a1-bafa-4b20-aa29-a63f519efa83")
+	)
+	(label "Net-(D4-Pad1)"
+		(at 85.09 121.92 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1494ed9-774e-4512-9fc1-12f06e088e0a")
+	)
+	(label "Net-(C2-Pad1)"
+		(at 57.15 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa36d660-9f08-4dfe-b23d-6bd561996e31")
 	)
 	(global_label "5V_nEN"
 		(shape input)
@@ -9258,7 +9418,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "0fec0c68-45b3-4da9-ac9f-03ca6754046b")
 		(property "Reference" "NT22"
@@ -9516,17 +9676,6 @@
 		)
 		(property "E14MFR#" "MCSR06X1303FTL"
 			(at 133.985 120.015 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Marking" "12D"
-			(at 133.985 120.015 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10712,7 +10861,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
+		(property "Datasheet" ""
 			(at 144.145 120.015 0)
 			(hide yes)
 			(show_name no)
@@ -10850,7 +10999,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2"
+		(property "Value" "Jumper_2_Bridged"
 			(at 95.25 83.8199 90)
 			(hide yes)
 			(show_name no)
@@ -11094,17 +11243,6 @@
 			)
 		)
 		(property "E14MFR#" "MCSR06X1303FTL"
-			(at 73.66 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Marking" "12D"
 			(at 73.66 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -12119,7 +12257,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "5bdad341-b605-4b6b-96f7-53d7d64fe7a8")
 		(property "Reference" "NT23"
@@ -12807,7 +12945,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/2814467.pdf"
+		(property "Datasheet" ""
 			(at 85.09 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13562,7 +13700,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ss24-d.pdf"
+		(property "Datasheet" ""
 			(at 200.025 137.795 0)
 			(hide yes)
 			(show_name no)
@@ -14016,7 +14154,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/2298242.pdf"
+		(property "Datasheet" ""
 			(at 93.98 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -14133,7 +14271,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf"
+		(property "Datasheet" ""
 			(at 184.785 128.905 0)
 			(hide yes)
 			(show_name no)
@@ -14299,7 +14437,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+		(property "Datasheet" ""
 			(at 82.55 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -14502,7 +14640,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "bf146c32-3fcd-4371-a6fb-f9b3cae69ad7")
 		(property "Reference" "NT24"

@@ -10807,7 +10807,7 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "GND1"
 			(at 250.825 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10883,7 +10883,7 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "GND1"
 			(at 179.07 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11870,7 +11870,7 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "GND1"
 			(at 179.07 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12319,7 +12319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 201.295 99.568 90)
 			(hide yes)
 			(show_name no)
