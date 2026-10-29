@@ -4283,7 +4283,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files no)
 		(dnp no)
@@ -4443,7 +4443,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND2"
 			(at 252.095 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4580,9 +4580,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "248b6639-fdee-4b7b-8489-5be7b46404cd")
 		(property "Reference" "H2"
@@ -4858,6 +4858,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 170.18 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2912289-5b14-4cfa-8486-3ecbf5d73db5")
 		)
@@ -5018,9 +5029,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "321c846f-6ac7-4096-8200-4251358670fa")
 		(property "Reference" "H3"
@@ -5162,7 +5173,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files no)
 		(dnp no)
@@ -5214,6 +5225,7 @@
 		)
 		(property "Description" ""
 			(at 200.66 143.51 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5382,7 +5394,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files no)
 		(dnp no)
@@ -6141,7 +6153,7 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "GNDA"
 			(at 85.09 57.785 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6446,7 +6458,7 @@
 				)
 			)
 		)
-		(property "Value" "GND1"
+		(property "Value" "GNDA"
 			(at 158.75 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6583,9 +6595,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "bb42e477-5560-4572-b395-123463b9fa1c")
 		(property "Reference" "H4"
@@ -7417,9 +7429,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "e7c87a10-8f0c-4cc1-b298-7241f6b41583")
 		(property "Reference" "H1"
@@ -7856,7 +7868,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files no)
 		(dnp no)
