@@ -4285,7 +4285,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "172fc803-adc7-48e2-9bb0-3fd029d56282")
 		(property "Reference" "H5"
@@ -4423,7 +4423,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 242.57 114.935 270)
+		(at 252.095 119.38 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4433,7 +4433,7 @@
 		(dnp no)
 		(uuid "19488b28-f878-472c-9325-8efd7b1903b1")
 		(property "Reference" "#PWR021"
-			(at 236.22 114.935 0)
+			(at 252.095 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4443,8 +4443,8 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
-			(at 238.76 114.935 0)
+		(property "Value" "GND"
+			(at 252.095 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4454,7 +4454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 114.935 0)
+			(at 252.095 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4465,7 +4465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 114.935 0)
+			(at 252.095 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4476,7 +4476,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 114.935 0)
+			(at 252.095 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5164,7 +5164,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "36229736-c1e5-4f15-91a4-41f5eed6a14d")
 		(property "Reference" "H8"
@@ -5302,7 +5302,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 121.92 90)
+		(at 245.11 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5312,7 +5312,7 @@
 		(dnp no)
 		(uuid "3bf5d8a2-819a-4bf2-b8d4-b60a41710b41")
 		(property "Reference" "#PWR025"
-			(at 254 121.92 0)
+			(at 245.11 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5323,7 +5323,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 121.92 0)
+			(at 245.11 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5333,7 +5333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 121.92 0)
+			(at 245.11 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5344,7 +5344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 121.92 0)
+			(at 245.11 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5355,7 +5355,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 121.92 0)
+			(at 245.11 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5384,7 +5384,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "4473b8cc-6eae-4cb1-bf99-9c508c3ea55f")
 		(property "Reference" "H7"
@@ -5598,7 +5598,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 242.57 121.92 270)
+		(at 245.11 119.38 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5608,7 +5608,7 @@
 		(dnp no)
 		(uuid "493e97a3-6796-4fe6-b8df-3d09e3a7335b")
 		(property "Reference" "#PWR022"
-			(at 236.22 121.92 0)
+			(at 245.11 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5619,7 +5619,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 238.76 121.92 0)
+			(at 245.11 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5629,7 +5629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 121.92 0)
+			(at 245.11 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5640,7 +5640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 121.92 0)
+			(at 245.11 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5651,7 +5651,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 121.92 0)
+			(at 245.11 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5736,6 +5736,72 @@
 				)
 			)
 		)
+		(property "JLCPART" ""
+			(at 158.75 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCMFR#" ""
+			(at 158.75 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCMOQ" ""
+			(at 158.75 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" ""
+			(at 158.75 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" ""
+			(at 158.75 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" ""
+			(at 158.75 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0e3cbecb-83c1-4f2b-91b8-1426a937298e")
 		)
@@ -5750,8 +5816,8 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 242.57 129.54 90)
-		(mirror x)
+		(at 237.49 119.38 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5761,7 +5827,7 @@
 		(dnp no)
 		(uuid "507a5d4e-d9c7-44ae-8688-c7b3648a858a")
 		(property "Reference" "#PWR023"
-			(at 246.38 129.54 0)
+			(at 237.49 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5772,7 +5838,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 238.76 129.54 0)
+			(at 237.49 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5782,7 +5848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 129.54 0)
+			(at 237.49 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5793,7 +5859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 129.54 0)
+			(at 237.49 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5804,7 +5870,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 129.54 0)
+			(at 237.49 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5979,7 +6045,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VA")
-		(at 247.65 129.54 270)
+		(at 237.49 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5989,7 +6055,7 @@
 		(dnp no)
 		(uuid "6613ef0b-8480-46e6-a1a4-7a7098a2d7df")
 		(property "Reference" "#PWR026"
-			(at 243.84 129.54 0)
+			(at 237.49 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6000,7 +6066,7 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 250.825 128.905 0)
+			(at 237.49 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6010,7 +6076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 129.54 0)
+			(at 237.49 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6021,7 +6087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 129.54 0)
+			(at 237.49 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6032,7 +6098,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 129.54 0)
+			(at 237.49 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6124,6 +6190,82 @@
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 259.08 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "85033268-2f0c-4786-a4b0-71ab5a9e0dbe")
+		(property "Reference" "#PWR0116"
+			(at 259.08 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fea65392-a580-4aca-a19c-279c61294ba6")
+		)
+		(instances
+			(project "controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -6304,7 +6446,7 @@
 				)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "GND1"
 			(at 158.75 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6580,28 +6722,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 245.11 129.54 0)
+		(lib_id "power:GND2")
+		(at 259.08 119.38 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c3160c91-9d24-434f-893c-73e71858cc99")
-		(property "Reference" "NT21"
-			(at 245.11 128.905 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.6 0.6)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 245.11 127 0)
+		(uuid "c0b5204f-2586-4354-835e-cf1c9187a56a")
+		(property "Reference" "#PWR0114"
+			(at 259.08 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6611,8 +6743,18 @@
 				)
 			)
 		)
-		(property "Footprint" "-Project:NetTie-2_SMD_Pad0.3mm"
-			(at 245.11 129.54 0)
+		(property "Value" "GNDA"
+			(at 259.08 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6623,7 +6765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 129.54 0)
+			(at 259.08 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6634,7 +6776,83 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 129.54 0)
+			(at 259.08 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9591877-7c41-41ab-9cd0-dcbae92429c0")
+		)
+		(instances
+			(project "controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 237.49 121.92 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c3160c91-9d24-434f-893c-73e71858cc99")
+		(property "Reference" "NT21"
+			(at 238.125 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.6 0.6)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 240.03 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "-Project:NetTie-2_SMD_Pad0.3mm"
+			(at 237.49 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6680,7 +6898,7 @@
 				)
 			)
 		)
-		(property "Value" "GND1"
+		(property "Value" "GND2"
 			(at 53.34 149.225 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6736,7 +6954,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 245.11 114.935 0)
+		(at 252.095 121.92 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6746,7 +6964,7 @@
 		(dnp no)
 		(uuid "cc4657e2-5779-4dc8-8449-b9c38f10e363")
 		(property "Reference" "NT19"
-			(at 245.11 114.3 0)
+			(at 252.73 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6756,7 +6974,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 245.11 112.395 0)
+			(at 254.635 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6767,7 +6985,7 @@
 			)
 		)
 		(property "Footprint" "-Project:NetTie-2_SMD_Pad0.3mm"
-			(at 245.11 114.935 0)
+			(at 252.095 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6778,7 +6996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 114.935 0)
+			(at 252.095 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6789,7 +7007,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 114.935 0)
+			(at 252.095 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6835,7 +7053,7 @@
 				)
 			)
 		)
-		(property "Value" "GND1"
+		(property "Value" "GND2"
 			(at 59.69 149.225 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6967,7 +7185,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 247.65 114.935 90)
+		(at 252.095 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6977,7 +7195,7 @@
 		(dnp no)
 		(uuid "df23b7a4-937c-450e-b40c-b646929c5c9c")
 		(property "Reference" "#PWR024"
-			(at 254 114.935 0)
+			(at 252.095 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6987,8 +7205,8 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 251.46 114.935 0)
+		(property "Value" "GND"
+			(at 252.095 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6998,7 +7216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 114.935 0)
+			(at 252.095 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7009,7 +7227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 114.935 0)
+			(at 252.095 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7020,7 +7238,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 114.935 0)
+			(at 252.095 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7139,7 +7357,7 @@
 				)
 			)
 		)
-		(property "Value" "GND1"
+		(property "Value" "GND2"
 			(at 85.09 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7640,7 +7858,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "f0bd3383-488c-4964-8cba-86dff27da8d1")
 		(property "Reference" "H6"
@@ -7778,7 +7996,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 245.11 121.92 0)
+		(at 245.11 121.92 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7788,7 +8006,7 @@
 		(dnp no)
 		(uuid "f65e7684-35ce-42c3-a3dc-67bd8b479327")
 		(property "Reference" "NT20"
-			(at 245.11 121.285 0)
+			(at 245.745 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7798,7 +8016,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 245.11 119.38 0)
+			(at 247.65 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7926,6 +8144,85 @@
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 259.08 121.92 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff663e8f-df4d-460f-8e4d-f5586a6aa5b3")
+		(property "Reference" "NT29"
+			(at 259.715 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.6 0.6)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 261.62 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "-Project:NetTie-2_SMD_Pad0.3mm"
+			(at 259.08 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0147d0c-af55-4871-8142-db9ce23c5457")
+		)
+		(pin "2"
+			(uuid "64115001-53b2-41a0-8855-5ab474c2f6b2")
+		)
+		(instances
+			(project "controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "NT29")
 					(unit 1)
 				)
 			)

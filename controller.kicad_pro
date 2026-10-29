@@ -52,22 +52,22 @@
         "zones": {
           "45_degree_only": false,
           "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
+          "border_hatch_pitch": 0.508,
           "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.2,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.508,
+          "thermal_relief_spoke_width": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -560,7 +560,6 @@
         "bus_width": 118,
         "clearance": 0.6,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -579,7 +578,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -598,7 +596,6 @@
         "bus_width": 12,
         "clearance": 0.3,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -617,7 +614,6 @@
         "bus_width": 12,
         "clearance": 0.5,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -710,12 +706,90 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E14MFR#",
+          "name": "E14MFR#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E14MOQ",
+          "name": "E14MOQ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E14PART",
+          "name": "E14PART",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCMFR#",
+          "name": "JLCMFR#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCMOQ",
+          "name": "JLCMOQ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPART",
+          "name": "JLCPART",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSCMFR#",
+          "name": "LCSCMFR#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Marking",
+          "name": "Marking",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -808,7 +882,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "#PWR84-100,#PWR106-115,C13-28,D8-11,E1,F1,J21-23,L2-3,R21,R23-30,SW3,U6-10,Y1-2",
+    "used_designators": "#PWR84-100,#PWR106-116,C13-28,D8-11,E1,F1,J21-23,L2-3,NT29,R21,R23-32,SW3,U6-10,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -817,12 +891,12 @@
       "controller"
     ],
     [
-      "91071e44-e7cf-47b2-b33b-9fbb68533ee5",
-      "Power"
-    ],
-    [
       "954a9830-ad6d-4d7c-92ee-21f7ecb42ef4",
       "LPT Interface"
+    ],
+    [
+      "91071e44-e7cf-47b2-b33b-9fbb68533ee5",
+      "Power"
     ],
     [
       "96816895-f098-4539-b755-2c649e465f79",
