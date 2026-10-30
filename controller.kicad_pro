@@ -77,7 +77,44 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|107265050|98174368|a177dacb-26d4-4898-ae05-d34008d2823e|89f6b88e-e323-4e51-a1f0-d1ad88b150a0",
+          ""
+        ],
+        [
+          "silk_edge_clearance|30982157|76718398|b7a3b923-07d5-468d-ba4a-30b2136d1b07|c707c7ed-9987-4c40-8b0b-94795d4b2393",
+          ""
+        ],
+        [
+          "silk_edge_clearance|40660805|57095595|9bf2bb65-2620-4e58-af46-524fc83a8eac|3fb88018-ac54-4753-98e0-9ef2c9772a93",
+          ""
+        ],
+        [
+          "silk_edge_clearance|40660839|57538488|637215d2-1179-4488-8bb1-0b64b671437b|71518758-ca68-4cc6-b495-e6c6ba0095c1",
+          ""
+        ],
+        [
+          "silk_edge_clearance|40660839|70438488|637215d2-1179-4488-8bb1-0b64b671437b|03e1de5e-9a94-4353-8b4d-a699ef54bb43",
+          ""
+        ],
+        [
+          "silk_edge_clearance|40667941|70438488|637215d2-1179-4488-8bb1-0b64b671437b|7b9e66ab-8a57-436e-84d2-ca7d073d2863",
+          ""
+        ],
+        [
+          "silk_edge_clearance|47800000|127900000|7e12eb5d-5aaf-40c1-a668-485939b3e123|2dc4f51f-c18e-4575-9b6b-a4bd978a9592",
+          ""
+        ],
+        [
+          "silk_edge_clearance|47800000|181100000|b8abf4a3-1f54-4978-a3b9-7ebac467126e|2bac8198-4fab-430d-bc10-0be00b66caa6",
+          ""
+        ],
+        [
+          "starved_thermal|34967941|90728488|7d0ce617-e17d-44a7-ac42-49177fde750c|121454d9-3adc-4aa3-8e0c-17746a12a68c|B.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -161,7 +198,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.5,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.15,

@@ -12318,7 +12318,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_WE_CFPX-104-4Pin_5.0x3.2mm"
 			(at 176.53 116.84 0)
 			(hide yes)
 			(show_name no)
