@@ -61,10 +61,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
-          "min_thickness": 0.1,
-          "pad_connection": 0,
+          "min_thickness": 0.254,
+          "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.508,
           "thermal_relief_spoke_width": 0.508
@@ -111,7 +111,15 @@
           ""
         ],
         [
-          "starved_thermal|34967941|90728488|7d0ce617-e17d-44a7-ac42-49177fde750c|121454d9-3adc-4aa3-8e0c-17746a12a68c|B.Cu",
+          "unconnected_items|77810211|91882000|F.Cu|4|739daa8e-6b6c-40f7-a13c-fd45501b734b|9bd6637e-9008-4f8d-b220-a80d8bb84960",
+          ""
+        ],
+        [
+          "unconnected_items|80063000|171877000|F.Cu|4|7f3f1ba1-7736-468d-bb60-5851321d6b4e|d914577b-a769-4dfa-afe1-c89456a10f08",
+          ""
+        ],
+        [
+          "unconnected_items|98251784|88979511|F.Cu|4|739daa8e-6b6c-40f7-a13c-fd45501b734b|659d2712-246f-4396-9a55-04387433b691",
           ""
         ]
       ],

@@ -3892,16 +3892,16 @@
 		)
 		(uuid "870e6eac-b26f-401e-af5d-6e4084effd61")
 	)
-	(text "EMERGENCY STOP\n     SWITCH"
+	(text "EXTTERNAL EMERGENCY\nSTOP SWITCH"
 		(exclude_from_sim no)
-		(at 64.135 125.73 0)
+		(at 33.528 127.254 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 		(uuid "90a65e1f-dbd0-467a-a745-838efb9f93e3")
 	)
@@ -3951,12 +3951,12 @@
 	)
 	(text "ES SWITCH"
 		(exclude_from_sim no)
-		(at 34.29 135.255 0)
+		(at 64.77 128.778 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e98ee59b-3203-42cb-a79b-db9c8d285dbc")
 	)
@@ -4075,7 +4075,7 @@
 		(uuid "81273c92-8ea3-4782-8eaa-cfc03f654943")
 	)
 	(no_connect
-		(at 70.485 134.62)
+		(at 31.115 135.89)
 		(uuid "8441e38e-39ce-4899-8440-599e606fc010")
 	)
 	(no_connect
@@ -4386,7 +4386,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 129.54) (xy 33.655 129.54)
+			(xy 66.675 131.445) (xy 62.23 131.445)
 		)
 		(stroke
 			(width 0)
@@ -4406,11 +4406,12 @@
 	)
 	(polyline
 		(pts
-			(xy 83.82 142.24) (xy 52.705 142.24)
+			(xy 49.53 144.78) (xy 18.415 144.78)
 		)
 		(stroke
-			(width 0)
-			(type dash)
+			(width 0.5)
+			(type solid)
+			(color 255 0 0 1)
 		)
 		(uuid "3067c4ce-871f-4d5d-a866-6943ebb1a005")
 	)
@@ -4556,7 +4557,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 129.54) (xy 70.485 129.54)
+			(xy 38.1 130.81) (xy 31.115 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4746,7 +4747,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.645 132.08) (xy 80.645 139.7)
+			(xy 20.955 133.35) (xy 20.955 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4796,7 +4797,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.115 133.985) (xy 31.115 132.08)
+			(xy 64.77 138.43) (xy 64.77 133.985)
 		)
 		(stroke
 			(width 0)
@@ -5106,11 +5107,12 @@
 	)
 	(polyline
 		(pts
-			(xy 52.705 120.015) (xy 52.705 142.24)
+			(xy 18.415 121.285) (xy 18.415 144.78)
 		)
 		(stroke
-			(width 0)
-			(type dash)
+			(width 0.5)
+			(type solid)
+			(color 255 0 0 1)
 		)
 		(uuid "b3c57cf7-05ff-4148-aeb0-7c319c047558")
 	)
@@ -5296,11 +5298,12 @@
 	)
 	(polyline
 		(pts
-			(xy 83.82 120.015) (xy 83.82 142.24)
+			(xy 49.53 121.285) (xy 49.53 144.78)
 		)
 		(stroke
-			(width 0)
-			(type dash)
+			(width 0.5)
+			(type solid)
+			(color 255 0 0 1)
 		)
 		(uuid "cebbea89-3186-4e85-b737-3a544c231609")
 	)
@@ -5316,7 +5319,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.115 132.08) (xy 33.655 132.08)
+			(xy 64.77 133.985) (xy 62.23 133.985)
 		)
 		(stroke
 			(width 0)
@@ -5386,7 +5389,7 @@
 	)
 	(wire
 		(pts
-			(xy 65.405 139.7) (xy 65.405 132.08)
+			(xy 36.195 140.97) (xy 36.195 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5446,7 +5449,7 @@
 	)
 	(wire
 		(pts
-			(xy 65.405 132.08) (xy 63.5 132.08)
+			(xy 36.195 133.35) (xy 38.1 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5456,7 +5459,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.645 139.7) (xy 65.405 139.7)
+			(xy 20.955 140.97) (xy 36.195 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5476,11 +5479,12 @@
 	)
 	(polyline
 		(pts
-			(xy 52.705 120.015) (xy 83.82 120.015)
+			(xy 18.415 121.285) (xy 49.53 121.285)
 		)
 		(stroke
-			(width 0)
-			(type dash)
+			(width 0.5)
+			(type solid)
+			(color 255 0 0 1)
 		)
 		(uuid "f840a8ec-c39e-4d1b-9ba7-cf4a1e90d86a")
 	)
@@ -5895,12 +5899,12 @@
 	)
 	(hierarchical_label "ESTOP_OUT"
 		(shape input)
-		(at 29.21 129.54 180)
+		(at 66.675 131.445 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4b21aec2-4c7d-451a-bd12-29644183137b")
 	)
@@ -6386,8 +6390,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Male")
-		(at 58.42 132.08 0)
-		(mirror x)
+		(at 43.18 133.35 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6397,7 +6400,7 @@
 		(dnp no)
 		(uuid "15716752-027c-4e0e-9c92-0af14b6c7bd7")
 		(property "Reference" "J9"
-			(at 56.515 130.81 0)
+			(at 45.085 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6407,7 +6410,7 @@
 			)
 		)
 		(property "Value" "DNI"
-			(at 59.055 134.62 0)
+			(at 42.545 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6419,7 +6422,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 132.08 0)
+			(at 43.18 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6430,7 +6433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 132.08 0)
+			(at 43.18 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6441,7 +6444,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 132.08 0)
+			(at 43.18 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6451,7 +6454,7 @@
 			)
 		)
 		(property "E14PART" "DNI"
-			(at 58.42 132.08 0)
+			(at 43.18 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6462,7 +6465,7 @@
 			)
 		)
 		(property "JLCMFR#" "DNI"
-			(at 58.42 132.08 0)
+			(at 43.18 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6473,7 +6476,7 @@
 			)
 		)
 		(property "E14MFR#" "DNI"
-			(at 58.42 132.08 0)
+			(at 43.18 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6484,7 +6487,7 @@
 			)
 		)
 		(property "E14MOQ" "0"
-			(at 58.42 132.08 0)
+			(at 43.18 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6495,7 +6498,7 @@
 			)
 		)
 		(property "JLCMOQ" "0"
-			(at 58.42 132.08 0)
+			(at 43.18 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6506,7 +6509,7 @@
 			)
 		)
 		(property "JLCPART" "DNI"
-			(at 58.42 132.08 0)
+			(at 43.18 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7681,8 +7684,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_SPDT")
-		(at 75.565 132.08 0)
-		(mirror y)
+		(at 26.035 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7692,7 +7694,7 @@
 		(dnp no)
 		(uuid "4173c643-b015-4811-bd05-f2de876f2c49")
 		(property "Reference" "SW2"
-			(at 74.93 137.16 0)
+			(at 26.67 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7702,7 +7704,7 @@
 			)
 		)
 		(property "Value" "DNI"
-			(at 75.565 126.365 0)
+			(at 26.035 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7714,7 +7716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 75.565 132.08 0)
+			(at 26.035 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7725,7 +7727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 75.565 132.08 0)
+			(at 26.035 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7736,7 +7738,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 75.565 132.08 0)
+			(at 26.035 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7746,7 +7748,7 @@
 			)
 		)
 		(property "JLCMFR#" "DNI"
-			(at 75.565 132.08 0)
+			(at 26.035 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7757,7 +7759,7 @@
 			)
 		)
 		(property "JLCPART" "DNI"
-			(at 75.565 132.08 0)
+			(at 26.035 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7768,7 +7770,7 @@
 			)
 		)
 		(property "E14MFR#" "DNI"
-			(at 75.565 132.08 0)
+			(at 26.035 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7779,7 +7781,7 @@
 			)
 		)
 		(property "E14MOQ" "0"
-			(at 75.565 132.08 0)
+			(at 26.035 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7790,7 +7792,7 @@
 			)
 		)
 		(property "E14PART" "DNI"
-			(at 75.565 132.08 0)
+			(at 26.035 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7801,7 +7803,7 @@
 			)
 		)
 		(property "JLCMOQ" "0"
-			(at 75.565 132.08 0)
+			(at 26.035 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10688,7 +10690,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.115 133.985 0)
+		(at 64.77 138.43 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10698,7 +10701,7 @@
 		(dnp no)
 		(uuid "c1b19431-b48f-442b-81c9-cccb7a7c0617")
 		(property "Reference" "#PWR064"
-			(at 31.115 140.335 0)
+			(at 64.77 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10709,7 +10712,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.115 137.795 0)
+			(at 64.77 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10719,7 +10722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.115 133.985 0)
+			(at 64.77 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10730,7 +10733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.115 133.985 0)
+			(at 64.77 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10741,7 +10744,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.115 133.985 0)
+			(at 64.77 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12147,8 +12150,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Female")
-		(at 38.735 132.08 0)
-		(mirror x)
+		(at 57.15 133.985 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12158,7 +12160,7 @@
 		(dnp no)
 		(uuid "fde50b05-153e-4b57-9f6c-282c02eb61a0")
 		(property "Reference" "J8"
-			(at 37.465 137.16 0)
+			(at 54.61 132.588 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12168,7 +12170,7 @@
 			)
 		)
 		(property "Value" "Phoenix MPT"
-			(at 33.02 125.73 0)
+			(at 63.754 136.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12179,7 +12181,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-			(at 38.735 132.08 0)
+			(at 57.15 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12190,7 +12192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.735 132.08 0)
+			(at 57.15 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12201,7 +12203,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.735 132.08 0)
+			(at 57.15 133.985 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12211,7 +12213,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 38.735 132.08 0)
+			(at 57.15 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12222,7 +12224,7 @@
 			)
 		)
 		(property "E14MFR#" "1725656"
-			(at 38.735 132.08 0)
+			(at 57.15 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12233,7 +12235,7 @@
 			)
 		)
 		(property "JLCMFR#" "KF128-2.54-2P"
-			(at 38.735 132.08 0)
+			(at 57.15 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12244,7 +12246,7 @@
 			)
 		)
 		(property "JLCMOQ" "2"
-			(at 38.735 132.08 0)
+			(at 57.15 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12255,7 +12257,7 @@
 			)
 		)
 		(property "JLCPART" "C157931"
-			(at 38.735 132.08 0)
+			(at 57.15 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12266,7 +12268,7 @@
 			)
 		)
 		(property "E14MOQ" "1"
-			(at 38.735 132.08 0)
+			(at 57.15 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12277,7 +12279,7 @@
 			)
 		)
 		(property "E14PART" "3041359"
-			(at 38.735 132.08 0)
+			(at 57.15 133.985 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
