@@ -1,11 +1,11 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer_preset": "Groovy",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -22,7 +22,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -47,9 +47,10 @@
       "pads",
       "zones",
       "drc_warnings",
+      "locked_item_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffffff5_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ff5f55f5",
     "zone_display_mode": 0
   },
   "git": {
