@@ -8,9 +8,9 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Shapeoko LPT Interface")
+		(title "Carbide3D Shapeoko/Nomad Controller")
 		(date "2023-07-12")
-		(rev "3.2")
+		(rev "3.3")
 		(company "Gruvin & Co")
 	)
 	(layers
@@ -7389,7 +7389,7 @@
 			)
 		)
 		(property "Value" "Crystal_SMD_WE_CFPX-104-4Pin_5.0x3.2mm"
-			(at 0 2.8 0)
+			(at -2.3288 2.817 0)
 			(layer "F.Fab")
 			(uuid "09ac6766-25e4-42a8-a02f-f91983fc1119")
 			(effects
@@ -46074,7 +46074,7 @@
 		)
 	)
 	(gr_text "USB GRBL INTERFACE"
-		(at 86.594332 152.4 90)
+		(at 85.194332 152.4 90)
 		(layer "Dwgs.User")
 		(uuid "9412a9de-2808-4365-81ff-fa5dc6bdad84")
 		(effects
@@ -48822,6 +48822,22 @@
 		(free yes)
 		(net "GND2")
 		(uuid "ffbb9da0-8458-49e4-9981-5e408f003f94")
+	)
+	(segment
+		(start 113.579 129.22)
+		(end 113.706 129.093)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "GND2")
+		(uuid "1cad7a2a-0789-4f3f-9246-a71443441013")
+	)
+	(segment
+		(start 113.579 136.713)
+		(end 113.579 129.22)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "GND2")
+		(uuid "9fe1e12a-4d2b-49fc-a816-06718720a509")
 	)
 	(segment
 		(start 68.3735 168.4735)
@@ -63707,6 +63723,22 @@
 		(uuid "56297623-84ca-43e7-94fe-806384f61655")
 	)
 	(segment
+		(start 107.9148 129.0676)
+		(end 106.2874 129.0676)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "uGND2")
+		(uuid "5b401881-acd9-4212-9a40-1d1c37b8e048")
+	)
+	(segment
+		(start 107.8894 136.713)
+		(end 107.9148 136.6876)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "uGND2")
+		(uuid "5f0b992e-40f5-4754-a50d-26a61549f0f0")
+	)
+	(segment
 		(start 104.5279 129.093)
 		(end 104.4938 129.0589)
 		(width 0.3)
@@ -63723,12 +63755,44 @@
 		(uuid "70c22932-c69b-42e0-9f09-878cede1a89b")
 	)
 	(segment
+		(start 106.262 136.713)
+		(end 107.8894 136.713)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "uGND2")
+		(uuid "c35dd0ad-1c15-4c44-b5e4-e92c7b9bd22e")
+	)
+	(segment
+		(start 104.562 136.713)
+		(end 106.262 136.713)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "uGND2")
+		(uuid "d266d631-4f82-4835-86d9-13564f21b81a")
+	)
+	(segment
+		(start 106.2874 129.0676)
+		(end 106.262 129.093)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "uGND2")
+		(uuid "de903313-8fff-41a1-914f-3ed13bde0e67")
+	)
+	(segment
 		(start 102.3014 129.0289)
 		(end 103.3382 129.0289)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "uGND2")
 		(uuid "ea741f7a-6e8b-4df2-9a8d-8f9e99a8d0a2")
+	)
+	(segment
+		(start 107.9148 136.6876)
+		(end 107.9148 129.0676)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "uGND2")
+		(uuid "ebe259f7-b2ff-4b1e-95c1-21b2dc2880ba")
 	)
 	(segment
 		(start 104.4938 129.0589)
