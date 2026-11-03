@@ -131,11 +131,11 @@
           ""
         ],
         [
-          "unconnected_items|77389870|91386405|F.Cu|4|739daa8e-6b6c-40f7-a13c-fd45501b734b|9bd6637e-9008-4f8d-b220-a80d8bb84960",
+          "unconnected_items|73963000|171884107|F.Cu|4|7f3f1ba1-7736-468d-bb60-5851321d6b4e|d914577b-a769-4dfa-afe1-c89456a10f08",
           ""
         ],
         [
-          "unconnected_items|96053000|176591000|F.Cu|4|d914577b-a769-4dfa-afe1-c89456a10f08|7f3f1ba1-7736-468d-bb60-5851321d6b4e",
+          "unconnected_items|77389870|91386405|F.Cu|4|739daa8e-6b6c-40f7-a13c-fd45501b734b|9bd6637e-9008-4f8d-b220-a80d8bb84960",
           ""
         ]
       ],
@@ -865,7 +865,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "",
+    "bom_export_filename": "controller.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -896,7 +896,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -926,19 +926,19 @@
           "group_by": false,
           "label": "E14MFR#",
           "name": "E14MFR#",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "E14MOQ",
           "name": "E14MOQ",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "E14PART",
           "name": "E14PART",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -974,7 +974,7 @@
           "group_by": false,
           "label": "Marking",
           "name": "Marking",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -992,6 +992,48 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "exclude_from_bom",
+          "name": "exclude_from_bom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KiLib_Generator",
+          "name": "KiLib_Generator",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALT",
+          "name": "ALT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIGIMFR#",
+          "name": "DIGIMFR#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR",
+          "name": "MFR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DKPART",
+          "name": "DKPART",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIGIPART",
+          "name": "DIGIPART",
           "show": false
         }
       ],
@@ -1091,7 +1133,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "#FLG104-106,#PWR84-100,#PWR106-119,C13-28,D8-11,E1,F1,J21-23,L2-3,NT29,R21,R23-32,SW3,U6-10,Y1-2",
+    "used_designators": "#FLG104-106,#PWR84-100,#PWR106-119,C13-28,D8-11,E1,F1,J21-24,L2-3,NT29,R21,R23-32,SW3,U6-10,Y1-2",
     "variants": []
   },
   "sheets": [

@@ -2092,7 +2092,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:DB25_Female_MountingHoles"
+		(symbol "Connector:DB25_Socket_MountingHoles"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2112,7 +2112,7 @@
 					)
 				)
 			)
-			(property "Value" "DB25_Female_MountingHoles"
+			(property "Value" "DB25_Socket_MountingHoles"
 				(at 0 34.925 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2133,7 +2133,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2144,7 +2144,7 @@
 					)
 				)
 			)
-			(property "Description" "25-pin female D-SUB connector, Mounting Hole"
+			(property "Description" "25-pin D-SUB connector, socket (female), Mounting Hole"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2155,7 +2155,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "female D-SUB connector"
+			(property "ki_keywords" "DSUB"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2166,7 +2166,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "DSUB*Female*"
+			(property "ki_fp_filters" "DSUB*Socket*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2177,7 +2177,7 @@
 					)
 				)
 			)
-			(symbol "DB25_Female_MountingHoles_0_1"
+			(symbol "DB25_Socket_MountingHoles_0_1"
 				(polyline
 					(pts
 						(xy -3.81 33.655) (xy 3.81 29.845) (xy 3.81 -29.845) (xy -3.81 -33.655) (xy -3.81 33.655)
@@ -2766,25 +2766,7 @@
 					)
 				)
 			)
-			(symbol "DB25_Female_MountingHoles_1_1"
-				(pin passive line
-					(at 0 -35.56 90)
-					(length 3.81)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "DB25_Socket_MountingHoles_1_1"
 				(pin passive line
 					(at -7.62 30.48 0)
 					(length 3.81)
@@ -3228,6 +3210,24 @@
 						)
 					)
 					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -35.56 90)
+					(length 3.81)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7271,6 +7271,7 @@
 		)
 		(property "Description" ""
 			(at 38.1 118.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7347,6 +7348,7 @@
 		)
 		(property "Description" ""
 			(at 79.375 59.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7423,6 +7425,7 @@
 		)
 		(property "Description" ""
 			(at 196.215 37.465 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7438,6 +7441,236 @@
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DB25_Socket_MountingHoles")
+		(at 31.75 76.2 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1786962e-4067-40e8-b223-0e6ea9706a12")
+		(property "Reference" "J7"
+			(at 31.75 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DB25_PINS_MountingHoles"
+			(at 31.75 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-25_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
+			(at 31.75 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.farnell.com/datasheets/3117942.pdf"
+			(at 31.75 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "25-pin D-SUB connector, plug (male), Mounting Holes"
+			(at 31.75 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPART" ""
+			(at 31.75 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCMFR#" ""
+			(at 31.75 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCMOQ" ""
+			(at 31.75 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "1848370"
+			(at 31.75 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "5504F1-25P-02A-03"
+			(at 31.75 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "5"
+			(at 31.75 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 31.75 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "8b68c812-1d2b-4842-9378-b9be90ba85c3")
+		)
+		(pin "13"
+			(uuid "28fbf47d-05c3-477b-9685-dabce8099f85")
+		)
+		(pin "10"
+			(uuid "adbae674-8d4e-45ef-a17d-3d1d94632909")
+		)
+		(pin "11"
+			(uuid "ee6098f3-cfda-4bcd-b77c-35c9ed40d8b1")
+		)
+		(pin "8"
+			(uuid "d20aa6c0-5f3a-4b90-b1b1-562509703bb8")
+		)
+		(pin "7"
+			(uuid "ad1ae4d0-e977-4bf8-9a9b-b746d61a66f7")
+		)
+		(pin "12"
+			(uuid "f3dc398e-4c76-4d29-b4d0-762bba5a10d2")
+		)
+		(pin "5"
+			(uuid "94ba85a6-39a9-42a8-a954-a2d4761f6dfb")
+		)
+		(pin "9"
+			(uuid "5c35f8a6-b824-45a2-a825-ff2843442662")
+		)
+		(pin "6"
+			(uuid "33fee791-2a0f-4ab7-bd17-47b249b26a39")
+		)
+		(pin "15"
+			(uuid "c8a6ea97-1980-48cb-a2b7-c2b4c34f5613")
+		)
+		(pin "16"
+			(uuid "73c3f912-fd54-4b83-b8ab-63871cc86724")
+		)
+		(pin "2"
+			(uuid "cdc92929-ba80-4bbf-b858-2caee5be0023")
+		)
+		(pin "4"
+			(uuid "01f9e58b-2568-4f4b-aa53-91400913295a")
+		)
+		(pin "3"
+			(uuid "c185731a-ab35-4a6e-9684-3666e80963a2")
+		)
+		(pin "1"
+			(uuid "08d885e9-39d5-46e0-90df-30baea00527a")
+		)
+		(pin "17"
+			(uuid "836a3519-c71f-4c89-942e-762fcb742246")
+		)
+		(pin "18"
+			(uuid "a7ca43fc-358d-4f74-b449-df54674e4577")
+		)
+		(pin "19"
+			(uuid "8f6ddfde-6df3-460f-b0e9-7cd5a9de51fd")
+		)
+		(pin "20"
+			(uuid "a2452279-ce7a-49e0-9e0f-0bf112da5aac")
+		)
+		(pin "21"
+			(uuid "d71f5fc6-33e5-4124-a40b-76038d373b20")
+		)
+		(pin "22"
+			(uuid "ed5630a2-db1b-4862-9ccc-96e3fa837453")
+		)
+		(pin "23"
+			(uuid "fe837b8f-86b8-40ca-87af-0304f8050fc7")
+		)
+		(pin "24"
+			(uuid "d744f201-4f25-4a12-be49-80afe14f100c")
+		)
+		(pin "25"
+			(uuid "7eb70a91-e65b-4f78-aaa1-c916359c508d")
+		)
+		(pin "SH"
+			(uuid "4681c3e2-fc35-44c1-9b5b-19f1cb139bf7")
+		)
+		(instances
+			(project "controller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -7499,6 +7732,7 @@
 		)
 		(property "Description" ""
 			(at 196.215 81.915 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7575,6 +7809,7 @@
 		)
 		(property "Description" ""
 			(at 114.3 119.38 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7653,6 +7888,7 @@
 		)
 		(property "Description" ""
 			(at 254 45.085 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7731,6 +7967,7 @@
 		)
 		(property "Description" ""
 			(at 168.91 142.24 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7795,7 +8032,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2860632.pdf"
 			(at 114.3 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7806,8 +8043,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0603 [1608 Metric], ± 10%, X7R"
 			(at 114.3 66.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7871,7 +8109,18 @@
 				)
 			)
 		)
-		(property "E14PART" "1759122"
+		(property "E14PART" "175912201"
+			(at 114.3 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
 			(at 114.3 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7953,6 +8202,7 @@
 		)
 		(property "Description" ""
 			(at 181.61 31.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8029,6 +8279,7 @@
 		)
 		(property "Description" ""
 			(at 160.02 26.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8093,7 +8344,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2860632.pdf"
 			(at 196.215 85.725 0)
 			(hide yes)
 			(show_name no)
@@ -8104,8 +8355,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0603 [1608 Metric], ± 10%, X7R"
 			(at 196.215 85.725 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8169,7 +8421,18 @@
 				)
 			)
 		)
-		(property "E14PART" "1759122"
+		(property "E14PART" "175912201"
+			(at 196.215 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
 			(at 196.215 85.725 0)
 			(hide yes)
 			(show_name no)
@@ -8251,6 +8514,7 @@
 		)
 		(property "Description" ""
 			(at 196.215 89.535 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8327,6 +8591,7 @@
 		)
 		(property "Description" ""
 			(at 69.215 147.955 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8405,6 +8670,7 @@
 		)
 		(property "Description" ""
 			(at 254 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8481,6 +8747,7 @@
 		)
 		(property "Description" ""
 			(at 196.215 29.845 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8543,7 +8810,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2860635.pdf"
 			(at 69.215 142.875 0)
 			(hide yes)
 			(show_name no)
@@ -8554,8 +8821,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, Ceramic, 1 Mohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant"
 			(at 69.215 142.875 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8575,7 +8843,7 @@
 				)
 			)
 		)
-		(property "E14PART" "1469820"
+		(property "E14PART" "2073351"
 			(at 69.215 142.875 0)
 			(hide yes)
 			(show_name no)
@@ -8619,7 +8887,7 @@
 				)
 			)
 		)
-		(property "E14MFR#" "CRCW06035K60FKEA"
+		(property "E14MFR#" "MCMR06X1004FTL"
 			(at 69.215 142.875 0)
 			(hide yes)
 			(show_name no)
@@ -8632,6 +8900,17 @@
 		)
 		(property "Marking" "01E"
 			(at 71.755 142.875 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 71.755 142.875 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8711,6 +8990,7 @@
 		)
 		(property "Description" ""
 			(at 114.3 69.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8787,6 +9067,7 @@
 		)
 		(property "Description" ""
 			(at 76.835 137.795 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8866,6 +9147,7 @@
 		)
 		(property "Description" ""
 			(at 160.02 81.28 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8942,8 +9224,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bus Transceiver, 74HC245, 2 V to 6 V, SOIC-20"
 			(at 101.6 106.68 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9008,6 +9291,17 @@
 			)
 		)
 		(property "E14MFR#" "MM74HC245AWM"
+			(at 122.555 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "ONSEMI"
 			(at 122.555 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -9132,7 +9426,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/3153514.pdf"
 			(at 161.29 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -9143,8 +9437,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fixed Network Resistor, 1 kohm, Isolated, 4 Resistors, 1206 [3216 Metric], Convex, ± 5%"
 			(at 161.29 90.17 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9231,6 +9526,17 @@
 			)
 		)
 		(property "E14PART" "3550064"
+			(at 161.29 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
 			(at 161.29 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -9330,6 +9636,7 @@
 		)
 		(property "Description" ""
 			(at 114.3 127 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9406,6 +9713,7 @@
 		)
 		(property "Description" ""
 			(at 262.89 34.925 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9470,7 +9778,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2860632.pdf"
 			(at 196.215 33.655 0)
 			(hide yes)
 			(show_name no)
@@ -9481,8 +9789,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0603 [1608 Metric], ± 10%, X7R"
 			(at 196.215 33.655 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9546,7 +9855,18 @@
 				)
 			)
 		)
-		(property "E14PART" "1759122"
+		(property "E14PART" "175912201"
+			(at 196.215 33.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
 			(at 196.215 33.655 0)
 			(hide yes)
 			(show_name no)
@@ -9628,6 +9948,7 @@
 		)
 		(property "Description" ""
 			(at 83.185 116.84 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9704,6 +10025,7 @@
 		)
 		(property "Description" ""
 			(at 101.6 69.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9780,8 +10102,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Optocoupler, Digital Output, 3 Channel, 2.5 kV, 15 Mbaud, SOIC, 16 Pins"
 			(at 179.07 106.68 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9846,6 +10169,17 @@
 			)
 		)
 		(property "E14MFR#" "ACSL-6310-00TE"
+			(at 179.07 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "BROADCOM"
 			(at 179.07 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9958,7 +10292,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/3153514.pdf"
 			(at 161.29 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9969,8 +10303,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fixed Network Resistor, 1 kohm, Isolated, 4 Resistors, 1206 [3216 Metric], Convex, ± 5%"
 			(at 161.29 35.56 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10057,6 +10392,17 @@
 			)
 		)
 		(property "E14PART" "3550064"
+			(at 161.29 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
 			(at 161.29 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10157,8 +10503,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bus Transceiver, 74HC245, 2 V to 6 V, SOIC-20"
 			(at 101.6 49.53 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10223,6 +10570,17 @@
 			)
 		)
 		(property "E14MFR#" "MM74HC245AWM"
+			(at 101.6 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "ONSEMI"
 			(at 101.6 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10358,8 +10716,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Optocoupler, Digital Output, 3 Channel, 2.5 kV, 15 Mbaud, SOIC, 16 Pins"
 			(at 179.07 52.07 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10424,6 +10783,17 @@
 			)
 		)
 		(property "JLCMOQ" "1"
+			(at 179.07 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "BROADCOM"
 			(at 179.07 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -10533,7 +10903,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2863859.pdf"
 			(at 201.93 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10544,8 +10914,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 330 ohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant"
 			(at 201.93 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10565,7 +10936,7 @@
 				)
 			)
 		)
-		(property "E14PART" "1469820"
+		(property "E14PART" "2074240"
 			(at 201.93 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10609,7 +10980,7 @@
 				)
 			)
 		)
-		(property "E14MFR#" "CRCW06035K60FKEA"
+		(property "E14MFR#" "MCSR06X3300FTL"
 			(at 201.93 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10627,6 +10998,17 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 197.485 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -10701,6 +11083,7 @@
 		)
 		(property "Description" ""
 			(at 101.6 86.36 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10777,6 +11160,7 @@
 		)
 		(property "Description" ""
 			(at 86.36 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10853,6 +11237,7 @@
 		)
 		(property "Description" ""
 			(at 262.89 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10929,6 +11314,7 @@
 		)
 		(property "Description" ""
 			(at 179.07 125.73 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10991,7 +11377,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2863859.pdf"
 			(at 201.93 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -11002,8 +11388,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 330 ohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant"
 			(at 201.93 60.96 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11023,7 +11410,7 @@
 				)
 			)
 		)
-		(property "E14PART" "1469820"
+		(property "E14PART" "2074240"
 			(at 201.93 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -11067,7 +11454,7 @@
 				)
 			)
 		)
-		(property "E14MFR#" "CRCW06035K60FKEA"
+		(property "E14MFR#" "MCSR06X3300FTL"
 			(at 201.93 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -11085,6 +11472,17 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 197.485 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -11145,7 +11543,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2863859.pdf"
 			(at 201.93 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11156,8 +11554,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 330 ohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant"
 			(at 201.93 55.88 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11177,7 +11576,7 @@
 				)
 			)
 		)
-		(property "E14PART" "1469820"
+		(property "E14PART" "2074240"
 			(at 201.93 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11221,7 +11620,7 @@
 				)
 			)
 		)
-		(property "E14MFR#" "CRCW06035K60FKEA"
+		(property "E14MFR#" "MCSR06X3300FTL"
 			(at 201.93 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11239,6 +11638,17 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 197.485 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -11313,6 +11723,7 @@
 		)
 		(property "Description" ""
 			(at 181.61 86.36 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11389,6 +11800,7 @@
 		)
 		(property "Description" ""
 			(at 114.3 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11452,7 +11864,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/1859611.pdf"
 			(at 176.53 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11463,8 +11875,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header, Wire-to-Board, 2.54 mm, 1 Rows, 2 Contacts, Through Hole Straight, KK 254 6373 Series"
 			(at 176.53 142.24 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11495,7 +11908,7 @@
 				)
 			)
 		)
-		(property "E14MOQ" "0"
+		(property "E14MOQ" "10"
 			(at 176.53 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11517,7 +11930,7 @@
 				)
 			)
 		)
-		(property "E14MFR#" "DNI"
+		(property "E14MFR#" "22-23-2021"
 			(at 176.53 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11528,7 +11941,18 @@
 				)
 			)
 		)
-		(property "E14PART" "DNI"
+		(property "E14PART" "146292601"
+			(at 176.53 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MOLEX"
 			(at 176.53 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11612,6 +12036,7 @@
 		)
 		(property "Description" ""
 			(at 254 34.925 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11688,6 +12113,7 @@
 		)
 		(property "Description" ""
 			(at 185.42 143.51 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11764,6 +12190,7 @@
 		)
 		(property "Description" ""
 			(at 101.6 127 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11840,6 +12267,7 @@
 		)
 		(property "Description" ""
 			(at 83.185 104.14 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11916,6 +12344,7 @@
 		)
 		(property "Description" ""
 			(at 179.07 71.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11980,7 +12409,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2860632.pdf"
 			(at 114.3 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -11991,8 +12420,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0603 [1608 Metric], ± 10%, X7R"
 			(at 114.3 123.19 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12056,7 +12486,18 @@
 				)
 			)
 		)
-		(property "E14PART" "1759122"
+		(property "E14PART" "175912201"
+			(at 114.3 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
 			(at 114.3 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -12077,224 +12518,6 @@
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:DB25_Female_MountingHoles")
-		(at 31.75 76.2 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f07c8cd1-33dc-400f-810d-f4395dd7dfe2")
-		(property "Reference" "J7"
-			(at 31.75 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DB25 FEMALE"
-			(at 31.75 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Dsub:DSUB-25_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
-			(at 31.75 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "E14MOQ" "5"
-			(at 31.75 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "E14PART" "1848370"
-			(at 31.75 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPART" "DNI"
-			(at 31.75 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCMFR#" "DNI"
-			(at 31.75 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "E14MFR#" "5504F1-25P-02A-03"
-			(at 31.75 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCMOQ" "0"
-			(at 31.75 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "0"
-			(uuid "33581db8-0e7e-459f-8ae3-52b9d165c837")
-		)
-		(pin "1"
-			(uuid "15ffb805-9fc0-479b-a40a-abff7bce0742")
-		)
-		(pin "10"
-			(uuid "50616699-0018-4a11-9c20-27d10149efe6")
-		)
-		(pin "11"
-			(uuid "5b33a6a6-6122-441a-a1ca-98172e7b8ed4")
-		)
-		(pin "12"
-			(uuid "b9bbb5f4-1b35-46d9-8402-403ba7ff5666")
-		)
-		(pin "13"
-			(uuid "4d7defea-f162-436c-ae88-d05b9461010d")
-		)
-		(pin "14"
-			(uuid "1cefd792-2d92-4678-8958-3a2664459707")
-		)
-		(pin "15"
-			(uuid "6cfc7a97-a2dc-4462-97f9-6b259a33a726")
-		)
-		(pin "16"
-			(uuid "978d6109-838b-48cd-96b9-5df7cd77672a")
-		)
-		(pin "17"
-			(uuid "3e9eee48-ee99-443e-b7c4-188e5ebc376d")
-		)
-		(pin "18"
-			(uuid "34650653-8556-4a25-b259-7566fd2638ea")
-		)
-		(pin "19"
-			(uuid "43f7943c-db71-4611-9db1-be6b83eeabd8")
-		)
-		(pin "2"
-			(uuid "0f468d8b-cf79-4458-969b-c9623155b3c0")
-		)
-		(pin "20"
-			(uuid "2a04460f-22be-4205-9e7a-02893ae73739")
-		)
-		(pin "21"
-			(uuid "dccc1ddd-e80b-45b7-94f2-c4090fbf25b9")
-		)
-		(pin "22"
-			(uuid "da1ace29-d523-4890-9e06-6975b33ee213")
-		)
-		(pin "23"
-			(uuid "58203c19-73a6-4093-be6f-3b4430517fca")
-		)
-		(pin "24"
-			(uuid "e5db9663-7ed1-4507-9e54-14b6079bce35")
-		)
-		(pin "25"
-			(uuid "b20ec804-7619-486b-8d94-c1b40c11cd07")
-		)
-		(pin "3"
-			(uuid "51e53dc3-974a-4f6c-b6d7-49159252c01e")
-		)
-		(pin "4"
-			(uuid "9da2eec5-c685-40cc-8755-02892878cb26")
-		)
-		(pin "5"
-			(uuid "4935bde3-a3e5-4ff4-8ded-53bbbd5a4031")
-		)
-		(pin "6"
-			(uuid "58ec61c9-ed0a-4746-bed1-c9fbb997d2a2")
-		)
-		(pin "7"
-			(uuid "e38853ac-ee07-490f-b0c9-5a3cc6750a0c")
-		)
-		(pin "8"
-			(uuid "319656cb-7b41-4515-8161-6f724d38ad11")
-		)
-		(pin "9"
-			(uuid "e97fb5a7-48a4-4c6d-b064-9ad708f2371e")
-		)
-		(instances
-			(project "controller"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/954a9830-ad6d-4d7c-92ee-21f7ecb42ef4"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -12342,7 +12565,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2863858.pdf"
 			(at 200.66 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -12353,8 +12576,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 330 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, Sulfur Resistant"
 			(at 200.66 105.41 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12374,7 +12598,7 @@
 				)
 			)
 		)
-		(property "E14PART" "1469820"
+		(property "E14PART" "2074057"
 			(at 200.66 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -12418,7 +12642,7 @@
 				)
 			)
 		)
-		(property "E14MFR#" "CRCW06035K60FKEA"
+		(property "E14MFR#" "MCSR04X3300FTL"
 			(at 200.66 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -12436,6 +12660,17 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 196.215 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -12496,7 +12731,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2863859.pdf"
 			(at 201.93 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12507,8 +12742,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 330 ohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant"
 			(at 201.93 50.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12528,7 +12764,7 @@
 				)
 			)
 		)
-		(property "E14PART" "1469820"
+		(property "E14PART" "2074240"
 			(at 201.93 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12572,7 +12808,7 @@
 				)
 			)
 		)
-		(property "E14MFR#" "CRCW06035K60FKEA"
+		(property "E14MFR#" "MCSR06X3300FTL"
 			(at 201.93 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12590,6 +12826,17 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 197.485 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -12664,6 +12911,7 @@
 		)
 		(property "Description" ""
 			(at 262.89 45.085 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12740,6 +12988,7 @@
 		)
 		(property "Description" ""
 			(at 101.6 27.94 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12817,6 +13066,7 @@
 		)
 		(property "Description" ""
 			(at 168.91 143.51 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -1,0 +1,161 @@
+{
+  "_comment": [
+    "Human-reviewed decisions for BOM lines that cannot be resolved mechanically.",
+    "Each entry is applied INSTEAD of automatic resolution, and every choice is",
+    "re-verified against the element14 API at run time. 'why' is copied into the",
+    "BOM notes so the reasoning survives.",
+    "Keys are reference designators (any ref in the group may be used)."
+  ],
+  "U7": {
+    "mpn": "ATMEGA16U2-MU",
+    "why": "Value 'ATmega16U2-A' is the TQFP-32 part but the footprint is VQFN-32; -MU is the VQFN package"
+  },
+  "U8": {
+    "mpn": "ADUM4160BRWZ",
+    "why": "footprint is SOIC-16W (wide); ADuM4160BRIZ is the narrow-SOIC variant and would not fit"
+  },
+  "Y1": {
+    "mpn": "ABM3-16.000MHZ-D2Y-T",
+    "why": "Value was unset (it held the footprint name). Footprint is a 5.0x3.2mm 4-pad crystal; ABM3 is 16MHz in exactly that package"
+  },
+  "Y2": {
+    "mpn": "ABM3-16.000MHZ-D2Y-T",
+    "why": "Value was a CSTCE16M0V53-R0 3-terminal resonator (No Longer Manufactured) but the footprint is the same 4-pad 5.0x3.2mm crystal as Y1, so treat as a 16MHz crystal"
+  },
+  "Q2": {
+    "mpn": "SUD19P06-60-GE3",
+    "why": "FDD5614P (60V P-ch, 15A, 0.1ohm, TO-252) is No Longer Manufactured. SUD19P06-60-GE3 is 60V, 18.3A, 0.06ohm, same TO-252 footprint - meets or beats every rating"
+  },
+  "J15": {
+    "mpn": "1725672",
+    "why": "symbol is Conn_01x04 with a Phoenix MPT-0,5/4-2,54 footprint, but Value/MPN were the stale 2-pin JST B2B-XH. Corrected to the 4-way part used by J11/J13/J16/J20"
+  },
+  "J22": {
+    "mpn": "2213SM-06G-TB",
+    "why": "ISP_SMD_100mil is a 2x3 2.54mm SMD header"
+  },
+  "J23": {
+    "mpn": "2213SM-06G-TB",
+    "why": "ISP_SMD_100mil is a 2x3 2.54mm SMD header"
+  },
+  "JP1": {
+    "mpn": "22-23-2021",
+    "why": "PinHeader_2x01_P2.54mm_Vertical - Molex KK 1x02 2.54mm THT. Replaces 640456-2, which has MOQ 100 (bulk) - we want individual parts"
+  },
+  "JP2": {
+    "mpn": "22-23-2021",
+    "why": "PinHeader_1x02_P2.54mm_Vertical - same 2-pin header as JP1; MOQ 10 not 100"
+  },
+  "JP3": {
+    "mpn": "640456-3",
+    "why": "PinHeader_1x03_P2.54mm_Vertical - 3 pin 2.54mm THT header"
+  },
+  "JP4": {
+    "mpn": "640456-3",
+    "why": "PinHeader_1x03_P2.54mm_Vertical - 3 pin 2.54mm THT header"
+  },
+  "D6": {
+    "mpn": "SS24A",
+    "why": "Value was 'SS24A+'; the trailing '+' is a lead-free suffix, the element14 MPN is SS24A. 40V 2A SMA matches the D_SMA footprint"
+  },
+  "D9": {
+    "mpn": "150040YS73240",
+    "why": "Value was just 'YELLOW'; footprint is LED_0402. Kingbright 150040YS73240 is a yellow 0402 LED"
+  },
+  "_dnp": {},
+  "J1": {
+    "external": "LCSC",
+    "brand": "Hong Cheng",
+    "mpn": "HC-PM254-8.5H-1x23PZ",
+    "supplier_pn": "C41376162",
+    "unit": "0.2297",
+    "currency": "USD",
+    "why": "23-way 2.54mm single-row socket, 8.5mm insulation height, 3mm tails, gold-flash contacts. 260 in stock, MOQ 5 = $1.15. Socket hangs below the interface board and receives the 15.75mm posts of J3 across the fixed 20.00mm standoff gap (socket body bottom at 11.5mm, pin tip at 15.75mm). Backup: HC-PM254-8.5H-1x24PZ = C41376163 (15714 stock, cut one position)."
+  },
+  "J2": {
+    "external": "LCSC",
+    "brand": "Hong Cheng",
+    "mpn": "HC-PM254-8.5H-1x23PZ",
+    "supplier_pn": "C41376162",
+    "unit": "0.2297",
+    "currency": "USD",
+    "why": "Same part as J1 - the LPT interface board's socket. Only one interface board is connected at a time, so J1/J2 are alternatives, not a pair."
+  },
+  "J3": {
+    "external": "Samtec",
+    "brand": "Samtec",
+    "mpn": "TSW-123-17-T-S",
+    "supplier_pn": "TSW-123-17-T-S",
+    "unit": "1.516",
+    "currency": "USD",
+    "why": "23-way single-row 2.54mm THT header, .025in square posts, tin, lead style 17 = .620in (15.75mm) post above a 2.54mm plastic body, .830in (21.08mm) overall. The long post is what reaches the interface-board sockets across the fixed 20.00mm stack: measured requirement is 16.0 +/-0.25mm above the controller PCB, geometry says 15.75-16.25mm, and 15.75mm is the only stocked lead style in that window (-15 is 13.21mm, -18 is 18.29mm and would bottom out). In stock at Samtec, $1.516 ea. Exact-height alternative if 15.75mm proves marginal: MTSW-123-10-T-S-630 (.630in = 16.00mm post), build-to-order, no stock. Tail is 2.79mm = 1.19mm proud of a 1.6mm board."
+  },
+  "D7": {
+    "mpn": "BAT54KFILM",
+    "why": "BAT54KFILM is the SOD-523 version of the same BAT54 die (40V 300mA single Schottky). BAT54JFILM is SOD-323 - 1.9mm pad pitch vs the 1.4mm SOD-523 land pattern on the board - and is zero stock."
+  },
+  "D8": {
+    "mpn": "BAT54KFILM",
+    "why": "BAT54KFILM is the SOD-523 version of the same BAT54 die (40V 300mA single Schottky). BAT54JFILM is SOD-323 - 1.9mm pad pitch vs the 1.4mm SOD-523 land pattern on the board - and is zero stock."
+  },
+  "D11": {
+    "mpn": "BAT54KFILM",
+    "why": "BAT54KFILM is the SOD-523 version of the same BAT54 die (40V 300mA single Schottky). BAT54JFILM is SOD-323 - 1.9mm pad pitch vs the 1.4mm SOD-523 land pattern on the board - and is zero stock."
+  },
+  "L2": {
+    "mpn": "VC080505A150DP",
+    "why": "0805 MLV, 5.6V working / 18V clamp - closest 0805 equivalent of the 0603 ChipGuard it replaces. NOTE: the schematic Value still says CG0603MLC-05E, which is a 0603 part."
+  },
+  "L3": {
+    "mpn": "MLZ1608M100WT000",
+    "why": "10uH 0603 multilayer, 250mA, 1.05 ohm. L3 sits between +5VA and the ATmega328P AVCC pin, so the current is only a few mA - the 250mA rating is ample."
+  },
+  "SW3": {
+    "external": "LCSC",
+    "brand": "XUNPU",
+    "mpn": "TS-1088-AR02016",
+    "supplier_pn": "C720477",
+    "why": "3.9x3.0x2.0mm SMD vertical tactile, SPST-NO 12V/50mA. Footprint SW_Push_1P1T_NO_XUNPU_TS-1088-AR02016 (2 pads 1.05x2.00mm, 3.40mm gap, 4.45mm pitch). Local stock; also available to PCBWay from their catalogue."
+  },
+  "J7": {
+    "mpn": "5504F1-25P-02A-03",
+    "why": "Male DB25 plug, right angle, THT, 25 contacts - confirmed correct (this was the original schematic part). Gender=Plug, 'Through Hole Mount Right Angle', 3142 in stock, and the cheapest option by a wide margin. Matches the DSUB-25_Pins_Horizontal 7.70mm-offset footprint."
+  },
+  "K1": {
+    "mpn": "OJ-SS-124HM,000",
+    "why": "OJ series, VENTED, 24VDC, SPST-NO 10A, THT solder terminals - the closest in-stock element14 equivalent. Sealing is not required (Bryan). Coil is 1.28k = 450mW / 18.75mA versus the sealed part's 2.88k = 200mW / 8.3mA; the coil driver is Q5 (BC857, 100mA) so that is comfortably within rating. Contacts only switch the VFD digital input VFD_FWD, so 10A vs anything smaller is irrelevant. Board land pattern 7.62/12.70/2.54mm matches the OJ family.",
+    "alternates": "DigiKey OJS-SH-124HMF,00000 (sealed, 200mW, Class F, $4.14) | element14 3764773 = 2071556-2 (sealed 16A/450mW, $4.53, 0 stock, 24wk lead) | element14 OJ-SS-124LMHF,000 (vented, 200mW coil, Class F, but only 8A, $4.97)"
+  },
+  "R18": {
+    "mpn": "MCSR06X5601FTL",
+    "why": "MULTICOMP consolidation: 5K6 0603 1% thick film, replaces the Vishay CRCW06035K60FKEA"
+  },
+  "C2": {
+    "mpn": "0603B105K500CT",
+    "why": "MULTICOMP consolidation: 1uF 50V 0603 X7R, replaces TDK C1608X5R1H105K080AB"
+  },
+  "C15": {
+    "mpn": "0603B105K500CT",
+    "why": "MULTICOMP consolidation: 1uF 50V 0603 X7R"
+  },
+  "C17": {
+    "mpn": "0402B104K500CT",
+    "why": "MULTICOMP consolidation: 100nF 50V 0402 X7R, replaces Murata GRM155R71H104KE14D"
+  },
+  "C16": {
+    "mpn": "MC0603B104K500CT",
+    "why": "MULTICOMP consolidation: 100nF 50V 0603 X7R, unified with C1 (same part, cheaper of the two listings)"
+  },
+  "C4": {
+    "mpn": "MCVVT035M101FB3L",
+    "why": "MULTICOMP consolidation: 100uF 35V SMD electrolytic, 8.0mm dia x 10.5mm - matches the CP_Elec_8x10.5 footprint exactly"
+  },
+  "C8": {
+    "mpn": "MCVVT035M680EA6L",
+    "why": "MULTICOMP consolidation: 68uF 35V SMD electrolytic, 6.3mm dia x 7.7mm - matches the CP_Elec_6.3x7.7 footprint exactly"
+  },
+  "C7": {
+    "mpn": "1206X226K160CT",
+    "why": "MULTICOMP consolidation (option b, chosen by Bryan): 22uF 16V 1206 X5R. MULTICOMP has no 22uF/25V 1206, so the schematic Value was changed to 22u/16V. Rail is the MAX5035 5V buck output, so 16V still gives 3.2x margin."
+  }
+}

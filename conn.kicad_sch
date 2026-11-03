@@ -3995,7 +3995,7 @@
 		(uuid "3190808c-9704-4bb5-8c66-a12eafe7a140")
 	)
 	(junction
-		(at 107.95 30.48)
+		(at 107.95 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36b32031-6873-4baa-8f07-31862e88252a")
@@ -4007,13 +4007,13 @@
 		(uuid "a528862c-3ed0-4a52-9b45-de6796c60c90")
 	)
 	(junction
-		(at 129.54 52.07)
+		(at 129.54 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1cbd460-e1cf-46b2-a7df-a6de2710ff51")
 	)
 	(junction
-		(at 129.54 43.18)
+		(at 129.54 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9cbb172-4e27-444a-b539-d473b6feb9b2")
@@ -4031,7 +4031,7 @@
 		(uuid "ef7916ff-edeb-4055-b544-21de1e876a81")
 	)
 	(no_connect
-		(at 154.94 27.94)
+		(at 154.94 21.59)
 		(uuid "01d99774-a14f-4f98-bdb3-8997a6404c9d")
 	)
 	(no_connect
@@ -4043,35 +4043,35 @@
 		(uuid "3f2ae62b-4060-403b-b160-07cfdc3007de")
 	)
 	(no_connect
-		(at 154.94 30.48)
+		(at 154.94 24.13)
 		(uuid "416f91ae-499d-4dfa-9588-a807676eb1ec")
 	)
 	(no_connect
-		(at 92.71 38.1)
+		(at 92.71 31.75)
 		(uuid "503a75b9-769b-47f7-9108-9106d6c7085f")
 	)
 	(no_connect
-		(at 92.71 45.72)
+		(at 92.71 39.37)
 		(uuid "503a75b9-769b-47f7-9108-9106d6c70861")
 	)
 	(no_connect
-		(at 80.01 38.1)
+		(at 80.01 31.75)
 		(uuid "503a75b9-769b-47f7-9108-9106d6c70862")
 	)
 	(no_connect
-		(at 80.01 45.72)
+		(at 80.01 39.37)
 		(uuid "503a75b9-769b-47f7-9108-9106d6c70863")
 	)
 	(no_connect
-		(at 154.94 35.56)
+		(at 154.94 29.21)
 		(uuid "6c0a723a-a373-408e-9edb-63f3f7ba62d9")
 	)
 	(no_connect
-		(at 110.49 38.1)
+		(at 110.49 31.75)
 		(uuid "8066197b-bfaf-4fa1-9c61-3f363f872d0b")
 	)
 	(no_connect
-		(at 123.19 40.64)
+		(at 123.19 34.29)
 		(uuid "81273c92-8ea3-4782-8eaa-cfc03f654943")
 	)
 	(no_connect
@@ -4083,7 +4083,7 @@
 		(uuid "9787ad2a-4799-424d-83e1-32890deb8fd4")
 	)
 	(no_connect
-		(at 142.24 35.56)
+		(at 142.24 29.21)
 		(uuid "a6857b25-fbe2-492f-90f9-cb654146c1bb")
 	)
 	(no_connect
@@ -4095,7 +4095,7 @@
 		(uuid "c402022a-cd6f-482c-b16d-eb748cd195f8")
 	)
 	(no_connect
-		(at 123.19 45.72)
+		(at 123.19 39.37)
 		(uuid "c636750d-7bfe-41a1-b2bf-3cdd5a0d6186")
 	)
 	(no_connect
@@ -4111,12 +4111,12 @@
 		(uuid "e93ffc6f-a32f-46d3-a18f-92ea555eaf5e")
 	)
 	(no_connect
-		(at 110.49 45.72)
+		(at 110.49 39.37)
 		(uuid "ea1cf1e7-da06-4b8c-99ae-eba6cec2fe80")
 	)
 	(wire
 		(pts
-			(xy 77.47 43.18) (xy 77.47 46.99)
+			(xy 77.47 36.83) (xy 77.47 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4136,7 +4136,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 52.07) (xy 161.29 52.07)
+			(xy 129.54 45.72) (xy 161.29 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4186,7 +4186,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 43.18) (xy 101.6 52.07)
+			(xy 101.6 36.83) (xy 101.6 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4236,7 +4236,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 33.02) (xy 161.29 33.02)
+			(xy 154.94 26.67) (xy 161.29 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4316,7 +4316,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 43.18) (xy 110.49 43.18)
+			(xy 107.95 36.83) (xy 110.49 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4346,7 +4346,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 40.64) (xy 107.95 30.48)
+			(xy 107.95 34.29) (xy 107.95 24.13)
 		)
 		(stroke
 			(width 0)
@@ -4396,7 +4396,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 33.02) (xy 139.7 33.02)
+			(xy 142.24 26.67) (xy 139.7 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4477,7 +4477,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 40.64) (xy 80.01 40.64)
+			(xy 77.47 34.29) (xy 80.01 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4507,7 +4507,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 43.18) (xy 77.47 43.18)
+			(xy 80.01 36.83) (xy 77.47 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4537,7 +4537,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.597 30.48) (xy 77.47 40.64)
+			(xy 77.597 24.13) (xy 77.47 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4617,7 +4617,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 27.94) (xy 140.97 27.94)
+			(xy 142.24 21.59) (xy 140.97 21.59)
 		)
 		(stroke
 			(width 0)
@@ -4697,7 +4697,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 33.02) (xy 139.7 35.56)
+			(xy 139.7 26.67) (xy 139.7 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4817,7 +4817,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 52.07) (xy 129.54 52.07)
+			(xy 101.6 45.72) (xy 129.54 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4857,7 +4857,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 43.18) (xy 101.6 43.18)
+			(xy 92.71 36.83) (xy 101.6 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4917,7 +4917,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 30.48) (xy 142.24 30.48)
+			(xy 107.95 24.13) (xy 142.24 24.13)
 		)
 		(stroke
 			(width 0)
@@ -4927,7 +4927,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 44.45) (xy 107.95 43.18)
+			(xy 107.95 38.1) (xy 107.95 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5037,7 +5037,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 43.18) (xy 129.54 52.07)
+			(xy 129.54 36.83) (xy 129.54 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5118,7 +5118,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 40.64) (xy 93.218 40.64)
+			(xy 92.71 34.29) (xy 93.218 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5148,7 +5148,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 27.94) (xy 107.95 30.48)
+			(xy 107.95 21.59) (xy 107.95 24.13)
 		)
 		(stroke
 			(width 0)
@@ -5168,7 +5168,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.597 30.48) (xy 107.95 30.48)
+			(xy 77.597 24.13) (xy 107.95 24.13)
 		)
 		(stroke
 			(width 0)
@@ -5218,7 +5218,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 52.07) (xy 161.29 33.02)
+			(xy 161.29 45.72) (xy 161.29 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5228,7 +5228,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 40.64) (xy 110.49 40.64)
+			(xy 107.95 34.29) (xy 110.49 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5339,7 +5339,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 43.18) (xy 129.54 43.18)
+			(xy 123.19 36.83) (xy 129.54 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5429,7 +5429,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 43.18) (xy 129.54 43.18)
+			(xy 132.08 36.83) (xy 129.54 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5568,16 +5568,6 @@
 		)
 		(uuid "21b19d14-12c1-4d87-bdb9-fdeecfb16385")
 	)
-	(label "Net-(Q5-Pad1)"
-		(at 158.115 121.285 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "36cec216-edc1-482b-95d0-994eb109fafd")
-	)
 	(label "X_P16_OUT"
 		(at 133.985 118.11 180)
 		(effects
@@ -5678,16 +5668,6 @@
 		)
 		(uuid "7abff47a-6225-409b-adf1-ca6684b06f2e")
 	)
-	(label "Net-(Q5-Pad1)"
-		(at 158.115 121.285 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7f40de56-588b-48dc-9a80-8b50c4daf8af")
-	)
 	(label "STP_5V"
 		(at 85.598 64.77 0)
 		(effects
@@ -5707,16 +5687,6 @@
 			(justify left bottom)
 		)
 		(uuid "92f41365-6a65-4345-94c3-c9e36e212679")
-	)
-	(label "Net-(JP7-Pad3)"
-		(at 123.825 139.065 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "974462fd-651a-413f-be05-d130953edb66")
 	)
 	(label "VFD_FWD"
 		(at 186.055 139.065 0)
@@ -5748,16 +5718,6 @@
 		)
 		(uuid "cf88eca1-440e-43e3-858d-9a02be165d19")
 	)
-	(label "Net-(Q5-Pad1)"
-		(at 158.115 121.285 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d9ad2047-52e0-40e7-a672-a4bb3ef4ef66")
-	)
 	(label "RELAY2"
 		(at 60.96 170.18 180)
 		(effects
@@ -5767,16 +5727,6 @@
 			(justify right bottom)
 		)
 		(uuid "e1fca3e2-fb0d-4585-b6b8-0c7d332cee76")
-	)
-	(label "Net-(JP7-Pad3)"
-		(at 123.825 139.065 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e4c3ee32-bcd5-4ed9-a1fc-4cdba649fa16")
 	)
 	(label "Net-(D7-Pad1)"
 		(at 156.845 144.145 90)
@@ -5932,7 +5882,7 @@
 	)
 	(hierarchical_label "YMIN_OUT"
 		(shape output)
-		(at 123.19 38.1 0)
+		(at 123.19 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5965,7 +5915,7 @@
 	)
 	(hierarchical_label "HOLD_OUT"
 		(shape input)
-		(at 132.08 43.18 0)
+		(at 132.08 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5987,7 +5937,7 @@
 	)
 	(hierarchical_label "ZMIN_OUT"
 		(shape output)
-		(at 140.97 27.94 180)
+		(at 140.97 21.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6009,7 +5959,7 @@
 	)
 	(hierarchical_label "XMIN_OUT"
 		(shape output)
-		(at 93.218 40.64 0)
+		(at 93.218 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6127,7 +6077,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2043229.pdf"
 			(at 79.248 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6138,8 +6088,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header, Vertical, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, MTA-100"
 			(at 79.248 64.77 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6170,7 +6121,7 @@
 				)
 			)
 		)
-		(property "E14MOQ" "0"
+		(property "E14MOQ" "10"
 			(at 79.248 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6192,7 +6143,7 @@
 				)
 			)
 		)
-		(property "E14MFR#" "DNI"
+		(property "E14MFR#" "640456-3"
 			(at 79.248 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6203,7 +6154,18 @@
 				)
 			)
 		)
-		(property "E14PART" "DNI"
+		(property "E14PART" "588581"
+			(at 79.248 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "TE CONNECTIVITY - AMP"
 			(at 79.248 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6288,6 +6250,7 @@
 		)
 		(property "Description" ""
 			(at 50.8 172.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6445,6 +6408,7 @@
 		)
 		(property "Description" ""
 			(at 43.18 133.35 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6536,7 +6500,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 139.7 35.56 0)
+		(at 139.7 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6546,7 +6510,7 @@
 		(dnp no)
 		(uuid "16de7c31-9166-4dae-8b30-8857c26eaac6")
 		(property "Reference" "#PWR075"
-			(at 139.7 41.91 0)
+			(at 139.7 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6557,7 +6521,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 139.7 39.37 0)
+			(at 139.7 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6567,7 +6531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 35.56 0)
+			(at 139.7 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6578,7 +6542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 35.56 0)
+			(at 139.7 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6589,7 +6553,8 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 35.56 0)
+			(at 139.7 29.21 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6666,6 +6631,7 @@
 		)
 		(property "Description" ""
 			(at 50.8 170.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6822,6 +6788,7 @@
 		)
 		(property "Description" ""
 			(at 157.988 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6967,6 +6934,7 @@
 		)
 		(property "Description" ""
 			(at 60.96 156.21 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7043,6 +7011,7 @@
 		)
 		(property "Description" ""
 			(at 134.62 111.125 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7119,6 +7088,7 @@
 		)
 		(property "Description" ""
 			(at 50.8 167.64 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7221,7 +7191,7 @@
 	)
 	(symbol
 		(lib_id "3rd-party:MicroFit_3mm_02x04")
-		(at 149.86 33.02 180)
+		(at 149.86 26.67 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7231,7 +7201,7 @@
 		(dnp no)
 		(uuid "3287a909-8c1d-4161-8291-13ce93b716a3")
 		(property "Reference" "J17"
-			(at 148.59 25.4 0)
+			(at 148.59 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7241,7 +7211,7 @@
 			)
 		)
 		(property "Value" "MicroFit_2x04"
-			(at 152.4 38.1 0)
+			(at 152.4 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7251,7 +7221,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical"
-			(at 149.86 33.02 0)
+			(at 149.86 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7261,8 +7231,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 148.844 31.75 0)
+		(property "Datasheet" "http://www.farnell.com/datasheets/2696409.pdf"
+			(at 148.844 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7272,8 +7242,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 149.86 33.02 0)
+		(property "Description" "Pin Header, Wire-to-Board, 3 mm, 2 Rows, 8 Contacts, Through Hole Straight"
+			(at 149.86 26.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7282,8 +7253,8 @@
 				)
 			)
 		)
-		(property "E14PART" "1513893"
-			(at 149.86 33.02 0)
+		(property "E14PART" "101224901"
+			(at 149.86 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7294,7 +7265,7 @@
 			)
 		)
 		(property "JLCMFR#" "538-43045-1027"
-			(at 149.86 33.02 0)
+			(at 149.86 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7304,8 +7275,8 @@
 				)
 			)
 		)
-		(property "E14MFR#" "43045-1027"
-			(at 149.86 33.02 0)
+		(property "E14MFR#" "43045-0812"
+			(at 149.86 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7316,7 +7287,7 @@
 			)
 		)
 		(property "JLCPART" "Mouser"
-			(at 149.86 33.02 0)
+			(at 149.86 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7326,8 +7297,8 @@
 				)
 			)
 		)
-		(property "E14MOQ" "1"
-			(at 149.86 33.02 0)
+		(property "E14MOQ" "10"
+			(at 149.86 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7338,7 +7309,18 @@
 			)
 		)
 		(property "JLCMOQ" "1"
-			(at 149.86 33.02 0)
+			(at 149.86 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MOLEX"
+			(at 149.86 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7383,7 +7365,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 77.47 46.99 0)
+		(at 77.47 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7393,7 +7375,7 @@
 		(dnp no)
 		(uuid "328e5b66-345d-426e-b7d8-eea1abecf4cd")
 		(property "Reference" "#PWR068"
-			(at 77.47 53.34 0)
+			(at 77.47 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7404,7 +7386,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 77.47 50.8 0)
+			(at 77.47 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7414,7 +7396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 46.99 0)
+			(at 77.47 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7425,7 +7407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 46.99 0)
+			(at 77.47 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7436,7 +7418,8 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 46.99 0)
+			(at 77.47 40.64 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7501,7 +7484,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/3688369.pdf"
 			(at 193.675 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7512,8 +7495,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, KK 254 6373 Series"
 			(at 193.675 53.34 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7555,7 +7539,7 @@
 				)
 			)
 		)
-		(property "E14MOQ" "1"
+		(property "E14MOQ" "10"
 			(at 193.675 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7578,6 +7562,17 @@
 			)
 		)
 		(property "JLCPART" "C234181"
+			(at 193.675 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MOLEX"
 			(at 193.675 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7662,6 +7657,7 @@
 		)
 		(property "Description" ""
 			(at 187.325 33.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7687,11 +7683,11 @@
 		(at 26.035 133.35 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "4173c643-b015-4811-bd05-f2de876f2c49")
 		(property "Reference" "SW2"
 			(at 26.67 138.43 0)
@@ -7739,6 +7735,7 @@
 		)
 		(property "Description" ""
 			(at 26.035 133.35 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7887,6 +7884,7 @@
 		)
 		(property "Description" ""
 			(at 187.325 57.15 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7963,6 +7961,7 @@
 		)
 		(property "Description" ""
 			(at 71.628 66.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8027,7 +8026,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/3625645.pdf"
 			(at 116.078 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8038,8 +8037,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Wire-To-Board Terminal Block, 2.54 mm, 4 Ways, 26 AWG, 20 AWG, 0.5 mm², Screw"
 			(at 116.078 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8048,7 +8048,7 @@
 				)
 			)
 		)
-		(property "E14PART" "3041414"
+		(property "E14PART" "304141401"
 			(at 116.078 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8104,6 +8104,17 @@
 			)
 		)
 		(property "E14MOQ" "1"
+			(at 116.078 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "PHOENIX CONTACT"
 			(at 116.078 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8191,6 +8202,7 @@
 		)
 		(property "Description" ""
 			(at 167.005 158.115 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8256,7 +8268,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/3625645.pdf"
 			(at 140.97 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8267,8 +8279,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Wire-To-Board Terminal Block, 2.54 mm, 4 Ways, 26 AWG, 20 AWG, 0.5 mm², Screw"
 			(at 140.97 115.57 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8332,7 +8345,7 @@
 				)
 			)
 		)
-		(property "E14MOQ" "100"
+		(property "E14MOQ" "1"
 			(at 140.97 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8343,7 +8356,7 @@
 				)
 			)
 		)
-		(property "E14PART" "1516276"
+		(property "E14PART" "304141401"
 			(at 140.97 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8354,7 +8367,18 @@
 				)
 			)
 		)
-		(property "E14MFR#" "B2B-XH-A(LF)(SN)"
+		(property "E14MFR#" "1725672"
+			(at 140.97 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "PHOENIX CONTACT"
 			(at 140.97 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8432,7 +8456,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/1856333.pdf"
 			(at 139.065 139.065 0)
 			(hide yes)
 			(show_name no)
@@ -8444,8 +8468,9 @@
 				(justify left)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bipolar (BJT) Single Transistor, General Purpose, NPN, 45 V, 100 mA, 250 mW, SOT-23, Surface Mount"
 			(at 139.065 139.065 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8530,6 +8555,17 @@
 				)
 			)
 		)
+		(property "MFR" "NEXPERIA"
+			(at 147.32 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fe8242b5-9c43-4aba-8726-2cce945a10f4")
 		)
@@ -8590,7 +8626,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2863859.pdf"
 			(at 149.225 130.175 0)
 			(hide yes)
 			(show_name no)
@@ -8601,8 +8637,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 5.6 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant"
 			(at 149.225 130.175 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8622,7 +8659,7 @@
 				)
 			)
 		)
-		(property "E14PART" "1469820"
+		(property "E14PART" "2074283"
 			(at 149.225 130.175 0)
 			(hide yes)
 			(show_name no)
@@ -8666,7 +8703,18 @@
 				)
 			)
 		)
-		(property "E14MFR#" "CRCW06035K60FKEA"
+		(property "E14MFR#" "MCSR06X5601FTL"
+			(at 149.225 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
 			(at 149.225 130.175 0)
 			(hide yes)
 			(show_name no)
@@ -8736,7 +8784,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/3625645.pdf"
 			(at 86.868 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8747,8 +8795,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Wire-To-Board Terminal Block, 2.54 mm, 4 Ways, 26 AWG, 20 AWG, 0.5 mm², Screw"
 			(at 86.868 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8757,7 +8806,7 @@
 				)
 			)
 		)
-		(property "E14PART" "3041414"
+		(property "E14PART" "304141401"
 			(at 86.868 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8813,6 +8862,17 @@
 			)
 		)
 		(property "E14MOQ" "1"
+			(at 86.868 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "PHOENIX CONTACT"
 			(at 86.868 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8889,7 +8949,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=OJS_16A_0821&DocType=Data%20Sheet&DocLang=English&PartCntxt=2071556-8&DocFormat=pdf"
 			(at 172.085 147.955 0)
 			(hide yes)
 			(show_name no)
@@ -8900,17 +8960,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 172.085 147.955 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "E14PART" "3764763"
+		(property "Description" "RELAY GEN PURPOSE SPST 10A 24V"
 			(at 172.085 147.955 0)
 			(hide yes)
 			(show_name no)
@@ -8921,7 +8971,7 @@
 				)
 			)
 		)
-		(property "E14MFR#" "2071556-9"
+		(property "E14MFR#" "OJ-SS-124HM,000"
 			(at 172.085 147.955 0)
 			(hide yes)
 			(show_name no)
@@ -8932,7 +8982,7 @@
 				)
 			)
 		)
-		(property "JLCMFR#" "DNI"
+		(property "JLCMFR#" ""
 			(at 172.085 147.955 0)
 			(hide yes)
 			(show_name no)
@@ -8943,7 +8993,7 @@
 				)
 			)
 		)
-		(property "JLCPART" "DNI"
+		(property "JLCPART" ""
 			(at 172.085 147.955 0)
 			(hide yes)
 			(show_name no)
@@ -8954,7 +9004,7 @@
 				)
 			)
 		)
-		(property "E14MOQ" "0"
+		(property "E14MOQ" "1"
 			(at 172.085 147.955 0)
 			(hide yes)
 			(show_name no)
@@ -8965,7 +9015,73 @@
 				)
 			)
 		)
-		(property "JLCMOQ" "0"
+		(property "JLCMOQ" ""
+			(at 172.085 147.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIPART" "41-OJS-SH-124HMF,00000-ND"
+			(at 172.085 147.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIMFR#" "OJS-SH-124HMF"
+			(at 172.085 147.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "1891694"
+			(at 172.085 147.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "TE CONNECTIVITY - OEG"
+			(at 172.085 147.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DKPART" ""
+			(at 172.085 147.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT" "DigiKey OJS-SH-124HMF,00000 (sealed, 200mW, Class F, $4.14) | element14 3764773 = 2071556-2 (sealed 16A/450mW, $4.53, 0 stock, 24wk lead) | element14 OJ-SS-124LMHF,000 (vented, 200mW coil, Class F, but only 8A, $4.97)"
 			(at 172.085 147.955 0)
 			(hide yes)
 			(show_name no)
@@ -9053,6 +9169,7 @@
 		)
 		(property "Description" ""
 			(at 100.838 66.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9119,7 +9236,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2043229.pdf"
 			(at 116.84 126.365 0)
 			(hide yes)
 			(show_name no)
@@ -9130,8 +9247,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header, Vertical, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, MTA-100"
 			(at 116.84 126.365 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9162,7 +9280,7 @@
 				)
 			)
 		)
-		(property "E14MOQ" "0"
+		(property "E14MOQ" "10"
 			(at 116.84 126.365 0)
 			(hide yes)
 			(show_name no)
@@ -9184,7 +9302,7 @@
 				)
 			)
 		)
-		(property "E14MFR#" "DNI"
+		(property "E14MFR#" "640456-3"
 			(at 116.84 126.365 0)
 			(hide yes)
 			(show_name no)
@@ -9195,7 +9313,18 @@
 				)
 			)
 		)
-		(property "E14PART" "DNI"
+		(property "E14PART" "588581"
+			(at 116.84 126.365 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "TE CONNECTIVITY - AMP"
 			(at 116.84 126.365 0)
 			(hide yes)
 			(show_name no)
@@ -9226,7 +9355,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 107.95 44.45 0)
+		(at 107.95 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9236,7 +9365,7 @@
 		(dnp no)
 		(uuid "905e2eb8-ed08-48ff-a286-311fff343d65")
 		(property "Reference" "#PWR071"
-			(at 107.95 50.8 0)
+			(at 107.95 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9247,7 +9376,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 107.442 48.26 0)
+			(at 107.442 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9257,7 +9386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 44.45 0)
+			(at 107.95 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9268,7 +9397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 44.45 0)
+			(at 107.95 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9279,7 +9408,8 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 44.45 0)
+			(at 107.95 38.1 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9344,7 +9474,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2138248.pdf"
 			(at 71.12 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -9355,8 +9485,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Wire-To-Board Terminal Block, 2.54 mm, 6 Ways, 26 AWG, 20 AWG, 0.5 mm², Screw"
 			(at 71.12 170.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9376,7 +9507,7 @@
 				)
 			)
 		)
-		(property "E14PART" "3041426"
+		(property "E14PART" "304142601"
 			(at 71.12 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -9421,6 +9552,17 @@
 			)
 		)
 		(property "E14MFR#" "1725698"
+			(at 71.12 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "PHOENIX CONTACT"
 			(at 71.12 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -9504,7 +9646,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/NEXP/NEXP-S-A0002934945/NEXP-S-A0002934945-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 164.465 130.175 0)
 			(hide yes)
 			(show_name no)
@@ -9515,8 +9657,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bipolar (BJT) Single Transistor, General Purpose, PNP, 45 V, 100 mA, 250 mW, SOT-23, Surface Mount"
 			(at 164.465 130.175 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9602,6 +9745,17 @@
 				)
 			)
 		)
+		(property "MFR" "NEXPERIA"
+			(at 164.465 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a753e2bb-16bb-4038-b1b1-7651de57f57f")
 		)
@@ -9676,6 +9830,7 @@
 		)
 		(property "Description" ""
 			(at 141.605 145.415 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9752,6 +9907,7 @@
 		)
 		(property "Description" ""
 			(at 186.69 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9828,6 +9984,7 @@
 		)
 		(property "Description" ""
 			(at 60.96 178.435 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9892,7 +10049,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/3688369.pdf"
 			(at 193.675 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9903,8 +10060,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, KK 254 6373 Series"
 			(at 193.675 29.21 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9946,7 +10104,7 @@
 				)
 			)
 		)
-		(property "E14MOQ" "1"
+		(property "E14MOQ" "10"
 			(at 193.675 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9979,6 +10137,17 @@
 				)
 			)
 		)
+		(property "MFR" "MOLEX"
+			(at 193.675 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "79ad5360-b6f1-4100-93ad-38cb4ac1e60b")
 		)
@@ -9999,7 +10168,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 107.95 27.94 0)
+		(at 107.95 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10009,7 +10178,7 @@
 		(dnp no)
 		(uuid "a99983a1-1e72-41f1-8940-dc3d42d547e8")
 		(property "Reference" "#PWR070"
-			(at 107.95 31.75 0)
+			(at 107.95 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10020,7 +10189,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 107.95 24.13 0)
+			(at 107.95 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10030,7 +10199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 27.94 0)
+			(at 107.95 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10041,7 +10210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 27.94 0)
+			(at 107.95 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10052,7 +10221,8 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 27.94 0)
+			(at 107.95 21.59 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10120,7 +10290,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2043229.pdf"
 			(at 116.84 107.315 0)
 			(hide yes)
 			(show_name no)
@@ -10131,8 +10301,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header, Vertical, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, MTA-100"
 			(at 116.84 107.315 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10163,7 +10334,7 @@
 				)
 			)
 		)
-		(property "E14MOQ" "0"
+		(property "E14MOQ" "10"
 			(at 116.84 107.315 0)
 			(hide yes)
 			(show_name no)
@@ -10185,7 +10356,7 @@
 				)
 			)
 		)
-		(property "E14MFR#" "DNI"
+		(property "E14MFR#" "640456-3"
 			(at 116.84 107.315 0)
 			(hide yes)
 			(show_name no)
@@ -10196,7 +10367,18 @@
 				)
 			)
 		)
-		(property "E14PART" "DNI"
+		(property "E14PART" "588581"
+			(at 116.84 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "TE CONNECTIVITY - AMP"
 			(at 116.84 107.315 0)
 			(hide yes)
 			(show_name no)
@@ -10258,7 +10440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "-Project:D_SOD-323_DOT"
+		(property "Footprint" "-Project:D_SOD-523_DOT"
 			(at 156.845 147.955 0)
 			(hide yes)
 			(show_name no)
@@ -10269,7 +10451,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2124315.pdf"
 			(at 156.845 147.955 0)
 			(hide yes)
 			(show_name no)
@@ -10280,8 +10462,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Small Signal Schottky Diode, 40 V, 300 mA, 900 mV, 1 A, 150 °C"
 			(at 156.845 147.955 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10323,7 +10506,7 @@
 				)
 			)
 		)
-		(property "E14MFR#" "BAT54JFILM"
+		(property "E14MFR#" "BAT54KFILM"
 			(at 156.845 147.955 0)
 			(hide yes)
 			(show_name no)
@@ -10345,7 +10528,7 @@
 				)
 			)
 		)
-		(property "E14PART" "9801502"
+		(property "E14PART" "2341638"
 			(at 156.845 147.955 0)
 			(hide yes)
 			(show_name no)
@@ -10358,6 +10541,17 @@
 		)
 		(property "Marking" "86 (SL)"
 			(at 156.845 147.955 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "STMICROELECTRONICS"
+			(at 156.845 147.955 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10384,7 +10578,7 @@
 	)
 	(symbol
 		(lib_id "3rd-party:MicroFit_3mm_02x04")
-		(at 118.11 43.18 180)
+		(at 118.11 36.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10394,7 +10588,7 @@
 		(dnp no)
 		(uuid "b47f89bb-44a4-4a9f-8b7c-3acd2d90a48a")
 		(property "Reference" "J14"
-			(at 116.84 35.56 0)
+			(at 116.84 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10404,7 +10598,7 @@
 			)
 		)
 		(property "Value" "MicroFit_2x04"
-			(at 120.142 48.26 0)
+			(at 120.142 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10414,7 +10608,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical"
-			(at 118.11 43.18 0)
+			(at 118.11 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10424,8 +10618,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 117.094 41.91 0)
+		(property "Datasheet" "http://www.farnell.com/datasheets/2696409.pdf"
+			(at 117.094 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10435,8 +10629,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 118.11 43.18 0)
+		(property "Description" "Pin Header, Wire-to-Board, 3 mm, 2 Rows, 8 Contacts, Through Hole Straight"
+			(at 118.11 36.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10445,8 +10640,8 @@
 				)
 			)
 		)
-		(property "E14PART" "1513893"
-			(at 118.11 43.18 0)
+		(property "E14PART" "101224901"
+			(at 118.11 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10457,7 +10652,7 @@
 			)
 		)
 		(property "JLCMFR#" "538-43045-1027"
-			(at 118.11 43.18 0)
+			(at 118.11 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10467,8 +10662,8 @@
 				)
 			)
 		)
-		(property "E14MFR#" "43045-1027"
-			(at 118.11 43.18 0)
+		(property "E14MFR#" "43045-0812"
+			(at 118.11 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10479,7 +10674,7 @@
 			)
 		)
 		(property "JLCPART" "Mouser"
-			(at 118.11 43.18 0)
+			(at 118.11 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10489,8 +10684,8 @@
 				)
 			)
 		)
-		(property "E14MOQ" "1"
-			(at 118.11 43.18 0)
+		(property "E14MOQ" "10"
+			(at 118.11 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10501,7 +10696,18 @@
 			)
 		)
 		(property "JLCMOQ" "1"
-			(at 118.11 43.18 0)
+			(at 118.11 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MOLEX"
+			(at 118.11 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10586,7 +10792,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2863859.pdf"
 			(at 127.635 139.065 0)
 			(hide yes)
 			(show_name no)
@@ -10597,8 +10803,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 5.6 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant"
 			(at 127.635 139.065 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10618,7 +10825,7 @@
 				)
 			)
 		)
-		(property "E14PART" "1469820"
+		(property "E14PART" "2074283"
 			(at 127.635 139.065 0)
 			(hide yes)
 			(show_name no)
@@ -10662,7 +10869,18 @@
 				)
 			)
 		)
-		(property "E14MFR#" "CRCW06035K60FKEA"
+		(property "E14MFR#" "MCSR06X5601FTL"
+			(at 127.635 139.065 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
 			(at 127.635 139.065 0)
 			(hide yes)
 			(show_name no)
@@ -10745,6 +10963,7 @@
 		)
 		(property "Description" ""
 			(at 64.77 138.43 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10808,7 +11027,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2043229.pdf"
 			(at 138.938 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10819,8 +11038,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header, Vertical, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, MTA-100"
 			(at 138.938 64.77 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10851,7 +11071,7 @@
 				)
 			)
 		)
-		(property "E14MOQ" "0"
+		(property "E14MOQ" "10"
 			(at 138.938 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10873,7 +11093,7 @@
 				)
 			)
 		)
-		(property "E14MFR#" "DNI"
+		(property "E14MFR#" "640456-3"
 			(at 138.938 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10884,7 +11104,18 @@
 				)
 			)
 		)
-		(property "E14PART" "DNI"
+		(property "E14PART" "588581"
+			(at 138.938 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "TE CONNECTIVITY - AMP"
 			(at 138.938 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10957,7 +11188,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/3625645.pdf"
 			(at 146.558 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10968,8 +11199,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Wire-To-Board Terminal Block, 2.54 mm, 4 Ways, 26 AWG, 20 AWG, 0.5 mm², Screw"
 			(at 146.558 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10978,7 +11210,7 @@
 				)
 			)
 		)
-		(property "E14PART" "3041414"
+		(property "E14PART" "304141401"
 			(at 146.558 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11034,6 +11266,17 @@
 			)
 		)
 		(property "E14MOQ" "1"
+			(at 146.558 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "PHOENIX CONTACT"
 			(at 146.558 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11109,7 +11352,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/3625645.pdf"
 			(at 194.31 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11120,8 +11363,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Wire-To-Board Terminal Block, 2.54 mm, 4 Ways, 26 AWG, 20 AWG, 0.5 mm², Screw"
 			(at 194.31 76.2 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11130,7 +11374,7 @@
 				)
 			)
 		)
-		(property "E14PART" "3041414"
+		(property "E14PART" "304141401"
 			(at 194.31 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11196,6 +11440,17 @@
 				)
 			)
 		)
+		(property "MFR" "PHOENIX CONTACT"
+			(at 194.31 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0b740ab0-8d84-414c-8a26-bda73a89aaff")
 		)
@@ -11225,8 +11480,8 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "d8aaf275-3628-4813-a2d5-01ce546dc7e8")
 		(property "Reference" "JX1"
 			(at 36.83 38.1 0)
@@ -11272,6 +11527,7 @@
 		)
 		(property "Description" ""
 			(at 38.1 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11422,7 +11678,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2043229.pdf"
 			(at 108.458 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11433,8 +11689,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header, Vertical, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, MTA-100"
 			(at 108.458 64.77 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11465,7 +11722,7 @@
 				)
 			)
 		)
-		(property "E14MOQ" "0"
+		(property "E14MOQ" "10"
 			(at 108.458 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11487,7 +11744,7 @@
 				)
 			)
 		)
-		(property "E14MFR#" "DNI"
+		(property "E14MFR#" "640456-3"
 			(at 108.458 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11498,7 +11755,18 @@
 				)
 			)
 		)
-		(property "E14PART" "DNI"
+		(property "E14PART" "588581"
+			(at 108.458 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "TE CONNECTIVITY - AMP"
 			(at 108.458 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11583,6 +11851,7 @@
 		)
 		(property "Description" ""
 			(at 157.988 59.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11645,7 +11914,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 161.925 121.285 0)
 			(hide yes)
 			(show_name no)
@@ -11656,8 +11925,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
 			(at 161.925 121.285 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11677,7 +11947,7 @@
 				)
 			)
 		)
-		(property "E14PART" "2447230"
+		(property "E14PART" "244723001"
 			(at 161.925 121.285 0)
 			(hide yes)
 			(show_name no)
@@ -11734,6 +12004,17 @@
 		)
 		(property "Marking" "01C"
 			(at 161.925 121.285 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 161.925 121.285 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11814,6 +12095,7 @@
 		)
 		(property "Description" ""
 			(at 131.318 67.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11890,6 +12172,7 @@
 		)
 		(property "Description" ""
 			(at 134.62 122.555 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11912,7 +12195,7 @@
 	)
 	(symbol
 		(lib_id "3rd-party:MicroFit_3mm_02x04")
-		(at 87.63 43.18 180)
+		(at 87.63 36.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11922,7 +12205,7 @@
 		(dnp no)
 		(uuid "fb128caf-d108-4c02-9b32-7ea342816180")
 		(property "Reference" "J12"
-			(at 86.36 35.56 0)
+			(at 86.36 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11932,7 +12215,7 @@
 			)
 		)
 		(property "Value" "MicroFit_2x04"
-			(at 90.17 48.26 0)
+			(at 90.17 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11942,7 +12225,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical"
-			(at 87.63 43.18 0)
+			(at 87.63 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11952,8 +12235,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 86.614 41.91 0)
+		(property "Datasheet" "http://www.farnell.com/datasheets/2696409.pdf"
+			(at 86.614 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11963,8 +12246,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 87.63 43.18 0)
+		(property "Description" "Pin Header, Wire-to-Board, 3 mm, 2 Rows, 8 Contacts, Through Hole Straight"
+			(at 87.63 36.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11973,8 +12257,8 @@
 				)
 			)
 		)
-		(property "E14PART" "1513893"
-			(at 87.63 43.18 0)
+		(property "E14PART" "101224901"
+			(at 87.63 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11985,7 +12269,7 @@
 			)
 		)
 		(property "JLCMFR#" "538-43045-1027"
-			(at 87.63 43.18 0)
+			(at 87.63 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11995,8 +12279,8 @@
 				)
 			)
 		)
-		(property "E14MFR#" "43045-1027"
-			(at 87.63 43.18 0)
+		(property "E14MFR#" "43045-0812"
+			(at 87.63 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12007,7 +12291,7 @@
 			)
 		)
 		(property "JLCPART" "Mouser"
-			(at 87.63 43.18 0)
+			(at 87.63 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12017,8 +12301,8 @@
 				)
 			)
 		)
-		(property "E14MOQ" "1"
-			(at 87.63 43.18 0)
+		(property "E14MOQ" "10"
+			(at 87.63 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12029,7 +12313,18 @@
 			)
 		)
 		(property "JLCMOQ" "1"
-			(at 87.63 43.18 0)
+			(at 87.63 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MOLEX"
+			(at 87.63 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12128,6 +12423,7 @@
 		)
 		(property "Description" ""
 			(at 179.705 26.035 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12191,7 +12487,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/3667850.pdf"
 			(at 57.15 133.985 0)
 			(hide yes)
 			(show_name no)
@@ -12202,8 +12498,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Wire-To-Board Terminal Block, 2.54 mm, 2 Ways, 26 AWG, 20 AWG, 0.5 mm², Screw"
 			(at 57.15 133.985 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12278,7 +12575,18 @@
 				)
 			)
 		)
-		(property "E14PART" "3041359"
+		(property "E14PART" "304135901"
+			(at 57.15 133.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "PHOENIX CONTACT"
 			(at 57.15 133.985 0)
 			(hide yes)
 			(show_name no)
@@ -12350,7 +12658,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2043229.pdf"
 			(at 52.705 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12361,8 +12669,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header, Vertical, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, MTA-100"
 			(at 52.705 99.06 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12393,7 +12702,7 @@
 				)
 			)
 		)
-		(property "E14MOQ" "0"
+		(property "E14MOQ" "10"
 			(at 52.705 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12415,7 +12724,7 @@
 				)
 			)
 		)
-		(property "E14MFR#" "DNI"
+		(property "E14MFR#" "640456-3"
 			(at 52.705 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12426,7 +12735,18 @@
 				)
 			)
 		)
-		(property "E14PART" "DNI"
+		(property "E14PART" "588581"
+			(at 52.705 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "TE CONNECTIVITY - AMP"
 			(at 52.705 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12511,6 +12831,7 @@
 		)
 		(property "Description" ""
 			(at 179.705 50.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -2394,7 +2394,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_QFP:TQFP-32_7x7mm_P0.8mm"
+			(property "Footprint" "Package_DFN_QFN:VQFN-32-1EP_4x4mm_P0.4mm_EP2.8x2.8mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2451,8 +2451,8 @@
 			)
 			(symbol "ATmega16U2-A_0_1"
 				(rectangle
-					(start -15.24 -33.02)
-					(end 15.24 33.02)
+					(start -15.24 33.02)
+					(end 15.24 -33.02)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3032,6 +3032,24 @@
 						)
 					)
 					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive non_logic
+					(at -8.89 -33.02 270)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5558,7 +5576,7 @@
 		(uuid "fffc4f68-3f0a-45d3-b1b4-fd206d1f557a")
 	)
 	(no_connect
-		(at 261.62 45.72)
+		(at 265.43 45.72)
 		(uuid "02b7eb24-f6e7-4a1d-abd0-a1099612455d")
 	)
 	(no_connect
@@ -5736,16 +5754,6 @@
 			(type default)
 		)
 		(uuid "0c0f68a5-ad1e-471b-9b0d-38f2828a5501")
-	)
-	(wire
-		(pts
-			(xy 261.62 45.72) (xy 265.43 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e299756-d977-425f-81ea-be5d5a3f2d95")
 	)
 	(wire
 		(pts
@@ -8754,7 +8762,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2863858.pdf"
 			(at 72.39 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8765,8 +8773,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, Sulfur Resistant"
 			(at 72.39 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MCSR04X1001FTL"
+			(at 72.39 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 72.39 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2073959"
+			(at 72.39 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 72.39 124.46 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8845,8 +8898,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESD Protection Device, 17 V, SOT-23, 6 Pins, 1.1 V"
 			(at 68.58 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "USBLC6-2SC6"
+			(at 68.58 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "STMICROELECTRONICS"
+			(at 68.58 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "1269406"
+			(at 68.58 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "5"
+			(at 68.58 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8874,12 +8972,6 @@
 			(uuid "c169d78c-6dd1-43eb-a133-971463eb7fa8")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "U1")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "U6")
@@ -8932,7 +9024,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2860632.pdf"
 			(at 86.36 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8943,8 +9035,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0603 [1608 Metric], ± 10%, X7R"
 			(at 86.36 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MC0603B104K500CT"
+			(at 86.36 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 86.36 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "175912201"
+			(at 86.36 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 86.36 92.71 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8960,12 +9097,6 @@
 			(uuid "1efafbcd-5897-4e97-b15d-546d9b20cf30")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "C4")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "C16")
@@ -9016,7 +9147,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/4536186.pdf"
 			(at 143.51 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9027,8 +9158,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X7R"
 			(at 143.51 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "0402B104K500CT"
+			(at 143.51 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 143.51 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "3764075"
+			(at 143.51 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 143.51 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9044,12 +9220,6 @@
 			(uuid "7e36f1de-3200-4850-9af1-4128725ce9e3")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "C7")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "C19")
@@ -9114,6 +9284,7 @@
 		)
 		(property "Description" ""
 			(at 158.75 168.91 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9126,12 +9297,6 @@
 			(uuid "f7ba1ef1-4551-4f0d-9c63-4d3781ef5523")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR098")
@@ -9196,6 +9361,7 @@
 		)
 		(property "Description" ""
 			(at 93.98 179.07 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9208,12 +9374,6 @@
 			(uuid "2ed33ee3-9b92-4325-8995-719e5331dfd6")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR091")
@@ -9278,6 +9438,7 @@
 		)
 		(property "Description" ""
 			(at 19.05 115.57 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9290,12 +9451,6 @@
 			(uuid "45022587-28bd-4d75-a740-3d0a78117ba8")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR084")
@@ -9346,7 +9501,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2860632.pdf"
 			(at 226.06 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9357,8 +9512,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0603 [1608 Metric], ± 10%, X7R"
 			(at 226.06 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MC0603B104K500CT"
+			(at 226.06 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 226.06 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "175912201"
+			(at 226.06 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 226.06 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9374,12 +9574,6 @@
 			(uuid "2355be29-0701-4726-93c9-cc8811fad722")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "C12")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "C26")
@@ -9444,6 +9638,7 @@
 		)
 		(property "Description" ""
 			(at 73.66 142.24 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9456,12 +9651,6 @@
 			(uuid "146db241-1f62-4106-822f-909007547134")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR087")
@@ -9513,7 +9702,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/150040YS73240.pdf"
 			(at 143.51 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -9546,6 +9735,50 @@
 				)
 			)
 		)
+		(property "E14MFR#" "150040YS73240"
+			(at 143.51 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "WURTH ELEKTRONIK"
+			(at 143.51 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2900756"
+			(at 143.51 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "5"
+			(at 143.51 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "57ef20dc-b5f6-45d2-8359-40d5dfb0bb8d")
 		)
@@ -9553,12 +9786,6 @@
 			(uuid "a59e7f13-e8ce-4253-a7e2-0a40c1da86cd")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "D1")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "D9")
@@ -9623,6 +9850,7 @@
 		)
 		(property "Description" ""
 			(at 194.31 90.17 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9635,12 +9863,6 @@
 			(uuid "f23867a3-11c4-430f-978c-c04584027604")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR0108")
@@ -9692,7 +9914,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0010457957/SCMP-S-A0010457957-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 36.83 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -9704,6 +9926,50 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 36.83 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "2213SM-06G-TB"
+			(at 36.83 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 36.83 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2847230"
+			(at 36.83 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "1"
 			(at 36.83 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -9733,12 +9999,6 @@
 			(uuid "497962df-c4df-464b-ae13-3f84785b209c")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "J2")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "J22")
@@ -9789,7 +10049,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/ABRC/ABRCS03152/ABRCS03152-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 25.4 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -9800,8 +10060,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Crystal, ABM3, 16 MHz, 20 ppm, 30 ppm, 18 pF"
 			(at 25.4 114.3 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9811,6 +10072,50 @@
 			)
 		)
 		(property "KiLib_Generator" "crystal_resonator_oscillator"
+			(at 25.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "ABM3-16.000MHZ-D2Y-T"
+			(at 25.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "ABRACON"
+			(at 25.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2467791"
+			(at 25.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "1"
 			(at 25.4 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -9834,12 +10139,6 @@
 			(uuid "520e7777-89f5-4632-bb0e-d37dcb3218e4")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "Y1")
@@ -9905,6 +10204,7 @@
 		)
 		(property "Description" ""
 			(at 96.52 88.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9917,12 +10217,6 @@
 			(uuid "c78e5838-addb-4c4d-8fab-9a4cf92ae7cc")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR092")
@@ -9987,8 +10281,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8 Bit MCU, AVR ATmega Family ATmega328 Series Microcontrollers, AVR, 20 MHz, 32 KB, 32 Pins, TQFP"
 			(at 218.44 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "ATMEGA328P-AU"
+			(at 218.44 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MICROCHIP"
+			(at 218.44 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "1715486"
+			(at 218.44 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "1"
+			(at 218.44 110.49 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10094,12 +10433,6 @@
 			(uuid "ecfae4ee-2387-4ac2-8b69-6b5a3d7e7f9d")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "U4")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "U9")
@@ -10120,7 +10453,7 @@
 		(dnp no)
 		(uuid "313d258a-bdf6-4974-a138-35d4d4be53de")
 		(property "Reference" "R30"
-			(at 170.18 50.8 0)
+			(at 170.434 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10152,7 +10485,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2863858.pdf"
 			(at 166.37 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10163,8 +10496,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, Sulfur Resistant"
 			(at 166.37 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MCSR04X1002FTL"
+			(at 166.37 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 166.37 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2073960"
+			(at 166.37 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 166.37 50.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10180,12 +10558,6 @@
 			(uuid "b33a96a3-4f6a-4bfe-94c4-2df0041202b8")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "R8")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "R30")
@@ -10217,7 +10589,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD1206-S01575"
+		(property "Value" "BAT54JFILM"
 			(at 176.53 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10239,7 +10611,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2124315.pdf"
 			(at 173.99 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10283,6 +10655,83 @@
 				)
 			)
 		)
+		(property "JLCPART" ""
+			(at 173.99 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCMFR#" ""
+			(at 173.99 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCMOQ" ""
+			(at 173.99 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2341638"
+			(at 173.99 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "BAT54KFILM"
+			(at 173.99 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "5"
+			(at 173.99 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "STMICROELECTRONICS"
+			(at 173.99 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "def92663-fb59-4d58-a059-a7c6a46274a9")
 		)
@@ -10290,12 +10739,6 @@
 			(uuid "8eaddd12-d6c4-45ae-9779-cb3712044f22")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "D3")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "D11")
@@ -10348,7 +10791,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/4536186.pdf"
 			(at 86.36 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10359,8 +10802,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X7R"
 			(at 86.36 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "0402B104K500CT"
+			(at 86.36 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 86.36 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "3764075"
+			(at 86.36 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 86.36 67.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10376,12 +10864,6 @@
 			(uuid "92bc2b86-ea74-45ae-874f-e4b3fa96ee0d")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "C5")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "C17")
@@ -10434,7 +10916,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/4536186.pdf"
 			(at 134.62 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10445,8 +10927,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X7R"
 			(at 134.62 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "0402B104K500CT"
+			(at 134.62 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 134.62 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "3764075"
+			(at 134.62 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 134.62 162.56 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10462,12 +10989,6 @@
 			(uuid "cd79a55f-27c9-4ae0-b919-e5e8dfaba590")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "C11")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "C21")
@@ -10532,6 +11053,7 @@
 		)
 		(property "Description" ""
 			(at 121.92 26.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10677,6 +11199,7 @@
 		)
 		(property "Description" ""
 			(at 116.84 78.74 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10689,12 +11212,6 @@
 			(uuid "0b702143-ac74-4e64-8702-2e6f06def2eb")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR093")
@@ -10759,6 +11276,7 @@
 		)
 		(property "Description" ""
 			(at 121.92 179.07 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10771,12 +11289,6 @@
 			(uuid "8ba5a9c0-40ea-469b-9228-13c012c5e533")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR094")
@@ -10841,6 +11353,7 @@
 		)
 		(property "Description" ""
 			(at 205.74 24.13 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10853,12 +11366,6 @@
 			(uuid "4dde3bd3-5d49-4279-a409-570830d47e48")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR0109")
@@ -10925,6 +11432,7 @@
 		)
 		(property "Description" ""
 			(at 180.34 147.32 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10987,7 +11495,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/4536186.pdf"
 			(at 101.6 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10998,8 +11506,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X7R"
 			(at 101.6 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "0402B104K500CT"
+			(at 101.6 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 101.6 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "3764075"
+			(at 101.6 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 101.6 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11015,12 +11568,6 @@
 			(uuid "49131a4b-765b-48c3-9c37-e8bba3aef6a5")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "C6")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "C18")
@@ -11063,7 +11610,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "-Project:SW_Push_1P1T_NO_XUNPU_TS-1088-AR02016"
 			(at 168.91 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -11085,7 +11632,106 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Tactile switch, SPST-NO, 3.9×3.0×2.0 mm, SMT"
+			(at 173.99 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPART" ""
+			(at 173.99 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCMFR#" ""
+			(at 173.99 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCMOQ" ""
+			(at 173.99 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" ""
+			(at 173.99 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "TS-1088-AR02016"
+			(at 173.99 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" ""
+			(at 173.99 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 173.99 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSCMFR#" "TS-1088-AR02016"
+			(at 173.99 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "XUNPU"
 			(at 173.99 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -11103,12 +11749,6 @@
 			(uuid "24153e30-5219-4ee3-a5ee-de356f672a58")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "SW3")
@@ -11162,7 +11802,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2860632.pdf"
 			(at 189.23 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -11173,8 +11813,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 22 pF, 50 V, 0402 [1005 Metric], ± 5%, C0G / NP0"
 			(at 189.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MC0402N220J500CT"
+			(at 189.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 189.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "1758951"
+			(at 189.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 189.23 111.76 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11190,12 +11875,6 @@
 			(uuid "83271384-a641-4b30-ab61-5f5cdb93e058")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "C9")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "C22")
@@ -11247,7 +11926,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2237807.pdf"
 			(at 35.56 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11302,7 +11981,7 @@
 				)
 			)
 		)
-		(property "E14PART" ""
+		(property "E14PART" "1189314"
 			(at 35.56 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11313,7 +11992,7 @@
 				)
 			)
 		)
-		(property "E14MFR#" ""
+		(property "E14MFR#" "VC080505A150DP"
 			(at 35.56 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11324,7 +12003,18 @@
 				)
 			)
 		)
-		(property "E14MOQ" ""
+		(property "E14MOQ" "1"
+			(at 35.56 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "KYOCERA AVX"
 			(at 35.56 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11342,12 +12032,6 @@
 			(uuid "b3ad5c3e-ed85-4155-870f-c1a3db4c5628")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "L1")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "L2")
@@ -11400,7 +12084,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2860632.pdf"
 			(at 38.1 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11411,8 +12095,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 22 pF, 50 V, 0402 [1005 Metric], ± 5%, C0G / NP0"
 			(at 38.1 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MC0402N220J500CT"
+			(at 38.1 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 38.1 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "1758951"
+			(at 38.1 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 38.1 109.22 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11428,12 +12157,6 @@
 			(uuid "0ba667fa-bfc5-4c80-993b-c41c40699c17")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "C1")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "C13")
@@ -11498,6 +12221,7 @@
 		)
 		(property "Description" ""
 			(at 182.88 118.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11510,12 +12234,6 @@
 			(uuid "04be6eed-4c08-41d9-80b2-ad7bb307a6ec")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR0107")
@@ -11567,7 +12285,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/65100516121.pdf"
 			(at 31.75 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -11579,6 +12297,50 @@
 			)
 		)
 		(property "Description" "USB Mini Type B connector"
+			(at 27.94 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "65100516121"
+			(at 27.94 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "WURTH ELEKTRONIK"
+			(at 27.94 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "1642036"
+			(at 27.94 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "1"
 			(at 27.94 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -11608,12 +12370,6 @@
 			(uuid "b080e384-0a3c-4914-b5c9-6fa2a87bd6da")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "J1")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "J21")
@@ -11678,6 +12434,7 @@
 		)
 		(property "Description" ""
 			(at 67.31 165.1 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11690,12 +12447,6 @@
 			(uuid "ae6336bf-3198-403e-83a4-e1e850cfe62d")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR088")
@@ -11747,7 +12498,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0010457957/SCMP-S-A0010457957-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 196.85 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -11759,6 +12510,50 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 196.85 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "2213SM-06G-TB"
+			(at 196.85 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 196.85 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2847230"
+			(at 196.85 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "1"
 			(at 196.85 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -11788,12 +12583,6 @@
 			(uuid "b022d7f8-bed5-4573-8ba5-0ed1e39aaeda")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "J3")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "J23")
@@ -11858,6 +12647,7 @@
 		)
 		(property "Description" ""
 			(at 173.99 40.64 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11870,12 +12660,6 @@
 			(uuid "54d0608f-efb8-4d39-bdc9-51bcff240aa6")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR0100")
@@ -11942,6 +12726,7 @@
 		)
 		(property "Description" ""
 			(at 180.34 137.16 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12018,6 +12803,7 @@
 		)
 		(property "Description" ""
 			(at 261.62 59.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12094,6 +12880,7 @@
 		)
 		(property "Description" ""
 			(at 31.75 115.57 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12106,12 +12893,6 @@
 			(uuid "8b6f306e-b11d-4fac-88c0-d4750fd52a5d")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR085")
@@ -12176,6 +12957,7 @@
 		)
 		(property "Description" ""
 			(at 45.72 173.99 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12188,12 +12970,6 @@
 			(uuid "2678b94e-353b-4347-a03d-9a1b84d334b1")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR086")
@@ -12244,7 +13020,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/ABRC/ABRCS03152/ABRCS03152-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
 			(at 176.53 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12255,8 +13031,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Crystal, ABM3, 16 MHz, 20 ppm, 30 ppm, 18 pF"
 			(at 176.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "ABM3-16.000MHZ-D2Y-T"
+			(at 176.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "ABRACON"
+			(at 176.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2467791"
+			(at 176.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "1"
+			(at 176.53 116.84 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12278,12 +13099,6 @@
 			(uuid "c0a01974-2999-4ed9-ab41-a7f962441e06")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "Y2")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "Y2")
@@ -12348,6 +13163,7 @@
 		)
 		(property "Description" ""
 			(at 173.99 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12360,12 +13176,6 @@
 			(uuid "1b7551a6-fd64-4180-a015-586490dcb0df")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR0106")
@@ -12418,7 +13228,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2863858.pdf"
 			(at 152.4 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -12429,8 +13239,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, Sulfur Resistant"
 			(at 152.4 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MCSR04X1001FTL"
+			(at 152.4 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 152.4 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2073959"
+			(at 152.4 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 152.4 181.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12446,12 +13301,6 @@
 			(uuid "3ac14006-a191-47e1-a884-9f70254cc4d9")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "R7")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "R32")
@@ -12516,6 +13365,7 @@
 		)
 		(property "Description" ""
 			(at 170.18 118.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12528,12 +13378,6 @@
 			(uuid "d6c90651-07c0-4707-a2a4-c23de82bb892")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR099")
@@ -12576,7 +13420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 220.98 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -12587,7 +13431,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2718348.pdf"
 			(at 220.98 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -12609,6 +13453,83 @@
 				)
 			)
 		)
+		(property "JLCPART" ""
+			(at 220.98 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCMFR#" ""
+			(at 220.98 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCMOQ" ""
+			(at 220.98 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2215635"
+			(at 220.98 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MLZ1608M100WT000"
+			(at 220.98 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 220.98 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "TDK"
+			(at 220.98 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "40ed5059-129d-40e5-a8f9-d1dac4025209")
 		)
@@ -12616,12 +13537,6 @@
 			(uuid "2747617e-cb92-40d0-9b4c-110d1f9a6be0")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "L2")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "L3")
@@ -12687,8 +13602,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8 Bit MCU, AVR ATmega Family ATmega16 Series Microcontrollers, AVR, 16 MHz, 16 KB, 32 Pins, VQFN"
 			(at 96.52 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "ATMEGA16U2-MU"
+			(at 96.52 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MICROCHIP"
+			(at 96.52 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2810000"
+			(at 96.52 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "1"
+			(at 96.52 134.62 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12793,13 +13753,10 @@
 		(pin "9"
 			(uuid "ae61b8b7-8662-4cf2-8356-90a02f39d99c")
 		)
+		(pin "33"
+			(uuid "ec962a8d-b2a1-4fe3-b183-dbd70892a1e8")
+		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "U2")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "U7")
@@ -12852,7 +13809,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2863858.pdf"
 			(at 121.92 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -12863,8 +13820,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, Sulfur Resistant"
 			(at 121.92 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MCSR04X1001FTL"
+			(at 121.92 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 121.92 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2073959"
+			(at 121.92 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 121.92 172.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12880,12 +13882,6 @@
 			(uuid "5a7815a6-13b3-4c3d-8178-9cfa0cba1d95")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "R5")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "R27")
@@ -12950,6 +13946,7 @@
 		)
 		(property "Description" ""
 			(at 153.67 31.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12962,12 +13959,6 @@
 			(uuid "445e7614-a183-4c6e-9479-bf0e983ad9a1")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR096")
@@ -12999,7 +13990,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD1206-S01575"
+		(property "Value" "BAT54JFILM"
 			(at 69.85 176.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13021,7 +14012,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2124315.pdf"
 			(at 67.31 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -13065,6 +14056,83 @@
 				)
 			)
 		)
+		(property "JLCPART" ""
+			(at 67.31 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCMFR#" ""
+			(at 67.31 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCMOQ" ""
+			(at 67.31 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2341638"
+			(at 67.31 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "BAT54KFILM"
+			(at 67.31 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "5"
+			(at 67.31 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "STMICROELECTRONICS"
+			(at 67.31 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d2f35626-cae9-4f33-b9d9-8b606e52f410")
 		)
@@ -13072,12 +14140,6 @@
 			(uuid "9342252d-c579-4f76-841c-f349fa6e9cbf")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "D4")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "D8")
@@ -13142,6 +14204,7 @@
 		)
 		(property "Description" ""
 			(at 189.23 137.16 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13206,7 +14269,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2863858.pdf"
 			(at 72.39 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -13217,8 +14280,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, Sulfur Resistant"
 			(at 72.39 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MCSR04X1001FTL"
+			(at 72.39 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 72.39 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2073959"
+			(at 72.39 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 72.39 121.92 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13286,7 +14394,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2863858.pdf"
 			(at 59.69 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -13297,8 +14405,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, Sulfur Resistant"
 			(at 59.69 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MCSR04X1002FTL"
+			(at 59.69 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 59.69 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2073960"
+			(at 59.69 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 59.69 175.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13314,12 +14467,6 @@
 			(uuid "33c8a57f-a0a0-4618-a940-b25a25211b58")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "R9")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "R23")
@@ -13373,7 +14520,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2860632.pdf"
 			(at 189.23 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -13384,8 +14531,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 22 pF, 50 V, 0402 [1005 Metric], ± 5%, C0G / NP0"
 			(at 189.23 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MC0402N220J500CT"
+			(at 189.23 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 189.23 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "1758951"
+			(at 189.23 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 189.23 121.92 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13401,12 +14593,6 @@
 			(uuid "f9468c96-efde-4ac6-8356-ead1633adfd9")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "C10")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "C23")
@@ -13471,6 +14657,7 @@
 		)
 		(property "Description" ""
 			(at 189.23 156.845 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13547,6 +14734,7 @@
 		)
 		(property "Description" ""
 			(at 189.23 147.32 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13623,6 +14811,7 @@
 		)
 		(property "Description" ""
 			(at 226.06 68.58 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13635,12 +14824,6 @@
 			(uuid "fc8a884c-87a0-4cff-98ac-8748cdbb59b6")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR0113")
@@ -13693,7 +14876,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2863858.pdf"
 			(at 133.35 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13704,8 +14887,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, Sulfur Resistant"
 			(at 133.35 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MCSR04X1001FTL"
+			(at 133.35 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 133.35 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2073959"
+			(at 133.35 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 133.35 152.4 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13721,12 +14949,6 @@
 			(uuid "9576b05c-842a-431e-8310-43a98c624f81")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "R4")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "R29")
@@ -13793,6 +15015,7 @@
 		)
 		(property "Description" ""
 			(at 180.34 156.845 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13855,7 +15078,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/4536186.pdf"
 			(at 153.67 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -13866,8 +15089,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X7R"
 			(at 153.67 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "0402B104K500CT"
+			(at 153.67 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 153.67 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "3764075"
+			(at 153.67 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 153.67 57.15 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13883,12 +15151,6 @@
 			(uuid "e40c60f8-4fab-40c0-916c-35481d07a4a8")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "C8")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "C20")
@@ -13953,6 +15215,7 @@
 		)
 		(property "Description" ""
 			(at 218.44 149.86 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13965,12 +15228,6 @@
 			(uuid "527a50db-3f1f-44a5-bbaf-857d74b41350")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR0112")
@@ -14035,6 +15292,7 @@
 		)
 		(property "Description" ""
 			(at 77.47 93.98 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14047,12 +15305,6 @@
 			(uuid "b278b614-ffe4-4b38-88a6-b081096649c5")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR089")
@@ -14105,7 +15357,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2863858.pdf"
 			(at 133.35 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -14116,8 +15368,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, Sulfur Resistant"
 			(at 133.35 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MCSR04X1001FTL"
+			(at 133.35 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 133.35 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2073959"
+			(at 133.35 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 133.35 149.86 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14133,12 +15430,6 @@
 			(uuid "253041d7-8b80-4a16-a550-c74b68c329bd")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "R3")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "R28")
@@ -14190,7 +15481,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/150040YS73240.pdf"
 			(at 143.51 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -14223,6 +15514,50 @@
 				)
 			)
 		)
+		(property "E14MFR#" "150040YS73240"
+			(at 143.51 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "WURTH ELEKTRONIK"
+			(at 143.51 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2900756"
+			(at 143.51 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "5"
+			(at 143.51 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1c03c5ba-ba63-46b6-b87b-77d5fecf8c55")
 		)
@@ -14230,12 +15565,6 @@
 			(uuid "1bb8b424-878e-4097-b0b1-01622261d8d7")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "D2")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "D10")
@@ -14286,7 +15615,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2860632.pdf"
 			(at 213.36 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -14297,8 +15626,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0603 [1608 Metric], ± 10%, X7R"
 			(at 213.36 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MC0603B104K500CT"
+			(at 213.36 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 213.36 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "175912201"
+			(at 213.36 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 213.36 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14314,12 +15688,6 @@
 			(uuid "d2ba1b0f-4500-4e48-be20-d780826a4893")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "C14")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "C25")
@@ -14372,7 +15740,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2860632.pdf"
 			(at 38.1 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -14383,8 +15751,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 22 pF, 50 V, 0402 [1005 Metric], ± 5%, C0G / NP0"
 			(at 38.1 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MC0402N220J500CT"
+			(at 38.1 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 38.1 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "1758951"
+			(at 38.1 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 38.1 119.38 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14400,12 +15813,6 @@
 			(uuid "d8add504-2227-4d38-9f17-b171470094a4")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "C2")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "C14")
@@ -14458,7 +15865,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2863858.pdf"
 			(at 93.98 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -14469,8 +15876,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 1 Mohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, Sulfur Resistant"
 			(at 93.98 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MCSR04X1004FTL"
+			(at 93.98 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 93.98 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2073963"
+			(at 93.98 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 93.98 67.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14486,12 +15938,6 @@
 			(uuid "ff7f65cd-03e1-407f-98ec-dfa9e5685660")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "R2")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "R24")
@@ -14556,6 +16002,7 @@
 		)
 		(property "Description" ""
 			(at 205.74 34.29 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14568,12 +16015,6 @@
 			(uuid "29b09cd0-d135-453c-8d6c-2b788c4d5f91")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR0110")
@@ -14638,6 +16079,7 @@
 		)
 		(property "Description" ""
 			(at 213.36 68.58 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14650,12 +16092,6 @@
 			(uuid "cf9cc7ca-5527-4b28-8658-df3716ee977a")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR0111")
@@ -14708,7 +16144,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2863858.pdf"
 			(at 152.4 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -14719,8 +16155,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, Sulfur Resistant"
 			(at 152.4 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MCSR04X1001FTL"
+			(at 152.4 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 152.4 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2073959"
+			(at 152.4 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 152.4 172.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14736,12 +16217,6 @@
 			(uuid "4ebaa4e5-77b4-4072-8a33-e714f0070d3b")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "R6")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "R31")
@@ -14806,6 +16281,7 @@
 		)
 		(property "Description" ""
 			(at 153.67 78.74 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14818,12 +16294,6 @@
 			(uuid "2df47880-21fd-47be-87c7-30343ae0d3f8")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "#PWR097")
@@ -14887,8 +16357,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Digital Isolator, 2 Channels, 3.1 V, 5.5 V, WSOIC, 16 Pins, 12 Mbps"
 			(at 121.92 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "ADUM4160BRWZ"
+			(at 121.92 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "ANALOG DEVICES"
+			(at 121.92 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "4032105"
+			(at 121.92 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "1"
+			(at 121.92 50.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14946,12 +16461,6 @@
 			(uuid "35280de7-2904-4da6-9234-3b7a8d1ba0d9")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "U3")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "U8")
@@ -15002,7 +16511,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2860632.pdf"
 			(at 194.31 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -15013,8 +16522,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0603 [1608 Metric], ± 10%, X7R"
 			(at 194.31 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MC0603B104K500CT"
+			(at 194.31 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 194.31 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "175912201"
+			(at 194.31 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 194.31 85.09 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15030,12 +16584,6 @@
 			(uuid "def6e278-9e02-4b4e-983b-b0b7f9e43fa8")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "C13")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "C24")
@@ -15088,7 +16636,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/2863858.pdf"
 			(at 46.99 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -15099,8 +16647,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 1 Mohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, Sulfur Resistant"
 			(at 46.99 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "MCSR04X1004FTL"
+			(at 46.99 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 46.99 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "2073963"
+			(at 46.99 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 46.99 114.3 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15116,12 +16709,6 @@
 			(uuid "ad367e0a-1632-430e-a76b-30f4a0abed15")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "R1")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "R21")
@@ -15174,7 +16761,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.farnell.com/datasheets/4536186.pdf"
 			(at 73.66 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -15185,8 +16772,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 50 V, 0603 [1608 Metric], ± 10%, X7R"
 			(at 73.66 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "0603B105K500CT"
+			(at 73.66 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "MULTICOMP PRO"
+			(at 73.66 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14PART" "3764121"
+			(at 73.66 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MOQ" "10"
+			(at 73.66 135.89 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15202,12 +16834,6 @@
 			(uuid "c0a0e863-7611-4da0-bf5e-4a847cad4578")
 		)
 		(instances
-			(project "grbl-interface"
-				(path "/9cd3eeca-bfd4-4408-958e-3f7311ab2765"
-					(reference "C3")
-					(unit 1)
-				)
-			)
 			(project "controller"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/340c9bca-180f-46bf-a77d-96391d6e5e5b"
 					(reference "C15")

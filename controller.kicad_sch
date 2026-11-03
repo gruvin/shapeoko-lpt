@@ -3564,7 +3564,7 @@
 	)
 	(polyline
 		(pts
-			(xy 169.545 21.59) (xy 169.545 154.305)
+			(xy 168.91 21.59) (xy 168.91 154.305)
 		)
 		(stroke
 			(width 0)
@@ -3993,8 +3993,9 @@
 		(uuid "faafdfca-88af-43a8-bfd4-5df7d598a1b9")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x23_Male")
-		(at 91.44 91.44 180)
+		(lib_id "Connector:Conn_01x23_Female")
+		(at 91.44 91.44 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4004,7 +4005,7 @@
 		(dnp no)
 		(uuid "0d260335-7fc6-41cf-8ede-b0c7a4e644b5")
 		(property "Reference" "J1"
-			(at 91.44 121.92 0)
+			(at 88.9 122.174 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4014,8 +4015,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06_Female"
-			(at 90.17 129.54 90)
+		(property "Value" "CONN_23W_SOCKET"
+			(at 92.71 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4047,8 +4048,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "23-way 2.54mm single-row socket, 8.5mm insulation height, 3mm tails, gold-flash contacts. 260 in stock, MOQ 5 = $1.15. Socket hangs below the interface board and receives the 15.75mm posts of J3 across the fixed 20.00mm standoff gap (socket body bottom at 11.5mm, pin tip at 15.75mm). Backup: HC-PM254-8.5H-1x24PZ = C41376163 (15714 stock, cut one position)."
 			(at 91.44 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "HC-PM254-8.5H-1x23PZ"
+			(at 91.44 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Hong Cheng"
+			(at 91.44 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C41376162"
+			(at 91.44 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSCMFR#" "HC-PM254-8.5H-1x23PZ"
+			(at 91.44 91.44 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4193,6 +4239,7 @@
 		)
 		(property "Description" ""
 			(at 181.61 143.51 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4336,6 +4383,7 @@
 		)
 		(property "Description" ""
 			(at 80.645 117.475 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4414,6 +4462,7 @@
 		)
 		(property "Description" ""
 			(at 59.69 142.875 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4556,6 +4605,7 @@
 		)
 		(property "Description" ""
 			(at 130.81 146.05 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4577,8 +4627,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x23_Female")
-		(at 170.18 92.71 180)
+		(lib_id "Connector:Conn_01x23_Male")
+		(at 170.18 92.71 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4588,7 +4639,7 @@
 		(dnp no)
 		(uuid "2758d123-c21f-478c-91fd-d0d6258a4144")
 		(property "Reference" "J3"
-			(at 172.72 123.19 0)
+			(at 172.72 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4597,8 +4648,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x022_Male"
-			(at 170.815 130.175 90)
+		(property "Value" "CONN_23W_PIN"
+			(at 172.72 126.238 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4630,8 +4681,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "23-way single-row 2.54mm THT header, .025in square posts, tin, lead style 17 = .620in (15.75mm) post above a 2.54mm plastic body, .830in (21.08mm) overall. The long post is what reaches the interface-board sockets across the fixed 20.00mm stack: measured requirement is 16.0 +/-0.25mm above the controller PCB, geometry says 15.75-16.25mm, and 15.75mm is the only stocked lead style in that window (-15 is 13.21mm, -18 is 18.29mm and would bottom out). In stock at Samtec, $1.516 ea. Exact-height alternative if 15.75mm proves marginal: MTSW-123-10-T-S-630 (.630in = 16.00mm post), build-to-order, no stock. Tail is 2.79mm = 1.19mm proud of a 1.6mm board."
 			(at 170.18 92.71 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4641,6 +4693,28 @@
 			)
 		)
 		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 170.18 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "TSW-123-17-T-S"
+			(at 170.18 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Samtec"
 			(at 170.18 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4785,6 +4859,7 @@
 		)
 		(property "Description" ""
 			(at 200.66 146.05 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4863,6 +4938,7 @@
 		)
 		(property "Description" ""
 			(at 124.46 143.51 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5152,6 +5228,7 @@
 		)
 		(property "Description" ""
 			(at 194.31 143.51 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5294,6 +5371,7 @@
 		)
 		(property "Description" ""
 			(at 176.53 123.19 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5370,6 +5448,7 @@
 		)
 		(property "Description" ""
 			(at 158.75 123.19 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5512,6 +5591,7 @@
 		)
 		(property "Description" ""
 			(at 181.61 146.05 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5588,6 +5668,7 @@
 		)
 		(property "Description" ""
 			(at 124.46 146.05 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5664,6 +5745,7 @@
 		)
 		(property "Description" ""
 			(at 85.09 61.595 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5740,6 +5822,7 @@
 		)
 		(property "Description" ""
 			(at 80.645 65.405 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5817,6 +5900,7 @@
 		)
 		(property "Description" ""
 			(at 154.94 119.38 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5893,6 +5977,7 @@
 		)
 		(property "Description" ""
 			(at 158.75 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5970,6 +6055,7 @@
 		)
 		(property "Description" ""
 			(at 180.34 119.38 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6048,6 +6134,7 @@
 		)
 		(property "Description" ""
 			(at 130.81 143.51 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6190,6 +6277,7 @@
 		)
 		(property "Description" ""
 			(at 53.34 145.415 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6266,6 +6354,7 @@
 		)
 		(property "Description" ""
 			(at 59.69 145.415 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6342,6 +6431,7 @@
 		)
 		(property "Description" ""
 			(at 180.34 66.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6418,6 +6508,7 @@
 		)
 		(property "Description" ""
 			(at 154.94 66.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6494,6 +6585,7 @@
 		)
 		(property "Description" ""
 			(at 85.09 121.92 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6572,6 +6664,7 @@
 		)
 		(property "Description" ""
 			(at 53.34 142.875 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6714,6 +6807,7 @@
 		)
 		(property "Description" ""
 			(at 176.53 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6790,6 +6884,7 @@
 		)
 		(property "Description" ""
 			(at 187.96 146.05 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6811,8 +6906,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x23_Male")
-		(at 166.37 92.71 180)
+		(lib_id "Connector:Conn_01x23_Female")
+		(at 166.37 92.71 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6822,7 +6918,7 @@
 		(dnp no)
 		(uuid "ee7dd478-4454-451a-8977-3cedfdece2ee")
 		(property "Reference" "J2"
-			(at 165.1 123.19 0)
+			(at 163.322 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6832,8 +6928,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06_Female"
-			(at 164.465 130.175 90)
+		(property "Value" "CONN_23W_SOCKET"
+			(at 164.592 125.984 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6865,8 +6961,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "23-way 2.54mm single-row socket, 8.5mm insulation height, 3mm tails, gold-flash contacts. 260 in stock, MOQ 5 = $1.15. Socket hangs below the interface board and receives the 15.75mm posts of J3 across the fixed 20.00mm standoff gap (socket body bottom at 11.5mm, pin tip at 15.75mm). Backup: HC-PM254-8.5H-1x24PZ = C41376163 (15714 stock, cut one position)."
 			(at 166.37 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E14MFR#" "HC-PM254-8.5H-1x23PZ"
+			(at 166.37 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Hong Cheng"
+			(at 166.37 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C41376162"
+			(at 166.37 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSCMFR#" "HC-PM254-8.5H-1x23PZ"
+			(at 166.37 92.71 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7011,6 +7152,7 @@
 		)
 		(property "Description" ""
 			(at 187.96 143.51 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7153,6 +7295,7 @@
 		)
 		(property "Description" ""
 			(at 194.31 146.05 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

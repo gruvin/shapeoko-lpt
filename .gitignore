@@ -12,3 +12,11 @@ _autosave*
 *.swp
 *~
 
+
+# Secrets — local only
+.env
+bom/cache/
+__pycache__/
+
+# Excel lock files
+~$*
