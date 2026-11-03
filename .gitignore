@@ -23,3 +23,6 @@ __pycache__/
 
 # KiCad regenerable cache
 fp-info-cache
+
+# KiCad lock files
+*.lck
