@@ -20,3 +20,6 @@ __pycache__/
 
 # Excel lock files
 ~$*
+
+# KiCad regenerable cache
+fp-info-cache
