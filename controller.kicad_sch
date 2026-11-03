@@ -10,7 +10,7 @@
 		(rev "3.0")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x23_Female"
+		(symbol "Connector:Conn_01x23_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -95,7 +95,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x23_Female_1_1"
+			(symbol "Conn_01x23_Socket_1_1"
 				(polyline
 					(pts
 						(xy -1.27 27.94) (xy -0.508 27.94)
@@ -1065,7 +1065,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x23_Male"
+		(symbol "Connector:Conn_01x23_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1150,7 +1150,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x23_Male_1_1"
+			(symbol "Conn_01x23_Pin_1_1"
 				(rectangle
 					(start 0.8636 28.067)
 					(end 0 27.813)
@@ -3993,7 +3993,7 @@
 		(uuid "faafdfca-88af-43a8-bfd4-5df7d598a1b9")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x23_Female")
+		(lib_id "Connector:Conn_01x23_Socket")
 		(at 91.44 91.44 0)
 		(mirror x)
 		(unit 1)
@@ -4627,7 +4627,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x23_Male")
+		(lib_id "Connector:Conn_01x23_Pin")
 		(at 170.18 92.71 0)
 		(mirror x)
 		(unit 1)
@@ -6906,7 +6906,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x23_Female")
+		(lib_id "Connector:Conn_01x23_Socket")
 		(at 166.37 92.71 0)
 		(mirror x)
 		(unit 1)

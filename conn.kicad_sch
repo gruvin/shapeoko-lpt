@@ -918,7 +918,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Female"
+		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1003,7 +1003,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x02_Female_1_1"
+			(symbol "Conn_01x02_Socket_1_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy -0.508 0)
@@ -1091,7 +1091,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Male"
+		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1176,7 +1176,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x02_Male_1_1"
+			(symbol "Conn_01x02_Pin_1_1"
 				(rectangle
 					(start 0.8636 0.127)
 					(end 0 -0.127)
@@ -1262,7 +1262,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x03_Female"
+		(symbol "Connector:Conn_01x03_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1347,7 +1347,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x03_Female_1_1"
+			(symbol "Conn_01x03_Socket_1_1"
 				(polyline
 					(pts
 						(xy -1.27 2.54) (xy -0.508 2.54)
@@ -1477,7 +1477,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x04_Female"
+		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1562,7 +1562,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x04_Female_1_1"
+			(symbol "Conn_01x04_Socket_1_1"
 				(polyline
 					(pts
 						(xy -1.27 2.54) (xy -0.508 2.54)
@@ -1734,7 +1734,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x06_Female"
+		(symbol "Connector:Conn_01x06_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1819,7 +1819,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x06_Female_1_1"
+			(symbol "Conn_01x06_Socket_1_1"
 				(polyline
 					(pts
 						(xy -1.27 5.08) (xy -0.508 5.08)
@@ -6352,7 +6352,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Male")
+		(lib_id "Connector:Conn_01x02_Pin")
 		(at 43.18 133.35 180)
 		(unit 1)
 		(body_style 1)
@@ -7441,7 +7441,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Female")
+		(lib_id "Connector:Conn_01x03_Socket")
 		(at 193.675 53.34 0)
 		(mirror x)
 		(unit 1)
@@ -7983,7 +7983,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Female")
+		(lib_id "Connector:Conn_01x04_Socket")
 		(at 116.078 74.93 0)
 		(unit 1)
 		(body_style 1)
@@ -8741,7 +8741,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Female")
+		(lib_id "Connector:Conn_01x04_Socket")
 		(at 86.868 74.93 0)
 		(unit 1)
 		(body_style 1)
@@ -9431,7 +9431,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Female")
+		(lib_id "Connector:Conn_01x06_Socket")
 		(at 71.12 170.18 0)
 		(mirror x)
 		(unit 1)
@@ -10006,7 +10006,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Female")
+		(lib_id "Connector:Conn_01x03_Socket")
 		(at 193.675 29.21 0)
 		(mirror x)
 		(unit 1)
@@ -11145,7 +11145,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Female")
+		(lib_id "Connector:Conn_01x04_Socket")
 		(at 146.558 74.93 0)
 		(unit 1)
 		(body_style 1)
@@ -11309,7 +11309,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Female")
+		(lib_id "Connector:Conn_01x04_Socket")
 		(at 194.31 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -12445,7 +12445,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Female")
+		(lib_id "Connector:Conn_01x02_Socket")
 		(at 57.15 133.985 180)
 		(unit 1)
 		(body_style 1)

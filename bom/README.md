@@ -258,6 +258,31 @@ each other* — pin 1 of `Conn_01x23_Socket` sits on the opposite side to pin 1 
 every pin 10.16 mm sideways and leaves the wires hanging; the instances then need
 mirroring to reconnect, which is why J1/J2/J3 carry `(mirror x)`.
 
+### Renaming a cached symbol safely
+
+A `lib_id` is stored in **two** places, and a rename must move both:
+
+```
+(lib_id "Connector:Conn_01x23_Male")          <- the placed instance
+(lib_symbols
+  (symbol "Connector:Conn_01x23_Male"          <- parent header, WITH nickname
+    (symbol "Conn_01x23_Male_0_1"              <- child unit, WITHOUT nickname
+    (symbol "Conn_01x23_Male_1_1"
+```
+
+Miss the child units and eeschema refuses the whole file with a bare
+`Failed to load schematic` — no line number, no hint. `kicad-cli sch export
+netlist` is the cheapest way to prove a file still loads.
+
+Verification that catches the dangerous mistakes: export the netlist before and
+after and diff the `(nets` section only. A correct rename changes the `(part
+"…")` names and **nothing else**; any change under `(nets` means a pin moved.
+
+If ERC then reports `lib_symbol_mismatch` for those symbols, that is cosmetic:
+the cache still holds the old `_Female`/`_Male` drawing, which differs from the
+installed `_Socket`/`_Pin` in graphics only (pins are identical, verified).
+*Tools → Update Symbols from Library* in the GUI clears it properly.
+
 ## Writing results back into the schematic
 
 `apply_fields.py` pushes the resolved data into the symbol fields so the

@@ -921,7 +921,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Female"
+		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1006,7 +1006,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x02_Female_1_1"
+			(symbol "Conn_01x02_Socket_1_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy -0.508 0)
@@ -15223,7 +15223,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Female")
+		(lib_id "Connector:Conn_01x02_Socket")
 		(at 114.3 30.48 0)
 		(mirror x)
 		(unit 1)
