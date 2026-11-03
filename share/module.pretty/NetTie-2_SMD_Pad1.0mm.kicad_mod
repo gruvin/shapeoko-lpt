@@ -1,25 +1,84 @@
-(footprint "NetTie-2_SMD_Pad1.0mm" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 5A1CF6D3)
-  (descr "Net tie, 2 pin, 0.5mm square SMD pads")
-  (tags "net tie")
-  (property "Sheetfile" "power.kicad_sch")
-  (property "Sheetname" "Power")
-  (attr exclude_from_pos_files)
-  (fp_text reference "NT25" (at 0 -1.3) (layer "F.SilkS") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp cf857c9a-8843-4b19-9160-11389691b241)
-  )
-  (fp_text value "DNI" (at 0 1.2) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 087a787e-543c-4e85-9732-0392d41a783a)
-  )
-  (fp_poly (pts
-      (xy -0.72 -0.5)
-      (xy 0.72 -0.5)
-      (xy 0.72 0.5)
-      (xy -0.72 0.5)
-    ) (layer "F.Cu") (width 0) (fill solid) (tstamp 9f58d1ab-fc7d-49c6-8239-27fdd6f8793e))
-  (pad "1" smd circle (at -0.7 0) (size 1 1) (layers "F.Cu") (tstamp ab45a232-2a55-4226-b08e-210637fc5c4a))
-  (pad "2" smd circle (at 0.7 0) (size 1 1) (layers "F.Cu") (tstamp c4f2f13f-97e5-4985-98d9-1bbdb9e3e76b))
+(footprint "NetTie-2_SMD_Pad1.0mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Net tie, 2 pin, 0.5mm square SMD pads")
+	(tags "net tie")
+	(property "Reference" "NT25"
+		(at 0 -1.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cf857c9a-8843-4b19-9160-11389691b241")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DNI"
+		(at 0 1.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "087a787e-543c-4e85-9732-0392d41a783a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5562cf9b-aebe-443d-ab56-96c49e8a64df")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e7d6f1b-c925-4b91-a39b-07a80b80ac91")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetname "Power")
+	(sheetfile "power.kicad_sch")
+	(attr exclude_from_pos_files)
+	(net_tie_pad_groups "1, 2")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -0.72 -0.5) (xy 0.72 -0.5) (xy 0.72 0.5) (xy -0.72 0.5)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "9f58d1ab-fc7d-49c6-8239-27fdd6f8793e")
+	)
+	(pad "1" smd circle
+		(at -0.7 0)
+		(size 1 1)
+		(layers "F.Cu")
+		(uuid "ab45a232-2a55-4226-b08e-210637fc5c4a")
+	)
+	(pad "2" smd circle
+		(at 0.7 0)
+		(size 1 1)
+		(layers "F.Cu")
+		(uuid "c4f2f13f-97e5-4985-98d9-1bbdb9e3e76b")
+	)
+	(embedded_fonts no)
 )
