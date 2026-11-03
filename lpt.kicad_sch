@@ -966,7 +966,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "74xx:74HC245"
+		(symbol "3rd-party:74HC245"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1103,7 +1103,7 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin input line
 					(at -12.7 12.7 0)
 					(length 5.08)
 					(name "A0"
@@ -1121,7 +1121,7 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin input line
 					(at -12.7 10.16 0)
 					(length 5.08)
 					(name "A1"
@@ -1139,7 +1139,7 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin input line
 					(at -12.7 7.62 0)
 					(length 5.08)
 					(name "A2"
@@ -1157,7 +1157,7 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin input line
 					(at -12.7 5.08 0)
 					(length 5.08)
 					(name "A3"
@@ -1175,7 +1175,7 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin input line
 					(at -12.7 2.54 0)
 					(length 5.08)
 					(name "A4"
@@ -1193,7 +1193,7 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin input line
 					(at -12.7 0 0)
 					(length 5.08)
 					(name "A5"
@@ -1211,7 +1211,7 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin input line
 					(at -12.7 -2.54 0)
 					(length 5.08)
 					(name "A6"
@@ -1229,7 +1229,7 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin input line
 					(at -12.7 -5.08 0)
 					(length 5.08)
 					(name "A7"
@@ -8565,7 +8565,7 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74HC245")
+		(lib_id "3rd-party:74HC245")
 		(at 101.6 106.68 0)
 		(unit 1)
 		(body_style 1)
@@ -9843,7 +9843,7 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74HC245")
+		(lib_id "3rd-party:74HC245")
 		(at 101.6 49.53 0)
 		(unit 1)
 		(body_style 1)

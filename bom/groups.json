@@ -18,7 +18,7 @@
         "http://www.farnell.com/datasheets/2860632.pdf"
       ],
       "desc": [
-        "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0603 [1608 Metric], \u00b1 10%, X7R"
+        "Unpolarized capacitor"
       ],
       "marking": [],
       "e14mpns": [
@@ -48,7 +48,7 @@
         "http://www.farnell.com/datasheets/4536186.pdf"
       ],
       "desc": [
-        "SMD Multilayer Ceramic Capacitor, 1 \u00b5F, 50 V, 0603 [1608 Metric], \u00b1 10%, X7R"
+        "Polarized capacitor, US symbol"
       ],
       "marking": [],
       "e14mpns": [
@@ -76,7 +76,7 @@
         "http://www.farnell.com/datasheets/3486024.pdf"
       ],
       "desc": [
-        "SMD Aluminium Electrolytic Capacitor, Radial Can - SMD, 100 \u00b5F, 35 V, 2000 hours @ 105\u00b0C, Polar"
+        "Polarized capacitor, US symbol"
       ],
       "marking": [],
       "e14mpns": [
@@ -104,7 +104,7 @@
         "http://www.farnell.com/datasheets/4796689.pdf"
       ],
       "desc": [
-        "SMD Multilayer Ceramic Capacitor, 22 \u00b5F, 16 V, 1206 [3216 Metric], \u00b1 10%, X5R"
+        "Unpolarized capacitor"
       ],
       "marking": [],
       "e14mpns": [
@@ -132,7 +132,7 @@
         "http://www.farnell.com/datasheets/3486024.pdf"
       ],
       "desc": [
-        "SMD Aluminium Electrolytic Capacitor, Radial Can - SMD, 68 \u00b5F, 35 V, 2000 hours @ 105\u00b0C, Polar"
+        "Polarized capacitor, US symbol"
       ],
       "marking": [],
       "e14mpns": [
@@ -163,7 +163,7 @@
         "http://www.farnell.com/datasheets/2860632.pdf"
       ],
       "desc": [
-        "SMD Multilayer Ceramic Capacitor, 22 pF, 50 V, 0402 [1005 Metric], \u00b1 5%, C0G / NP0"
+        "Unpolarized capacitor"
       ],
       "marking": [],
       "e14mpns": [
@@ -191,7 +191,7 @@
         "http://www.farnell.com/datasheets/4536186.pdf"
       ],
       "desc": [
-        "SMD Multilayer Ceramic Capacitor, 1 \u00b5F, 50 V, 0603 [1608 Metric], \u00b1 10%, X7R"
+        "Unpolarized capacitor"
       ],
       "marking": [],
       "e14mpns": [
@@ -222,7 +222,7 @@
         "http://www.farnell.com/datasheets/2860632.pdf"
       ],
       "desc": [
-        "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0603 [1608 Metric], \u00b1 10%, X7R"
+        "Unpolarized capacitor"
       ],
       "marking": [],
       "e14mpns": [
@@ -254,7 +254,7 @@
         "http://www.farnell.com/datasheets/4536186.pdf"
       ],
       "desc": [
-        "SMD Multilayer Ceramic Capacitor, 0.1 \u00b5F, 50 V, 0402 [1005 Metric], \u00b1 10%, X7R"
+        "Unpolarized capacitor"
       ],
       "marking": [],
       "e14mpns": [
@@ -286,7 +286,7 @@
         "http://www.farnell.com/datasheets/1840608.pdf"
       ],
       "desc": [
-        "Small Signal Schottky Diode, Single, 40 V, 250 mA, 590 mV, 1 A, 150 \u00b0C"
+        "Schottky diode"
       ],
       "marking": [
         "B3 (S4)"
@@ -316,7 +316,7 @@
         "http://www.farnell.com/datasheets/2864056.pdf"
       ],
       "desc": [
-        "Schottky Rectifier, 40 V, 2 A, Single, DO-214AC (SMA), 2 Pins, 550 mV"
+        "Schottky diode"
       ],
       "marking": [
         "SS24"
@@ -348,8 +348,7 @@
         "http://www.farnell.com/datasheets/2124315.pdf"
       ],
       "desc": [
-        "Diode",
-        "Small Signal Schottky Diode, 40 V, 300 mA, 900 mV, 1 A, 150 \u00b0C"
+        "Diode"
       ],
       "marking": [
         "86 (SL)"
@@ -408,7 +407,7 @@
       "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x23_P2.54mm_Vertical",
       "datasheet": [],
       "desc": [
-        "23-way 2.54mm single-row socket, 8.5mm insulation height, 3mm tails, gold-flash contacts. 260 in stock, MOQ 5 = $1.15. Socket hangs below the interface board and receives the 15.75mm posts of J3 across the fixed 20.00mm standoff gap (socket body bottom at 11.5mm, pin tip at 15.75mm). Backup: HC-PM254-8.5H-1x24PZ = C41376163 (15714 stock, cut one position)."
+        "Generic connector, single row, 01x23, script generated"
       ],
       "marking": [],
       "e14mpns": [
@@ -430,7 +429,7 @@
       "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x23_P2.54mm_Vertical",
       "datasheet": [],
       "desc": [
-        "23-way single-row 2.54mm THT header, .025in square posts, tin, lead style 17 = .620in (15.75mm) post above a 2.54mm plastic body, .830in (21.08mm) overall. The long post is what reaches the interface-board sockets across the fixed 20.00mm stack: measured requirement is 16.0 +/-0.25mm above the controller PCB, geometry says 15.75-16.25mm, and 15.75mm is the only stocked lead style in that window (-15 is 13.21mm, -18 is 18.29mm and would bottom out). In stock at Samtec, $1.516 ea. Exact-height alternative if 15.75mm proves marginal: MTSW-123-10-T-S-630 (.630in = 16.00mm post), build-to-order, no stock. Tail is 2.79mm = 1.19mm proud of a 1.6mm board."
+        "Generic connector, single row, 01x23, script generated"
       ],
       "marking": [],
       "e14mpns": [
@@ -454,7 +453,7 @@
         "https://4donline.ihs.com/images/VipMasterIC/IC/KYCO/KYCO-S-A0017317092/KYCO-S-A0017317092-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
       ],
       "desc": [
-        "High Power Connector, Through Hole RA, KPJX Series, Receptacle, 48 VDC, 7.5 A, PCB Mount"
+        "4-pin DIN connector"
       ],
       "marking": [],
       "e14mpns": [
@@ -482,7 +481,7 @@
         "https://4donline.ihs.com/images/VipMasterIC/IC/MOLE/MOLES37362/MOLE-S-A0011123444-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
       ],
       "desc": [
-        "Pin Header, With Polarizing Peg, Wire-to-Board, 3 mm, 2 Rows, 4 Contacts, Through Hole Straight"
+        "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
       ],
       "marking": [],
       "e14mpns": [
@@ -510,7 +509,7 @@
         "http://www.farnell.com/datasheets/3630632.pdf"
       ],
       "desc": [
-        "Wire-To-Board Terminal Block, 5.08 mm, 2 Ways, 26 AWG, 14 AWG, 2.5 mm\u00b2, Screw"
+        "Generic connector, single row, 01x02, script generated"
       ],
       "marking": [],
       "e14mpns": [
@@ -538,7 +537,7 @@
         "http://www.farnell.com/datasheets/3117942.pdf"
       ],
       "desc": [
-        "25-pin D-SUB connector, plug (male), Mounting Holes"
+        "25-pin D-SUB connector, socket (female), Mounting Hole"
       ],
       "marking": [],
       "e14mpns": [
@@ -566,7 +565,7 @@
         "http://www.farnell.com/datasheets/3667850.pdf"
       ],
       "desc": [
-        "Wire-To-Board Terminal Block, 2.54 mm, 2 Ways, 26 AWG, 20 AWG, 0.5 mm\u00b2, Screw"
+        "Generic connector, single row, 01x02, script generated"
       ],
       "marking": [],
       "e14mpns": [
@@ -594,7 +593,7 @@
         "http://www.farnell.com/datasheets/2138248.pdf"
       ],
       "desc": [
-        "Wire-To-Board Terminal Block, 2.54 mm, 6 Ways, 26 AWG, 20 AWG, 0.5 mm\u00b2, Screw"
+        "Generic connector, single row, 01x06, script generated"
       ],
       "marking": [],
       "e14mpns": [
@@ -625,7 +624,7 @@
         "http://www.farnell.com/datasheets/3625645.pdf"
       ],
       "desc": [
-        "Wire-To-Board Terminal Block, 2.54 mm, 4 Ways, 26 AWG, 20 AWG, 0.5 mm\u00b2, Screw"
+        "Generic connector, single row, 01x04, script generated"
       ],
       "marking": [],
       "e14mpns": [
@@ -655,7 +654,7 @@
         "http://www.farnell.com/datasheets/2696409.pdf"
       ],
       "desc": [
-        "Pin Header, Wire-to-Board, 3 mm, 2 Rows, 8 Contacts, Through Hole Straight"
+        "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
       ],
       "marking": [],
       "e14mpns": [
@@ -683,7 +682,7 @@
         "http://www.farnell.com/datasheets/3625645.pdf"
       ],
       "desc": [
-        "Wire-To-Board Terminal Block, 2.54 mm, 4 Ways, 26 AWG, 20 AWG, 0.5 mm\u00b2, Screw"
+        "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
       ],
       "marking": [],
       "e14mpns": [
@@ -712,7 +711,7 @@
         "http://www.farnell.com/datasheets/3688369.pdf"
       ],
       "desc": [
-        "Pin Header, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, KK 254 6373 Series"
+        "Generic connector, single row, 01x03, script generated"
       ],
       "marking": [],
       "e14mpns": [
@@ -824,7 +823,7 @@
         "http://www.farnell.com/datasheets/1859611.pdf"
       ],
       "desc": [
-        "Pin Header, Wire-to-Board, 2.54 mm, 1 Rows, 2 Contacts, Through Hole Straight, KK 254 6373 Series"
+        "Jumper, 2-pole, open"
       ],
       "marking": [],
       "e14mpns": [
@@ -852,7 +851,7 @@
         "http://www.farnell.com/datasheets/1859611.pdf"
       ],
       "desc": [
-        "Pin Header, Wire-to-Board, 2.54 mm, 1 Rows, 2 Contacts, Through Hole Straight, KK 254 6373 Series"
+        "Jumper, 2-pole, closed/bridged"
       ],
       "marking": [],
       "e14mpns": [
@@ -866,66 +865,6 @@
       ],
       "sheets": [
         "lpt.kicad_sch"
-      ]
-    },
-    {
-      "refs": [
-        "JP3",
-        "JP6",
-        "JP7"
-      ],
-      "ref_range": "JP3,JP6-JP7",
-      "qty": 3,
-      "value": "1x03_2.54",
-      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
-      "datasheet": [
-        "http://www.farnell.com/datasheets/2043229.pdf"
-      ],
-      "desc": [
-        "Pin Header, Vertical, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, MTA-100"
-      ],
-      "marking": [],
-      "e14mpns": [
-        "640456-3"
-      ],
-      "e14skus": [
-        "588581"
-      ],
-      "e14moq": [
-        "10"
-      ],
-      "sheets": [
-        "conn.kicad_sch"
-      ]
-    },
-    {
-      "refs": [
-        "JP4",
-        "JP5",
-        "JP8"
-      ],
-      "ref_range": "JP4-JP5,JP8",
-      "qty": 3,
-      "value": "Jumper_3_Open",
-      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
-      "datasheet": [
-        "http://www.farnell.com/datasheets/2043229.pdf"
-      ],
-      "desc": [
-        "Pin Header, Vertical, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, MTA-100"
-      ],
-      "marking": [],
-      "e14mpns": [
-        "640456-3"
-      ],
-      "e14skus": [
-        "588581"
-      ],
-      "e14moq": [
-        "10"
-      ],
-      "sheets": [
-        "conn.kicad_sch"
       ]
     },
     {
@@ -968,7 +907,7 @@
         "https://www.we-online.com/katalog/datasheet/74477120.pdf"
       ],
       "desc": [
-        "Power Inductor (SMD), 100 \u00b5H, 1.53 A, Shielded, 1.7 A, WE-PD Series"
+        "Inductor"
       ],
       "marking": [],
       "e14mpns": [
@@ -1050,10 +989,10 @@
       "value": "BC847",
       "footprint": "Package_TO_SOT_SMD:SOT-23",
       "datasheet": [
-        "http://www.farnell.com/datasheets/1856333.pdf"
+        "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
       ],
       "desc": [
-        "Bipolar (BJT) Single Transistor, General Purpose, NPN, 45 V, 100 mA, 250 mW, SOT-23, Surface Mount"
+        "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
       ],
       "marking": [
         "1GW",
@@ -1103,11 +1042,40 @@
     },
     {
       "refs": [
-        "Q3",
+        "Q3"
+      ],
+      "ref_range": "Q3",
+      "qty": 1,
+      "value": "BC857",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "datasheet": [
+        "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
+      ],
+      "desc": [
+        "0.1A Ic, 45V Vce, PNP Transistor, SOT-23"
+      ],
+      "marking": [
+        "3FW (3[EFG]x)"
+      ],
+      "e14mpns": [
+        "BC857C,215"
+      ],
+      "e14skus": [
+        "8734771"
+      ],
+      "e14moq": [
+        "5"
+      ],
+      "sheets": [
+        "power.kicad_sch"
+      ]
+    },
+    {
+      "refs": [
         "Q5"
       ],
-      "ref_range": "Q3,Q5",
-      "qty": 2,
+      "ref_range": "Q5",
+      "qty": 1,
       "value": "BC857",
       "footprint": "-Project:SOT-23_DOT",
       "datasheet": [
@@ -1129,8 +1097,7 @@
         "5"
       ],
       "sheets": [
-        "conn.kicad_sch",
-        "power.kicad_sch"
+        "conn.kicad_sch"
       ]
     },
     {
@@ -1148,7 +1115,7 @@
         "http://www.farnell.com/datasheets/2860635.pdf"
       ],
       "desc": [
-        "SMD Chip Resistor, Ceramic, 1 Mohm, \u00b1 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant"
+        "Resistor"
       ],
       "marking": [
         "01E"
@@ -1179,7 +1146,7 @@
         "http://www.farnell.com/datasheets/2863859.pdf"
       ],
       "desc": [
-        "SMD Chip Resistor, 6.8 kohm, \u00b1 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant"
+        "Resistor"
       ],
       "marking": [],
       "e14mpns": [
@@ -1208,7 +1175,7 @@
         "http://www.farnell.com/datasheets/2863859.pdf"
       ],
       "desc": [
-        "SMD Chip Resistor, 220 kohm, \u00b1 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant"
+        "Resistor"
       ],
       "marking": [],
       "e14mpns": [
@@ -1236,7 +1203,7 @@
         "http://www.farnell.com/datasheets/2863859.pdf"
       ],
       "desc": [
-        "SMD Chip Resistor, 1 kohm, \u00b1 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant"
+        "Resistor"
       ],
       "marking": [],
       "e14mpns": [
@@ -1265,7 +1232,7 @@
         "http://www.farnell.com/datasheets/2863859.pdf"
       ],
       "desc": [
-        "SMD Chip Resistor, 130 kohm, \u00b1 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant"
+        "Resistor"
       ],
       "marking": [],
       "e14mpns": [
@@ -1293,7 +1260,7 @@
         "http://www.farnell.com/datasheets/2863859.pdf"
       ],
       "desc": [
-        "SMD Chip Resistor, 680 kohm, \u00b1 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant"
+        "Resistor"
       ],
       "marking": [],
       "e14mpns": [
@@ -1321,7 +1288,7 @@
         "http://www.farnell.com/datasheets/2863859.pdf"
       ],
       "desc": [
-        "SMD Chip Resistor, 330 kohm, \u00b1 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant"
+        "Resistor"
       ],
       "marking": [],
       "e14mpns": [
@@ -1352,7 +1319,7 @@
         "http://www.farnell.com/datasheets/2863859.pdf"
       ],
       "desc": [
-        "SMD Chip Resistor, 330 ohm, \u00b1 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant"
+        "Resistor"
       ],
       "marking": [
         "331"
@@ -1383,7 +1350,7 @@
         "http://www.farnell.com/datasheets/2863859.pdf"
       ],
       "desc": [
-        "SMD Chip Resistor, 5.6 kohm, \u00b1 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant"
+        "Resistor"
       ],
       "marking": [],
       "e14mpns": [
@@ -1411,7 +1378,7 @@
         "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
       ],
       "desc": [
-        "SMD Chip Resistor, 10 kohm, \u00b1 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
+        "Resistor"
       ],
       "marking": [
         "01C"
@@ -1442,7 +1409,7 @@
         "http://www.farnell.com/datasheets/2863858.pdf"
       ],
       "desc": [
-        "SMD Chip Resistor, 1 Mohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, Sulfur Resistant"
+        "Resistor"
       ],
       "marking": [],
       "e14mpns": [
@@ -1470,7 +1437,7 @@
         "http://www.farnell.com/datasheets/2863858.pdf"
       ],
       "desc": [
-        "SMD Chip Resistor, 330 ohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, Sulfur Resistant"
+        "Resistor"
       ],
       "marking": [
         "331"
@@ -1501,7 +1468,7 @@
         "http://www.farnell.com/datasheets/2863858.pdf"
       ],
       "desc": [
-        "SMD Chip Resistor, 10 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, Sulfur Resistant"
+        "Resistor"
       ],
       "marking": [],
       "e14mpns": [
@@ -1535,7 +1502,7 @@
         "http://www.farnell.com/datasheets/2863858.pdf"
       ],
       "desc": [
-        "SMD Chip Resistor, 1 kohm, \u00b1 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, Sulfur Resistant"
+        "Resistor"
       ],
       "marking": [],
       "e14mpns": [
@@ -1564,7 +1531,7 @@
         "http://www.farnell.com/datasheets/3153514.pdf"
       ],
       "desc": [
-        "Fixed Network Resistor, 1 kohm, Isolated, 4 Resistors, 1206 [3216 Metric], Convex, \u00b1 5%"
+        "4 resistor network, parallel topology"
       ],
       "marking": [],
       "e14mpns": [
@@ -1590,7 +1557,7 @@
       "footprint": "-Project:SW_Push_1P1T_NO_XUNPU_TS-1088-AR02016",
       "datasheet": [],
       "desc": [
-        "Tactile switch, SPST-NO, 3.9\u00d73.0\u00d72.0 mm, SMT"
+        "Push button switch, generic, two pins"
       ],
       "marking": [],
       "e14mpns": [
@@ -1611,10 +1578,10 @@
       "value": "MAX5035BUSA",
       "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
       "datasheet": [
-        "https://www.analog.com/MAX5035/datasheet?ADICID=SYND_WW_P682800_PF-spglobal"
+        "http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf"
       ],
       "desc": [
-        "Buck (Step Down), Switching Regulator, Fixed, 7.5V to 76V In, 5V/1A Out, 125kHz, NSOIC-8"
+        "1A, High-Efficiency Step-Down DC-DC Converter, 5V fixed output voltage, Vin 76V, SO-8"
       ],
       "marking": [],
       "e14mpns": [
@@ -1643,7 +1610,7 @@
         "http://www.ti.com/lit/gpn/sn74HC245"
       ],
       "desc": [
-        "Bus Transceiver, 74HC245, 2 V to 6 V, SOIC-20"
+        "Octal BUS Transceivers, 3-State outputs"
       ],
       "marking": [],
       "e14mpns": [
@@ -1700,7 +1667,7 @@
         "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
       ],
       "desc": [
-        "ESD Protection Device, 17 V, SOT-23, 6 Pins, 1.1 V"
+        "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
       ],
       "marking": [],
       "e14mpns": [
@@ -1728,7 +1695,7 @@
         "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf"
       ],
       "desc": [
-        "8 Bit MCU, AVR ATmega Family ATmega16 Series Microcontrollers, AVR, 16 MHz, 16 KB, 32 Pins, VQFN"
+        "16MHz, 16kB Flash, 512B SRAM, 512B EEPROM, TQFP-32"
       ],
       "marking": [],
       "e14mpns": [
@@ -1756,7 +1723,7 @@
         "https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf"
       ],
       "desc": [
-        "Digital Isolator, 2 Channels, 3.1 V, 5.5 V, WSOIC, 16 Pins, 12 Mbps"
+        "Full/Low Speed, iCoupler USB Digital Isolator, 5kV protection, SOIC-16"
       ],
       "marking": [],
       "e14mpns": [
@@ -1784,7 +1751,7 @@
         "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf"
       ],
       "desc": [
-        "8 Bit MCU, AVR ATmega Family ATmega328 Series Microcontrollers, AVR, 20 MHz, 32 KB, 32 Pins, TQFP"
+        "20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32"
       ],
       "marking": [],
       "e14mpns": [
@@ -1812,7 +1779,7 @@
         "https://4donline.ihs.com/images/VipMasterIC/IC/ABRC/ABRCS03152/ABRCS03152-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
       ],
       "desc": [
-        "Crystal, ABM3, 16 MHz, 20 ppm, 30 ppm, 18 pF"
+        "Four pin crystal, GND on pins 2 and 4"
       ],
       "marking": [],
       "e14mpns": [
@@ -1840,7 +1807,7 @@
         "https://4donline.ihs.com/images/VipMasterIC/IC/ABRC/ABRCS03152/ABRCS03152-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
       ],
       "desc": [
-        "Crystal, ABM3, 16 MHz, 20 ppm, 30 ppm, 18 pF"
+        "Four pin crystal, GND on pins 2 and 4"
       ],
       "marking": [],
       "e14mpns": [
@@ -1863,7 +1830,7 @@
       "Value": "ISOLATION approx. 1.5mm (DNI)",
       "Footprint": "",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Unpolarized capacitor",
       "E14MFR#": "",
       "E14PART": "",
       "E14MOQ": "",
@@ -1885,7 +1852,7 @@
       "Value": "MountingHole_Pad",
       "Footprint": "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Mounting Hole with connection",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",
@@ -1907,7 +1874,7 @@
       "Value": "MountingHole_Pad",
       "Footprint": "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Mounting Hole with connection",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",
@@ -1929,7 +1896,7 @@
       "Value": "MountingHole_Pad",
       "Footprint": "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Mounting Hole with connection",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",
@@ -1951,7 +1918,7 @@
       "Value": "MountingHole_Pad",
       "Footprint": "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Mounting Hole with connection",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",
@@ -1973,7 +1940,7 @@
       "Value": "MountingHole_Pad",
       "Footprint": "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Mounting Hole with connection",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",
@@ -1995,7 +1962,7 @@
       "Value": "MountingHole_Pad",
       "Footprint": "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Mounting Hole with connection",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",
@@ -2017,7 +1984,7 @@
       "Value": "MountingHole_Pad",
       "Footprint": "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Mounting Hole with connection",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",
@@ -2039,7 +2006,7 @@
       "Value": "MountingHole_Pad",
       "Footprint": "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Mounting Hole with connection",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",
@@ -2061,7 +2028,7 @@
       "Value": "DNI",
       "Footprint": "",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",
@@ -2083,7 +2050,7 @@
       "Value": "DNI",
       "Footprint": "",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Generic connector, single row, 01x02, script generated",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",
@@ -2095,17 +2062,149 @@
       "LCSCMFR#": "",
       "Ref": "J9",
       "sheet": "conn.kicad_sch",
-      "dnp": false,
-      "exclude_from_bom": false,
+      "dnp": true,
+      "exclude_from_bom": true,
       "on_board": false,
-      "reason": "value marked DNI"
+      "reason": "DNP flag set"
+    },
+    {
+      "Reference": "JP3",
+      "Value": "1x03_2.54",
+      "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "Datasheet": "http://www.farnell.com/datasheets/2043229.pdf",
+      "Description": "Jumper, 3-pole, both open",
+      "E14MFR#": "640456-3",
+      "E14PART": "588581",
+      "E14MOQ": "10",
+      "Marking": "",
+      "JLCPART": "DNI",
+      "JLCMFR#": "DNI",
+      "JLCMOQ": "0",
+      "LCSC": "",
+      "LCSCMFR#": "",
+      "Ref": "JP3",
+      "sheet": "conn.kicad_sch",
+      "dnp": false,
+      "exclude_from_bom": true,
+      "on_board": true,
+      "reason": "exclude_from_bom"
+    },
+    {
+      "Reference": "JP4",
+      "Value": "Jumper_3_Open",
+      "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "Datasheet": "http://www.farnell.com/datasheets/2043229.pdf",
+      "Description": "Jumper, 3-pole, both open",
+      "E14MFR#": "640456-3",
+      "E14PART": "588581",
+      "E14MOQ": "10",
+      "Marking": "",
+      "JLCPART": "DNI",
+      "JLCMFR#": "DNI",
+      "JLCMOQ": "0",
+      "LCSC": "",
+      "LCSCMFR#": "",
+      "Ref": "JP4",
+      "sheet": "conn.kicad_sch",
+      "dnp": false,
+      "exclude_from_bom": true,
+      "on_board": true,
+      "reason": "exclude_from_bom"
+    },
+    {
+      "Reference": "JP5",
+      "Value": "Jumper_3_Open",
+      "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "Datasheet": "http://www.farnell.com/datasheets/2043229.pdf",
+      "Description": "Jumper, 3-pole, both open",
+      "E14MFR#": "640456-3",
+      "E14PART": "588581",
+      "E14MOQ": "10",
+      "Marking": "",
+      "JLCPART": "DNI",
+      "JLCMFR#": "DNI",
+      "JLCMOQ": "0",
+      "LCSC": "",
+      "LCSCMFR#": "",
+      "Ref": "JP5",
+      "sheet": "conn.kicad_sch",
+      "dnp": false,
+      "exclude_from_bom": true,
+      "on_board": true,
+      "reason": "exclude_from_bom"
+    },
+    {
+      "Reference": "JP6",
+      "Value": "1x03_2.54",
+      "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "Datasheet": "http://www.farnell.com/datasheets/2043229.pdf",
+      "Description": "Jumper, 3-pole, both open",
+      "E14MFR#": "640456-3",
+      "E14PART": "588581",
+      "E14MOQ": "10",
+      "Marking": "",
+      "JLCPART": "DNI",
+      "JLCMFR#": "DNI",
+      "JLCMOQ": "0",
+      "LCSC": "",
+      "LCSCMFR#": "",
+      "Ref": "JP6",
+      "sheet": "conn.kicad_sch",
+      "dnp": false,
+      "exclude_from_bom": true,
+      "on_board": true,
+      "reason": "exclude_from_bom"
+    },
+    {
+      "Reference": "JP7",
+      "Value": "1x03_2.54",
+      "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "Datasheet": "http://www.farnell.com/datasheets/2043229.pdf",
+      "Description": "Jumper, 3-pole, both open",
+      "E14MFR#": "640456-3",
+      "E14PART": "588581",
+      "E14MOQ": "10",
+      "Marking": "",
+      "JLCPART": "DNI",
+      "JLCMFR#": "DNI",
+      "JLCMOQ": "0",
+      "LCSC": "",
+      "LCSCMFR#": "",
+      "Ref": "JP7",
+      "sheet": "conn.kicad_sch",
+      "dnp": false,
+      "exclude_from_bom": true,
+      "on_board": true,
+      "reason": "exclude_from_bom"
+    },
+    {
+      "Reference": "JP8",
+      "Value": "Jumper_3_Open",
+      "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "Datasheet": "http://www.farnell.com/datasheets/2043229.pdf",
+      "Description": "Jumper, 3-pole, both open",
+      "E14MFR#": "640456-3",
+      "E14PART": "588581",
+      "E14MOQ": "10",
+      "Marking": "",
+      "JLCPART": "DNI",
+      "JLCMFR#": "DNI",
+      "JLCMOQ": "0",
+      "LCSC": "",
+      "LCSCMFR#": "",
+      "Ref": "JP8",
+      "sheet": "conn.kicad_sch",
+      "dnp": false,
+      "exclude_from_bom": true,
+      "on_board": true,
+      "reason": "exclude_from_bom"
     },
     {
       "Reference": "JX1",
       "Value": "MicroFit_2x04",
       "Footprint": "Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",
       "E14MFR#": "43045-1027",
       "E14PART": "1513893",
       "E14MOQ": "1",
@@ -2127,7 +2226,7 @@
       "Value": "NetTie_2",
       "Footprint": "-Project:NetTie-2_SMD_Pad0.3mm",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Net tie, 2 pins",
       "E14MFR#": "",
       "E14PART": "",
       "E14MOQ": "",
@@ -2149,7 +2248,7 @@
       "Value": "DNI",
       "Footprint": "-Project:NetTie-2_SMD_Pad0.3mm",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Net tie, 2 pins",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",
@@ -2171,7 +2270,7 @@
       "Value": "DNI",
       "Footprint": "-Project:NetTie-2_SMD_Pad1.0mm",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Net tie, 2 pins",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",
@@ -2193,7 +2292,7 @@
       "Value": "DNI",
       "Footprint": "-Project:NetTie-2_SMD_Pad1.0mm",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Net tie, 2 pins",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",
@@ -2215,7 +2314,7 @@
       "Value": "DNI",
       "Footprint": "-Project:NetTie-2_SMD_Pad0.3mm",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Net tie, 2 pins",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",
@@ -2228,7 +2327,7 @@
       "Ref": "NT25",
       "sheet": "conn.kicad_sch",
       "dnp": false,
-      "exclude_from_bom": true,
+      "exclude_from_bom": false,
       "on_board": true,
       "reason": "net-tie (copper link, no part)"
     },
@@ -2237,7 +2336,7 @@
       "Value": "DNI",
       "Footprint": "-Project:NetTie-2_SMD_Pad0.3mm",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Net tie, 2 pins",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",
@@ -2250,7 +2349,7 @@
       "Ref": "NT26",
       "sheet": "conn.kicad_sch",
       "dnp": false,
-      "exclude_from_bom": true,
+      "exclude_from_bom": false,
       "on_board": true,
       "reason": "net-tie (copper link, no part)"
     },
@@ -2259,7 +2358,7 @@
       "Value": "DNI",
       "Footprint": "-Project:NetTie-2_SMD_Pad0.3mm",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Net tie, 2 pins",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",
@@ -2272,7 +2371,7 @@
       "Ref": "NT27",
       "sheet": "conn.kicad_sch",
       "dnp": false,
-      "exclude_from_bom": true,
+      "exclude_from_bom": false,
       "on_board": true,
       "reason": "net-tie (copper link, no part)"
     },
@@ -2281,7 +2380,7 @@
       "Value": "DNI",
       "Footprint": "-Project:NetTie-2_SMD_Pad1.0mm",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Net tie, 2 pins",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",
@@ -2303,7 +2402,7 @@
       "Value": "DNI",
       "Footprint": "Resistor_SMD:R_0603_1608Metric",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Resistor",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",
@@ -2325,7 +2424,7 @@
       "Value": "DNI",
       "Footprint": "",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Single Pole Single Throw (SPST) switch with LED, generic",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",
@@ -2347,7 +2446,7 @@
       "Value": "DNI",
       "Footprint": "",
       "Datasheet": "",
-      "Description": "",
+      "Description": "Momentary Switch, single pole double throw",
       "E14MFR#": "DNI",
       "E14PART": "DNI",
       "E14MOQ": "0",

@@ -9,7 +9,13 @@ H6,MountingHole_Pad,MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad,exclude_from
 H7,MountingHole_Pad,MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad,exclude_from_bom,controller.kicad_sch
 H8,MountingHole_Pad,MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad,exclude_from_bom,controller.kicad_sch
 J2B1,DNI,,DNP flag set,power.kicad_sch
-J9,DNI,,value marked DNI,conn.kicad_sch
+J9,DNI,,DNP flag set,conn.kicad_sch
+JP3,1x03_2.54,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,exclude_from_bom,conn.kicad_sch
+JP4,Jumper_3_Open,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,exclude_from_bom,conn.kicad_sch
+JP5,Jumper_3_Open,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,exclude_from_bom,conn.kicad_sch
+JP6,1x03_2.54,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,exclude_from_bom,conn.kicad_sch
+JP7,1x03_2.54,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,exclude_from_bom,conn.kicad_sch
+JP8,Jumper_3_Open,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,exclude_from_bom,conn.kicad_sch
 JX1,MicroFit_2x04,Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical,DNP flag set,conn.kicad_sch
 NT1,NetTie_2,-Project:NetTie-2_SMD_Pad0.3mm,"net-tie (copper link, no part)",lpt.kicad_sch
 NT22,DNI,-Project:NetTie-2_SMD_Pad0.3mm,"net-tie (copper link, no part)",power.kicad_sch

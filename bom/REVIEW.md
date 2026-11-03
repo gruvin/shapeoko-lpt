@@ -1,19 +1,19 @@
 # Controller BOM — review sheet
 
-- source: `controller.kicad_pro` (4 sheets, 64 fitted BOM lines)
+- source: `controller.kicad_pro` (4 sheets, 63 fitted BOM lines)
 - prices: element14 NZ store, list price, NZD (AUD/GBP where NZ had no stock)
-- **estimated total: $208.68** (mixed currency, indicative only)
+- **estimated total: $205.45** (mixed currency, indicative only)
 
 ## Status
 
 | | count |
 |---|---|
-| lines resolved with confidence | 64 |
-| lines changed vs the schematic | 30 |
+| lines resolved with confidence | 63 |
+| lines changed vs the schematic | 28 |
 | lines needing your decision | 0 |
-| parts not fitted (DNP / net-tie) | 23 |
+| parts not fitted (DNP / net-tie) | 29 |
 
-Pick-and-place (SMD): $128.62  |  hand solder (THT): $80.06
+Pick-and-place (SMD): $131.17  |  hand solder (THT): $74.28
 
 ## Needs your decision
 
@@ -41,8 +41,6 @@ These lines are **not** what the schematic's `E14MFR#` field said.
 | J23 | ISP | ISP_SMD_100mil | `2213SM-06G-TB` | reviewed: ISP_SMD_100mil is a 2x3 2.54mm SMD header |
 | JP1 | Jumper_2_Bridged | PinHeader_2x01_P2.54mm_Vertical | `22-23-2021` | reviewed: PinHeader_2x01_P2.54mm_Vertical - Molex KK 1x02 2.54mm THT. Replaces 640456-2, which has MOQ 100 (bulk) - we want individual parts |
 | JP2 | GND_ISO | PinHeader_1x02_P2.54mm_Vertical | `22-23-2021` | reviewed: PinHeader_1x02_P2.54mm_Vertical - same 2-pin header as JP1; MOQ 10 not 100 |
-| JP3,JP6-JP7 | 1x03_2.54 | PinHeader_1x03_P2.54mm_Vertical | `640456-3` | reviewed: PinHeader_1x03_P2.54mm_Vertical - 3 pin 2.54mm THT header |
-| JP4-JP5,JP8 | Jumper_3_Open | PinHeader_1x03_P2.54mm_Vertical | `640456-3` | reviewed: PinHeader_1x03_P2.54mm_Vertical - 3 pin 2.54mm THT header |
 | K1 | OJS-SH-124HMF | Relay_SPST_OJS_24V_10A | `OJ-SS-124HM,000` | reviewed: OJ series, VENTED, 24VDC, SPST-NO 10A, THT solder terminals - the closest in-stock element14 equivalent. Sealing is not required (Bryan). Co |
 | L2 | CG0603MLC-05E | R_0805_2012Metric_Pad1.20x1.40mm_H | `VC080505A150DP` | reviewed: 0805 MLV, 5.6V working / 18V clamp - closest 0805 equivalent of the 0603 ChipGuard it replaces. NOTE: the schematic Value still says CG0603M |
 | L3 | 10uH | L_0603_1608Metric | `MLZ1608M100WT000` | reviewed: 10uH 0603 multilayer, 250mA, 1.05 ohm. L3 sits between +5VA and the ATmega328P AVCC pin, so the current is only a few mA - the 250mA rating  |
@@ -100,15 +98,14 @@ column says otherwise.
 | J23 | 1 | ISP | MULTICOMP PRO | `2213SM-06G-TB` | element14 | 2847230 | 3513 | 1 | 1 | $0.777 | $0.777 | SMD | high |
 | JP1 | 1 | Jumper_2_Bridged | MOLEX | `22-23-2021` | element14 | 146292601 | 34583 | 10 | 10 | $0.157 | $1.57 | THT | high |
 | JP2 | 1 | GND_ISO | MOLEX | `22-23-2021` | element14 | 146292601 | 34583 | 10 | 10 | $0.157 | $1.57 | THT | high |
-| JP3,JP6-JP7 | 3 | 1x03_2.54 | TE CONNECTIVITY - AMP | `640456-3` | element14 | 588581 | 57719 | 10 | 10 | $0.289 | $2.89 | THT | high |
-| JP4-JP5,JP8 | 3 | Jumper_3_Open | TE CONNECTIVITY - AMP | `640456-3` | element14 | 588581 | 57719 | 10 | 10 | $0.289 | $2.89 | THT | high |
 | K1 | 1 | OJS-SH-124HMF | TE CONNECTIVITY - OEG | `OJ-SS-124HM,000` | element14 | 1891694 | 1015 | 1 | 1 | $4.11 | $4.11 | THT | high |
 | L1 | 1 | 100uH 1.5A+ | WURTH ELEKTRONIK | `74477120` | element14 | 163591201 | 2815 | 1 | 1 | $2.53 | $2.53 | SMD | high |
 | L2 | 1 | CG0603MLC-05E | KYOCERA AVX | `VC080505A150DP` | element14 | 1189314 | 29439 | 1 | 1 | $0.569 | $0.569 | SMD | high |
 | L3 | 1 | 10uH | TDK | `MLZ1608M100WT000` | element14 | 2215635 | 25540 | 10 | 10 | $0.153 | $1.53 | SMD | high |
 | Q1,Q4 | 2 | BC847 | NEXPERIA | `BC847C,215` | element14 | 1081235 | 67502 | 5 | 5 | $0.51 | $2.55 | SMD | high |
 | Q2 | 1 | FDD5614P | VISHAY | `SUD19P06-60-GE3` | element14 | 210146501 | 6360 | 1 | 1 | $1.98 | $1.98 | SMD | high |
-| Q3,Q5 | 2 | BC857 | NEXPERIA | `BC857C,215` | element14 | 8734771 | 15271 | 5 | 5 | $0.51 | $2.55 | SMD | high |
+| Q3 | 1 | BC857 | NEXPERIA | `BC857C,215` | element14 | 8734771 | 15271 | 5 | 5 | $0.51 | $2.55 | SMD | high |
+| Q5 | 1 | BC857 | NEXPERIA | `BC857C,215` | element14 | 8734771 | 15271 | 5 | 5 | $0.51 | $2.55 | SMD | high |
 | R2,R7,R11,R13 | 4 | 1M | MULTICOMP PRO | `MCMR06X1004FTL` | element14 | 2073351 | 30680 | 10 | 10 | $0.024 | $0.24 | SMD | high |
 | R3 | 1 | 6K8 | MULTICOMP PRO | `MCSR06X6801FTL` | element14 | 2074296 | 341 | 10 | 10 | $0.018 | $0.18 | SMD | high |
 | R4,R12 | 2 | 220K | MULTICOMP PRO | `MCSR06X2203FTL` | element14 | 2074218 | 14128 | 10 | 10 | $0.04 | $0.40 | SMD | high |
@@ -175,15 +172,14 @@ column says otherwise.
 | J23 | Pin Header, Board-to-Board, 2.54 mm, 2 Rows, 6 Contacts, Surface Mount |
 | JP1 | Pin Header, Wire-to-Board, 2.54 mm, 1 Rows, 2 Contacts, Through Hole Straight, KK 254 6373 Series |
 | JP2 | Pin Header, Wire-to-Board, 2.54 mm, 1 Rows, 2 Contacts, Through Hole Straight, KK 254 6373 Series |
-| JP3,JP6-JP7 | Pin Header, Vertical, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, MTA-100 |
-| JP4-JP5,JP8 | Pin Header, Vertical, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, MTA-100 |
 | K1 | General Purpose Relay, OJ Series, Power, Non Latching, SPST-NO, 24 VDC, 10 A |
 | L1 | Power Inductor (SMD), 100 µH, 1.53 A, Shielded, 1.7 A, WE-PD Series |
 | L2 | TVS Varistor, 4 V, 5.6 V, TransGuard, 18 V, 0805 [2012 Metric], Multilayer Varistor (MLV) |
 | L3 | Multilayer Inductor, 10 µH, 1.05 ohm, 17 MHz, 250 mA, 0603 [1608 Metric], MLZ Series |
 | Q1,Q4 | Bipolar (BJT) Single Transistor, General Purpose, NPN, 45 V, 100 mA, 250 mW, SOT-23, Surface Mount |
 | Q2 | Power MOSFET, P Channel, 60 V, 18.3 A, 0.06 ohm, TO-252 (DPAK), Surface Mount |
-| Q3,Q5 | Bipolar (BJT) Single Transistor, General Purpose, PNP, 45 V, 100 mA, 250 mW, SOT-23, Surface Mount |
+| Q3 | Bipolar (BJT) Single Transistor, General Purpose, PNP, 45 V, 100 mA, 250 mW, SOT-23, Surface Mount |
+| Q5 | Bipolar (BJT) Single Transistor, General Purpose, PNP, 45 V, 100 mA, 250 mW, SOT-23, Surface Mount |
 | R2,R7,R11,R13 | SMD Chip Resistor, Ceramic, 1 Mohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant |
 | R3 | SMD Chip Resistor, 6.8 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant |
 | R4,R12 | SMD Chip Resistor, 220 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant |
@@ -224,7 +220,13 @@ column says otherwise.
 | H7 | MountingHole_Pad | MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad | exclude_from_bom |
 | H8 | MountingHole_Pad | MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad | exclude_from_bom |
 | J2B1 | DNI | — | DNP flag set |
-| J9 | DNI | — | value marked DNI |
+| J9 | DNI | — | DNP flag set |
+| JP3 | 1x03_2.54 | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical | exclude_from_bom |
+| JP4 | Jumper_3_Open | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical | exclude_from_bom |
+| JP5 | Jumper_3_Open | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical | exclude_from_bom |
+| JP6 | 1x03_2.54 | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical | exclude_from_bom |
+| JP7 | 1x03_2.54 | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical | exclude_from_bom |
+| JP8 | Jumper_3_Open | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical | exclude_from_bom |
 | JX1 | MicroFit_2x04 | Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical | DNP flag set |
 | NT1 | NetTie_2 | -Project:NetTie-2_SMD_Pad0.3mm | net-tie (copper link, no part) |
 | NT22 | DNI | -Project:NetTie-2_SMD_Pad0.3mm | net-tie (copper link, no part) |
