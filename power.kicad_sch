@@ -3569,7 +3569,7 @@
 	)
 	(text "Under Voltage Lockout\n(1 + R11/R12) x 1.85 = 10.26V\nU2 will still function reliably @ Vin = 12V\n"
 		(exclude_from_sim no)
-		(at 120.777 138.176 0)
+		(at 120.65 138.43 0)
 		(effects
 			(font
 				(size 1 1)
@@ -3602,7 +3602,7 @@
 	)
 	(text "CHARGE\nPUMP\nBYPASS"
 		(exclude_from_sim no)
-		(at 97.155 87.63 0)
+		(at 97.79 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3613,7 +3613,7 @@
 	)
 	(text "MAX5035 Evaluation Kit"
 		(exclude_from_sim no)
-		(at 117.475 151.765 0)
+		(at 118.11 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3639,7 +3639,7 @@
 	)
 	(text "https://datasheets.maximintegrated.com/en/ds/MAX5035EVKIT.pdf"
 		(exclude_from_sim no)
-		(at 117.475 154.305 0)
+		(at 118.11 154.94 0)
 		(effects
 			(font
 				(size 1 1)
@@ -3674,7 +3674,7 @@
 	)
 	(text "L1_min = ((Vin - Vout) x D) / (0.3 x Ioutmax x fSW)\n\nwhere \n  D = Vout / Vin\n  Ioutmax = 1A\n  fSW = 125KHz\n\nL1_min = (24 - 5) x 4.8\n         -----------\n         0.3 x 1 x 125,000\n\n = 2,432uH (??? eh?)"
 		(exclude_from_sim no)
-		(at 153.035 175.895 0)
+		(at 153.67 176.53 0)
 		(effects
 			(font
 				(size 1 1)
@@ -3685,7 +3685,7 @@
 	)
 	(text "ON=4.33V\n(max=Vin+0.3)"
 		(exclude_from_sim no)
-		(at 162.052 133.096 0)
+		(at 162.56 133.35 0)
 		(effects
 			(font
 				(size 1 1)
@@ -3720,7 +3720,7 @@
 	)
 	(text "ONBOARD 5VDC REGULATOR\n       (INSTANT ON)"
 		(exclude_from_sim no)
-		(at 221.615 102.87 0)
+		(at 222.25 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3819,7 +3819,7 @@
 		(uuid "22b1e812-9aea-42db-ab22-450e03c42c33")
 	)
 	(junction
-		(at 221.615 133.35)
+		(at 222.25 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23d1a3e9-5335-445f-93a3-2fbe90e3121e")
@@ -3831,7 +3831,7 @@
 		(uuid "29ed9bac-28a6-4fbf-a0ab-49a985fb20de")
 	)
 	(junction
-		(at 146.685 98.425)
+		(at 147.32 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29fe56c5-0929-480f-b1a2-149121d915dd")
@@ -3849,7 +3849,7 @@
 		(uuid "3e4a39ff-e398-4a0a-850c-31fecbda0da3")
 	)
 	(junction
-		(at 57.785 82.55)
+		(at 58.42 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4545e024-5f66-4b9a-8564-0112fef5b2b5")
@@ -3867,7 +3867,7 @@
 		(uuid "52e0ef2d-535d-44d1-b4dc-3722339a318e")
 	)
 	(junction
-		(at 128.905 98.425)
+		(at 129.54 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58532cc1-2439-4502-a3bf-ed6c7583815c")
@@ -3897,7 +3897,7 @@
 		(uuid "712ba63f-5684-4ada-bf19-33d9f4887303")
 	)
 	(junction
-		(at 169.672 122.555)
+		(at 170.18 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77255aa5-0c78-4fa7-8789-059d5f223762")
@@ -3927,25 +3927,25 @@
 		(uuid "992ff646-ee4e-4a9e-9602-dba3f6d4936d")
 	)
 	(junction
-		(at 164.465 126.365)
+		(at 165.1 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5c3185e-4c74-427e-a37a-6e8744a4dd3b")
 	)
 	(junction
-		(at 182.245 141.605)
+		(at 182.88 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ace07fc7-406f-4514-bcfb-57aacb5886e1")
 	)
 	(junction
-		(at 173.355 141.605)
+		(at 173.99 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af19135f-239d-4c31-aa76-d7ab22f60dfc")
 	)
 	(junction
-		(at 221.615 132.715)
+		(at 222.25 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1615875-04f8-426b-abe3-f582e6d15638")
@@ -3957,19 +3957,19 @@
 		(uuid "bc8ae15d-3cb6-4fe9-a48e-cf534e2d0875")
 	)
 	(junction
-		(at 48.895 82.55)
+		(at 49.53 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf9256c4-299d-456e-9ce9-1a93182ee58f")
 	)
 	(junction
-		(at 204.597 132.715)
+		(at 204.47 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7d0fe62-07f7-4d60-b353-13567a5df3ed")
 	)
 	(junction
-		(at 57.785 95.25)
+		(at 58.42 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dda17741-4a7c-453f-97a6-a95fdc64e71b")
@@ -3987,7 +3987,7 @@
 		(uuid "ef71f835-3038-44eb-9505-3515345c5ac6")
 	)
 	(junction
-		(at 200.025 132.715)
+		(at 200.66 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4a0205e-9de2-4537-9685-150671e330c1")
@@ -4035,7 +4035,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.245 137.795) (xy 182.245 141.605)
+			(xy 182.88 138.43) (xy 182.88 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4065,7 +4065,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 82.55) (xy 57.785 82.55)
+			(xy 57.15 82.55) (xy 58.42 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4105,7 +4105,7 @@
 	)
 	(polyline
 		(pts
-			(xy 143.51 134.366) (xy 146.558 127.127)
+			(xy 143.51 134.62) (xy 146.05 127)
 		)
 		(stroke
 			(width 0)
@@ -4125,7 +4125,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.785 92.71) (xy 57.785 95.25)
+			(xy 58.42 92.71) (xy 58.42 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4175,7 +4175,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.025 142.875) (xy 200.025 141.605)
+			(xy 200.66 143.51) (xy 200.66 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4195,7 +4195,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.597 132.715) (xy 210.185 132.715)
+			(xy 204.47 133.35) (xy 210.82 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4215,7 +4215,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 82.55) (xy 48.895 85.09)
+			(xy 49.53 82.55) (xy 49.53 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4265,7 +4265,7 @@
 	)
 	(wire
 		(pts
-			(xy 47.625 82.55) (xy 48.895 82.55)
+			(xy 48.26 82.55) (xy 49.53 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4275,7 +4275,7 @@
 	)
 	(wire
 		(pts
-			(xy 164.465 136.525) (xy 164.465 141.605)
+			(xy 165.1 137.16) (xy 165.1 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4325,7 +4325,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.795 120.015) (xy 139.065 120.015)
+			(xy 138.43 120.65) (xy 139.7 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4335,7 +4335,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.245 141.605) (xy 187.325 141.605)
+			(xy 182.88 142.24) (xy 187.96 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4376,7 +4376,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 92.71) (xy 48.895 95.25)
+			(xy 49.53 92.71) (xy 49.53 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4386,7 +4386,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.215 127.635) (xy 194.945 127.635)
+			(xy 196.85 128.27) (xy 195.58 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4447,7 +4447,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.355 141.605) (xy 182.245 141.605)
+			(xy 173.99 142.24) (xy 182.88 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4457,7 +4457,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 95.25) (xy 57.785 95.25)
+			(xy 49.53 95.25) (xy 58.42 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4478,7 +4478,7 @@
 	)
 	(polyline
 		(pts
-			(xy 162.052 129.54) (xy 163.83 126.746)
+			(xy 162.56 129.54) (xy 163.83 127)
 		)
 		(stroke
 			(width 0)
@@ -4518,7 +4518,7 @@
 	)
 	(wire
 		(pts
-			(xy 164.465 126.365) (xy 174.625 126.365)
+			(xy 165.1 127) (xy 175.26 127)
 		)
 		(stroke
 			(width 0)
@@ -4528,7 +4528,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.355 132.715) (xy 174.625 132.715)
+			(xy 173.99 133.35) (xy 175.26 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4548,7 +4548,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 137.795) (xy 187.325 141.605)
+			(xy 187.96 138.43) (xy 187.96 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4558,7 +4558,7 @@
 	)
 	(wire
 		(pts
-			(xy 126.365 120.015) (xy 130.175 120.015)
+			(xy 127 120.65) (xy 130.81 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4588,7 +4588,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.025 133.985) (xy 200.025 132.715)
+			(xy 200.66 134.62) (xy 200.66 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4649,7 +4649,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.605 98.425) (xy 146.685 98.425)
+			(xy 142.24 99.06) (xy 147.32 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4669,7 +4669,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.105 139.7) (xy 78.105 138.43)
+			(xy 78.74 139.7) (xy 78.74 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4730,7 +4730,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.945 121.285) (xy 221.615 121.285)
+			(xy 195.58 121.92) (xy 222.25 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4772,7 +4772,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.735 98.425) (xy 165.735 122.555)
+			(xy 166.37 99.06) (xy 166.37 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4782,7 +4782,7 @@
 	)
 	(wire
 		(pts
-			(xy 221.615 133.35) (xy 234.95 133.35)
+			(xy 222.25 133.35) (xy 234.95 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4812,7 +4812,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.905 98.425) (xy 136.525 98.425)
+			(xy 129.54 99.06) (xy 137.16 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4842,7 +4842,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.945 132.715) (xy 200.025 132.715)
+			(xy 195.58 133.35) (xy 200.66 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4922,7 +4922,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.905 98.425) (xy 128.905 99.695)
+			(xy 129.54 99.06) (xy 129.54 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4962,7 +4962,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.597 127.635) (xy 204.597 132.715)
+			(xy 204.47 128.27) (xy 204.47 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5003,7 +5003,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.385 126.365) (xy 164.465 126.365)
+			(xy 160.02 127) (xy 165.1 127)
 		)
 		(stroke
 			(width 0)
@@ -5013,7 +5013,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.735 122.555) (xy 169.672 122.555)
+			(xy 166.37 123.19) (xy 170.18 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5023,7 +5023,7 @@
 	)
 	(wire
 		(pts
-			(xy 221.615 142.24) (xy 221.615 143.51)
+			(xy 222.25 142.24) (xy 222.25 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5033,7 +5033,7 @@
 	)
 	(wire
 		(pts
-			(xy 164.465 126.365) (xy 164.465 128.905)
+			(xy 165.1 127) (xy 165.1 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5053,7 +5053,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.685 125.095) (xy 146.685 126.365)
+			(xy 147.32 125.73) (xy 147.32 127)
 		)
 		(stroke
 			(width 0)
@@ -5063,7 +5063,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.025 132.715) (xy 204.597 132.715)
+			(xy 200.66 133.35) (xy 204.47 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5093,7 +5093,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.125 118.745) (xy 114.3 118.745)
+			(xy 111.76 119.38) (xy 114.3 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5103,7 +5103,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.597 127.635) (xy 203.835 127.635)
+			(xy 204.47 128.27) (xy 204.47 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5154,7 +5154,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.785 95.25) (xy 57.785 96.52)
+			(xy 58.42 95.25) (xy 58.42 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5184,7 +5184,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 132.715) (xy 221.615 132.715)
+			(xy 218.44 133.35) (xy 222.25 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5194,7 +5194,7 @@
 	)
 	(wire
 		(pts
-			(xy 221.615 132.715) (xy 221.615 133.35)
+			(xy 222.25 133.35) (xy 222.25 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5224,7 +5224,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.785 82.55) (xy 57.785 85.09)
+			(xy 58.42 82.55) (xy 58.42 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5254,7 +5254,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.095 98.425) (xy 128.905 98.425)
+			(xy 125.73 99.06) (xy 129.54 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5264,7 +5264,7 @@
 	)
 	(wire
 		(pts
-			(xy 169.672 122.555) (xy 174.625 122.555)
+			(xy 170.18 123.19) (xy 175.26 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5304,7 +5304,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.785 82.55) (xy 62.23 82.55)
+			(xy 58.42 82.55) (xy 62.23 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5324,7 +5324,7 @@
 	)
 	(wire
 		(pts
-			(xy 221.615 132.715) (xy 221.615 121.285)
+			(xy 222.25 133.35) (xy 222.25 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5354,7 +5354,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.105 138.43) (xy 82.55 138.43)
+			(xy 78.74 138.43) (xy 82.55 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5364,7 +5364,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.125 124.46) (xy 111.125 118.745)
+			(xy 111.76 124.46) (xy 111.76 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5406,7 +5406,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.685 114.935) (xy 146.685 98.425)
+			(xy 147.32 115.57) (xy 147.32 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5447,7 +5447,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 82.55) (xy 49.53 82.55)
+			(xy 49.53 82.55) (xy 49.53 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5457,7 +5457,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.355 140.335) (xy 173.355 141.605)
+			(xy 173.99 140.97) (xy 173.99 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5477,7 +5477,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.685 126.365) (xy 151.765 126.365)
+			(xy 147.32 127) (xy 152.4 127)
 		)
 		(stroke
 			(width 0)
@@ -5487,7 +5487,7 @@
 	)
 	(wire
 		(pts
-			(xy 164.465 141.605) (xy 173.355 141.605)
+			(xy 165.1 142.24) (xy 173.99 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5517,7 +5517,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.685 98.425) (xy 165.735 98.425)
+			(xy 147.32 99.06) (xy 166.37 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5527,7 +5527,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.905 108.585) (xy 128.905 107.315)
+			(xy 129.54 109.22) (xy 129.54 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5557,7 +5557,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.245 142.875) (xy 182.245 141.605)
+			(xy 182.88 143.51) (xy 182.88 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5587,7 +5587,7 @@
 	)
 	(wire
 		(pts
-			(xy 221.615 133.35) (xy 221.615 134.62)
+			(xy 222.25 133.35) (xy 222.25 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5627,7 +5627,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.195 82.55) (xy 40.005 82.55)
+			(xy 36.83 82.55) (xy 40.64 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5636,7 +5636,7 @@
 		(uuid "ff4c4800-b33f-4ab2-94e7-4547daea9c1b")
 	)
 	(image
-		(at 133.985 173.355)
+		(at 134.62 173.99)
 		(scale 0.142407)
 		(uuid "d6ec3367-0722-4c9d-9cf7-c0741aa0aa3c")
 		(data "iVBORw0KGgoAAAANSUhEUgAABWYAAAV0CAIAAADbzFNAAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -8622,7 +8622,7 @@
 		)
 	)
 	(label "U2_BST"
-		(at 194.945 127.635 0)
+		(at 195.58 128.27 0)
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -8642,7 +8642,7 @@
 		(uuid "10864117-6b36-486c-9f98-4c445d9ff4e4")
 	)
 	(label "U2_LX"
-		(at 194.945 132.715 0)
+		(at 195.58 133.35 0)
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -8682,7 +8682,7 @@
 		(uuid "50cdf3d0-6638-43bf-aa4f-c91fae6a36ec")
 	)
 	(label "U2_VIN"
-		(at 174.625 122.555 180)
+		(at 175.26 123.19 180)
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -8692,7 +8692,7 @@
 		(uuid "62ef7521-8200-4095-88b6-a6895ec1dbc8")
 	)
 	(label "U2_FB"
-		(at 194.945 121.285 0)
+		(at 195.58 121.92 0)
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -8702,7 +8702,7 @@
 		(uuid "6f85a448-05ae-4b1a-bf4c-264329e0337b")
 	)
 	(label "U2_VD"
-		(at 174.625 132.715 180)
+		(at 175.26 133.35 180)
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -8722,7 +8722,7 @@
 		(uuid "8777592e-e45d-41b6-be41-57b0619c072b")
 	)
 	(label "Q1_E"
-		(at 85.725 90.17 0)
+		(at 86.36 90.17 0)
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -8732,7 +8732,7 @@
 		(uuid "a6a15841-39fb-4ac8-988a-e7dc6f248a94")
 	)
 	(label "Q1_C"
-		(at 85.725 74.93 0)
+		(at 86.36 74.93 0)
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -8742,7 +8742,7 @@
 		(uuid "d2c3c816-95b4-4d9e-8d22-94cd74310603")
 	)
 	(label "U2_ON_nOFF"
-		(at 174.625 126.365 180)
+		(at 175.26 127 180)
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -8763,7 +8763,7 @@
 	)
 	(global_label "5V_nEN"
 		(shape input)
-		(at 126.365 120.015 180)
+		(at 127 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8773,7 +8773,7 @@
 		)
 		(uuid "26926fa4-2435-48e9-b996-b45e1f4d4e45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.0576 119.9356 0)
+			(at 116.84 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8797,7 +8797,7 @@
 		)
 		(uuid "4620e021-c330-4791-b5ae-f98a48093acd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.0974 124.3806 0)
+			(at 106.68 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8821,7 +8821,7 @@
 		)
 		(uuid "50ab8246-f385-4364-9029-22e3abe2c34f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.1859 124.3806 0)
+			(at 43.18 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8835,7 +8835,7 @@
 	)
 	(global_label "24V_IN"
 		(shape input)
-		(at 125.095 98.425 180)
+		(at 125.73 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8845,7 +8845,7 @@
 		)
 		(uuid "8e0102a8-7270-4d37-b869-5a9333cb54d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.2714 98.3456 0)
+			(at 116.84 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8869,7 +8869,7 @@
 		)
 		(uuid "999efad4-5f2a-4c17-aece-b30632f8a14c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.8936 22.7806 0)
+			(at 60.96 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8893,7 +8893,7 @@
 		)
 		(uuid "bc45449f-ee2f-460b-9199-f577a535267a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.1041 20.2406 0)
+			(at 118.11 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8940,7 +8940,7 @@
 	)
 	(hierarchical_label "CHARGE_PUMP_IN"
 		(shape input)
-		(at 36.195 82.55 180)
+		(at 36.83 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8951,7 +8951,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 155.575 126.365 270)
+		(at 156.21 127 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8961,7 +8961,7 @@
 		(dnp no)
 		(uuid "02dd5c68-776c-4a55-b626-f815905a0410")
 		(property "Reference" "R11"
-			(at 155.575 123.825 90)
+			(at 156.21 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8971,7 +8971,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 155.575 126.365 90)
+			(at 156.21 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8981,7 +8981,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 155.575 124.587 90)
+			(at 156.21 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8992,7 +8992,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/2860635.pdf"
-			(at 155.575 126.365 0)
+			(at 156.21 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9003,7 +9003,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 155.575 126.365 0)
+			(at 156.21 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9014,7 +9014,7 @@
 			)
 		)
 		(property "E14MOQ" "10"
-			(at 155.575 126.365 0)
+			(at 156.21 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9025,7 +9025,7 @@
 			)
 		)
 		(property "E14PART" "2073351"
-			(at 155.575 126.365 0)
+			(at 156.21 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9036,7 +9036,7 @@
 			)
 		)
 		(property "JLCMFR#" "0603WAF1004T5E"
-			(at 155.575 126.365 0)
+			(at 156.21 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9047,7 +9047,7 @@
 			)
 		)
 		(property "JLCMOQ" "20"
-			(at 155.575 126.365 0)
+			(at 156.21 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9058,7 +9058,7 @@
 			)
 		)
 		(property "JLCPART" "C22935"
-			(at 155.575 126.365 0)
+			(at 156.21 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9069,7 +9069,7 @@
 			)
 		)
 		(property "E14MFR#" "MCMR06X1004FTL"
-			(at 155.575 126.365 0)
+			(at 156.21 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9080,7 +9080,7 @@
 			)
 		)
 		(property "MFR" "MULTICOMP PRO"
-			(at 155.575 126.365 0)
+			(at 156.21 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9107,7 +9107,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 48.895 88.9 90)
+		(at 49.53 88.9 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9138,7 +9138,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 48.895 88.9 0)
+			(at 49.53 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9149,7 +9149,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/1840608.pdf"
-			(at 48.895 88.9 0)
+			(at 49.53 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9160,7 +9160,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 48.895 88.9 0)
+			(at 49.53 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9171,7 +9171,7 @@
 			)
 		)
 		(property "JLCPART" "C139439"
-			(at 48.895 88.9 0)
+			(at 49.53 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9182,7 +9182,7 @@
 			)
 		)
 		(property "JLCMFR#" "SDM20U40-7"
-			(at 48.895 88.9 0)
+			(at 49.53 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9193,7 +9193,7 @@
 			)
 		)
 		(property "JLCMOQ" "15"
-			(at 48.895 88.9 0)
+			(at 49.53 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9204,7 +9204,7 @@
 			)
 		)
 		(property "E14MFR#" "NSR0340HT1G"
-			(at 48.895 88.9 0)
+			(at 49.53 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9215,7 +9215,7 @@
 			)
 		)
 		(property "E14MOQ" "5"
-			(at 48.895 88.9 0)
+			(at 49.53 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9226,7 +9226,7 @@
 			)
 		)
 		(property "E14PART" "2317404"
-			(at 48.895 88.9 0)
+			(at 49.53 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9237,7 +9237,7 @@
 			)
 		)
 		(property "Marking" "B3 (S4)"
-			(at 48.895 88.9 90)
+			(at 49.53 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9248,7 +9248,7 @@
 			)
 		)
 		(property "MFR" "ONSEMI"
-			(at 48.895 88.9 0)
+			(at 49.53 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9285,7 +9285,7 @@
 		(dnp no)
 		(uuid "0fec0c68-45b3-4da9-ac9f-03ca6754046b")
 		(property "Reference" "NT22"
-			(at 60.96 125.06 0)
+			(at 60.96 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9421,7 +9421,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.985 120.015 270)
+		(at 134.62 120.65 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9432,7 +9432,7 @@
 		(dnp no)
 		(uuid "14e26281-c1e5-489e-8b95-89b992a0404e")
 		(property "Reference" "R10"
-			(at 133.985 122.555 90)
+			(at 134.62 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9442,7 +9442,7 @@
 			)
 		)
 		(property "Value" "130K"
-			(at 133.985 120.015 90)
+			(at 134.62 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9452,7 +9452,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 133.985 121.793 90)
+			(at 134.62 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9463,7 +9463,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/2863859.pdf"
-			(at 133.985 120.015 0)
+			(at 134.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9474,7 +9474,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.985 120.015 0)
+			(at 134.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9485,7 +9485,7 @@
 			)
 		)
 		(property "E14MOQ" "10"
-			(at 133.985 120.015 0)
+			(at 134.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9496,7 +9496,7 @@
 			)
 		)
 		(property "E14PART" "2074189"
-			(at 133.985 120.015 0)
+			(at 134.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9507,7 +9507,7 @@
 			)
 		)
 		(property "JLCMFR#" "0603WAF1303T5E"
-			(at 133.985 120.015 0)
+			(at 134.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9518,7 +9518,7 @@
 			)
 		)
 		(property "JLCMOQ" "20"
-			(at 133.985 120.015 0)
+			(at 134.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9529,7 +9529,7 @@
 			)
 		)
 		(property "JLCPART" "C22795"
-			(at 133.985 120.015 0)
+			(at 134.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9540,7 +9540,7 @@
 			)
 		)
 		(property "E14MFR#" "MCSR06X1303FTL"
-			(at 133.985 120.015 0)
+			(at 134.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9551,7 +9551,7 @@
 			)
 		)
 		(property "MFR" "MULTICOMP PRO"
-			(at 133.985 120.015 0)
+			(at 134.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9838,7 +9838,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 46.99 160.782 90)
+			(at 46.99 161.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9953,7 +9953,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.905 108.585 0)
+		(at 129.54 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9963,7 +9963,7 @@
 		(dnp no)
 		(uuid "25058d3f-e51a-469b-abcd-eddc77dd657d")
 		(property "Reference" "#PWR034"
-			(at 128.905 114.935 0)
+			(at 129.54 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9974,7 +9974,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.905 112.395 0)
+			(at 129.54 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9984,7 +9984,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.905 108.585 0)
+			(at 129.54 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9995,7 +9995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.905 108.585 0)
+			(at 129.54 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10006,7 +10006,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.905 108.585 0)
+			(at 129.54 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10051,7 +10051,7 @@
 			)
 		)
 		(property "Value" "1u/50V"
-			(at 76.327 41.021 0)
+			(at 76.2 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10356,7 +10356,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 200.025 127.635 90)
+		(at 200.66 128.27 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10366,7 +10366,7 @@
 		(dnp no)
 		(uuid "29eaeafa-84ce-4b50-ae34-5a3ef35765ee")
 		(property "Reference" "C6"
-			(at 200.025 123.825 90)
+			(at 200.66 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10376,7 +10376,7 @@
 			)
 		)
 		(property "Value" "100n/50V"
-			(at 206.375 126.365 90)
+			(at 207.01 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10386,7 +10386,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 203.835 126.6698 0)
+			(at 204.47 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10397,7 +10397,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/2860632.pdf"
-			(at 200.025 127.635 0)
+			(at 200.66 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10408,7 +10408,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 200.025 127.635 0)
+			(at 200.66 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10419,7 +10419,7 @@
 			)
 		)
 		(property "E14MOQ" "10"
-			(at 200.025 127.635 0)
+			(at 200.66 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10430,7 +10430,7 @@
 			)
 		)
 		(property "E14PART" "175912201"
-			(at 200.025 127.635 0)
+			(at 200.66 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10441,7 +10441,7 @@
 			)
 		)
 		(property "JLCMFR#" "CC0603KRX7R9BB104"
-			(at 200.025 127.635 0)
+			(at 200.66 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10452,7 +10452,7 @@
 			)
 		)
 		(property "JLCMOQ" "20"
-			(at 200.025 127.635 0)
+			(at 200.66 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10463,7 +10463,7 @@
 			)
 		)
 		(property "JLCPART" "C14663"
-			(at 200.025 127.635 0)
+			(at 200.66 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10474,7 +10474,7 @@
 			)
 		)
 		(property "E14MFR#" "MC0603B104K500CT"
-			(at 200.025 127.635 0)
+			(at 200.66 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10485,7 +10485,7 @@
 			)
 		)
 		(property "MFR" "MULTICOMP PRO"
-			(at 200.025 127.635 0)
+			(at 200.66 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10512,7 +10512,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.105 139.7 0)
+		(at 78.74 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10522,7 +10522,7 @@
 		(dnp no)
 		(uuid "2d951a42-9765-4087-8537-4ad4e15f8b0d")
 		(property "Reference" "#PWR032"
-			(at 78.105 146.05 0)
+			(at 78.74 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10533,7 +10533,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.105 143.51 0)
+			(at 78.74 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10543,7 +10543,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.105 139.7 0)
+			(at 78.74 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10554,7 +10554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.105 139.7 0)
+			(at 78.74 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10565,7 +10565,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.105 139.7 0)
+			(at 78.74 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10589,7 +10589,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 43.815 82.55 90)
+		(at 44.45 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10599,7 +10599,7 @@
 		(dnp no)
 		(uuid "2d955d22-1363-4ab9-9369-a7c6726640c9")
 		(property "Reference" "C1"
-			(at 43.815 76.2 90)
+			(at 44.45 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10609,7 +10609,7 @@
 			)
 		)
 		(property "Value" "100n/50V"
-			(at 43.815 78.74 90)
+			(at 44.45 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10619,7 +10619,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 47.625 81.5848 0)
+			(at 48.26 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10630,7 +10630,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/2860632.pdf"
-			(at 43.815 82.55 0)
+			(at 44.45 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10641,7 +10641,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 43.815 82.55 0)
+			(at 44.45 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10652,7 +10652,7 @@
 			)
 		)
 		(property "E14MOQ" "10"
-			(at 43.815 82.55 0)
+			(at 44.45 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10663,7 +10663,7 @@
 			)
 		)
 		(property "JLCMFR#" "0603B103K500NT"
-			(at 43.815 82.55 0)
+			(at 44.45 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10674,7 +10674,7 @@
 			)
 		)
 		(property "JLCMOQ" "20"
-			(at 43.815 82.55 0)
+			(at 44.45 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10685,7 +10685,7 @@
 			)
 		)
 		(property "JLCPART" "C57112"
-			(at 43.815 82.55 0)
+			(at 44.45 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10696,7 +10696,7 @@
 			)
 		)
 		(property "E14MFR#" "MC0603B104K500CT"
-			(at 43.815 82.55 0)
+			(at 44.45 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10707,7 +10707,7 @@
 			)
 		)
 		(property "E14PART" "175912201"
-			(at 43.815 82.55 0)
+			(at 44.45 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10718,7 +10718,7 @@
 			)
 		)
 		(property "MFR" "MULTICOMP PRO"
-			(at 43.815 82.55 0)
+			(at 44.45 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10745,7 +10745,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC857")
-		(at 144.145 120.015 0)
+		(at 144.78 120.65 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -10756,7 +10756,7 @@
 		(dnp no)
 		(uuid "381dda46-2de4-4bc2-9ebf-5410ed1abbb6")
 		(property "Reference" "Q3"
-			(at 150.495 118.745 0)
+			(at 151.13 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10767,7 +10767,7 @@
 			)
 		)
 		(property "Value" "BC857"
-			(at 149.225 121.285 0)
+			(at 149.86 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10778,7 +10778,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 149.225 118.11 0)
+			(at 149.86 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10791,7 +10791,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
-			(at 144.145 120.015 0)
+			(at 144.78 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10803,7 +10803,7 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, PNP Transistor, SOT-23"
-			(at 144.145 120.015 0)
+			(at 144.78 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10814,7 +10814,7 @@
 			)
 		)
 		(property "JLCMFR#" "BC857C,215"
-			(at 144.145 120.015 0)
+			(at 144.78 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10825,7 +10825,7 @@
 			)
 		)
 		(property "JLCMOQ" "15"
-			(at 144.145 120.015 0)
+			(at 144.78 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10836,7 +10836,7 @@
 			)
 		)
 		(property "JLCPART" "C59205"
-			(at 144.145 120.015 0)
+			(at 144.78 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10847,7 +10847,7 @@
 			)
 		)
 		(property "E14MOQ" "5"
-			(at 144.145 120.015 0)
+			(at 144.78 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10858,7 +10858,7 @@
 			)
 		)
 		(property "E14PART" "8734771"
-			(at 144.145 120.015 0)
+			(at 144.78 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10869,7 +10869,7 @@
 			)
 		)
 		(property "E14MFR#" "BC857C,215"
-			(at 144.145 120.015 0)
+			(at 144.78 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10880,7 +10880,7 @@
 			)
 		)
 		(property "Marking" "3FW (3[EFG]x)"
-			(at 144.145 120.015 0)
+			(at 144.78 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10891,7 +10891,7 @@
 			)
 		)
 		(property "MFR" "NEXPERIA"
-			(at 144.145 120.015 0)
+			(at 144.78 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10902,7 +10902,7 @@
 			)
 		)
 		(property "Sim.Device" "PNP"
-			(at 144.145 120.015 0)
+			(at 144.78 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10913,7 +10913,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 144.145 120.015 0)
+			(at 144.78 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10963,7 +10963,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 95.25 83.8199 90)
+			(at 95.25 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11131,7 +11131,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 71.882 88.9 90)
+			(at 72.39 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11658,7 +11658,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 173.355 136.525 0)
+		(at 173.99 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11668,7 +11668,7 @@
 		(dnp no)
 		(uuid "47bbdce3-8448-4127-a123-994fb369e55c")
 		(property "Reference" "C5"
-			(at 168.275 136.525 0)
+			(at 168.91 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11679,7 +11679,7 @@
 			)
 		)
 		(property "Value" "100n/50V"
-			(at 168.275 139.065 0)
+			(at 168.91 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11690,7 +11690,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 174.3202 140.335 0)
+			(at 173.99 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11701,7 +11701,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/2860632.pdf"
-			(at 173.355 136.525 0)
+			(at 173.99 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11712,7 +11712,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 173.355 136.525 0)
+			(at 173.99 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11723,7 +11723,7 @@
 			)
 		)
 		(property "E14MOQ" "10"
-			(at 173.355 136.525 0)
+			(at 173.99 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11734,7 +11734,7 @@
 			)
 		)
 		(property "E14PART" "175912201"
-			(at 173.355 136.525 0)
+			(at 173.99 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11745,7 +11745,7 @@
 			)
 		)
 		(property "JLCMFR#" "CC0603KRX7R9BB104"
-			(at 173.355 136.525 0)
+			(at 173.99 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11756,7 +11756,7 @@
 			)
 		)
 		(property "JLCMOQ" "20"
-			(at 173.355 136.525 0)
+			(at 173.99 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11767,7 +11767,7 @@
 			)
 		)
 		(property "JLCPART" "C14663"
-			(at 173.355 136.525 0)
+			(at 173.99 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11778,7 +11778,7 @@
 			)
 		)
 		(property "E14MFR#" "MC0603B104K500CT"
-			(at 173.355 136.525 0)
+			(at 173.99 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11789,7 +11789,7 @@
 			)
 		)
 		(property "MFR" "MULTICOMP PRO"
-			(at 173.355 136.525 0)
+			(at 173.99 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11979,7 +11979,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.245 142.875 0)
+		(at 182.88 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11989,7 +11989,7 @@
 		(dnp no)
 		(uuid "4f9700af-3032-4b2b-b9dd-ecf3b3ec68e7")
 		(property "Reference" "#PWR035"
-			(at 182.245 149.225 0)
+			(at 182.88 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12000,7 +12000,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.245 146.685 0)
+			(at 182.88 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12010,7 +12010,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.245 142.875 0)
+			(at 182.88 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12021,7 +12021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.245 142.875 0)
+			(at 182.88 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12032,7 +12032,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.245 142.875 0)
+			(at 182.88 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12056,7 +12056,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 221.615 143.51 0)
+		(at 222.25 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12066,7 +12066,7 @@
 		(dnp no)
 		(uuid "53276bd1-2930-4de1-aa96-e9a5d1c5ea78")
 		(property "Reference" "#PWR037"
-			(at 221.615 149.86 0)
+			(at 222.25 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12077,7 +12077,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 221.615 147.32 0)
+			(at 222.25 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12087,7 +12087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 221.615 143.51 0)
+			(at 222.25 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12098,7 +12098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 221.615 143.51 0)
+			(at 222.25 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12109,7 +12109,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 221.615 143.51 0)
+			(at 222.25 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12164,7 +12164,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 54.102 57.15 90)
+			(at 54.61 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12290,7 +12290,7 @@
 	)
 	(symbol
 		(lib_id "3rd-party:NT_2_TT")
-		(at 139.065 98.425 0)
+		(at 139.7 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12300,7 +12300,7 @@
 		(dnp no)
 		(uuid "5bdad341-b605-4b6b-96f7-53d7d64fe7a8")
 		(property "Reference" "NT23"
-			(at 139.065 97.825 0)
+			(at 139.7 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12310,7 +12310,7 @@
 			)
 		)
 		(property "Value" "DNI"
-			(at 139.065 95.885 0)
+			(at 139.7 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12321,7 +12321,7 @@
 			)
 		)
 		(property "Footprint" "-Project:NetTie-2_SMD_Pad1.0mm"
-			(at 139.065 98.425 0)
+			(at 139.7 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12332,7 +12332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.065 98.425 0)
+			(at 139.7 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12343,7 +12343,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 139.065 98.425 0)
+			(at 139.7 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12354,7 +12354,7 @@
 			)
 		)
 		(property "E14MFR#" "DNI"
-			(at 139.065 98.425 0)
+			(at 139.7 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12365,7 +12365,7 @@
 			)
 		)
 		(property "JLCMFR#" "DNI"
-			(at 139.065 98.425 0)
+			(at 139.7 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12376,7 +12376,7 @@
 			)
 		)
 		(property "JLCPART" "DNI"
-			(at 139.065 98.425 0)
+			(at 139.7 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12387,7 +12387,7 @@
 			)
 		)
 		(property "E14MOQ" "0"
-			(at 139.065 98.425 0)
+			(at 139.7 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12398,7 +12398,7 @@
 			)
 		)
 		(property "E14PART" "DNI"
-			(at 139.065 98.425 0)
+			(at 139.7 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12409,7 +12409,7 @@
 			)
 		)
 		(property "JLCMOQ" "0"
-			(at 139.065 98.425 0)
+			(at 139.7 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12613,7 +12613,7 @@
 		(dnp no)
 		(uuid "60cf08df-b997-4b58-9468-09cbad9bb507")
 		(property "Reference" "R4"
-			(at 65.405 38.1 0)
+			(at 66.04 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12633,7 +12633,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 66.802 38.1 90)
+			(at 67.31 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12769,7 +12769,7 @@
 		(dnp no)
 		(uuid "63beae02-8ce0-4564-a692-10c5855d06fb")
 		(property "Reference" "R8"
-			(at 88.265 43.18 0)
+			(at 88.9 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12789,7 +12789,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 86.868 43.18 90)
+			(at 86.36 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13093,7 +13093,7 @@
 		(dnp no)
 		(uuid "6ae2ad1f-a0e4-4131-b545-152f3c32b26e")
 		(property "Reference" "C8"
-			(at 235.585 136.525 0)
+			(at 236.22 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13104,7 +13104,7 @@
 			)
 		)
 		(property "Value" "68u/35V"
-			(at 235.585 141.605 0)
+			(at 236.22 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13263,7 +13263,7 @@
 	)
 	(symbol
 		(lib_id "3rd-party:Lcore")
-		(at 213.995 132.715 90)
+		(at 214.63 133.35 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13273,7 +13273,7 @@
 		(dnp no)
 		(uuid "775c4ba3-3866-449c-9da0-9956b8e357e1")
 		(property "Reference" "L1"
-			(at 213.995 133.985 90)
+			(at 214.63 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13283,7 +13283,7 @@
 			)
 		)
 		(property "Value" "100uH 1.5A+"
-			(at 212.725 130.175 90)
+			(at 213.36 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13293,7 +13293,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_12x12mm_H6mm"
-			(at 213.995 132.715 0)
+			(at 214.63 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13304,7 +13304,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/74477120.pdf"
-			(at 213.995 132.715 0)
+			(at 214.63 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13315,7 +13315,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 213.995 132.715 0)
+			(at 214.63 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13326,7 +13326,7 @@
 			)
 		)
 		(property "E14MOQ" "1"
-			(at 213.995 132.715 0)
+			(at 214.63 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13337,7 +13337,7 @@
 			)
 		)
 		(property "E14PART" "163591201"
-			(at 213.995 132.715 0)
+			(at 214.63 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13348,7 +13348,7 @@
 			)
 		)
 		(property "JLCMFR#" "SRR1280A-101M"
-			(at 213.995 132.715 0)
+			(at 214.63 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13359,7 +13359,7 @@
 			)
 		)
 		(property "JLCMOQ" "10"
-			(at 213.995 132.715 0)
+			(at 214.63 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13370,7 +13370,7 @@
 			)
 		)
 		(property "JLCPART" "C1330011"
-			(at 213.995 132.715 0)
+			(at 214.63 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13381,7 +13381,7 @@
 			)
 		)
 		(property "E14MFR#" "74477120"
-			(at 213.995 132.715 0)
+			(at 214.63 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13392,7 +13392,7 @@
 			)
 		)
 		(property "MFR" "WURTH ELEKTRONIK"
-			(at 213.995 132.715 0)
+			(at 214.63 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13429,7 +13429,7 @@
 		(dnp no)
 		(uuid "803098c0-c296-45f8-a464-4c35a0c1d661")
 		(property "Reference" "R9"
-			(at 88.265 53.34 0)
+			(at 88.9 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13449,7 +13449,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 83.312 53.34 90)
+			(at 83.82 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13575,7 +13575,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 164.465 132.715 0)
+		(at 165.1 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13585,7 +13585,7 @@
 		(dnp no)
 		(uuid "81200ea2-b744-4ef9-bd43-f584bdb0ce1c")
 		(property "Reference" "R12"
-			(at 167.64 131.445 0)
+			(at 167.64 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13595,7 +13595,7 @@
 			)
 		)
 		(property "Value" "220K"
-			(at 164.465 132.715 90)
+			(at 165.1 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13605,7 +13605,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 162.687 132.715 90)
+			(at 162.56 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13616,7 +13616,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/2863859.pdf"
-			(at 164.465 132.715 0)
+			(at 165.1 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13627,7 +13627,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 164.465 132.715 0)
+			(at 165.1 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13638,7 +13638,7 @@
 			)
 		)
 		(property "E14MOQ" "10"
-			(at 164.465 132.715 0)
+			(at 165.1 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13649,7 +13649,7 @@
 			)
 		)
 		(property "E14PART" "2074218"
-			(at 164.465 132.715 0)
+			(at 165.1 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13660,7 +13660,7 @@
 			)
 		)
 		(property "JLCMFR#" "0603WAF2203T5E"
-			(at 164.465 132.715 0)
+			(at 165.1 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13671,7 +13671,7 @@
 			)
 		)
 		(property "JLCMOQ" "20"
-			(at 164.465 132.715 0)
+			(at 165.1 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13682,7 +13682,7 @@
 			)
 		)
 		(property "JLCPART" "C22961"
-			(at 164.465 132.715 0)
+			(at 165.1 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13693,7 +13693,7 @@
 			)
 		)
 		(property "E14MFR#" "MCSR06X2203FTL"
-			(at 164.465 132.715 0)
+			(at 165.1 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13704,7 +13704,7 @@
 			)
 		)
 		(property "MFR" "MULTICOMP PRO"
-			(at 164.465 132.715 0)
+			(at 165.1 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13731,7 +13731,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 200.025 137.795 270)
+		(at 200.66 138.43 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13741,7 +13741,7 @@
 		(dnp no)
 		(uuid "85b9aa71-c01f-4133-847e-4a16e34a4fb8")
 		(property "Reference" "D6"
-			(at 203.835 139.065 90)
+			(at 204.47 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13751,7 +13751,7 @@
 			)
 		)
 		(property "Value" "SS24A+"
-			(at 205.105 141.605 90)
+			(at 205.74 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13761,7 +13761,7 @@
 			)
 		)
 		(property "Footprint" "-Project:D_SMA_DOT"
-			(at 200.025 137.795 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13772,7 +13772,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/2864056.pdf"
-			(at 200.025 137.795 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13783,7 +13783,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 200.025 137.795 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13794,7 +13794,7 @@
 			)
 		)
 		(property "JLCPART" "C84503"
-			(at 200.025 137.795 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13805,7 +13805,7 @@
 			)
 		)
 		(property "JLCMFR#" "SS24AD"
-			(at 200.025 137.795 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13816,7 +13816,7 @@
 			)
 		)
 		(property "JLCMOQ" "5"
-			(at 200.025 137.795 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13827,7 +13827,7 @@
 			)
 		)
 		(property "E14MFR#" "SS24A"
-			(at 200.025 137.795 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13838,7 +13838,7 @@
 			)
 		)
 		(property "E14MOQ" "5"
-			(at 200.025 137.795 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13849,7 +13849,7 @@
 			)
 		)
 		(property "E14PART" "2748189"
-			(at 200.025 137.795 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13860,7 +13860,7 @@
 			)
 		)
 		(property "Marking" "SS24"
-			(at 200.025 137.795 90)
+			(at 200.66 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13871,7 +13871,7 @@
 			)
 		)
 		(property "MFR" "MULTICOMP PRO"
-			(at 200.025 137.795 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13975,7 +13975,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.025 142.875 0)
+		(at 200.66 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13985,7 +13985,7 @@
 		(dnp no)
 		(uuid "8e8760e4-e8d7-4085-a096-eca071550108")
 		(property "Reference" "#PWR036"
-			(at 200.025 149.225 0)
+			(at 200.66 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13996,7 +13996,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.025 146.685 0)
+			(at 200.66 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14006,7 +14006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.025 142.875 0)
+			(at 200.66 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14017,7 +14017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.025 142.875 0)
+			(at 200.66 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14028,7 +14028,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.025 142.875 0)
+			(at 200.66 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14063,7 +14063,7 @@
 		(fields_autoplaced yes)
 		(uuid "a048b79a-390c-4585-9432-1ddec1761107")
 		(property "Reference" "#FLG07"
-			(at 245.11 144.145 0)
+			(at 245.11 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14131,7 +14131,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 128.905 103.505 0)
+		(at 129.54 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14141,7 +14141,7 @@
 		(dnp no)
 		(uuid "a2fb29b9-773b-4437-98a6-2a883bd2ed7f")
 		(property "Reference" "C4"
-			(at 128.905 100.965 0)
+			(at 129.54 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14152,7 +14152,7 @@
 			)
 		)
 		(property "Value" "100u/35V"
-			(at 128.905 106.045 0)
+			(at 129.54 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14163,7 +14163,7 @@
 			)
 		)
 		(property "Footprint" "-Project:CP_Elec_8x10.5_DOT"
-			(at 128.905 103.505 0)
+			(at 129.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14174,7 +14174,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/3486024.pdf"
-			(at 128.905 103.505 0)
+			(at 129.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14185,7 +14185,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 128.905 103.505 0)
+			(at 129.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14196,7 +14196,7 @@
 			)
 		)
 		(property "JLCPART" "C310848"
-			(at 128.905 103.505 0)
+			(at 129.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14207,7 +14207,7 @@
 			)
 		)
 		(property "JLCMFR#" "VT1V221M0810"
-			(at 128.905 103.505 0)
+			(at 129.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14218,7 +14218,7 @@
 			)
 		)
 		(property "JLCMOQ" "2"
-			(at 128.905 103.505 0)
+			(at 129.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14229,7 +14229,7 @@
 			)
 		)
 		(property "E14MOQ" "1"
-			(at 128.905 103.505 0)
+			(at 129.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14240,7 +14240,7 @@
 			)
 		)
 		(property "E14MFR#" "MCVVT035M101FB3L"
-			(at 128.905 103.505 0)
+			(at 129.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14251,7 +14251,7 @@
 			)
 		)
 		(property "E14PART" "2611382"
-			(at 128.905 103.505 0)
+			(at 129.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14262,7 +14262,7 @@
 			)
 		)
 		(property "MFR" "MULTICOMP PRO"
-			(at 128.905 103.505 0)
+			(at 129.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14416,7 +14416,7 @@
 	)
 	(symbol
 		(lib_id "3rd-party:MAX5035BUSA")
-		(at 184.785 127.635 0)
+		(at 185.42 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14427,7 +14427,7 @@
 		(fields_autoplaced yes)
 		(uuid "a74191f2-f55d-4e91-8bb6-c21a7f8e8da5")
 		(property "Reference" "U1"
-			(at 184.785 114.3 0)
+			(at 185.42 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14437,7 +14437,7 @@
 			)
 		)
 		(property "Value" "MAX5035BUSA"
-			(at 184.785 116.84 0)
+			(at 185.42 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14447,7 +14447,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 188.595 136.525 0)
+			(at 189.23 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14460,7 +14460,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX5035.pdf"
-			(at 184.785 128.905 0)
+			(at 185.42 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14471,7 +14471,7 @@
 			)
 		)
 		(property "Description" "1A, High-Efficiency Step-Down DC-DC Converter, 5V fixed output voltage, Vin 76V, SO-8"
-			(at 184.785 127.635 0)
+			(at 185.42 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14482,7 +14482,7 @@
 			)
 		)
 		(property "E14MOQ" "1"
-			(at 184.785 127.635 0)
+			(at 185.42 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14493,7 +14493,7 @@
 			)
 		)
 		(property "E14PART" "2799102"
-			(at 184.785 127.635 0)
+			(at 185.42 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14504,7 +14504,7 @@
 			)
 		)
 		(property "JLCMFR#" "MAX5035BASA+T"
-			(at 184.785 127.635 0)
+			(at 185.42 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14515,7 +14515,7 @@
 			)
 		)
 		(property "JLCMOQ" "3"
-			(at 184.785 127.635 0)
+			(at 185.42 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14526,7 +14526,7 @@
 			)
 		)
 		(property "JLCPART" "C39144"
-			(at 184.785 127.635 0)
+			(at 185.42 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14537,7 +14537,7 @@
 			)
 		)
 		(property "E14MFR#" "MAX5035BUSA+T"
-			(at 184.785 127.635 0)
+			(at 185.42 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14548,7 +14548,7 @@
 			)
 		)
 		(property "MFR" "ANALOG DEVICES"
-			(at 184.785 127.635 0)
+			(at 185.42 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14625,7 +14625,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 87.63 84.455 0)
+			(at 87.63 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14661,7 +14661,7 @@
 			)
 		)
 		(property "JLCMFR#" "BC847C,215"
-			(at 74.295 78.105 0)
+			(at 74.93 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14672,7 +14672,7 @@
 			)
 		)
 		(property "JLCMOQ" "15"
-			(at 69.85 81.915 0)
+			(at 69.85 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14683,7 +14683,7 @@
 			)
 		)
 		(property "JLCPART" "C8666"
-			(at 71.755 72.39 0)
+			(at 72.39 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14694,7 +14694,7 @@
 			)
 		)
 		(property "E14MFR#" "BC847C,215"
-			(at 74.295 76.2 0)
+			(at 74.93 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14705,7 +14705,7 @@
 			)
 		)
 		(property "E14MOQ" "5"
-			(at 69.215 84.455 0)
+			(at 69.85 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14716,7 +14716,7 @@
 			)
 		)
 		(property "E14PART" "1081235"
-			(at 73.025 80.01 0)
+			(at 73.66 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14801,7 +14801,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7f295ac-91b0-4856-9ace-4f9a9924710a")
 		(property "Reference" "#FLG05"
-			(at 245.11 130.175 0)
+			(at 245.11 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14879,7 +14879,7 @@
 		(dnp no)
 		(uuid "bf146c32-3fcd-4371-a6fb-f9b3cae69ad7")
 		(property "Reference" "NT24"
-			(at 240.03 132.75 0)
+			(at 240.03 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15358,7 +15358,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 66.04 84.328 90)
+			(at 66.04 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15494,7 +15494,7 @@
 		(dnp no)
 		(uuid "dded61a4-c710-4844-adae-65bba01bb02f")
 		(property "Reference" "R7"
-			(at 88.265 33.02 0)
+			(at 88.9 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15514,7 +15514,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 86.868 33.02 90)
+			(at 86.36 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15640,7 +15640,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 169.672 122.555 0)
+		(at 170.18 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15651,7 +15651,7 @@
 		(fields_autoplaced yes)
 		(uuid "de5d3122-12d3-41e5-a43a-2c98377acd9f")
 		(property "Reference" "#FLG04"
-			(at 169.672 120.65 0)
+			(at 170.18 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15662,7 +15662,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 169.672 117.983 0)
+			(at 170.18 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15673,7 +15673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 169.672 122.555 0)
+			(at 170.18 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15684,7 +15684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 169.672 122.555 0)
+			(at 170.18 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15695,7 +15695,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 169.672 122.555 0)
+			(at 170.18 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15750,7 +15750,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 69.85 126.238 90)
+			(at 69.85 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15897,7 +15897,7 @@
 			)
 		)
 		(property "Value" "SDM20U40-7"
-			(at 55.245 79.375 0)
+			(at 55.88 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16044,7 +16044,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.785 96.52 0)
+		(at 58.42 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16054,7 +16054,7 @@
 		(dnp no)
 		(uuid "eef58a56-2a93-40f5-b6db-70a0b253e15d")
 		(property "Reference" "#PWR031"
-			(at 57.785 102.87 0)
+			(at 58.42 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16065,7 +16065,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.785 100.33 0)
+			(at 58.42 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16075,7 +16075,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.785 96.52 0)
+			(at 58.42 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16086,7 +16086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.785 96.52 0)
+			(at 58.42 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16097,7 +16097,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.785 96.52 0)
+			(at 58.42 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16121,7 +16121,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 221.615 138.43 180)
+		(at 222.25 138.43 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16131,7 +16131,7 @@
 		(dnp no)
 		(uuid "efa5a4ce-6d2d-4630-9750-ae298566f01c")
 		(property "Reference" "C7"
-			(at 223.52 136.525 0)
+			(at 223.52 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16141,7 +16141,7 @@
 			)
 		)
 		(property "Value" "22u/16V"
-			(at 226.06 141.478 0)
+			(at 226.06 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16151,7 +16151,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 220.6498 134.62 0)
+			(at 220.98 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16162,7 +16162,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/4796689.pdf"
-			(at 221.615 138.43 0)
+			(at 222.25 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16173,7 +16173,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 221.615 138.43 0)
+			(at 222.25 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16184,7 +16184,7 @@
 			)
 		)
 		(property "E14MOQ" "5"
-			(at 221.615 138.43 0)
+			(at 222.25 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16195,7 +16195,7 @@
 			)
 		)
 		(property "JLCMFR#" "CC0603KRX7R9BB104"
-			(at 221.615 138.43 0)
+			(at 222.25 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16206,7 +16206,7 @@
 			)
 		)
 		(property "JLCMOQ" "20"
-			(at 221.615 138.43 0)
+			(at 222.25 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16217,7 +16217,7 @@
 			)
 		)
 		(property "JLCPART" "C14663"
-			(at 221.615 138.43 0)
+			(at 222.25 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16228,7 +16228,7 @@
 			)
 		)
 		(property "E14MFR#" "1206X226K160CT"
-			(at 221.615 138.43 0)
+			(at 222.25 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16239,7 +16239,7 @@
 			)
 		)
 		(property "E14PART" "249715401"
-			(at 221.615 138.43 0)
+			(at 222.25 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16250,7 +16250,7 @@
 			)
 		)
 		(property "MFR" "MULTICOMP PRO"
-			(at 221.615 138.43 0)
+			(at 222.25 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16277,7 +16277,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 57.785 88.9 0)
+		(at 58.42 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16287,7 +16287,7 @@
 		(dnp no)
 		(uuid "f27097b6-17bb-4def-ae64-333a9d0d89d5")
 		(property "Reference" "C2"
-			(at 52.705 88.9 0)
+			(at 53.34 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16298,7 +16298,7 @@
 			)
 		)
 		(property "Value" "1u/50V"
-			(at 53.975 91.44 0)
+			(at 54.61 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16309,7 +16309,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 57.785 88.9 0)
+			(at 58.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16320,7 +16320,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/4536186.pdf"
-			(at 57.785 88.9 0)
+			(at 58.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16331,7 +16331,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 57.785 88.9 0)
+			(at 58.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16342,7 +16342,7 @@
 			)
 		)
 		(property "E14MOQ" "10"
-			(at 57.785 88.9 0)
+			(at 58.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16353,7 +16353,7 @@
 			)
 		)
 		(property "JLCMFR#" "CL10A105KB8NNNC"
-			(at 57.785 88.9 0)
+			(at 58.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16364,7 +16364,7 @@
 			)
 		)
 		(property "JLCMOQ" "20"
-			(at 57.785 88.9 0)
+			(at 58.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16375,7 +16375,7 @@
 			)
 		)
 		(property "JLCPART" "C15849"
-			(at 57.785 88.9 0)
+			(at 58.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16386,7 +16386,7 @@
 			)
 		)
 		(property "E14MFR#" "0603B105K500CT"
-			(at 57.785 88.9 0)
+			(at 58.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16397,7 +16397,7 @@
 			)
 		)
 		(property "E14PART" "3764121"
-			(at 57.785 88.9 0)
+			(at 58.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16408,7 +16408,7 @@
 			)
 		)
 		(property "MFR" "MULTICOMP PRO"
-			(at 57.785 88.9 0)
+			(at 58.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16447,7 +16447,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd5c50c1-3234-4fe6-bfbf-b93523f43cc2")
 		(property "Reference" "#FLG03"
-			(at 48.26 20.955 0)
+			(at 48.26 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

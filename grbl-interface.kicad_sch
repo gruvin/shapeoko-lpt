@@ -5092,7 +5092,7 @@
 	)
 	(text "GRBL config.h\n--------------------------\n#define VARIABLE_SPINDLE\n#define USE_SPINDLE_DIR_AS_ENABLE_PIN\n#define ENABLE_M7"
 		(exclude_from_sim no)
-		(at 238.252 28.956 0)
+		(at 238.76 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8494,7 +8494,7 @@
 		(dnp no)
 		(uuid "08de47b1-e764-451e-8214-f3bbea882933")
 		(property "Reference" "R26"
-			(at 73.406 127 90)
+			(at 73.66 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8516,7 +8516,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 72.39 122.682 90)
+			(at 72.39 123.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8619,7 +8619,7 @@
 		(dnp no)
 		(uuid "14b6a7dd-05b2-46e2-b8d9-5cb032136a87")
 		(property "Reference" "U6"
-			(at 62.23 57.912 0)
+			(at 62.23 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8630,7 +8630,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 62.23 60.452 0)
+			(at 62.23 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8756,7 +8756,7 @@
 		(dnp no)
 		(uuid "17453094-d257-49e7-af51-9a7699f7b59c")
 		(property "Reference" "C16"
-			(at 91.694 91.44 90)
+			(at 91.44 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8767,7 +8767,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 92.71 94.234 90)
+			(at 92.71 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8778,7 +8778,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 90.17 91.7448 0)
+			(at 90.17 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8881,7 +8881,7 @@
 		(dnp no)
 		(uuid "18cdc5df-a753-4148-afe9-abc2299cd776")
 		(property "Reference" "C19"
-			(at 141.986 59.182 90)
+			(at 142.24 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8891,7 +8891,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 145.034 58.928 90)
+			(at 144.78 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8901,7 +8901,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 144.4752 66.04 0)
+			(at 144.78 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9235,7 +9235,7 @@
 		(dnp no)
 		(uuid "1c1cba32-1a97-4e95-976e-de5fa27baf69")
 		(property "Reference" "C26"
-			(at 228.092 59.944 0)
+			(at 228.6 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9245,7 +9245,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 228.346 64.77 0)
+			(at 228.6 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9255,7 +9255,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 225.0948 58.42 0)
+			(at 224.79 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9435,7 +9435,7 @@
 		(dnp no)
 		(uuid "2274dc3f-845b-4848-82cc-02c22ccbcd87")
 		(property "Reference" "D9"
-			(at 143.51 170.688 0)
+			(at 143.51 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9445,7 +9445,7 @@
 			)
 		)
 		(property "Value" "YELLOW"
-			(at 142.24 175.006 0)
+			(at 142.24 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9783,7 +9783,7 @@
 		(dnp no)
 		(uuid "2656a63c-98fd-45c4-9b40-76454be094af")
 		(property "Reference" "Y1"
-			(at 23.368 106.934 90)
+			(at 22.86 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9793,7 +9793,7 @@
 			)
 		)
 		(property "Value" "Crystal_SMD_WE_CFPX-104-4Pin_5.0x3.2mm"
-			(at 21.082 108.712 90)
+			(at 21.59 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9935,7 +9935,7 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 94.234 85.09 0)
+			(at 93.98 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10218,7 +10218,7 @@
 		(dnp no)
 		(uuid "313d258a-bdf6-4974-a138-35d4d4be53de")
 		(property "Reference" "R30"
-			(at 170.434 54.864 0)
+			(at 170.18 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10229,7 +10229,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 166.37 49.022 90)
+			(at 166.37 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10240,7 +10240,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 164.592 50.8 90)
+			(at 165.1 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10344,7 +10344,7 @@
 		(fields_autoplaced yes)
 		(uuid "33a97d11-39e8-4849-8a9c-f546ad7f43e0")
 		(property "Reference" "D11"
-			(at 176.53 49.5299 90)
+			(at 176.53 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10355,7 +10355,7 @@
 			)
 		)
 		(property "Value" "BAT54JFILM"
-			(at 176.53 52.0699 90)
+			(at 176.53 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10524,7 +10524,7 @@
 		(dnp no)
 		(uuid "388f4238-b6f8-4c1f-8624-04c0c07749a8")
 		(property "Reference" "C17"
-			(at 86.36 65.278 0)
+			(at 86.36 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10546,7 +10546,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 87.3252 71.12 0)
+			(at 87.63 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10649,7 +10649,7 @@
 		(dnp no)
 		(uuid "3f8d8ee8-253b-407c-b09f-4a9cf7c16311")
 		(property "Reference" "C21"
-			(at 139.954 161.29 90)
+			(at 139.7 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10660,7 +10660,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 140.97 164.084 90)
+			(at 140.97 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10671,7 +10671,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 138.43 161.5948 0)
+			(at 138.43 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10784,7 +10784,7 @@
 			)
 		)
 		(property "Value" "ISOLATION approx. 1.5mm (DNI)"
-			(at 121.92 21.844 90)
+			(at 121.92 21.59 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10795,7 +10795,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 27.6352 0)
+			(at 118.11 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11151,7 +11151,7 @@
 		(dnp no)
 		(uuid "53f4efda-fbcf-49a3-88de-697584b7eb08")
 		(property "Reference" "C18"
-			(at 100.076 58.928 90)
+			(at 100.33 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11161,7 +11161,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 103.124 58.674 90)
+			(at 102.87 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11171,7 +11171,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 100.6348 58.42 0)
+			(at 100.33 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11275,7 +11275,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d4e5e3b-a800-4524-9c62-b245597db1cd")
 		(property "Reference" "SW3"
-			(at 175.26 66.0399 90)
+			(at 175.26 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11286,7 +11286,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 175.26 68.5799 90)
+			(at 175.26 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11456,7 +11456,7 @@
 		(fields_autoplaced yes)
 		(uuid "617b2b4c-8cd2-42ca-9520-55f90badd134")
 		(property "Reference" "C22"
-			(at 193.04 110.4899 0)
+			(at 193.04 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11467,7 +11467,7 @@
 			)
 		)
 		(property "Value" "22p"
-			(at 193.04 113.0299 0)
+			(at 193.04 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11478,7 +11478,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 190.1952 115.57 0)
+			(at 190.5 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11739,7 +11739,7 @@
 		(fields_autoplaced yes)
 		(uuid "65b57b7b-b44e-4987-8b29-e9ce7aa94e27")
 		(property "Reference" "#FLG08"
-			(at 261.62 50.165 0)
+			(at 261.62 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11816,7 +11816,7 @@
 		(dnp no)
 		(uuid "6a303f2c-4c8c-4329-a116-0761d72519b0")
 		(property "Reference" "C13"
-			(at 38.354 107.188 0)
+			(at 38.1 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11827,7 +11827,7 @@
 			)
 		)
 		(property "Value" "22p"
-			(at 38.608 111.252 0)
+			(at 38.1 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11838,7 +11838,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 39.0652 113.03 0)
+			(at 39.37 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12018,7 +12018,7 @@
 		(dnp no)
 		(uuid "6ddef5f5-1d2d-462a-86af-ce04bab252c9")
 		(property "Reference" "J21"
-			(at 31.496 58.42 0)
+			(at 31.75 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12230,7 +12230,7 @@
 		(dnp no)
 		(uuid "7cd212c5-f4ab-4a22-b5f2-c53b8c947a39")
 		(property "Reference" "J23"
-			(at 198.12 34.798 0)
+			(at 198.12 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12750,7 +12750,7 @@
 		(dnp no)
 		(uuid "8c3b30f3-4798-4cdf-a02f-5f1d78b1e193")
 		(property "Reference" "Y2"
-			(at 174.244 108.966 90)
+			(at 173.99 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12760,7 +12760,7 @@
 			)
 		)
 		(property "Value" "CSTCE16M0V53-R0 16MHZ"
-			(at 162.306 111.506 90)
+			(at 162.56 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12956,7 +12956,7 @@
 		(dnp no)
 		(uuid "8e106d29-38dc-452c-9f75-b8df573692bb")
 		(property "Reference" "R32"
-			(at 153.416 184.15 90)
+			(at 153.67 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12978,7 +12978,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 152.4 179.832 90)
+			(at 152.4 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13159,7 +13159,7 @@
 		(fields_autoplaced yes)
 		(uuid "90f58bfd-0ebd-4069-be23-e3b05ec806b9")
 		(property "Reference" "L3"
-			(at 222.25 46.9899 0)
+			(at 222.25 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13170,7 +13170,7 @@
 			)
 		)
 		(property "Value" "10uH"
-			(at 222.25 49.5299 0)
+			(at 222.25 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13318,7 +13318,7 @@
 		(fields_autoplaced yes)
 		(uuid "93d7e530-29fd-4957-8639-0260e6f7fed2")
 		(property "Reference" "#FLG010"
-			(at 105.41 37.465 0)
+			(at 105.41 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13396,7 +13396,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b948917-78e3-4e5f-b450-460dfc1c6011")
 		(property "Reference" "U7"
-			(at 98.5394 170.18 0)
+			(at 99.06 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13407,7 +13407,7 @@
 			)
 		)
 		(property "Value" "ATmega16U2-A"
-			(at 98.5394 172.72 0)
+			(at 99.06 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13612,7 +13612,7 @@
 		(dnp no)
 		(uuid "9d91f50b-ae6f-4964-a781-21d5ccca0277")
 		(property "Reference" "R27"
-			(at 124.46 171.704 90)
+			(at 124.46 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13634,7 +13634,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 120.142 172.72 90)
+			(at 120.65 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13815,7 +13815,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2b61f8d-0916-4891-9366-6a43fcb9f261")
 		(property "Reference" "D8"
-			(at 69.85 173.9899 90)
+			(at 69.85 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13826,7 +13826,7 @@
 			)
 		)
 		(property "Value" "BAT54JFILM"
-			(at 69.85 176.5299 90)
+			(at 69.85 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13996,7 +13996,7 @@
 		(fields_autoplaced yes)
 		(uuid "a51bd154-f919-40dd-89b0-ce6d962cb3cc")
 		(property "Reference" "#FLG011"
-			(at 139.7 37.465 0)
+			(at 139.7 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14073,7 +14073,7 @@
 		(dnp no)
 		(uuid "a8493685-83f5-4382-9b7c-bf7be2c4d984")
 		(property "Reference" "R25"
-			(at 73.406 119.634 90)
+			(at 73.66 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14095,7 +14095,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 72.39 120.142 90)
+			(at 72.39 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14209,7 +14209,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 59.69 173.482 90)
+			(at 59.69 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14220,7 +14220,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 57.912 175.26 90)
+			(at 58.42 175.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14324,7 +14324,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa8656af-f661-45de-beee-3f5d48cd1eaf")
 		(property "Reference" "C23"
-			(at 193.04 120.6499 0)
+			(at 193.04 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14335,7 +14335,7 @@
 			)
 		)
 		(property "Value" "22p"
-			(at 193.04 123.1899 0)
+			(at 193.04 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14346,7 +14346,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 190.1952 125.73 0)
+			(at 190.5 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14526,7 +14526,7 @@
 		(dnp no)
 		(uuid "b00c5745-5c5b-4925-8a29-fc6dbbcabb4f")
 		(property "Reference" "R29"
-			(at 134.366 154.94 90)
+			(at 134.62 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14548,7 +14548,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 133.35 150.622 90)
+			(at 133.35 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14652,7 +14652,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4206884-0ebc-4adf-9d79-29cd0d322155")
 		(property "Reference" "#FLG012"
-			(at 226.06 53.975 0)
+			(at 226.06 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14729,7 +14729,7 @@
 		(dnp no)
 		(uuid "b5ae9c2b-5d24-4c38-a3ee-b78e5b582801")
 		(property "Reference" "C20"
-			(at 155.702 54.864 0)
+			(at 156.21 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14739,7 +14739,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 155.956 59.69 0)
+			(at 156.21 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14749,7 +14749,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 152.7048 53.34 0)
+			(at 152.4 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15006,7 +15006,7 @@
 		(dnp no)
 		(uuid "be3f2a13-b221-4c3c-b0d7-b73d4adf61e7")
 		(property "Reference" "R28"
-			(at 134.366 147.574 90)
+			(at 134.62 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15028,7 +15028,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 133.35 148.082 90)
+			(at 133.35 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15131,7 +15131,7 @@
 		(dnp no)
 		(uuid "be7ec7a1-8f16-44bb-a1d9-3386f6568064")
 		(property "Reference" "D10"
-			(at 143.51 179.578 0)
+			(at 143.51 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15141,7 +15141,7 @@
 			)
 		)
 		(property "Value" "YELLOW"
-			(at 142.24 183.896 0)
+			(at 142.24 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15266,7 +15266,7 @@
 		(dnp no)
 		(uuid "c3b5970d-6ff4-4e8c-8281-2fdeaf7edb97")
 		(property "Reference" "C25"
-			(at 215.392 59.944 0)
+			(at 215.9 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15276,7 +15276,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 215.646 64.77 0)
+			(at 215.9 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15286,7 +15286,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 212.3948 58.42 0)
+			(at 212.09 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15389,7 +15389,7 @@
 		(dnp no)
 		(uuid "c77e06a6-b00c-4b3e-96a2-daed32a51a7d")
 		(property "Reference" "C14"
-			(at 38.354 117.094 0)
+			(at 38.1 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15400,7 +15400,7 @@
 			)
 		)
 		(property "Value" "22p"
-			(at 38.354 121.666 0)
+			(at 38.1 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15411,7 +15411,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 39.0652 123.19 0)
+			(at 39.37 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15536,7 +15536,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 95.758 67.31 90)
+			(at 95.25 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15793,7 +15793,7 @@
 		(dnp no)
 		(uuid "d60710ef-63ed-48aa-8ec6-17fa5c7061d0")
 		(property "Reference" "R31"
-			(at 153.416 175.26 90)
+			(at 153.67 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15815,7 +15815,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 152.4 170.942 90)
+			(at 152.4 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15995,7 +15995,7 @@
 		(dnp no)
 		(uuid "e85afa1d-63cd-4d81-8495-2af179c282ce")
 		(property "Reference" "U8"
-			(at 128.27 65.532 0)
+			(at 128.27 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16162,7 +16162,7 @@
 		(dnp no)
 		(uuid "ec0444c7-1847-4046-9f5f-08f51a10e74b")
 		(property "Reference" "C24"
-			(at 196.342 82.804 0)
+			(at 196.85 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16172,7 +16172,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 196.596 87.63 0)
+			(at 196.85 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16182,7 +16182,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 193.3448 81.28 0)
+			(at 193.04 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16286,7 +16286,7 @@
 		(fields_autoplaced yes)
 		(uuid "eddc256e-89fc-474b-a9f7-2b2caf41f9cd")
 		(property "Reference" "#FLG013"
-			(at 261.62 56.515 0)
+			(at 261.62 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16364,7 +16364,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0d48a3b-bd30-4b11-92c1-a3ec091690c6")
 		(property "Reference" "#FLG09"
-			(at 261.62 37.465 0)
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16441,7 +16441,7 @@
 		(dnp no)
 		(uuid "f5dc709e-aa10-433b-ad39-cd722292ff43")
 		(property "Reference" "R21"
-			(at 48.768 114.3 0)
+			(at 48.26 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16452,7 +16452,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 46.99 115.824 90)
+			(at 46.99 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16463,7 +16463,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 48.768 114.3 90)
+			(at 48.26 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16566,7 +16566,7 @@
 		(dnp no)
 		(uuid "ff9a8a44-7ef9-45ba-9b1f-fa21e42ce283")
 		(property "Reference" "C15"
-			(at 73.914 133.604 0)
+			(at 73.66 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16577,7 +16577,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 73.914 138.176 0)
+			(at 73.66 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16588,7 +16588,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 74.6252 139.7 0)
+			(at 74.93 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

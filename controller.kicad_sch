@@ -2506,7 +2506,7 @@
 	)
 	(text "(C.P. or RELAY_4)"
 		(exclude_from_sim no)
-		(at 198.12 111.125 0)
+		(at 198.12 111.76 0)
 		(effects
 			(font
 				(size 1 1)
@@ -2517,7 +2517,7 @@
 	)
 	(text "(SPINDLE PWM)"
 		(exclude_from_sim no)
-		(at 199.39 93.345 0)
+		(at 199.39 93.98 0)
 		(effects
 			(font
 				(size 1 1)
@@ -2528,7 +2528,7 @@
 	)
 	(text "(SPINDLE RELAY)"
 		(exclude_from_sim no)
-		(at 199.39 90.932 0)
+		(at 199.39 91.44 0)
 		(effects
 			(font
 				(size 1 1)
@@ -2539,7 +2539,7 @@
 	)
 	(text "(AND RELAY_1)"
 		(exclude_from_sim no)
-		(at 198.12 88.265 0)
+		(at 198.12 88.9 0)
 		(effects
 			(font
 				(size 1 1)
@@ -2640,7 +2640,7 @@
 	)
 	(polyline
 		(pts
-			(xy 94.615 21.59) (xy 94.615 154.305)
+			(xy 95.25 21.59) (xy 95.25 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2680,7 +2680,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.76 21.59) (xy 167.005 21.59)
+			(xy 111.76 21.59) (xy 167.64 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2800,7 +2800,7 @@
 	)
 	(polyline
 		(pts
-			(xy 39.37 21.59) (xy 39.37 154.305)
+			(xy 39.37 21.59) (xy 39.37 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2840,7 +2840,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.76 21.59) (xy 111.76 154.305)
+			(xy 111.76 21.59) (xy 111.76 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2860,7 +2860,7 @@
 	)
 	(polyline
 		(pts
-			(xy 224.79 154.305) (xy 169.545 154.305)
+			(xy 224.79 154.94) (xy 170.18 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2890,7 +2890,7 @@
 	)
 	(polyline
 		(pts
-			(xy 94.615 154.305) (xy 39.37 154.305)
+			(xy 95.25 154.94) (xy 39.37 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2910,7 +2910,7 @@
 	)
 	(polyline
 		(pts
-			(xy 224.79 21.59) (xy 224.79 154.305)
+			(xy 224.79 21.59) (xy 224.79 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2970,7 +2970,7 @@
 	)
 	(polyline
 		(pts
-			(xy 167.005 21.59) (xy 167.005 154.305)
+			(xy 167.64 21.59) (xy 167.64 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3110,7 +3110,7 @@
 	)
 	(polyline
 		(pts
-			(xy 167.005 154.305) (xy 111.76 154.305)
+			(xy 167.64 154.94) (xy 111.76 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3320,7 +3320,7 @@
 	)
 	(polyline
 		(pts
-			(xy 39.37 21.59) (xy 94.615 21.59)
+			(xy 39.37 21.59) (xy 95.25 21.59)
 		)
 		(stroke
 			(width 0)
@@ -3380,7 +3380,7 @@
 	)
 	(polyline
 		(pts
-			(xy 169.545 21.59) (xy 224.79 21.59)
+			(xy 170.18 21.59) (xy 224.79 21.59)
 		)
 		(stroke
 			(width 0)
@@ -3470,7 +3470,7 @@
 		)
 		(uuid "1aa36d42-aaa6-490e-a72a-6e7a3d5192fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.53 53.0157 90)
+			(at 176.53 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3495,7 +3495,7 @@
 		(dnp no)
 		(uuid "0d260335-7fc6-41cf-8ede-b0c7a4e644b5")
 		(property "Reference" "J1"
-			(at 88.9 122.174 0)
+			(at 88.9 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3694,7 +3694,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 184.15 143.5099 0)
+			(at 184.15 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3839,7 +3839,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 62.23 143.5099 0)
+			(at 62.23 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4051,7 +4051,7 @@
 		(dnp no)
 		(uuid "2758d123-c21f-478c-91fd-d0d6258a4144")
 		(property "Reference" "J3"
-			(at 172.72 122.936 0)
+			(at 172.72 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4061,7 +4061,7 @@
 			)
 		)
 		(property "Value" "CONN_23W_PIN"
-			(at 172.72 126.238 90)
+			(at 172.72 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4315,7 +4315,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 127 143.5099 0)
+			(at 127 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4460,7 +4460,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 203.2 143.5099 0)
+			(at 203.2 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4605,7 +4605,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 196.85 143.5099 0)
+			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4981,7 +4981,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 133.35 143.5099 0)
+			(at 133.35 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5203,7 +5203,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 55.88 143.5099 0)
+			(at 55.88 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5415,7 +5415,7 @@
 		(dnp no)
 		(uuid "ee7dd478-4454-451a-8977-3cedfdece2ee")
 		(property "Reference" "J2"
-			(at 163.322 122.936 0)
+			(at 163.83 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5426,7 +5426,7 @@
 			)
 		)
 		(property "Value" "CONN_23W_SOCKET"
-			(at 164.592 125.984 90)
+			(at 165.1 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5614,7 +5614,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 190.5 143.5099 0)
+			(at 190.5 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
