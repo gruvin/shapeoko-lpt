@@ -506,7 +506,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "K1"
-				(at 11.43 1.27 0)
+				(at 11.43 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -516,8 +516,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "RELAY_TE_OJS_24V_10A"
-				(at 11.43 -1.27 0)
+			(property "Value" "OJS-SH-124HMF"
+				(at 11.43 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -538,7 +538,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.farnell.com/datasheets/3212368.pdf"
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=OJS_16A_0821&DocType=Data%20Sheet&DocLang=English&PartCntxt=2071556-8&DocFormat=pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -549,7 +549,17 @@
 					)
 				)
 			)
-			(property "Description" "Panasonic, 8A/16A, Small Polarized Latching Power Relays, Single coil, 1 Form A"
+			(property "Description" "RELAY GEN PURPOSE SPST 10A 24V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "E14MFR#" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -560,7 +570,7 @@
 					)
 				)
 			)
-			(property "E14PART" "3764763"
+			(property "JLCMFR#" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -571,7 +581,7 @@
 					)
 				)
 			)
-			(property "E14MFR#" "2071556-9"
+			(property "JLCPART" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -582,7 +592,7 @@
 					)
 				)
 			)
-			(property "JLCMFR#" "DNI"
+			(property "E14MOQ" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -593,7 +603,7 @@
 					)
 				)
 			)
-			(property "JLCPART" "DNI"
+			(property "JLCMOQ" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -604,7 +614,7 @@
 					)
 				)
 			)
-			(property "E14MOQ" "0"
+			(property "DIGIPART" "41-OJS-SH-124HMF,00000-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -615,7 +625,7 @@
 					)
 				)
 			)
-			(property "JLCMOQ" "0"
+			(property "DIGIMFR#" "OJS-SH-124HMF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -918,7 +928,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Socket"
+		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -938,7 +948,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02_Female"
+			(property "Value" "Conn_01x02_Pin"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -970,11 +980,202 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1091,177 +1292,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Male"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x03_Socket"
 			(pin_names
 				(offset 1.016)
@@ -1282,7 +1312,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_Female"
+			(property "Value" "Conn_01x03_Socket"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1314,11 +1344,21 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1497,7 +1537,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04_Female"
+			(property "Value" "Conn_01x04_Socket"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1529,11 +1569,21 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x04, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1754,7 +1804,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x06_Female"
+			(property "Value" "Conn_01x06_Socket"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1786,11 +1836,21 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x06, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2357,6 +2417,28 @@
 					)
 				)
 			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "diode"
 				(at 0 0 0)
 				(show_name no)
@@ -2457,7 +2539,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_PNP_BEC"
+		(symbol "Transistor_BJT:Q_PNP_BEC"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2798,7 +2880,7 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
@@ -2834,7 +2916,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2845,8 +2927,30 @@
 				)
 			)
 			(property "Description" "Jumper, 3-pole, both open"
-				(at 0 0 0)
+				(at 0 -12.7 0)
 				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
+				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
+				(at -1.27 -20.32 0)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -2879,7 +2983,7 @@
 			)
 			(symbol "Jumper_3_Open_0_0"
 				(circle
-					(center -3.302 0)
+					(center -2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -2901,7 +3005,7 @@
 					)
 				)
 				(circle
-					(center 3.302 0)
+					(center 2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -2914,8 +3018,8 @@
 			)
 			(symbol "Jumper_3_Open_0_1"
 				(arc
-					(start -3.048 1.016)
-					(mid -1.651 1.4992)
+					(start -2.032 1.016)
+					(mid -1.143 1.3235)
 					(end -0.254 1.016)
 					(stroke
 						(width 0)
@@ -2939,8 +3043,8 @@
 				)
 				(arc
 					(start 0.254 1.016)
-					(mid 1.651 1.4992)
-					(end 3.048 1.016)
+					(mid 1.143 1.3235)
+					(end 2.032 1.016)
 					(stroke
 						(width 0)
 						(type default)
@@ -2952,7 +3056,7 @@
 			)
 			(symbol "Jumper_3_Open_1_1"
 				(pin passive line
-					(at -6.35 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -2988,7 +3092,7 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 0 180)
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "B"
 						(effects
@@ -3019,7 +3123,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
-				(at 0 4.318 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3121,7 +3225,7 @@
 			(symbol "SW_Push_SPDT_0_1"
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 2.54 2.032)
+						(xy -1.524 0.2032) (xy 2.3368 1.9812)
 					)
 					(stroke
 						(width 0)
@@ -3144,6 +3248,17 @@
 				)
 			)
 			(symbol "SW_Push_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
@@ -3269,6 +3384,28 @@
 					)
 				)
 			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "NPN Small Signal Transistor"
 				(at 0 0 0)
 				(show_name no)
@@ -3294,34 +3431,22 @@
 			(symbol "BC847_0_1"
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
 					)
 					(stroke
 						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -3339,9 +3464,35 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "BC847_1_1"
 				(polyline
 					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -3351,11 +3502,9 @@
 						(type outline)
 					)
 				)
-			)
-			(symbol "BC847_1_1"
 				(pin input line
 					(at -5.08 0 0)
-					(length 5.715)
+					(length 2.54)
 					(name "B"
 						(effects
 							(font
@@ -3412,8 +3561,12 @@
 		)
 		(symbol "power:+5V"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3527,8 +3680,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3548,8 +3700,12 @@
 		)
 		(symbol "power:GND"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3639,8 +3795,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3660,8 +3815,12 @@
 		)
 		(symbol "power:GNDA"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3751,8 +3910,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GNDA"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3773,7 +3931,7 @@
 	)
 	(text "BitZero"
 		(exclude_from_sim no)
-		(at 195.58 54.61 0)
+		(at 196.215 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3784,7 +3942,7 @@
 	)
 	(text "OPTIONAL\nOUTPUTS"
 		(exclude_from_sim no)
-		(at 143.51 119.38 0)
+		(at 144.145 120.015 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3828,7 +3986,7 @@
 	)
 	(text "BitSetter"
 		(exclude_from_sim no)
-		(at 195.58 31.115 0)
+		(at 196.215 31.115 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3872,7 +4030,7 @@
 	)
 	(text "V COMMOM\n  SELECT"
 		(exclude_from_sim no)
-		(at 133.858 60.96 0)
+		(at 133.35 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3883,7 +4041,7 @@
 	)
 	(text "V COMMOM\n  SELECT"
 		(exclude_from_sim no)
-		(at 103.378 60.96 0)
+		(at 102.87 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3894,7 +4052,7 @@
 	)
 	(text "EXTTERNAL EMERGENCY\nSTOP SWITCH"
 		(exclude_from_sim no)
-		(at 33.528 127.254 0)
+		(at 34.163 127.254 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3962,7 +4120,7 @@
 	)
 	(text "V COMMOM\n  SELECT"
 		(exclude_from_sim no)
-		(at 74.168 60.96 0)
+		(at 73.66 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3983,13 +4141,13 @@
 		(uuid "f7ec28a4-f911-4089-b1f2-8c1e9ca6175b")
 	)
 	(junction
-		(at 183.515 39.37)
+		(at 184.15 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "153093e9-9375-4c87-84c0-01437a9bebda")
 	)
 	(junction
-		(at 167.005 156.845)
+		(at 167.64 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3190808c-9704-4bb5-8c66-a12eafe7a140")
@@ -4001,7 +4159,7 @@
 		(uuid "36b32031-6873-4baa-8f07-31862e88252a")
 	)
 	(junction
-		(at 167.005 139.065)
+		(at 167.64 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a528862c-3ed0-4a52-9b45-de6796c60c90")
@@ -4019,13 +4177,13 @@
 		(uuid "d9cbb172-4e27-444a-b539-d473b6feb9b2")
 	)
 	(junction
-		(at 156.845 130.175)
+		(at 157.48 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e32accbb-b818-4d44-b4b9-6223ab001340")
 	)
 	(junction
-		(at 167.005 121.285)
+		(at 167.64 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef7916ff-edeb-4055-b544-21de1e876a81")
@@ -4075,7 +4233,7 @@
 		(uuid "81273c92-8ea3-4782-8eaa-cfc03f654943")
 	)
 	(no_connect
-		(at 31.115 135.89)
+		(at 31.75 135.89)
 		(uuid "8441e38e-39ce-4899-8440-599e606fc010")
 	)
 	(no_connect
@@ -4126,7 +4284,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.735 121.285) (xy 167.005 121.285)
+			(xy 166.37 121.92) (xy 167.64 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4166,7 +4324,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 155.575) (xy 167.005 156.845)
+			(xy 167.64 156.21) (xy 167.64 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4176,7 +4334,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 113.665) (xy 116.84 115.57)
+			(xy 117.475 112.395) (xy 117.475 116.205)
 		)
 		(stroke
 			(width 0)
@@ -4196,7 +4354,7 @@
 	)
 	(polyline
 		(pts
-			(xy 138.938 64.77) (xy 142.24 64.77)
+			(xy 139.192 64.77) (xy 141.224 64.77)
 		)
 		(stroke
 			(width 0.8)
@@ -4206,7 +4364,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.938 77.47) (xy 141.478 77.47)
+			(xy 138.43 77.47) (xy 140.97 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4226,7 +4384,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.248 77.47) (xy 81.788 77.47)
+			(xy 78.74 77.47) (xy 81.28 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4246,7 +4404,7 @@
 	)
 	(wire
 		(pts
-			(xy 183.515 50.8) (xy 188.595 50.8)
+			(xy 184.15 50.8) (xy 189.23 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4256,7 +4414,7 @@
 	)
 	(polyline
 		(pts
-			(xy 116.84 104.14) (xy 116.84 107.315)
+			(xy 117.475 105.283) (xy 117.475 107.315)
 		)
 		(stroke
 			(width 0.8)
@@ -4266,7 +4424,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 135.255) (xy 167.005 139.065)
+			(xy 167.64 135.89) (xy 167.64 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4286,7 +4444,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 97.155) (xy 116.84 97.155)
+			(xy 121.285 97.79) (xy 117.475 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4296,7 +4454,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.938 80.01) (xy 141.478 80.01)
+			(xy 138.43 80.01) (xy 140.97 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4306,7 +4464,7 @@
 	)
 	(wire
 		(pts
-			(xy 183.515 39.37) (xy 183.515 26.67)
+			(xy 184.15 39.37) (xy 184.15 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4336,7 +4494,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.705 26.035) (xy 179.705 29.21)
+			(xy 180.34 26.035) (xy 180.34 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4356,13 +4514,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 115.57) (xy 135.89 115.57)
+			(xy 117.475 116.205) (xy 136.525 116.205)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "27406406-32d1-4412-8621-24606ea90240")
+	)
+	(wire
+		(pts
+			(xy 117.475 139.7) (xy 124.46 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27920152-8e2f-4b91-a55e-30987131f70a")
 	)
 	(wire
 		(pts
@@ -4376,7 +4544,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.248 72.39) (xy 79.248 68.58)
+			(xy 79.502 72.39) (xy 79.502 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4406,7 +4574,7 @@
 	)
 	(polyline
 		(pts
-			(xy 49.53 144.78) (xy 18.415 144.78)
+			(xy 50.165 144.78) (xy 19.05 144.78)
 		)
 		(stroke
 			(width 0.5)
@@ -4417,7 +4585,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 121.285) (xy 167.005 125.095)
+			(xy 167.64 121.92) (xy 167.64 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4427,7 +4595,7 @@
 	)
 	(wire
 		(pts
-			(xy 183.515 50.8) (xy 183.515 39.37)
+			(xy 184.15 50.8) (xy 184.15 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4437,7 +4605,7 @@
 	)
 	(wire
 		(pts
-			(xy 131.318 64.77) (xy 131.318 67.31)
+			(xy 130.81 64.77) (xy 130.81 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4447,7 +4615,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 120.015) (xy 116.84 118.11)
+			(xy 117.475 122.555) (xy 117.475 118.745)
 		)
 		(stroke
 			(width 0)
@@ -4457,7 +4625,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 139.065) (xy 167.005 140.335)
+			(xy 167.64 139.7) (xy 167.64 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4487,7 +4655,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.845 130.175) (xy 159.385 130.175)
+			(xy 157.48 130.81) (xy 160.02 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4497,7 +4665,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.838 64.77) (xy 102.108 64.77)
+			(xy 100.33 64.77) (xy 103.632 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4517,7 +4685,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 90.17) (xy 56.515 90.17)
+			(xy 52.07 90.805) (xy 56.515 90.805)
 		)
 		(stroke
 			(width 0)
@@ -4527,7 +4695,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.705 50.8) (xy 179.705 53.34)
+			(xy 180.34 50.8) (xy 180.34 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4547,7 +4715,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 113.03) (xy 135.89 113.03)
+			(xy 135.255 113.665) (xy 136.525 113.665)
 		)
 		(stroke
 			(width 0)
@@ -4557,23 +4725,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 130.81) (xy 31.115 130.81)
+			(xy 38.735 130.81) (xy 31.75 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4a38db11-46cf-4d4e-a9af-1f3e8ffc40eb")
-	)
-	(wire
-		(pts
-			(xy 116.84 139.065) (xy 116.84 132.715)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d391b64-fe37-46de-a67f-b3e5acdf8fa3")
 	)
 	(wire
 		(pts
@@ -4587,7 +4745,7 @@
 	)
 	(wire
 		(pts
-			(xy 108.585 107.315) (xy 113.03 107.315)
+			(xy 109.22 107.315) (xy 113.665 107.315)
 		)
 		(stroke
 			(width 0)
@@ -4597,7 +4755,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.248 74.93) (xy 81.788 74.93)
+			(xy 78.74 74.93) (xy 81.28 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4637,7 +4795,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.838 66.04) (xy 100.838 64.77)
+			(xy 100.33 66.04) (xy 100.33 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4657,7 +4815,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.845 151.765) (xy 156.845 156.845)
+			(xy 157.48 152.4) (xy 157.48 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4667,7 +4825,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.055 139.065) (xy 177.165 139.065)
+			(xy 186.69 139.7) (xy 177.8 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4677,7 +4835,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.938 74.93) (xy 141.478 74.93)
+			(xy 138.43 74.93) (xy 140.97 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4687,7 +4845,17 @@
 	)
 	(wire
 		(pts
-			(xy 131.445 139.065) (xy 133.985 139.065)
+			(xy 117.475 139.7) (xy 117.475 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ffdd336-2c26-4305-ad52-37ca5dff8fc7")
+	)
+	(wire
+		(pts
+			(xy 132.08 139.7) (xy 134.62 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4707,7 +4875,7 @@
 	)
 	(wire
 		(pts
-			(xy 145.288 64.77) (xy 157.988 64.77)
+			(xy 144.272 64.77) (xy 157.48 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4737,7 +4905,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 108.585) (xy 55.88 108.585)
+			(xy 52.07 109.22) (xy 55.88 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4747,7 +4915,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.955 133.35) (xy 20.955 140.97)
+			(xy 21.59 133.35) (xy 21.59 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4757,7 +4925,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.845 139.065) (xy 167.005 139.065)
+			(xy 157.48 139.7) (xy 167.64 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4767,7 +4935,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 113.665) (xy 167.005 121.285)
+			(xy 167.64 114.3) (xy 167.64 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4777,7 +4945,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 118.11) (xy 135.89 118.11)
+			(xy 117.475 118.745) (xy 136.525 118.745)
 		)
 		(stroke
 			(width 0)
@@ -4807,7 +4975,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.628 66.04) (xy 71.628 64.77)
+			(xy 71.12 66.04) (xy 71.12 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4827,7 +4995,7 @@
 	)
 	(wire
 		(pts
-			(xy 183.515 26.67) (xy 188.595 26.67)
+			(xy 184.15 26.67) (xy 189.23 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4847,7 +5015,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 39.37) (xy 183.515 39.37)
+			(xy 182.245 39.37) (xy 184.15 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4867,7 +5035,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.628 64.77) (xy 72.898 64.77)
+			(xy 71.12 64.77) (xy 74.422 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4877,7 +5045,7 @@
 	)
 	(wire
 		(pts
-			(xy 131.318 64.77) (xy 132.588 64.77)
+			(xy 130.81 64.77) (xy 134.112 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4887,7 +5055,7 @@
 	)
 	(polyline
 		(pts
-			(xy 116.84 126.365) (xy 116.84 129.667)
+			(xy 117.475 127.635) (xy 117.475 129.667)
 		)
 		(stroke
 			(width 0.8)
@@ -4897,7 +5065,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 156.845) (xy 167.005 158.115)
+			(xy 167.64 157.48) (xy 167.64 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4907,7 +5075,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 111.125) (xy 134.62 113.03)
+			(xy 135.255 111.76) (xy 135.255 113.665)
 		)
 		(stroke
 			(width 0)
@@ -4937,7 +5105,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.055 156.845) (xy 179.705 156.845)
+			(xy 186.69 157.48) (xy 180.34 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4977,7 +5145,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.248 72.39) (xy 81.788 72.39)
+			(xy 79.502 72.39) (xy 81.28 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4987,7 +5155,7 @@
 	)
 	(wire
 		(pts
-			(xy 108.458 77.47) (xy 110.998 77.47)
+			(xy 107.95 77.47) (xy 110.49 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4997,7 +5165,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.845 121.285) (xy 156.845 130.175)
+			(xy 157.48 121.92) (xy 157.48 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5007,7 +5175,7 @@
 	)
 	(polyline
 		(pts
-			(xy 52.705 102.362) (xy 52.705 99.06)
+			(xy 52.07 101.727) (xy 52.07 99.695)
 		)
 		(stroke
 			(width 0.8)
@@ -5017,7 +5185,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.605 130.175) (xy 145.415 130.175)
+			(xy 142.24 130.81) (xy 146.05 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5027,7 +5195,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.938 72.39) (xy 141.478 72.39)
+			(xy 139.192 72.39) (xy 140.97 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5047,7 +5215,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.705 53.34) (xy 188.595 53.34)
+			(xy 180.34 53.34) (xy 189.23 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5057,7 +5225,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.845 121.285) (xy 158.115 121.285)
+			(xy 157.48 121.92) (xy 158.75 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5067,7 +5235,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.605 145.415) (xy 141.605 144.145)
+			(xy 142.24 146.05) (xy 142.24 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5077,7 +5245,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 120.65) (xy 135.89 120.65)
+			(xy 135.255 121.285) (xy 136.525 121.285)
 		)
 		(stroke
 			(width 0)
@@ -5087,7 +5255,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.248 80.01) (xy 81.788 80.01)
+			(xy 78.74 80.01) (xy 81.28 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5097,7 +5265,7 @@
 	)
 	(wire
 		(pts
-			(xy 108.458 80.01) (xy 110.998 80.01)
+			(xy 107.95 80.01) (xy 110.49 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5107,7 +5275,7 @@
 	)
 	(polyline
 		(pts
-			(xy 18.415 121.285) (xy 18.415 144.78)
+			(xy 19.05 121.285) (xy 19.05 144.78)
 		)
 		(stroke
 			(width 0.5)
@@ -5128,7 +5296,7 @@
 	)
 	(wire
 		(pts
-			(xy 108.458 74.93) (xy 110.998 74.93)
+			(xy 107.95 74.93) (xy 110.49 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5138,7 +5306,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.845 144.145) (xy 156.845 139.065)
+			(xy 157.48 144.78) (xy 157.48 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5158,7 +5326,7 @@
 	)
 	(wire
 		(pts
-			(xy 108.458 68.58) (xy 108.458 72.39)
+			(xy 108.712 68.58) (xy 108.712 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5178,7 +5346,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.165 139.065) (xy 177.165 140.335)
+			(xy 177.8 139.7) (xy 177.8 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5188,7 +5356,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 92.71) (xy 52.705 90.17)
+			(xy 52.07 94.615) (xy 52.07 90.805)
 		)
 		(stroke
 			(width 0)
@@ -5198,7 +5366,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 55.88) (xy 188.595 55.88)
+			(xy 187.96 55.88) (xy 189.23 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5208,7 +5376,7 @@
 	)
 	(polyline
 		(pts
-			(xy 79.248 64.77) (xy 82.55 64.77)
+			(xy 77.47 64.77) (xy 79.502 64.77)
 		)
 		(stroke
 			(width 0.8)
@@ -5238,23 +5406,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 105.41) (xy 52.705 108.585)
+			(xy 52.07 104.775) (xy 52.07 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c3c1e1a7-b2e6-4746-9ba5-8c663b9d631b")
-	)
-	(wire
-		(pts
-			(xy 116.84 139.065) (xy 123.825 139.065)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4a43c70-8b13-4ead-be87-b73fe3368ab5")
 	)
 	(polyline
 		(pts
@@ -5268,7 +5426,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.705 156.845) (xy 179.705 155.575)
+			(xy 180.34 157.48) (xy 180.34 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5278,7 +5436,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 57.15) (xy 187.325 55.88)
+			(xy 187.96 57.15) (xy 187.96 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5298,7 +5456,7 @@
 	)
 	(polyline
 		(pts
-			(xy 49.53 121.285) (xy 49.53 144.78)
+			(xy 50.165 121.285) (xy 50.165 144.78)
 		)
 		(stroke
 			(width 0.5)
@@ -5309,7 +5467,7 @@
 	)
 	(wire
 		(pts
-			(xy 108.585 126.365) (xy 113.03 126.365)
+			(xy 109.22 127.635) (xy 113.665 127.635)
 		)
 		(stroke
 			(width 0)
@@ -5329,7 +5487,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.845 156.845) (xy 167.005 156.845)
+			(xy 157.48 157.48) (xy 167.64 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5349,7 +5507,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 33.02) (xy 187.325 31.75)
+			(xy 187.96 33.02) (xy 187.96 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5359,7 +5517,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.938 68.58) (xy 138.938 72.39)
+			(xy 139.192 68.58) (xy 139.192 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5369,7 +5527,7 @@
 	)
 	(wire
 		(pts
-			(xy 108.458 72.39) (xy 110.998 72.39)
+			(xy 108.712 72.39) (xy 110.49 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5379,7 +5537,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 31.75) (xy 188.595 31.75)
+			(xy 187.96 31.75) (xy 189.23 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5389,7 +5547,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.195 140.97) (xy 36.195 133.35)
+			(xy 36.83 140.97) (xy 36.83 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5399,7 +5557,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 97.155) (xy 116.84 100.965)
+			(xy 117.475 97.79) (xy 117.475 102.235)
 		)
 		(stroke
 			(width 0)
@@ -5409,7 +5567,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.035 130.175) (xy 156.845 130.175)
+			(xy 153.67 130.81) (xy 157.48 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5419,7 +5577,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 122.555) (xy 134.62 120.65)
+			(xy 135.255 123.19) (xy 135.255 121.285)
 		)
 		(stroke
 			(width 0)
@@ -5439,7 +5597,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.705 29.21) (xy 188.595 29.21)
+			(xy 180.34 29.21) (xy 189.23 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5449,7 +5607,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.195 133.35) (xy 38.1 133.35)
+			(xy 36.83 133.35) (xy 38.735 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5459,7 +5617,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.955 140.97) (xy 36.195 140.97)
+			(xy 21.59 140.97) (xy 36.83 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5469,7 +5627,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.605 130.175) (xy 141.605 133.985)
+			(xy 142.24 130.81) (xy 142.24 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5479,7 +5637,7 @@
 	)
 	(polyline
 		(pts
-			(xy 18.415 121.285) (xy 49.53 121.285)
+			(xy 19.05 121.285) (xy 50.165 121.285)
 		)
 		(stroke
 			(width 0.5)
@@ -5490,7 +5648,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.275 99.06) (xy 48.895 99.06)
+			(xy 41.275 99.695) (xy 48.26 99.695)
 		)
 		(stroke
 			(width 0)
@@ -5500,23 +5658,13 @@
 	)
 	(polyline
 		(pts
-			(xy 108.458 64.77) (xy 111.76 64.77)
+			(xy 106.68 64.77) (xy 108.712 64.77)
 		)
 		(stroke
 			(width 0.8)
 			(type solid)
 		)
 		(uuid "fd20a50c-51bd-4694-80d4-117a7dcb87ab")
-	)
-	(label "Net-(Q4-Pad1)"
-		(at 131.445 139.065 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0177b216-25d5-445c-92d5-e50205799b21")
 	)
 	(label "RELAY4"
 		(at 60.96 165.1 180)
@@ -5528,18 +5676,8 @@
 		)
 		(uuid "08348278-0d0b-473b-8f42-87a3eed1f3c4")
 	)
-	(label "Net-(Q4-Pad3)"
-		(at 141.605 133.985 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "08dd5e79-3e05-4ba4-9727-9f114b700b23")
-	)
 	(label "X_P17_OUT"
-		(at 133.985 115.57 180)
+		(at 134.62 116.205 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5549,7 +5687,7 @@
 		(uuid "1014290f-1141-43e6-b0b7-f8d07ab4ea22")
 	)
 	(label "RELAY4"
-		(at 56.515 90.17 0)
+		(at 56.515 90.805 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5569,7 +5707,7 @@
 		(uuid "21b19d14-12c1-4d87-bdb9-fdeecfb16385")
 	)
 	(label "X_P16_OUT"
-		(at 133.985 118.11 180)
+		(at 134.62 118.745 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5578,18 +5716,8 @@
 		)
 		(uuid "3bdf35ac-b329-4771-a34a-7fd776180089")
 	)
-	(label "Net-(Q4-Pad1)"
-		(at 131.445 139.065 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e43a65d-118a-4bb2-b9d4-36e7c22ec511")
-	)
 	(label "X_COM"
-		(at 79.248 69.85 0)
+		(at 79.502 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5599,7 +5727,7 @@
 		(uuid "41005143-7b56-431a-aa2b-7e8581b9cfa4")
 	)
 	(label "Z_COM"
-		(at 138.938 69.85 0)
+		(at 139.192 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5639,7 +5767,7 @@
 		(uuid "53911018-efbc-4621-9ed7-f9b5bd506a5f")
 	)
 	(label "STP_5V"
-		(at 114.808 64.77 0)
+		(at 113.792 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5649,7 +5777,7 @@
 		(uuid "6b9038b6-b760-48b1-8051-60bed67b6dd5")
 	)
 	(label "VFD_XGND"
-		(at 186.055 156.845 0)
+		(at 186.69 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5659,7 +5787,7 @@
 		(uuid "6ff81c85-4ed3-44e9-bc37-b5d46b79b217")
 	)
 	(label "Y_COM"
-		(at 108.458 69.85 0)
+		(at 108.712 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5669,7 +5797,7 @@
 		(uuid "7abff47a-6225-409b-adf1-ca6684b06f2e")
 	)
 	(label "STP_5V"
-		(at 85.598 64.77 0)
+		(at 84.582 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5679,7 +5807,7 @@
 		(uuid "815f818d-392e-4527-a571-0b7199826616")
 	)
 	(label "STP_5V"
-		(at 147.828 64.77 0)
+		(at 146.812 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5689,7 +5817,7 @@
 		(uuid "92f41365-6a65-4345-94c3-c9e36e212679")
 	)
 	(label "VFD_FWD"
-		(at 186.055 139.065 0)
+		(at 186.69 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5708,16 +5836,6 @@
 		)
 		(uuid "c32365f1-9306-440c-bd3c-a22553aae4b3")
 	)
-	(label "Net-(D7-Pad1)"
-		(at 156.845 144.145 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cf88eca1-440e-43e3-858d-9a02be165d19")
-	)
 	(label "RELAY2"
 		(at 60.96 170.18 180)
 		(effects
@@ -5728,38 +5846,8 @@
 		)
 		(uuid "e1fca3e2-fb0d-4585-b6b8-0c7d332cee76")
 	)
-	(label "Net-(D7-Pad1)"
-		(at 156.845 144.145 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e7dda0e2-1572-483c-b608-f2bfb89879ac")
-	)
-	(label "Net-(D7-Pad1)"
-		(at 156.845 144.145 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e960039a-9006-4772-9a37-f512772b6ed1")
-	)
-	(label "Net-(Q4-Pad3)"
-		(at 141.605 133.985 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec88105c-4f84-457a-be42-84a36cea2665")
-	)
 	(label "VFD_PWM"
-		(at 120.65 97.155 0)
+		(at 121.285 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5770,7 +5858,7 @@
 	)
 	(global_label "24V_SAFE"
 		(shape input)
-		(at 167.005 113.665 90)
+		(at 167.64 114.3 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5780,7 +5868,7 @@
 		)
 		(uuid "3b168d21-b1a4-46ff-91fb-6a07ecaa0746")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.9256 102.2409 90)
+			(at 167.5606 102.8759 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5794,7 +5882,7 @@
 	)
 	(hierarchical_label "YDIR_IN"
 		(shape input)
-		(at 108.458 77.47 180)
+		(at 107.95 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5805,7 +5893,7 @@
 	)
 	(hierarchical_label "ZDIR_IN"
 		(shape input)
-		(at 138.938 77.47 180)
+		(at 138.43 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5816,7 +5904,7 @@
 	)
 	(hierarchical_label "P1_IN"
 		(shape input)
-		(at 41.275 99.06 180)
+		(at 41.275 99.695 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5838,7 +5926,7 @@
 	)
 	(hierarchical_label "P17_IN"
 		(shape input)
-		(at 108.585 107.315 180)
+		(at 109.22 107.315 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5860,7 +5948,7 @@
 	)
 	(hierarchical_label "ZCLK_IN"
 		(shape input)
-		(at 138.938 74.93 180)
+		(at 138.43 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5871,7 +5959,7 @@
 	)
 	(hierarchical_label "XDIR_IN"
 		(shape input)
-		(at 79.248 77.47 180)
+		(at 78.74 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5893,7 +5981,7 @@
 	)
 	(hierarchical_label "EN_IN"
 		(shape input)
-		(at 79.248 80.01 180)
+		(at 78.74 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5904,7 +5992,7 @@
 	)
 	(hierarchical_label "YCLK_IN"
 		(shape input)
-		(at 108.458 74.93 180)
+		(at 107.95 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5926,7 +6014,7 @@
 	)
 	(hierarchical_label "P16_IN"
 		(shape input)
-		(at 108.585 126.365 180)
+		(at 109.22 127.635 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5948,7 +6036,7 @@
 	)
 	(hierarchical_label "EN_IN"
 		(shape input)
-		(at 108.458 80.01 180)
+		(at 107.95 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5981,7 +6069,7 @@
 	)
 	(hierarchical_label "CHARGE_PUMP_OUT"
 		(shape output)
-		(at 55.88 108.585 0)
+		(at 55.88 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6003,7 +6091,7 @@
 	)
 	(hierarchical_label "XCLK_IN"
 		(shape input)
-		(at 79.248 74.93 180)
+		(at 78.74 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6014,7 +6102,7 @@
 	)
 	(hierarchical_label "PROBE_OUT"
 		(shape output)
-		(at 181.61 39.37 180)
+		(at 182.245 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6025,7 +6113,7 @@
 	)
 	(hierarchical_label "EN_IN"
 		(shape input)
-		(at 138.938 80.01 180)
+		(at 138.43 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6036,17 +6124,17 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
-		(at 79.248 64.77 0)
+		(at 79.502 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0239c39c-ca0b-4966-9f1e-979fb5f75cb5")
 		(property "Reference" "JP4"
-			(at 79.248 62.23 0)
+			(at 79.502 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6056,7 +6144,7 @@
 			)
 		)
 		(property "Value" "Jumper_3_Open"
-			(at 79.248 60.96 0)
+			(at 79.502 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6067,7 +6155,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 79.248 64.77 0)
+			(at 79.502 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6078,7 +6166,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/2043229.pdf"
-			(at 79.248 64.77 0)
+			(at 79.502 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6088,8 +6176,8 @@
 				)
 			)
 		)
-		(property "Description" "Pin Header, Vertical, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, MTA-100"
-			(at 79.248 64.77 0)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 79.502 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6100,7 +6188,7 @@
 			)
 		)
 		(property "JLCMFR#" "DNI"
-			(at 79.248 64.77 0)
+			(at 79.502 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6111,7 +6199,7 @@
 			)
 		)
 		(property "JLCPART" "DNI"
-			(at 79.248 64.77 0)
+			(at 79.502 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6122,7 +6210,7 @@
 			)
 		)
 		(property "E14MOQ" "10"
-			(at 79.248 64.77 0)
+			(at 79.502 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6133,7 +6221,7 @@
 			)
 		)
 		(property "JLCMOQ" "0"
-			(at 79.248 64.77 0)
+			(at 79.502 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6144,7 +6232,7 @@
 			)
 		)
 		(property "E14MFR#" "640456-3"
-			(at 79.248 64.77 0)
+			(at 79.502 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6155,7 +6243,7 @@
 			)
 		)
 		(property "E14PART" "588581"
-			(at 79.248 64.77 0)
+			(at 79.502 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6166,7 +6254,7 @@
 			)
 		)
 		(property "MFR" "TE CONNECTIVITY - AMP"
-			(at 79.248 64.77 0)
+			(at 79.502 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6200,9 +6288,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "11788932-0c11-421a-99b3-99eee39194ef")
 		(property "Reference" "NT27"
@@ -6248,7 +6336,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Net tie, 2 pins"
 			(at 50.8 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -6353,17 +6441,17 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 43.18 133.35 180)
+		(at 43.815 133.35 180)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "15716752-027c-4e0e-9c92-0af14b6c7bd7")
 		(property "Reference" "J9"
-			(at 45.085 132.08 0)
+			(at 45.72 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6373,7 +6461,7 @@
 			)
 		)
 		(property "Value" "DNI"
-			(at 42.545 135.89 0)
+			(at 43.18 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6385,7 +6473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 133.35 0)
+			(at 43.815 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6396,7 +6484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 133.35 0)
+			(at 43.815 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6406,8 +6494,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 43.18 133.35 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 43.815 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6418,7 +6506,7 @@
 			)
 		)
 		(property "E14PART" "DNI"
-			(at 43.18 133.35 0)
+			(at 43.815 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6429,7 +6517,7 @@
 			)
 		)
 		(property "JLCMFR#" "DNI"
-			(at 43.18 133.35 0)
+			(at 43.815 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6440,7 +6528,7 @@
 			)
 		)
 		(property "E14MFR#" "DNI"
-			(at 43.18 133.35 0)
+			(at 43.815 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6451,7 +6539,7 @@
 			)
 		)
 		(property "E14MOQ" "0"
-			(at 43.18 133.35 0)
+			(at 43.815 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6462,7 +6550,7 @@
 			)
 		)
 		(property "JLCMOQ" "0"
-			(at 43.18 133.35 0)
+			(at 43.815 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6473,7 +6561,7 @@
 			)
 		)
 		(property "JLCPART" "DNI"
-			(at 43.18 133.35 0)
+			(at 43.815 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6552,7 +6640,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 139.7 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -6581,9 +6669,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e6aad8b-b649-4bee-a016-c6fdce095a18")
 		(property "Reference" "NT26"
@@ -6629,7 +6717,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Net tie, 2 pins"
 			(at 50.8 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -6734,17 +6822,17 @@
 	)
 	(symbol
 		(lib_id "3rd-party:NT_2_TT")
-		(at 157.988 62.23 90)
+		(at 157.48 62.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e6d5458-4b42-415f-9423-2bbc44b8eb89")
 		(property "Reference" "NT28"
-			(at 157.388 62.23 0)
+			(at 156.88 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6754,7 +6842,7 @@
 			)
 		)
 		(property "Value" "DNI"
-			(at 155.448 62.23 0)
+			(at 154.94 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6765,7 +6853,7 @@
 			)
 		)
 		(property "Footprint" "-Project:NetTie-2_SMD_Pad1.0mm"
-			(at 157.988 62.23 0)
+			(at 157.48 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6776,7 +6864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.988 62.23 0)
+			(at 157.48 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6786,8 +6874,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 157.988 62.23 0)
+		(property "Description" "Net tie, 2 pins"
+			(at 157.48 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6798,7 +6886,7 @@
 			)
 		)
 		(property "E14MFR#" "DNI"
-			(at 157.988 62.23 0)
+			(at 157.48 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6809,7 +6897,7 @@
 			)
 		)
 		(property "JLCMFR#" "DNI"
-			(at 157.988 62.23 0)
+			(at 157.48 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6820,7 +6908,7 @@
 			)
 		)
 		(property "JLCPART" "DNI"
-			(at 157.988 62.23 0)
+			(at 157.48 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6831,7 +6919,7 @@
 			)
 		)
 		(property "E14MOQ" "0"
-			(at 157.988 62.23 0)
+			(at 157.48 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6842,7 +6930,7 @@
 			)
 		)
 		(property "E14PART" "DNI"
-			(at 157.988 62.23 0)
+			(at 157.48 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6853,7 +6941,7 @@
 			)
 		)
 		(property "JLCMOQ" "0"
-			(at 157.988 62.23 0)
+			(at 157.48 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6932,7 +7020,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 60.96 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6957,7 +7045,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 134.62 111.125 0)
+		(at 135.255 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6967,7 +7055,7 @@
 		(dnp no)
 		(uuid "2c00de43-5f9e-4860-808c-d564428a5b39")
 		(property "Reference" "#PWR073"
-			(at 134.62 114.935 0)
+			(at 135.255 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6978,7 +7066,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 134.62 107.315 0)
+			(at 135.255 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6988,7 +7076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 111.125 0)
+			(at 135.255 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6999,7 +7087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 111.125 0)
+			(at 135.255 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7009,8 +7097,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 134.62 111.125 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 135.255 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7038,9 +7126,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f3b80fb-dcdd-4165-810f-9b6ab09f74a9")
 		(property "Reference" "NT25"
@@ -7086,7 +7174,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Net tie, 2 pins"
 			(at 50.8 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -7242,7 +7330,7 @@
 				)
 			)
 		)
-		(property "Description" "Pin Header, Wire-to-Board, 3 mm, 2 Rows, 8 Contacts, Through Hole Straight"
+		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 149.86 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7417,7 +7505,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 77.47 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7442,7 +7530,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 193.675 53.34 0)
+		(at 194.31 53.34 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7453,7 +7541,7 @@
 		(dnp no)
 		(uuid "32940fbf-3c2a-4232-85e3-8931b6bf5fc1")
 		(property "Reference" "J19"
-			(at 198.12 51.435 0)
+			(at 198.755 51.435 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7463,7 +7551,7 @@
 			)
 		)
 		(property "Value" "MLX_1x03"
-			(at 184.785 47.625 0)
+			(at 185.42 47.625 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7474,7 +7562,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
-			(at 193.675 53.34 0)
+			(at 194.31 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7485,7 +7573,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/3688369.pdf"
-			(at 193.675 53.34 0)
+			(at 194.31 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7495,8 +7583,8 @@
 				)
 			)
 		)
-		(property "Description" "Pin Header, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, KK 254 6373 Series"
-			(at 193.675 53.34 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 194.31 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7507,7 +7595,7 @@
 			)
 		)
 		(property "E14PART" "1462950"
-			(at 193.675 53.34 0)
+			(at 194.31 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7518,7 +7606,7 @@
 			)
 		)
 		(property "JLCMFR#" "22232031"
-			(at 193.675 53.34 0)
+			(at 194.31 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7529,7 +7617,7 @@
 			)
 		)
 		(property "E14MFR#" "22-23-2031"
-			(at 193.675 53.34 0)
+			(at 194.31 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7540,7 +7628,7 @@
 			)
 		)
 		(property "E14MOQ" "10"
-			(at 193.675 53.34 0)
+			(at 194.31 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7551,7 +7639,7 @@
 			)
 		)
 		(property "JLCMOQ" "1"
-			(at 193.675 53.34 0)
+			(at 194.31 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7562,7 +7650,7 @@
 			)
 		)
 		(property "JLCPART" "C234181"
-			(at 193.675 53.34 0)
+			(at 194.31 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7573,7 +7661,7 @@
 			)
 		)
 		(property "MFR" "MOLEX"
-			(at 193.675 53.34 0)
+			(at 194.31 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7603,7 +7691,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 187.325 33.02 0)
+		(at 187.96 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7613,7 +7701,7 @@
 		(dnp no)
 		(uuid "33479bc0-7768-4c39-bd0f-65489159ca41")
 		(property "Reference" "#PWR082"
-			(at 187.325 39.37 0)
+			(at 187.96 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7624,7 +7712,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 187.325 36.83 0)
+			(at 187.96 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7634,7 +7722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.325 33.02 0)
+			(at 187.96 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7645,7 +7733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.325 33.02 0)
+			(at 187.96 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7655,8 +7743,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 187.325 33.02 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 187.96 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7680,7 +7768,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_SPDT")
-		(at 26.035 133.35 0)
+		(at 26.67 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -7690,7 +7778,7 @@
 		(dnp yes)
 		(uuid "4173c643-b015-4811-bd05-f2de876f2c49")
 		(property "Reference" "SW2"
-			(at 26.67 138.43 0)
+			(at 27.305 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7700,7 +7788,7 @@
 			)
 		)
 		(property "Value" "DNI"
-			(at 26.035 127.635 0)
+			(at 26.67 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7712,7 +7800,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.035 133.35 0)
+			(at 26.67 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7723,7 +7811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.035 133.35 0)
+			(at 26.67 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7733,8 +7821,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 26.035 133.35 0)
+		(property "Description" "Momentary Switch, single pole double throw"
+			(at 26.67 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7745,7 +7833,7 @@
 			)
 		)
 		(property "JLCMFR#" "DNI"
-			(at 26.035 133.35 0)
+			(at 26.67 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7756,7 +7844,7 @@
 			)
 		)
 		(property "JLCPART" "DNI"
-			(at 26.035 133.35 0)
+			(at 26.67 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7767,7 +7855,7 @@
 			)
 		)
 		(property "E14MFR#" "DNI"
-			(at 26.035 133.35 0)
+			(at 26.67 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7778,7 +7866,7 @@
 			)
 		)
 		(property "E14MOQ" "0"
-			(at 26.035 133.35 0)
+			(at 26.67 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7789,7 +7877,7 @@
 			)
 		)
 		(property "E14PART" "DNI"
-			(at 26.035 133.35 0)
+			(at 26.67 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7800,7 +7888,7 @@
 			)
 		)
 		(property "JLCMOQ" "0"
-			(at 26.035 133.35 0)
+			(at 26.67 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7830,7 +7918,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 187.325 57.15 0)
+		(at 187.96 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7840,7 +7928,7 @@
 		(dnp no)
 		(uuid "494e0b0d-1e44-4ba6-b993-76b0b9c98744")
 		(property "Reference" "#PWR083"
-			(at 187.325 63.5 0)
+			(at 187.96 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7851,7 +7939,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 187.325 60.96 0)
+			(at 187.96 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7861,7 +7949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.325 57.15 0)
+			(at 187.96 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7872,7 +7960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.325 57.15 0)
+			(at 187.96 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7882,8 +7970,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 187.325 57.15 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 187.96 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7907,7 +7995,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.628 66.04 0)
+		(at 71.12 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7917,7 +8005,7 @@
 		(dnp no)
 		(uuid "4a2ab8c9-fb34-40db-894d-2fc4ba468ec3")
 		(property "Reference" "#PWR067"
-			(at 71.628 72.39 0)
+			(at 71.12 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7928,7 +8016,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.628 69.85 0)
+			(at 71.12 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7938,7 +8026,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.628 66.04 0)
+			(at 71.12 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7949,7 +8037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.628 66.04 0)
+			(at 71.12 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7959,8 +8047,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 71.628 66.04 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7984,7 +8072,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 116.078 74.93 0)
+		(at 115.57 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7994,7 +8082,7 @@
 		(dnp no)
 		(uuid "4f281608-903b-4ec0-a893-90c9692af024")
 		(property "Reference" "J13"
-			(at 116.713 76.835 0)
+			(at 116.205 76.835 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8005,7 +8093,7 @@
 			)
 		)
 		(property "Value" "Phoenix MPT"
-			(at 109.093 82.55 0)
+			(at 108.585 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8016,7 +8104,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
-			(at 116.078 74.93 0)
+			(at 115.57 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8027,7 +8115,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/3625645.pdf"
-			(at 116.078 74.93 0)
+			(at 115.57 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8037,8 +8125,8 @@
 				)
 			)
 		)
-		(property "Description" "Wire-To-Board Terminal Block, 2.54 mm, 4 Ways, 26 AWG, 20 AWG, 0.5 mm², Screw"
-			(at 116.078 74.93 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 115.57 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8049,7 +8137,7 @@
 			)
 		)
 		(property "E14PART" "304141401"
-			(at 116.078 74.93 0)
+			(at 115.57 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8060,7 +8148,7 @@
 			)
 		)
 		(property "JLCMFR#" "KF128-2.54-4P"
-			(at 116.078 74.93 0)
+			(at 115.57 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8071,7 +8159,7 @@
 			)
 		)
 		(property "JLCPART" "C474922"
-			(at 116.078 74.93 0)
+			(at 115.57 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8082,7 +8170,7 @@
 			)
 		)
 		(property "JLCMOQ" "2"
-			(at 116.078 74.93 0)
+			(at 115.57 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8093,7 +8181,7 @@
 			)
 		)
 		(property "E14MFR#" "1725672"
-			(at 116.078 74.93 0)
+			(at 115.57 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8104,7 +8192,7 @@
 			)
 		)
 		(property "E14MOQ" "1"
-			(at 116.078 74.93 0)
+			(at 115.57 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8115,7 +8203,7 @@
 			)
 		)
 		(property "MFR" "PHOENIX CONTACT"
-			(at 116.078 74.93 0)
+			(at 115.57 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8148,7 +8236,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.005 158.115 0)
+		(at 167.64 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8158,7 +8246,7 @@
 		(dnp no)
 		(uuid "5ac1c150-037b-4221-9431-0f5ddb4893a2")
 		(property "Reference" "#PWR078"
-			(at 167.005 164.465 0)
+			(at 167.64 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8169,7 +8257,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.005 161.925 0)
+			(at 167.64 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8179,7 +8267,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.005 158.115 0)
+			(at 167.64 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8190,7 +8278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.005 158.115 0)
+			(at 167.64 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8200,8 +8288,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 167.005 158.115 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8225,7 +8313,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 140.97 115.57 0)
+		(at 141.605 116.205 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8235,7 +8323,7 @@
 		(dnp no)
 		(uuid "60242946-2e58-4d6d-8d07-cfe3907b4fc7")
 		(property "Reference" "J15"
-			(at 143.51 113.665 0)
+			(at 144.145 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8246,7 +8334,7 @@
 			)
 		)
 		(property "Value" "JST_B2B-XH"
-			(at 143.51 118.1099 0)
+			(at 144.145 118.7449 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8258,7 +8346,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
-			(at 140.97 115.57 0)
+			(at 141.605 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8269,7 +8357,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/3625645.pdf"
-			(at 140.97 115.57 0)
+			(at 141.605 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8279,8 +8367,8 @@
 				)
 			)
 		)
-		(property "Description" "Wire-To-Board Terminal Block, 2.54 mm, 4 Ways, 26 AWG, 20 AWG, 0.5 mm², Screw"
-			(at 140.97 115.57 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 141.605 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8291,7 +8379,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 140.97 115.57 0)
+			(at 141.605 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8302,7 +8390,7 @@
 			)
 		)
 		(property "LCSCMFR#" ""
-			(at 140.97 115.57 0)
+			(at 141.605 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8313,7 +8401,7 @@
 			)
 		)
 		(property "JLCMFR#" "B2B-XH-A(LF)(SN)"
-			(at 140.97 115.57 0)
+			(at 141.605 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8324,7 +8412,7 @@
 			)
 		)
 		(property "JLCMOQ" "2"
-			(at 140.97 115.57 0)
+			(at 141.605 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8335,7 +8423,7 @@
 			)
 		)
 		(property "JLCPART" "C158012"
-			(at 140.97 115.57 0)
+			(at 141.605 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8346,7 +8434,7 @@
 			)
 		)
 		(property "E14MOQ" "1"
-			(at 140.97 115.57 0)
+			(at 141.605 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8357,7 +8445,7 @@
 			)
 		)
 		(property "E14PART" "304141401"
-			(at 140.97 115.57 0)
+			(at 141.605 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8368,7 +8456,7 @@
 			)
 		)
 		(property "E14MFR#" "1725672"
-			(at 140.97 115.57 0)
+			(at 141.605 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8379,7 +8467,7 @@
 			)
 		)
 		(property "MFR" "PHOENIX CONTACT"
-			(at 140.97 115.57 0)
+			(at 141.605 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8412,7 +8500,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC847")
-		(at 139.065 139.065 0)
+		(at 139.7 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8422,7 +8510,7 @@
 		(dnp no)
 		(uuid "78e0b5a4-8f5b-4e8e-8fea-12a9d599af47")
 		(property "Reference" "Q4"
-			(at 144.145 137.795 0)
+			(at 144.78 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8433,7 +8521,7 @@
 			)
 		)
 		(property "Value" "BC847"
-			(at 144.145 140.335 0)
+			(at 144.78 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8444,7 +8532,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 144.145 140.97 0)
+			(at 144.78 141.605 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8456,8 +8544,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.farnell.com/datasheets/1856333.pdf"
-			(at 139.065 139.065 0)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 139.7 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8468,8 +8556,8 @@
 				(justify left)
 			)
 		)
-		(property "Description" "Bipolar (BJT) Single Transistor, General Purpose, NPN, 45 V, 100 mA, 250 mW, SOT-23, Surface Mount"
-			(at 139.065 139.065 0)
+		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 139.7 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8480,7 +8568,7 @@
 			)
 		)
 		(property "JLCMFR#" "BC847C,215"
-			(at 139.065 139.065 0)
+			(at 139.7 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8491,7 +8579,7 @@
 			)
 		)
 		(property "JLCMOQ" "15"
-			(at 139.065 139.065 0)
+			(at 139.7 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8502,7 +8590,7 @@
 			)
 		)
 		(property "JLCPART" "C8666"
-			(at 139.065 139.065 0)
+			(at 139.7 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8513,7 +8601,7 @@
 			)
 		)
 		(property "E14MFR#" "BC847C,215"
-			(at 139.065 139.065 0)
+			(at 139.7 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8524,7 +8612,7 @@
 			)
 		)
 		(property "E14MOQ" "5"
-			(at 139.065 139.065 0)
+			(at 139.7 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8535,7 +8623,7 @@
 			)
 		)
 		(property "E14PART" "1081235"
-			(at 139.065 139.065 0)
+			(at 139.7 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8546,7 +8634,7 @@
 			)
 		)
 		(property "Marking" "1GW"
-			(at 147.32 142.24 0)
+			(at 147.955 142.875 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8556,7 +8644,29 @@
 			)
 		)
 		(property "MFR" "NEXPERIA"
-			(at 147.32 142.24 0)
+			(at 147.955 142.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 139.7 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 139.7 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8586,7 +8696,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.225 130.175 270)
+		(at 149.86 130.81 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8596,7 +8706,7 @@
 		(dnp no)
 		(uuid "7fda80c0-0cb3-4502-a880-355792012cf0")
 		(property "Reference" "R19"
-			(at 149.225 127.635 90)
+			(at 149.86 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8606,7 +8716,7 @@
 			)
 		)
 		(property "Value" "5K6"
-			(at 149.225 130.175 90)
+			(at 149.86 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8616,7 +8726,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 149.225 128.397 90)
+			(at 149.86 129.032 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8627,7 +8737,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/2863859.pdf"
-			(at 149.225 130.175 0)
+			(at 149.86 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8637,8 +8747,8 @@
 				)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 5.6 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant"
-			(at 149.225 130.175 0)
+		(property "Description" "Resistor"
+			(at 149.86 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8649,7 +8759,7 @@
 			)
 		)
 		(property "E14MOQ" "10"
-			(at 149.225 130.175 0)
+			(at 149.86 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8660,7 +8770,7 @@
 			)
 		)
 		(property "E14PART" "2074283"
-			(at 149.225 130.175 0)
+			(at 149.86 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8671,7 +8781,7 @@
 			)
 		)
 		(property "JLCMFR#" "0603WAF5601T5E"
-			(at 149.225 130.175 0)
+			(at 149.86 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8682,7 +8792,7 @@
 			)
 		)
 		(property "JLCMOQ" "20"
-			(at 149.225 130.175 0)
+			(at 149.86 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8693,7 +8803,7 @@
 			)
 		)
 		(property "JLCPART" "C23189"
-			(at 149.225 130.175 0)
+			(at 149.86 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8704,7 +8814,7 @@
 			)
 		)
 		(property "E14MFR#" "MCSR06X5601FTL"
-			(at 149.225 130.175 0)
+			(at 149.86 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8715,7 +8825,7 @@
 			)
 		)
 		(property "MFR" "MULTICOMP PRO"
-			(at 149.225 130.175 0)
+			(at 149.86 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8742,7 +8852,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 86.868 74.93 0)
+		(at 86.36 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8752,7 +8862,7 @@
 		(dnp no)
 		(uuid "7fdcc566-2de3-4184-aa03-426dc6a88796")
 		(property "Reference" "J11"
-			(at 88.138 76.835 0)
+			(at 87.63 76.835 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8763,7 +8873,7 @@
 			)
 		)
 		(property "Value" "Phoenix MPT"
-			(at 79.248 82.55 0)
+			(at 78.74 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8774,7 +8884,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
-			(at 86.868 74.93 0)
+			(at 86.36 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8785,7 +8895,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/3625645.pdf"
-			(at 86.868 74.93 0)
+			(at 86.36 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8795,8 +8905,8 @@
 				)
 			)
 		)
-		(property "Description" "Wire-To-Board Terminal Block, 2.54 mm, 4 Ways, 26 AWG, 20 AWG, 0.5 mm², Screw"
-			(at 86.868 74.93 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 86.36 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8807,7 +8917,7 @@
 			)
 		)
 		(property "E14PART" "304141401"
-			(at 86.868 74.93 0)
+			(at 86.36 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8818,7 +8928,7 @@
 			)
 		)
 		(property "JLCMFR#" "KF128-2.54-4P"
-			(at 86.868 74.93 0)
+			(at 86.36 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8829,7 +8939,7 @@
 			)
 		)
 		(property "JLCPART" "C474922"
-			(at 86.868 74.93 0)
+			(at 86.36 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8840,7 +8950,7 @@
 			)
 		)
 		(property "JLCMOQ" "2"
-			(at 86.868 74.93 0)
+			(at 86.36 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8851,7 +8961,7 @@
 			)
 		)
 		(property "E14MFR#" "1725672"
-			(at 86.868 74.93 0)
+			(at 86.36 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8862,7 +8972,7 @@
 			)
 		)
 		(property "E14MOQ" "1"
-			(at 86.868 74.93 0)
+			(at 86.36 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8873,7 +8983,7 @@
 			)
 		)
 		(property "MFR" "PHOENIX CONTACT"
-			(at 86.868 74.93 0)
+			(at 86.36 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8906,7 +9016,7 @@
 	)
 	(symbol
 		(lib_id "3rd-party:RELAY_TE_OJS_24V_10A")
-		(at 172.085 147.955 0)
+		(at 172.72 148.59 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8917,7 +9027,7 @@
 		(dnp no)
 		(uuid "818b9403-9ab1-4d9f-a1e4-a3f74f77d4e0")
 		(property "Reference" "K1"
-			(at 183.515 146.685 0)
+			(at 184.15 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8928,7 +9038,7 @@
 			)
 		)
 		(property "Value" "OJS-SH-124HMF"
-			(at 183.515 149.225 0)
+			(at 184.15 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8939,7 +9049,7 @@
 			)
 		)
 		(property "Footprint" "-Project:Relay_SPST_OJS_24V_10A"
-			(at 205.74 146.685 0)
+			(at 206.375 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8950,7 +9060,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=OJS_16A_0821&DocType=Data%20Sheet&DocLang=English&PartCntxt=2071556-8&DocFormat=pdf"
-			(at 172.085 147.955 0)
+			(at 172.72 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8961,7 +9071,7 @@
 			)
 		)
 		(property "Description" "RELAY GEN PURPOSE SPST 10A 24V"
-			(at 172.085 147.955 0)
+			(at 172.72 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8972,7 +9082,7 @@
 			)
 		)
 		(property "E14MFR#" "OJ-SS-124HM,000"
-			(at 172.085 147.955 0)
+			(at 172.72 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8983,7 +9093,7 @@
 			)
 		)
 		(property "JLCMFR#" ""
-			(at 172.085 147.955 0)
+			(at 172.72 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8994,7 +9104,7 @@
 			)
 		)
 		(property "JLCPART" ""
-			(at 172.085 147.955 0)
+			(at 172.72 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9005,7 +9115,7 @@
 			)
 		)
 		(property "E14MOQ" "1"
-			(at 172.085 147.955 0)
+			(at 172.72 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9016,7 +9126,7 @@
 			)
 		)
 		(property "JLCMOQ" ""
-			(at 172.085 147.955 0)
+			(at 172.72 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9027,7 +9137,7 @@
 			)
 		)
 		(property "DIGIPART" "41-OJS-SH-124HMF,00000-ND"
-			(at 172.085 147.955 0)
+			(at 172.72 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9038,7 +9148,7 @@
 			)
 		)
 		(property "DIGIMFR#" "OJS-SH-124HMF"
-			(at 172.085 147.955 0)
+			(at 172.72 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9049,7 +9159,7 @@
 			)
 		)
 		(property "E14PART" "1891694"
-			(at 172.085 147.955 0)
+			(at 172.72 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9060,7 +9170,7 @@
 			)
 		)
 		(property "MFR" "TE CONNECTIVITY - OEG"
-			(at 172.085 147.955 0)
+			(at 172.72 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9071,7 +9181,7 @@
 			)
 		)
 		(property "DKPART" ""
-			(at 172.085 147.955 0)
+			(at 172.72 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9082,7 +9192,7 @@
 			)
 		)
 		(property "ALT" "DigiKey OJS-SH-124HMF,00000 (sealed, 200mW, Class F, $4.14) | element14 3764773 = 2071556-2 (sealed 16A/450mW, $4.53, 0 stock, 24wk lead) | element14 OJ-SS-124LMHF,000 (vented, 200mW coil, Class F, but only 8A, $4.97)"
-			(at 172.085 147.955 0)
+			(at 172.72 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9115,7 +9225,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.838 66.04 0)
+		(at 100.33 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9125,7 +9235,7 @@
 		(dnp no)
 		(uuid "88cd1bcd-ec91-400b-ba78-9726319fb811")
 		(property "Reference" "#PWR069"
-			(at 100.838 72.39 0)
+			(at 100.33 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9136,7 +9246,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.838 69.85 0)
+			(at 100.33 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9146,7 +9256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.838 66.04 0)
+			(at 100.33 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9157,7 +9267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.838 66.04 0)
+			(at 100.33 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9167,8 +9277,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 100.838 66.04 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9192,18 +9302,18 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
-		(at 116.84 126.365 270)
+		(at 117.475 127.635 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b6a1d73-d26a-408b-b7dc-b660e1d2d33e")
 		(property "Reference" "JP7"
-			(at 119.38 126.3649 90)
+			(at 120.015 127.6349 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9214,7 +9324,7 @@
 			)
 		)
 		(property "Value" "1x03_2.54"
-			(at 119.38 125.0951 90)
+			(at 120.015 126.3651 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9226,7 +9336,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 116.84 126.365 0)
+			(at 117.475 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9237,7 +9347,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/2043229.pdf"
-			(at 116.84 126.365 0)
+			(at 117.475 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9247,8 +9357,8 @@
 				)
 			)
 		)
-		(property "Description" "Pin Header, Vertical, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, MTA-100"
-			(at 116.84 126.365 0)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 117.475 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9259,7 +9369,7 @@
 			)
 		)
 		(property "JLCMFR#" "DNI"
-			(at 116.84 126.365 0)
+			(at 117.475 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9270,7 +9380,7 @@
 			)
 		)
 		(property "JLCPART" "DNI"
-			(at 116.84 126.365 0)
+			(at 117.475 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9281,7 +9391,7 @@
 			)
 		)
 		(property "E14MOQ" "10"
-			(at 116.84 126.365 0)
+			(at 117.475 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9292,7 +9402,7 @@
 			)
 		)
 		(property "JLCMOQ" "0"
-			(at 116.84 126.365 0)
+			(at 117.475 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9303,7 +9413,7 @@
 			)
 		)
 		(property "E14MFR#" "640456-3"
-			(at 116.84 126.365 0)
+			(at 117.475 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9314,7 +9424,7 @@
 			)
 		)
 		(property "E14PART" "588581"
-			(at 116.84 126.365 0)
+			(at 117.475 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9325,7 +9435,7 @@
 			)
 		)
 		(property "MFR" "TE CONNECTIVITY - AMP"
-			(at 116.84 126.365 0)
+			(at 117.475 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9407,7 +9517,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 107.95 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9485,7 +9595,7 @@
 				)
 			)
 		)
-		(property "Description" "Wire-To-Board Terminal Block, 2.54 mm, 6 Ways, 26 AWG, 20 AWG, 0.5 mm², Screw"
+		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 71.12 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -9601,8 +9711,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_PNP_BEC")
-		(at 164.465 130.175 0)
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
+		(at 165.1 130.81 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9614,7 +9724,7 @@
 		(fields_autoplaced yes)
 		(uuid "958a6375-3030-48e4-b2a1-51eeaa883d61")
 		(property "Reference" "Q5"
-			(at 169.545 128.9049 0)
+			(at 170.18 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9625,7 +9735,7 @@
 			)
 		)
 		(property "Value" "BC857"
-			(at 169.545 131.4449 0)
+			(at 170.18 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9636,7 +9746,7 @@
 			)
 		)
 		(property "Footprint" "-Project:SOT-23_DOT"
-			(at 169.545 132.715 0)
+			(at 170.18 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9647,7 +9757,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/NEXP/NEXP-S-A0002934945/NEXP-S-A0002934945-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
-			(at 164.465 130.175 0)
+			(at 165.1 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9658,7 +9768,7 @@
 			)
 		)
 		(property "Description" "Bipolar (BJT) Single Transistor, General Purpose, PNP, 45 V, 100 mA, 250 mW, SOT-23, Surface Mount"
-			(at 164.465 130.175 0)
+			(at 165.1 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9669,7 +9779,7 @@
 			)
 		)
 		(property "JLCMFR#" "BC857C,215"
-			(at 164.465 130.175 0)
+			(at 165.1 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9680,7 +9790,7 @@
 			)
 		)
 		(property "JLCMOQ" "15"
-			(at 164.465 130.175 0)
+			(at 165.1 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9691,7 +9801,7 @@
 			)
 		)
 		(property "JLCPART" "C59205"
-			(at 164.465 130.175 0)
+			(at 165.1 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9702,7 +9812,7 @@
 			)
 		)
 		(property "E14MOQ" "5"
-			(at 164.465 130.175 0)
+			(at 165.1 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9713,7 +9823,7 @@
 			)
 		)
 		(property "E14PART" "8734771"
-			(at 164.465 130.175 0)
+			(at 165.1 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9724,7 +9834,7 @@
 			)
 		)
 		(property "E14MFR#" "BC857C,215"
-			(at 164.465 130.175 0)
+			(at 165.1 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9735,7 +9845,7 @@
 			)
 		)
 		(property "Marking" "3FW (3[EFG]x)"
-			(at 164.465 130.175 0)
+			(at 165.1 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9746,7 +9856,7 @@
 			)
 		)
 		(property "MFR" "NEXPERIA"
-			(at 164.465 130.175 0)
+			(at 165.1 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9776,7 +9886,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 141.605 145.415 0)
+		(at 142.24 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9786,7 +9896,7 @@
 		(dnp no)
 		(uuid "9b0f3188-54db-4f05-ac54-45288f90add0")
 		(property "Reference" "#PWR076"
-			(at 141.605 151.765 0)
+			(at 142.24 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9797,7 +9907,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 141.605 149.225 0)
+			(at 142.24 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9807,7 +9917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 141.605 145.415 0)
+			(at 142.24 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9818,7 +9928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 141.605 145.415 0)
+			(at 142.24 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9828,8 +9938,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 141.605 145.415 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9905,7 +10015,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 186.69 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9982,7 +10092,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 60.96 178.435 0)
 			(hide yes)
 			(show_name no)
@@ -10007,7 +10117,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 193.675 29.21 0)
+		(at 194.31 29.21 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -10018,7 +10128,7 @@
 		(dnp no)
 		(uuid "a93a525b-f076-4d50-b2dd-0b1c0a3cc49f")
 		(property "Reference" "J18"
-			(at 198.12 27.94 0)
+			(at 198.755 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10028,7 +10138,7 @@
 			)
 		)
 		(property "Value" "MLX_1x03"
-			(at 184.785 23.495 0)
+			(at 185.42 23.495 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10039,7 +10149,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
-			(at 193.675 29.21 0)
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10050,7 +10160,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/3688369.pdf"
-			(at 193.675 29.21 0)
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10060,8 +10170,8 @@
 				)
 			)
 		)
-		(property "Description" "Pin Header, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, KK 254 6373 Series"
-			(at 193.675 29.21 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10072,7 +10182,7 @@
 			)
 		)
 		(property "E14PART" "1462950"
-			(at 193.675 29.21 0)
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10083,7 +10193,7 @@
 			)
 		)
 		(property "JLCMFR#" "22232031"
-			(at 193.675 29.21 0)
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10094,7 +10204,7 @@
 			)
 		)
 		(property "E14MFR#" "22-23-2031"
-			(at 193.675 29.21 0)
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10105,7 +10215,7 @@
 			)
 		)
 		(property "E14MOQ" "10"
-			(at 193.675 29.21 0)
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10116,7 +10226,7 @@
 			)
 		)
 		(property "JLCMOQ" "1"
-			(at 193.675 29.21 0)
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10127,7 +10237,7 @@
 			)
 		)
 		(property "JLCPART" "C234181"
-			(at 193.675 29.21 0)
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10138,7 +10248,7 @@
 			)
 		)
 		(property "MFR" "MOLEX"
-			(at 193.675 29.21 0)
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10220,7 +10330,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 107.95 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -10245,19 +10355,19 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
-		(at 116.84 107.315 270)
+		(at 117.475 107.315 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad3bc849-9935-46c6-852b-0d9d70bac797")
 		(property "Reference" "JP6"
-			(at 119.38 107.3149 90)
+			(at 120.015 107.3149 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10268,7 +10378,7 @@
 			)
 		)
 		(property "Value" "1x03_2.54"
-			(at 119.38 108.5849 90)
+			(at 120.015 108.5849 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10280,7 +10390,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 116.84 107.315 0)
+			(at 117.475 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10291,7 +10401,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/2043229.pdf"
-			(at 116.84 107.315 0)
+			(at 117.475 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10301,8 +10411,8 @@
 				)
 			)
 		)
-		(property "Description" "Pin Header, Vertical, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, MTA-100"
-			(at 116.84 107.315 0)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 117.475 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10313,7 +10423,7 @@
 			)
 		)
 		(property "JLCMFR#" "DNI"
-			(at 116.84 107.315 0)
+			(at 117.475 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10324,7 +10434,7 @@
 			)
 		)
 		(property "JLCPART" "DNI"
-			(at 116.84 107.315 0)
+			(at 117.475 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10335,7 +10445,7 @@
 			)
 		)
 		(property "E14MOQ" "10"
-			(at 116.84 107.315 0)
+			(at 117.475 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10346,7 +10456,7 @@
 			)
 		)
 		(property "JLCMOQ" "0"
-			(at 116.84 107.315 0)
+			(at 117.475 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10357,7 +10467,7 @@
 			)
 		)
 		(property "E14MFR#" "640456-3"
-			(at 116.84 107.315 0)
+			(at 117.475 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10368,7 +10478,7 @@
 			)
 		)
 		(property "E14PART" "588581"
-			(at 116.84 107.315 0)
+			(at 117.475 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10379,7 +10489,7 @@
 			)
 		)
 		(property "MFR" "TE CONNECTIVITY - AMP"
-			(at 116.84 107.315 0)
+			(at 117.475 107.315 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10409,7 +10519,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 156.845 147.955 270)
+		(at 157.48 148.59 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10419,7 +10529,7 @@
 		(dnp no)
 		(uuid "b157ec0c-768a-4614-9467-2d7b96870d14")
 		(property "Reference" "D7"
-			(at 152.4 148.59 90)
+			(at 153.035 149.225 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10430,7 +10540,7 @@
 			)
 		)
 		(property "Value" "BAT54JFILM"
-			(at 145.415 152.4 90)
+			(at 146.05 153.035 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10441,7 +10551,7 @@
 			)
 		)
 		(property "Footprint" "-Project:D_SOD-523_DOT"
-			(at 156.845 147.955 0)
+			(at 157.48 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10452,7 +10562,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/2124315.pdf"
-			(at 156.845 147.955 0)
+			(at 157.48 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10462,8 +10572,8 @@
 				)
 			)
 		)
-		(property "Description" "Small Signal Schottky Diode, 40 V, 300 mA, 900 mV, 1 A, 150 °C"
-			(at 156.845 147.955 0)
+		(property "Description" "Diode"
+			(at 157.48 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10474,7 +10584,7 @@
 			)
 		)
 		(property "JLCMFR#" "BAT54JFILM"
-			(at 156.845 147.955 0)
+			(at 157.48 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10485,7 +10595,7 @@
 			)
 		)
 		(property "JLCMOQ" "15"
-			(at 156.845 147.955 0)
+			(at 157.48 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10496,7 +10606,7 @@
 			)
 		)
 		(property "JLCPART" "C86299"
-			(at 156.845 147.955 0)
+			(at 157.48 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10507,7 +10617,7 @@
 			)
 		)
 		(property "E14MFR#" "BAT54KFILM"
-			(at 156.845 147.955 0)
+			(at 157.48 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10518,7 +10628,7 @@
 			)
 		)
 		(property "E14MOQ" "5"
-			(at 156.845 147.955 0)
+			(at 157.48 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10529,7 +10639,7 @@
 			)
 		)
 		(property "E14PART" "2341638"
-			(at 156.845 147.955 0)
+			(at 157.48 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10540,7 +10650,7 @@
 			)
 		)
 		(property "Marking" "86 (SL)"
-			(at 156.845 147.955 90)
+			(at 157.48 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10551,7 +10661,29 @@
 			)
 		)
 		(property "MFR" "STMICROELECTRONICS"
-			(at 156.845 147.955 0)
+			(at 157.48 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 157.48 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10629,7 +10761,7 @@
 				)
 			)
 		)
-		(property "Description" "Pin Header, Wire-to-Board, 3 mm, 2 Rows, 8 Contacts, Through Hole Straight"
+		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 118.11 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10752,7 +10884,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 127.635 139.065 270)
+		(at 128.27 139.7 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10762,7 +10894,7 @@
 		(dnp no)
 		(uuid "bd1fa082-dd9b-4347-b3e4-2d819fd54ce7")
 		(property "Reference" "R18"
-			(at 127.635 136.525 90)
+			(at 128.27 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10772,7 +10904,7 @@
 			)
 		)
 		(property "Value" "5K6"
-			(at 127.635 139.065 90)
+			(at 128.397 139.827 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10782,7 +10914,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 127.635 137.287 90)
+			(at 128.27 137.922 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10793,7 +10925,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/2863859.pdf"
-			(at 127.635 139.065 0)
+			(at 128.27 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10803,8 +10935,8 @@
 				)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 5.6 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, Sulfur Resistant"
-			(at 127.635 139.065 0)
+		(property "Description" "Resistor"
+			(at 128.27 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10815,7 +10947,7 @@
 			)
 		)
 		(property "E14MOQ" "10"
-			(at 127.635 139.065 0)
+			(at 128.27 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10826,7 +10958,7 @@
 			)
 		)
 		(property "E14PART" "2074283"
-			(at 127.635 139.065 0)
+			(at 128.27 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10837,7 +10969,7 @@
 			)
 		)
 		(property "JLCMFR#" "0603WAF5601T5E"
-			(at 127.635 139.065 0)
+			(at 128.27 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10848,7 +10980,7 @@
 			)
 		)
 		(property "JLCMOQ" "20"
-			(at 127.635 139.065 0)
+			(at 128.27 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10859,7 +10991,7 @@
 			)
 		)
 		(property "JLCPART" "C23189"
-			(at 127.635 139.065 0)
+			(at 128.27 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10870,7 +11002,7 @@
 			)
 		)
 		(property "E14MFR#" "MCSR06X5601FTL"
-			(at 127.635 139.065 0)
+			(at 128.27 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10881,7 +11013,7 @@
 			)
 		)
 		(property "MFR" "MULTICOMP PRO"
-			(at 127.635 139.065 0)
+			(at 128.27 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10961,7 +11093,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 64.77 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -10986,17 +11118,17 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
-		(at 138.938 64.77 0)
+		(at 139.192 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc07867d-7023-4520-a20d-4a6c00c17c4d")
 		(property "Reference" "JP8"
-			(at 138.938 62.23 0)
+			(at 139.192 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11006,7 +11138,7 @@
 			)
 		)
 		(property "Value" "Jumper_3_Open"
-			(at 138.938 60.96 0)
+			(at 139.192 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11017,7 +11149,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 138.938 64.77 0)
+			(at 139.192 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11028,7 +11160,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/2043229.pdf"
-			(at 138.938 64.77 0)
+			(at 139.192 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11038,8 +11170,8 @@
 				)
 			)
 		)
-		(property "Description" "Pin Header, Vertical, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, MTA-100"
-			(at 138.938 64.77 0)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 139.192 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11050,7 +11182,7 @@
 			)
 		)
 		(property "JLCMFR#" "DNI"
-			(at 138.938 64.77 0)
+			(at 139.192 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11061,7 +11193,7 @@
 			)
 		)
 		(property "JLCPART" "DNI"
-			(at 138.938 64.77 0)
+			(at 139.192 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11072,7 +11204,7 @@
 			)
 		)
 		(property "E14MOQ" "10"
-			(at 138.938 64.77 0)
+			(at 139.192 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11083,7 +11215,7 @@
 			)
 		)
 		(property "JLCMOQ" "0"
-			(at 138.938 64.77 0)
+			(at 139.192 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11094,7 +11226,7 @@
 			)
 		)
 		(property "E14MFR#" "640456-3"
-			(at 138.938 64.77 0)
+			(at 139.192 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11105,7 +11237,7 @@
 			)
 		)
 		(property "E14PART" "588581"
-			(at 138.938 64.77 0)
+			(at 139.192 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11116,7 +11248,7 @@
 			)
 		)
 		(property "MFR" "TE CONNECTIVITY - AMP"
-			(at 138.938 64.77 0)
+			(at 139.192 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11146,7 +11278,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 146.558 74.93 0)
+		(at 146.05 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11156,7 +11288,7 @@
 		(dnp no)
 		(uuid "cdba690a-ad69-489c-88ef-cd1a8ac7b729")
 		(property "Reference" "J16"
-			(at 147.828 76.835 0)
+			(at 147.32 76.835 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11167,7 +11299,7 @@
 			)
 		)
 		(property "Value" "Phoenix MPT"
-			(at 138.938 82.55 0)
+			(at 138.43 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11178,7 +11310,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
-			(at 146.558 74.93 0)
+			(at 146.05 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11189,7 +11321,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/3625645.pdf"
-			(at 146.558 74.93 0)
+			(at 146.05 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11199,8 +11331,8 @@
 				)
 			)
 		)
-		(property "Description" "Wire-To-Board Terminal Block, 2.54 mm, 4 Ways, 26 AWG, 20 AWG, 0.5 mm², Screw"
-			(at 146.558 74.93 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 146.05 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11211,7 +11343,7 @@
 			)
 		)
 		(property "E14PART" "304141401"
-			(at 146.558 74.93 0)
+			(at 146.05 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11222,7 +11354,7 @@
 			)
 		)
 		(property "JLCMFR#" "KF128-2.54-4P"
-			(at 146.558 74.93 0)
+			(at 146.05 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11233,7 +11365,7 @@
 			)
 		)
 		(property "JLCPART" "C474922"
-			(at 146.558 74.93 0)
+			(at 146.05 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11244,7 +11376,7 @@
 			)
 		)
 		(property "JLCMOQ" "2"
-			(at 146.558 74.93 0)
+			(at 146.05 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11255,7 +11387,7 @@
 			)
 		)
 		(property "E14MFR#" "1725672"
-			(at 146.558 74.93 0)
+			(at 146.05 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11266,7 +11398,7 @@
 			)
 		)
 		(property "E14MOQ" "1"
-			(at 146.558 74.93 0)
+			(at 146.05 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11277,7 +11409,7 @@
 			)
 		)
 		(property "MFR" "PHOENIX CONTACT"
-			(at 146.558 74.93 0)
+			(at 146.05 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11363,7 +11495,7 @@
 				)
 			)
 		)
-		(property "Description" "Wire-To-Board Terminal Block, 2.54 mm, 4 Ways, 26 AWG, 20 AWG, 0.5 mm², Screw"
+		(property "Description" "Generic connector, single row, 01x04, script generated"
 			(at 194.31 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11477,7 +11609,7 @@
 		(at 38.1 45.72 180)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(in_pos_files no)
@@ -11525,7 +11657,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 38.1 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11637,17 +11769,17 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
-		(at 108.458 64.77 0)
+		(at 108.712 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e23d8e0a-a26b-4ee3-81e1-0fa6bc91e4d8")
 		(property "Reference" "JP5"
-			(at 108.458 62.23 0)
+			(at 108.712 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11657,7 +11789,7 @@
 			)
 		)
 		(property "Value" "Jumper_3_Open"
-			(at 108.458 60.96 0)
+			(at 108.712 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11668,7 +11800,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 108.458 64.77 0)
+			(at 108.712 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11679,7 +11811,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/2043229.pdf"
-			(at 108.458 64.77 0)
+			(at 108.712 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11689,8 +11821,8 @@
 				)
 			)
 		)
-		(property "Description" "Pin Header, Vertical, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, MTA-100"
-			(at 108.458 64.77 0)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 108.712 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11701,7 +11833,7 @@
 			)
 		)
 		(property "JLCMFR#" "DNI"
-			(at 108.458 64.77 0)
+			(at 108.712 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11712,7 +11844,7 @@
 			)
 		)
 		(property "JLCPART" "DNI"
-			(at 108.458 64.77 0)
+			(at 108.712 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11723,7 +11855,7 @@
 			)
 		)
 		(property "E14MOQ" "10"
-			(at 108.458 64.77 0)
+			(at 108.712 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11734,7 +11866,7 @@
 			)
 		)
 		(property "JLCMOQ" "0"
-			(at 108.458 64.77 0)
+			(at 108.712 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11745,7 +11877,7 @@
 			)
 		)
 		(property "E14MFR#" "640456-3"
-			(at 108.458 64.77 0)
+			(at 108.712 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11756,7 +11888,7 @@
 			)
 		)
 		(property "E14PART" "588581"
-			(at 108.458 64.77 0)
+			(at 108.712 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11767,7 +11899,7 @@
 			)
 		)
 		(property "MFR" "TE CONNECTIVITY - AMP"
-			(at 108.458 64.77 0)
+			(at 108.712 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11797,7 +11929,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 157.988 59.69 0)
+		(at 157.48 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11807,7 +11939,7 @@
 		(dnp no)
 		(uuid "eaa00c1f-94dd-4d29-a584-9524d9d18710")
 		(property "Reference" "#PWR077"
-			(at 157.988 63.5 0)
+			(at 157.48 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11818,7 +11950,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 157.988 55.88 0)
+			(at 157.48 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11828,7 +11960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.988 59.69 0)
+			(at 157.48 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11839,7 +11971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.988 59.69 0)
+			(at 157.48 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11849,8 +11981,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 157.988 59.69 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 157.48 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11874,7 +12006,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.925 121.285 270)
+		(at 162.56 121.92 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11884,7 +12016,7 @@
 		(dnp no)
 		(uuid "f3c4bd77-f3e2-4d54-a338-b0aee92c6a0c")
 		(property "Reference" "R20"
-			(at 161.925 119.38 90)
+			(at 162.56 120.015 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11894,7 +12026,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 161.925 121.285 90)
+			(at 162.56 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11904,7 +12036,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 161.925 119.507 90)
+			(at 162.56 120.142 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11915,7 +12047,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SCMP/SCMP-S-A0009547702/SCMP-S-A0009547702-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
-			(at 161.925 121.285 0)
+			(at 162.56 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11925,8 +12057,8 @@
 				)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
-			(at 161.925 121.285 0)
+		(property "Description" "Resistor"
+			(at 162.56 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11937,7 +12069,7 @@
 			)
 		)
 		(property "E14MOQ" "10"
-			(at 161.925 121.285 0)
+			(at 162.56 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11948,7 +12080,7 @@
 			)
 		)
 		(property "E14PART" "244723001"
-			(at 161.925 121.285 0)
+			(at 162.56 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11959,7 +12091,7 @@
 			)
 		)
 		(property "JLCMFR#" "0603WAF1002T5E"
-			(at 161.925 121.285 0)
+			(at 162.56 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11970,7 +12102,7 @@
 			)
 		)
 		(property "JLCMOQ" "20"
-			(at 161.925 121.285 0)
+			(at 162.56 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11981,7 +12113,7 @@
 			)
 		)
 		(property "JLCPART" "C25804"
-			(at 161.925 121.285 0)
+			(at 162.56 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11992,7 +12124,7 @@
 			)
 		)
 		(property "E14MFR#" "MCWR06X1002FTL"
-			(at 161.925 121.285 0)
+			(at 162.56 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12003,7 +12135,7 @@
 			)
 		)
 		(property "Marking" "01C"
-			(at 161.925 121.285 90)
+			(at 162.56 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12014,7 +12146,7 @@
 			)
 		)
 		(property "MFR" "MULTICOMP PRO"
-			(at 161.925 121.285 0)
+			(at 162.56 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12041,7 +12173,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 131.318 67.31 0)
+		(at 130.81 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12051,7 +12183,7 @@
 		(dnp no)
 		(uuid "f49c2cfb-2390-40d4-9c64-5942ace4e607")
 		(property "Reference" "#PWR072"
-			(at 131.318 73.66 0)
+			(at 130.81 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12062,7 +12194,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 131.318 71.12 0)
+			(at 130.81 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12072,7 +12204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 131.318 67.31 0)
+			(at 130.81 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12083,7 +12215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 131.318 67.31 0)
+			(at 130.81 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12093,8 +12225,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 131.318 67.31 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12118,7 +12250,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 122.555 0)
+		(at 135.255 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12128,7 +12260,7 @@
 		(dnp no)
 		(uuid "f8a13fca-d993-4cd0-a73c-620bbdd7674d")
 		(property "Reference" "#PWR074"
-			(at 134.62 128.905 0)
+			(at 135.255 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12139,7 +12271,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 126.365 0)
+			(at 135.255 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12149,7 +12281,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 122.555 0)
+			(at 135.255 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12160,7 +12292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 122.555 0)
+			(at 135.255 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12170,8 +12302,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 134.62 122.555 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.255 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12246,7 +12378,7 @@
 				)
 			)
 		)
-		(property "Description" "Pin Header, Wire-to-Board, 3 mm, 2 Rows, 8 Contacts, Through Hole Straight"
+		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 87.63 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -12369,7 +12501,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 179.705 26.035 0)
+		(at 180.34 26.035 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12379,7 +12511,7 @@
 		(dnp no)
 		(uuid "fc7bb258-97bd-4dfd-a3c0-a2b31a760677")
 		(property "Reference" "#PWR079"
-			(at 179.705 29.845 0)
+			(at 180.34 29.845 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12390,7 +12522,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 179.705 22.225 0)
+			(at 180.34 22.225 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12400,7 +12532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.705 26.035 0)
+			(at 180.34 26.035 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12411,7 +12543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.705 26.035 0)
+			(at 180.34 26.035 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12421,8 +12553,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 179.705 26.035 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 180.34 26.035 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12498,7 +12630,7 @@
 				)
 			)
 		)
-		(property "Description" "Wire-To-Board Terminal Block, 2.54 mm, 2 Ways, 26 AWG, 20 AWG, 0.5 mm², Screw"
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 57.15 133.985 0)
 			(hide yes)
 			(show_name no)
@@ -12614,18 +12746,18 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
-		(at 52.705 99.06 270)
+		(at 52.07 99.695 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe691332-f279-4b50-a9e5-edabbe4008c9")
 		(property "Reference" "JP3"
-			(at 55.245 99.0601 90)
+			(at 54.61 99.6951 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12636,7 +12768,7 @@
 			)
 		)
 		(property "Value" "1x03_2.54"
-			(at 55.245 97.7901 90)
+			(at 54.61 98.4251 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12648,7 +12780,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 52.705 99.06 0)
+			(at 52.07 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12659,7 +12791,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/2043229.pdf"
-			(at 52.705 99.06 0)
+			(at 52.07 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12669,8 +12801,8 @@
 				)
 			)
 		)
-		(property "Description" "Pin Header, Vertical, Wire-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, MTA-100"
-			(at 52.705 99.06 0)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 52.07 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12681,7 +12813,7 @@
 			)
 		)
 		(property "JLCMFR#" "DNI"
-			(at 52.705 99.06 0)
+			(at 52.07 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12692,7 +12824,7 @@
 			)
 		)
 		(property "JLCPART" "DNI"
-			(at 52.705 99.06 0)
+			(at 52.07 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12703,7 +12835,7 @@
 			)
 		)
 		(property "E14MOQ" "10"
-			(at 52.705 99.06 0)
+			(at 52.07 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12714,7 +12846,7 @@
 			)
 		)
 		(property "JLCMOQ" "0"
-			(at 52.705 99.06 0)
+			(at 52.07 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12725,7 +12857,7 @@
 			)
 		)
 		(property "E14MFR#" "640456-3"
-			(at 52.705 99.06 0)
+			(at 52.07 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12736,7 +12868,7 @@
 			)
 		)
 		(property "E14PART" "588581"
-			(at 52.705 99.06 0)
+			(at 52.07 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12747,7 +12879,7 @@
 			)
 		)
 		(property "MFR" "TE CONNECTIVITY - AMP"
-			(at 52.705 99.06 0)
+			(at 52.07 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12777,7 +12909,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 179.705 50.8 0)
+		(at 180.34 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12787,7 +12919,7 @@
 		(dnp no)
 		(uuid "ff30f94a-36c7-475b-8ccc-c702f546c637")
 		(property "Reference" "#PWR080"
-			(at 179.705 54.61 0)
+			(at 180.34 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12798,7 +12930,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 179.705 46.99 0)
+			(at 180.34 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12808,7 +12940,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.705 50.8 0)
+			(at 180.34 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12819,7 +12951,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.705 50.8 0)
+			(at 180.34 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12829,8 +12961,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 179.705 50.8 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 180.34 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
