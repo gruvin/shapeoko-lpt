@@ -824,7 +824,7 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "controller-v3.2.kicad_sch",
+        "filename": "schematics/controller-v3.2.kicad_sch",
         "name": "controller-v3.2",
         "uuid": "00000000-0000-0000-0000-000000000000"
       }

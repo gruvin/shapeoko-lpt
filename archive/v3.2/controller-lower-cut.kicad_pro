@@ -336,7 +336,14 @@
   },
   "schematic": {
     "legacy_lib_dir": "",
-    "legacy_lib_list": []
+    "legacy_lib_list": [],
+    "top_level_sheets": [
+      {
+        "filename": "schematics/controller-lower-cut.kicad_sch",
+        "name": "controller-lower-cut",
+        "uuid": "00000000-0000-0000-0000-000000000000"
+      }
+    ]
   },
   "sheets": [],
   "text_variables": {}
