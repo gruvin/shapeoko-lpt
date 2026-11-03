@@ -221,6 +221,43 @@ for J1/J2, `Conn_01x23_Male` for J3) and the `Value` fields from the placeholder
 `Conn_01x06_Female` / `Conn_01x022_Male` to `CONN_23W_SOCKET` / `CONN_23W_PIN`.
 The footprints were already right and were left alone.
 
+## Legacy symbol names — do not "migrate" the transistors
+
+KiCad 10 renamed the connector symbols, so 9 `lib_id`s in this design no longer
+exist in the installed libraries. ERC reports them as `lib_symbol_issues`
+(9 symbols, 15 messages) plus 21 `lib_symbol_mismatch` where the symbol *is*
+found but the copy cached in the `.kicad_sch` differs from the library version.
+Both are cosmetic: eeschema draws from the cached definition inside the
+schematic, so the design works. They matter the day someone runs *Update Symbols
+from Library* — a name that resolves to nothing becomes a mystery box.
+
+Seven of the nine are **pin-identical** drop-ins (same pin numbers, names,
+positions, lengths and electrical types — verified against the installed libs):
+
+| legacy | KiCad 10 |
+|---|---|
+| `Connector:Conn_01x02_Female` | `Connector:Conn_01x02_Socket` |
+| `Connector:Conn_01x03_Female` | `Connector:Conn_01x03_Socket` |
+| `Connector:Conn_01x04_Female` | `Connector:Conn_01x04_Socket` |
+| `Connector:Conn_01x06_Female` | `Connector:Conn_01x06_Socket` |
+| `Connector:Conn_01x23_Female` (J1, J2) | `Connector:Conn_01x23_Socket` |
+| `Connector:Conn_01x23_Male` (J3) | `Connector:Conn_01x23_Pin` |
+| `Connector:Conn_01x02_Male` | `Connector:Conn_01x02_Pin` |
+
+**The last two are the trap.** `Q_PMOS_GDS` (`power.kicad_sch`) and
+`Q_PNP_BEC` (`conn.kicad_sch`) have identical pin *geometry* to the modern
+`Q_PMOS` / `Q_PNP`, but the modern symbols number their pins with **letters**
+(`G`/`D`/`S`, `B`/`C`/`E`) while the SOT-23 and TO-252 land patterns on this
+board number their pads **1/2/3**. Renaming would silently unmap the
+transistor from its footprint. Leave those two alone unless the footprints are
+changed with them.
+
+Note also that within the connector family the *genders are mirror drawings of
+each other* — pin 1 of `Conn_01x23_Socket` sits on the opposite side to pin 1 of
+`Conn_01x23_Pin`. Swapping `_Male`↔`_Female` (rather than `_Male`→`_Pin`) moves
+every pin 10.16 mm sideways and leaves the wires hanging; the instances then need
+mirroring to reconnect, which is why J1/J2/J3 carry `(mirror x)`.
+
 ## Writing results back into the schematic
 
 `apply_fields.py` pushes the resolved data into the symbol fields so the
