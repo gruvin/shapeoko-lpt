@@ -10,7 +10,7 @@
 		(rev "3.0")
 	)
 	(lib_symbols
-		(symbol "3rd-party:MicroFit_3mm_02x04"
+		(symbol "project:MicroFit_3mm_02x04"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -356,7 +356,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "3rd-party:NT_2_TT"
+		(symbol "project:NT_2_TT"
 			(pin_numbers
 				(hide yes)
 			)
@@ -499,7 +499,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "3rd-party:RELAY_TE_OJS_24V_10A"
+		(symbol "project:RELAY_TE_OJS_24V_10A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6307,7 +6307,7 @@
 		)
 	)
 	(symbol
-		(lib_id "3rd-party:NT_2_TT")
+		(lib_id "project:NT_2_TT")
 		(at 50.8 172.72 0)
 		(unit 1)
 		(body_style 1)
@@ -6688,7 +6688,7 @@
 		)
 	)
 	(symbol
-		(lib_id "3rd-party:NT_2_TT")
+		(lib_id "project:NT_2_TT")
 		(at 50.8 170.18 0)
 		(unit 1)
 		(body_style 1)
@@ -6845,7 +6845,7 @@
 		)
 	)
 	(symbol
-		(lib_id "3rd-party:NT_2_TT")
+		(lib_id "project:NT_2_TT")
 		(at 157.48 62.23 90)
 		(unit 1)
 		(body_style 1)
@@ -7145,7 +7145,7 @@
 		)
 	)
 	(symbol
-		(lib_id "3rd-party:NT_2_TT")
+		(lib_id "project:NT_2_TT")
 		(at 50.8 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -7302,7 +7302,7 @@
 		)
 	)
 	(symbol
-		(lib_id "3rd-party:MicroFit_3mm_02x04")
+		(lib_id "project:MicroFit_3mm_02x04")
 		(at 149.86 26.67 180)
 		(unit 1)
 		(body_style 1)
@@ -9039,7 +9039,7 @@
 		)
 	)
 	(symbol
-		(lib_id "3rd-party:RELAY_TE_OJS_24V_10A")
+		(lib_id "project:RELAY_TE_OJS_24V_10A")
 		(at 172.72 148.59 0)
 		(mirror x)
 		(unit 1)
@@ -10733,7 +10733,7 @@
 		)
 	)
 	(symbol
-		(lib_id "3rd-party:MicroFit_3mm_02x04")
+		(lib_id "project:MicroFit_3mm_02x04")
 		(at 118.11 36.83 180)
 		(unit 1)
 		(body_style 1)
@@ -11629,7 +11629,7 @@
 		)
 	)
 	(symbol
-		(lib_id "3rd-party:MicroFit_3mm_02x04")
+		(lib_id "project:MicroFit_3mm_02x04")
 		(at 38.1 45.72 180)
 		(unit 1)
 		(body_style 1)
@@ -12350,7 +12350,7 @@
 		)
 	)
 	(symbol
-		(lib_id "3rd-party:MicroFit_3mm_02x04")
+		(lib_id "project:MicroFit_3mm_02x04")
 		(at 87.63 36.83 180)
 		(unit 1)
 		(body_style 1)

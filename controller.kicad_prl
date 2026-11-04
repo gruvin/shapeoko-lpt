@@ -5,7 +5,7 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -22,7 +22,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -82,10 +82,10 @@
       1,
       2,
       3,
+      7,
       4,
       5,
       6,
-      7,
       8,
       9
     ],
@@ -94,12 +94,12 @@
       141,
       103,
       71,
-      103,
-      103,
-      103,
       74,
       103,
-      103
+      103,
+      103,
+      103,
+      188
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -110,9 +110,9 @@
     "group_by_netclass": false,
     "show_time_domain_details": false,
     "show_unconnected_nets": false,
-    "show_zero_pad_nets": false,
+    "show_zero_pad_nets": true,
     "sort_ascending": true,
-    "sorting_column": 0
+    "sorting_column": 3
   },
   "open_jobsets": [],
   "project": {
