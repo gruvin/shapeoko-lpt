@@ -10,7 +10,7 @@
 		(rev "3.0")
 	)
 	(lib_symbols
-		(symbol "project:74HC245"
+		(symbol "-Project:74HC245"
 			(pin_names
 				(offset 1.016)
 			)
@@ -584,7 +584,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "project:ACSL-6310"
+		(symbol "-Project:ACSL-6310"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8644,7 +8644,7 @@
 		)
 	)
 	(symbol
-		(lib_id "project:74HC245")
+		(lib_id "-Project:74HC245")
 		(at 101.6 106.68 0)
 		(unit 1)
 		(body_style 1)
@@ -9522,7 +9522,7 @@
 		)
 	)
 	(symbol
-		(lib_id "project:ACSL-6310")
+		(lib_id "-Project:ACSL-6310")
 		(at 179.07 106.68 0)
 		(mirror y)
 		(unit 1)
@@ -9922,7 +9922,7 @@
 		)
 	)
 	(symbol
-		(lib_id "project:74HC245")
+		(lib_id "-Project:74HC245")
 		(at 101.6 49.53 0)
 		(unit 1)
 		(body_style 1)
@@ -10135,7 +10135,7 @@
 		)
 	)
 	(symbol
-		(lib_id "project:ACSL-6310")
+		(lib_id "-Project:ACSL-6310")
 		(at 179.07 52.07 0)
 		(mirror y)
 		(unit 1)

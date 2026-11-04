@@ -5,7 +5,7 @@
 	(uuid "9cd3eeca-bfd4-4408-958e-3f7311ab2765")
 	(paper "A4")
 	(lib_symbols
-		(symbol "project:ATmega16U2-A PAD"
+		(symbol "-Project:ATmega16U2-A PAD"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -13466,7 +13466,7 @@
 		)
 	)
 	(symbol
-		(lib_id "project:ATmega16U2-A PAD")
+		(lib_id "-Project:ATmega16U2-A PAD")
 		(at 96.52 134.62 0)
 		(unit 1)
 		(body_style 1)
