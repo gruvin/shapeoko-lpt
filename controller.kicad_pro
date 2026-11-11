@@ -53,7 +53,7 @@
           "45_degree_only": false,
           "border_display_style": 2,
           "border_hatch_pitch": 0.508,
-          "corner_radius": 0.3,
+          "corner_radius": 0.0,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -66,8 +66,8 @@
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.508,
-          "thermal_relief_spoke_width": 0.508
+          "thermal_relief_gap": 0.254,
+          "thermal_relief_spoke_width": 0.254
         }
       },
       "diff_pair_dimensions": [
